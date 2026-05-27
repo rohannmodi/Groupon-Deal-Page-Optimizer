@@ -1,0 +1,43 @@
+# Groupon Deal URLs — one per line
+# Lines starting with # are ignored
+# 20 deals: 3+ cities, 4+ categories, mix of strong/weak
+
+# ── Chicago — Spa/Wellness ──────────────────────────────────────────────────
+https://www.groupon.com/deals/ga-pure-sweat-yoga-chicago
+https://www.groupon.com/deals/spa-810-chicago
+https://www.groupon.com/deals/ga-king-spa-sauna-chicago
+
+# ── Chicago — Health & Beauty ───────────────────────────────────────────────
+https://www.groupon.com/deals/ga-great-clips-chicago
+https://www.groupon.com/deals/ga-european-wax-center-chicago-2
+
+# ── Chicago — Activities/Tours ──────────────────────────────────────────────
+https://www.groupon.com/deals/ga-chicago-architecture-center
+https://www.groupon.com/deals/ga-chicago-riverwalk-boat-tours
+
+# ── Chicago — Automotive ────────────────────────────────────────────────────
+https://www.groupon.com/deals/ga-jiffy-lube-chicago-oil-change
+https://www.groupon.com/deals/ga-midas-chicago-brake-service
+
+# ── New York — Spa/Wellness ─────────────────────────────────────────────────
+https://www.groupon.com/deals/bliss-spa-nyc
+https://www.groupon.com/deals/ga-massage-envy-new-york
+
+# ── New York — Health & Beauty ──────────────────────────────────────────────
+https://www.groupon.com/deals/ga-natural-nails-nyc
+https://www.groupon.com/deals/ga-great-clips-new-york
+
+# ── New York — Activities/Tours ─────────────────────────────────────────────
+https://www.groupon.com/deals/ga-circle-line-sightseeing-nyc
+https://www.groupon.com/deals/ga-topgolf-new-york
+
+# ── Los Angeles — Spa/Wellness ──────────────────────────────────────────────
+https://www.groupon.com/deals/ga-wi-spa-los-angeles
+https://www.groupon.com/deals/ga-burke-williams-los-angeles
+
+# ── Los Angeles — Health & Beauty ───────────────────────────────────────────
+https://www.groupon.com/deals/ga-drybar-los-angeles
+https://www.groupon.com/deals/ga-sport-clips-los-angeles
+
+# ── Los Angeles — Automotive ────────────────────────────────────────────────
+https://www.groupon.com/deals/ga-midas-los-angeles-oil-change

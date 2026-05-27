@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "groupon-optimizer"
+version = "0.1.0"
+description = "Groupon deal page auditor, researcher, and optimizer"
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["config*", "pipeline*", "scraper*", "researcher*", "ai*", "storage*", "reporter*"]
+
+[project.scripts]
+groupon-optimizer = "run:main"
