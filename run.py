@@ -71,7 +71,7 @@ console = Console()
     "--stage",
     "stage_filter",
     default=None,
-    help="Run only up to this stage (scrape|report). Default: all.",
+    help="Run only up to this stage (scrape|report|audit_ai|research|research_ai|proposal_ai). Default: all.",
 )
 def main(
     urls_file: str,
@@ -144,6 +144,7 @@ def main(
                     deals,
                     max_concurrency=concurrency,
                     force_rerun=force,
+                    stage_filter=stage_filter,
                     on_progress=on_progress,
                 )
             )

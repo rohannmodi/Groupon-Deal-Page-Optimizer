@@ -136,7 +136,7 @@ CREATE TABLE IF NOT EXISTS merchant_reviews (
 );
 
 CREATE TABLE IF NOT EXISTS review_themes (
-    id              INTEGER PRIMARY KEY,
+    id              BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     deal_id         TEXT NOT NULL REFERENCES deals(deal_id),
     platform        TEXT,
     theme           TEXT,
@@ -146,7 +146,7 @@ CREATE TABLE IF NOT EXISTS review_themes (
 );
 
 CREATE TABLE IF NOT EXISTS research_sources (
-    id              INTEGER PRIMARY KEY,
+    id              BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     deal_id         TEXT NOT NULL REFERENCES deals(deal_id),
     source_type     TEXT,   -- web_search|yelp|google|direct_scrape
     source_url      TEXT,
