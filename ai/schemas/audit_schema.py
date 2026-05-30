@@ -118,6 +118,28 @@ AUDIT_TOOL_SCHEMA: dict = {
                 ),
                 "additionalProperties": {"type": "string"},
             },
+            "inferred_category": {
+                "type": "string",
+                "description": (
+                    "A concise, human-readable category for this deal inferred from the "
+                    "title, description, and content (e.g. 'Online Education', "
+                    "'Auto Detailing', 'Spa & Massage', 'Escape Room', 'Restaurant'). "
+                    "2–4 words, title case. This is only used as a fallback when the "
+                    "category was not already extracted. Return an empty string ONLY if "
+                    "the content gives no indication of the category."
+                ),
+            },
+            "inferred_location": {
+                "type": "string",
+                "description": (
+                    "The deal's location inferred from the page content, used only as a "
+                    "fallback when city/state were not extracted. Use 'City, ST' format "
+                    "(e.g. 'Brookfield, WI') for deals tied to a physical place. Use "
+                    "'Online' for virtual/online courses or services, or 'Nationwide' for "
+                    "shipped goods with no single location. Return an empty string ONLY if "
+                    "the content gives no indication of location."
+                ),
+            },
         },
         "required": [
             "clarity_score",

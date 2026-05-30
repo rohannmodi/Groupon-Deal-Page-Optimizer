@@ -2,6 +2,12 @@
 -- Groupon Deal Optimizer — DuckDB Schema
 -- Applied once on first run via database.py
 -- ============================================================
+-- Design notes:
+--   • No FOREIGN KEY constraints — DuckDB support is version-dependent.
+--     Referential integrity is enforced at the application layer.
+--   • 1:many tables have no surrogate PK — we never query by row id.
+--     DuckDB provides an implicit rowid for ORDER BY when needed.
+-- ============================================================
 
 -- -------------------------
 -- Core deal identity
@@ -28,8 +34,7 @@ CREATE TABLE IF NOT EXISTS deals (
 -- Pricing tiers (1-to-many)
 -- -------------------------
 CREATE TABLE IF NOT EXISTS pricing_options (
-    id              BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    deal_id         TEXT NOT NULL REFERENCES deals(deal_id),
+    deal_id         TEXT NOT NULL,
     option_name     TEXT,
     original_price  DOUBLE,
     deal_price      DOUBLE,
@@ -42,18 +47,17 @@ CREATE TABLE IF NOT EXISTS pricing_options (
 -- Content blocks
 -- -------------------------
 CREATE TABLE IF NOT EXISTS deal_content (
-    deal_id         TEXT PRIMARY KEY REFERENCES deals(deal_id),
-    highlights      JSON,   -- list[str]
-    fine_print      JSON,   -- list[str]
-    faqs            JSON    -- list[{question, answer}]
+    deal_id         TEXT PRIMARY KEY,
+    highlights      JSON,
+    fine_print      JSON,
+    faqs            JSON
 );
 
 -- -------------------------
 -- Images
 -- -------------------------
 CREATE TABLE IF NOT EXISTS deal_images (
-    id              BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    deal_id         TEXT NOT NULL REFERENCES deals(deal_id),
+    deal_id         TEXT NOT NULL,
     src_url         TEXT,
     alt_text        TEXT,
     estimated_width INTEGER,
@@ -65,11 +69,11 @@ CREATE TABLE IF NOT EXISTS deal_images (
 -- SEO
 -- -------------------------
 CREATE TABLE IF NOT EXISTS seo_elements (
-    deal_id             TEXT PRIMARY KEY REFERENCES deals(deal_id),
+    deal_id             TEXT PRIMARY KEY,
     meta_title          TEXT,
     meta_description    TEXT,
     h1_text             TEXT,
-    h2_texts            JSON,   -- list[str]
+    h2_texts            JSON,
     has_schema_markup   BOOLEAN DEFAULT FALSE,
     schema_type         TEXT,
     canonical_url       TEXT,
@@ -84,17 +88,15 @@ CREATE TABLE IF NOT EXISTS seo_elements (
 -- Trust & urgency signals
 -- -------------------------
 CREATE TABLE IF NOT EXISTS trust_signals (
-    id              BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    deal_id         TEXT NOT NULL REFERENCES deals(deal_id),
-    signal_type     TEXT,   -- rating|review_count|sold_count|guarantee|badge
+    deal_id         TEXT NOT NULL,
+    signal_type     TEXT,
     signal_value    TEXT,
-    impact_score    TEXT    -- high|medium|low (set by AI)
+    impact_score    TEXT
 );
 
 CREATE TABLE IF NOT EXISTS urgency_elements (
-    id              BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    deal_id         TEXT NOT NULL REFERENCES deals(deal_id),
-    element_type    TEXT,   -- countdown|limited_qty|selling_fast|ends_text
+    deal_id         TEXT NOT NULL,
+    element_type    TEXT,
     element_text    TEXT,
     is_visible_atf  BOOLEAN DEFAULT FALSE
 );
@@ -103,74 +105,72 @@ CREATE TABLE IF NOT EXISTS urgency_elements (
 -- Review samples
 -- -------------------------
 CREATE TABLE IF NOT EXISTS review_samples (
-    id          BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    deal_id     TEXT NOT NULL REFERENCES deals(deal_id),
-    author      TEXT,
-    rating      DOUBLE,
-    review_text TEXT,
-    review_date TEXT
+    deal_id         TEXT NOT NULL,
+    author          TEXT,
+    rating          DOUBLE,
+    review_text     TEXT,
+    review_date     TEXT
 );
 
 -- -------------------------
--- Research (Stage 2 — written later)
+-- Research (Stage 2)
 -- -------------------------
 CREATE TABLE IF NOT EXISTS competitor_prices (
-    id                  BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    deal_id             TEXT NOT NULL REFERENCES deals(deal_id),
-    competitor_name     TEXT,
-    service_name        TEXT,
-    regular_price       DOUBLE,
-    sale_price          DOUBLE,
-    source_url          TEXT,
-    scraped_at          TIMESTAMP,
-    notes               TEXT
+    deal_id                 TEXT NOT NULL,
+    competitor_name         TEXT,
+    service_name            TEXT,
+    regular_price           DOUBLE,
+    sale_price              DOUBLE,
+    source_url              TEXT,
+    scraped_at              TIMESTAMP,
+    notes                   TEXT,
+    sku_match_confidence    DOUBLE DEFAULT 0.5,
+    is_merchant             BOOLEAN DEFAULT FALSE
 );
 
 CREATE TABLE IF NOT EXISTS merchant_reviews (
-    id              BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    deal_id         TEXT NOT NULL REFERENCES deals(deal_id),
-    platform        TEXT,   -- yelp|google|tripadvisor
+    deal_id         TEXT NOT NULL,
+    platform        TEXT,
     overall_rating  DOUBLE,
     review_count    INTEGER,
     scraped_at      TIMESTAMP
 );
 
 CREATE TABLE IF NOT EXISTS review_themes (
-    id              BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    deal_id         TEXT NOT NULL REFERENCES deals(deal_id),
+    deal_id         TEXT NOT NULL,
     platform        TEXT,
     theme           TEXT,
-    sentiment       TEXT,   -- positive|negative|neutral
+    sentiment       TEXT,
     mention_count   INTEGER,
     sample_quote    TEXT
 );
 
 CREATE TABLE IF NOT EXISTS research_sources (
-    id              BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    deal_id         TEXT NOT NULL REFERENCES deals(deal_id),
-    source_type     TEXT,   -- web_search|yelp|google|direct_scrape
+    deal_id         TEXT NOT NULL,
+    source_type     TEXT,
     source_url      TEXT,
     source_title    TEXT,
     fetched_at      TIMESTAMP,
-    relevance       TEXT    -- competitor_price|review|category_context
+    relevance       TEXT
 );
 
 CREATE TABLE IF NOT EXISTS research_synthesis (
-    deal_id                         TEXT PRIMARY KEY REFERENCES deals(deal_id),
-    value_assessment                TEXT,   -- genuine_deal|marginal|overpriced
+    deal_id                         TEXT PRIMARY KEY,
+    value_assessment                TEXT,
+    value_reasoning                 TEXT,
     groupon_vs_direct_savings       DOUBLE,
     groupon_vs_competitor_savings   DOUBLE,
-    merchant_differentiators        JSON,   -- list[str]
-    red_flags                       JSON,   -- list[str]
-    deal_quality                    TEXT,   -- strong|average|weak
+    merchant_differentiators        JSON,
+    red_flags                       JSON,
+    deal_quality                    TEXT,
     synthesized_at                  TIMESTAMP
 );
 
 -- -------------------------
--- AI outputs (Stage 1 AI)
+-- AI outputs (Stage 1)
 -- -------------------------
 CREATE TABLE IF NOT EXISTS audit_scores (
-    deal_id                 TEXT PRIMARY KEY REFERENCES deals(deal_id),
+    deal_id                 TEXT PRIMARY KEY,
     clarity_score           INTEGER,
     trust_score             INTEGER,
     urgency_score           INTEGER,
@@ -178,8 +178,8 @@ CREATE TABLE IF NOT EXISTS audit_scores (
     value_comm_score        INTEGER,
     completeness_score      INTEGER,
     overall_score           DOUBLE,
-    content_gaps            JSON,   -- list[str]
-    ai_flags                JSON,   -- list[str]
+    content_gaps            JSON,
+    ai_flags                JSON,
     analyzed_at             TIMESTAMP,
     prompt_tokens           INTEGER,
     completion_tokens       INTEGER
@@ -189,25 +189,28 @@ CREATE TABLE IF NOT EXISTS audit_scores (
 -- AI outputs (Stage 3)
 -- -------------------------
 CREATE TABLE IF NOT EXISTS optimization_proposals (
-    deal_id                 TEXT PRIMARY KEY REFERENCES deals(deal_id),
-    proposed_title          TEXT,
-    proposed_meta_title     TEXT,
+    deal_id                   TEXT PRIMARY KEY,
+    proposed_title            TEXT,
+    proposed_meta_title       TEXT,
     proposed_meta_description TEXT,
-    proposed_highlights     JSON,   -- list[str]
-    title_reasoning         TEXT,
-    generated_at            TIMESTAMP
+    proposed_h1               TEXT,
+    proposed_highlights       JSON,
+    pricing_framing           TEXT,
+    executive_summary         TEXT,
+    generated_at              TIMESTAMP,
+    prompt_tokens             INTEGER,
+    completion_tokens         INTEGER
 );
 
 CREATE TABLE IF NOT EXISTS proposal_recommendations (
-    id              BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    deal_id         TEXT NOT NULL REFERENCES deals(deal_id),
+    deal_id         TEXT NOT NULL,
     priority_rank   INTEGER,
-    category        TEXT,   -- title|pricing|highlights|content|images|seo|positioning
+    category        TEXT,
     recommendation  TEXT,
     current_state   TEXT,
     proposed_state  TEXT,
     data_citation   TEXT,
-    expected_impact TEXT,   -- high|medium|low
+    expected_impact TEXT,
     impact_rationale TEXT
 );
 
@@ -215,16 +218,14 @@ CREATE TABLE IF NOT EXISTS proposal_recommendations (
 -- Pipeline orchestration
 -- -------------------------
 CREATE TABLE IF NOT EXISTS pipeline_runs (
-    id              BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    deal_id         TEXT NOT NULL REFERENCES deals(deal_id),
-    stage           TEXT NOT NULL,  -- scrape|parse|audit_ai|research|research_ai|proposal_ai|report
-    status          TEXT NOT NULL,  -- pending|running|success|failed|skipped
+    deal_id         TEXT NOT NULL,
+    stage           TEXT NOT NULL,
+    status          TEXT NOT NULL,
     started_at      TIMESTAMP,
     completed_at    TIMESTAMP,
     error_message   TEXT,
     retry_count     INTEGER DEFAULT 0
 );
 
--- Index for fast checkpoint lookups
 CREATE INDEX IF NOT EXISTS idx_pipeline_runs_deal_stage
     ON pipeline_runs(deal_id, stage);

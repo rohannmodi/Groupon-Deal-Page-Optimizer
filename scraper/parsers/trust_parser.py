@@ -78,6 +78,35 @@ def _extract_rating(soup: BeautifulSoup) -> Optional[str]:
         if m:
             return m.group(1)
 
+    # Broader search: any standalone "X.X" number (4.0–5.0 range) in visible text
+    # near "rating", "stars", or "reviews" — skip script/style tags
+    _RATING_CONTEXT_RE = re.compile(r"rating|star|review", re.I)
+    _RATING_VALUE_RE = re.compile(r"\b([4-5]\.\d)\b")
+    for el in soup.find_all(string=_RATING_VALUE_RE):
+        if el.parent and el.parent.name in ("script", "style", "noscript"):
+            continue
+        m = _RATING_VALUE_RE.search(str(el))
+        if m:
+            # Check surrounding context for rating-related words
+            parent_text = el.parent.get_text() if el.parent else ""
+            if _RATING_CONTEXT_RE.search(parent_text) or _RATING_CONTEXT_RE.search(
+                str(el.parent.get("class", "")) if el.parent else ""
+            ):
+                return m.group(1)
+
+    # Last-resort: find "4.X out of 5" or "4.X stars" anywhere in visible text
+    page_text = " ".join(
+        t for t in soup.find_all(string=True)
+        if t.parent and t.parent.name not in ("script", "style", "noscript")
+    )
+    m = re.search(r"\b([4-5]\.\d)\s*(?:out of 5|stars?|/\s*5)\b", page_text, re.I)
+    if m:
+        return m.group(1)
+    # Pattern: rating appears just before "(N,NNN ratings)" e.g. "4.8 (4,516 ratings)"
+    m = re.search(r"\b([3-5]\.\d)\b[^\d]*\([\d,]+\s+(?:rating|review)", page_text, re.I)
+    if m:
+        return m.group(1)
+
     return None
 
 
@@ -147,17 +176,22 @@ def parse_urgency_elements(soup: BeautifulSoup) -> list[UrgencyElement]:
     if countdown:
         elements.append(countdown)
 
-    # 2. Limited quantity
+    # 2. Active promotion countdown (Apollo/Next payload — has an end timestamp)
+    promo = _extract_promo_countdown(soup)
+    if promo:
+        elements.append(promo)
+
+    # 3. Limited quantity
     qty = _extract_limited_qty(soup)
     if qty:
         elements.append(qty)
 
-    # 3. "Selling fast" or "almost gone"
+    # 4. "Selling fast" or "almost gone"
     fast = _extract_selling_fast(soup)
     if fast:
         elements.append(fast)
 
-    # 4. Expiry / ends date
+    # 5. Expiry / ends date
     ends = _extract_ends_text(soup)
     if ends:
         elements.append(ends)
@@ -192,23 +226,107 @@ def _extract_limited_qty(soup: BeautifulSoup) -> Optional[UrgencyElement]:
     return None
 
 
+_URGENCY_PHRASE_RE = re.compile(r"selling\s+fast|almost\s+gone|going\s+fast|high\s+demand", re.I)
+
+
 def _extract_selling_fast(soup: BeautifulSoup) -> Optional[UrgencyElement]:
-    el = soup.find(string=re.compile(r"selling\s+fast|almost\s+gone|going\s+fast|high\s+demand", re.I))
-    if el:
-        return UrgencyElement(
-            element_type="selling_fast",
-            element_text=el.strip(),
-            is_visible_atf=False,
-        )
+    el = soup.find(string=_URGENCY_PHRASE_RE)
+    if not el:
+        return None
+    text = el.strip()
+    # When the match lands inside a <script> (e.g. the __NEXT_DATA__/Apollo
+    # payload), `el` is the entire JSON blob (thousands of chars). Pull just the
+    # urgency message text out of it instead of storing the whole blob.
+    if len(text) > 200:
+        text = _urgency_message_from_blob(text) or ""
+    text = text.strip()
+    if not text or len(text) > 200:
+        return None
+    return UrgencyElement(
+        element_type="selling_fast",
+        element_text=text,
+        is_visible_atf=False,
+    )
+
+
+def _urgency_message_from_blob(blob: str) -> Optional[str]:
+    """Extract the urgency message (e.g. 'Selling fast!') from an Apollo blob."""
+    # Prefer a messageText scoped within an urgencyMessage object.
+    m = re.search(
+        r'"urgencyMessage"\s*:\s*\{[^{}]*?"messageText"\s*:\s*"([^"]+)"', blob
+    )
+    if m:
+        return m.group(1)
+    # Otherwise, any messageText whose value reads like an urgency phrase.
+    for mm in re.finditer(r'"messageText"\s*:\s*"([^"]+)"', blob):
+        if _URGENCY_PHRASE_RE.search(mm.group(1)):
+            return mm.group(1)
+    return None
+
+
+def _extract_promo_countdown(soup: BeautifulSoup) -> Optional[UrgencyElement]:
+    """
+    Extract an active promotion with an end timestamp from the page's
+    Apollo/Next.js payload. Groupon embeds these as:
+        "promotion":{...,"message":"Extra $42 off","endsAt":"5/30",
+                     "promoEndTimeStamp":"2026-05-30T23:59:00-07:00", ...}
+    A live promoEndTimeStamp functions as a countdown timer for urgency.
+    """
+    payload = _next_data_text(soup)
+    if not payload:
+        return None
+    # Anchor on the end timestamp itself — there can be several promotion
+    # objects (one per price tier) and some contain nested objects, so a
+    # "promotion":{...} body match is unreliable. The message/endsAt fields
+    # precede promoEndTimeStamp within the same object.
+    ts_m = re.search(r'"promoEndTimeStamp"\s*:\s*"([^"]+)"', payload)
+    if not ts_m or not ts_m.group(1) or ts_m.group(1).lower() == "null":
+        return None
+    ts = ts_m.group(1)
+    window = payload[max(0, ts_m.start() - 400):ts_m.start()]
+    msg_matches = re.findall(r'"message"\s*:\s*"([^"]+)"', window)
+    ends_matches = re.findall(r'"endsAt"\s*:\s*"([^"]+)"', window)
+    message = (msg_matches[-1] if msg_matches else "").strip()
+    ends = (ends_matches[-1] if ends_matches else "").strip()
+    parts = []
+    if message:
+        parts.append(message)
+    if ends:
+        parts.append(f"ends {ends}")
+    parts.append(f"promoEndTimeStamp: {ts}")
+    return UrgencyElement(
+        element_type="countdown",
+        element_text=" — ".join(parts),
+        is_visible_atf=True,
+    )
+
+
+def _next_data_text(soup: BeautifulSoup) -> Optional[str]:
+    """Return the raw text of the __NEXT_DATA__ (or Apollo state) script, if present."""
+    script = soup.find("script", id="__NEXT_DATA__")
+    if script and script.string:
+        return script.string
+    # Fallback: any inline script that carries the Apollo/Next payload.
+    for s in soup.find_all("script"):
+        txt = s.string or ""
+        if "promoEndTimeStamp" in txt or "__APOLLO_STATE__" in txt:
+            return txt
     return None
 
 
 def _extract_ends_text(soup: BeautifulSoup) -> Optional[UrgencyElement]:
-    el = soup.find(string=re.compile(r"(ends?|expires?|valid\s+through|buy\s+by)\s+(on\s+)?\w+", re.I))
-    if el:
+    pat = re.compile(r"(ends?|expires?|valid\s+through|buy\s+by)\s+(on\s+)?\w+", re.I)
+    for el in soup.find_all(string=pat):
+        # Skip text inside <script>, <style>, or <noscript> tags
+        if el.parent and el.parent.name in ("script", "style", "noscript"):
+            continue
+        text = el.strip()
+        # Ignore JSON-LD blobs (they're long and structured)
+        if len(text) > 500 or text.startswith("{") or text.startswith("["):
+            continue
         return UrgencyElement(
             element_type="ends_text",
-            element_text=el.strip(),
+            element_text=text,
             is_visible_atf=False,
         )
     return None

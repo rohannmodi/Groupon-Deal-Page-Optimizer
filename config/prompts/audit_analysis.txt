@@ -29,6 +29,13 @@ trust_score
 urgency_score
   Does the page motivate action TODAY? Countdown timers, "selling fast," limited quantity.
   Zero urgency elements: score 2. One weak element ("deal ends soon"): 4–5.
+  "X bought today" with a specific high number (e.g. "1,250 bought today"): score 6–7.
+  Countdown timer + high sold count: 8–9.
+  IMPORTANT: Read the URGENCY ELEMENTS section of the audit data carefully. If a
+  promoEndTimeStamp or an active promotion (e.g. an urgency element of type
+  "countdown" with a promo message and end timestamp) is present, COUNT IT AS A
+  COUNTDOWN TIMER for scoring purposes — do NOT say "no countdown timer." A live
+  promotion with an end date plus a "selling fast" signal should score 7+.
 
 seo_score
   Is the page findable and click-worthy in search?
@@ -37,9 +44,13 @@ seo_score
 
 value_comm_score  ← MOST IMPORTANT — weighted 25%
   Does the page make it unmistakably obvious WHY this is a good deal?
-  "Was $100, now $49" is NOT enough. Does it explain what $100 buys normally? Does it
-  compare to competitors or market rate? A page only showing a discount % without market
-  context: score ≤5. This dimension drives purchase decisions more than any other.
+  Give credit for what IS shown, then penalise what's missing:
+  - Original price shown → +2 pts (customer can see the absolute saving)
+  - Discount % shown → +1 pt
+  - Specific dollar saving shown → +1 pt
+  - Market/competitor comparison → +2 pts
+  A page showing original price + deal price + discount %: baseline 6–7. Only
+  penalise below 5 if the page shows a naked price with ZERO context.
 
 completeness_score  ← SECOND MOST IMPORTANT — weighted 25%
   Would a cautious buyer have any unanswered questions?
@@ -48,7 +59,14 @@ completeness_score  ← SECOND MOST IMPORTANT — weighted 25%
     Automotive: which car models qualify? Which locations? Which parts brands?
     Activities: age/fitness requirements? What to wear? Duration? Group size?
     Restaurant: reservations required? Alcohol included? Tips?
+    Ticket/voucher (movies, events): redemption steps clear? Restrictions stated?
+      Validity period shown? Location count shown? Exception list shown?
   Any category-critical information absent → subtract points.
+
+  CALIBRATION NOTE — Well-known national brands (AMC, Regal, Great Clips, Jiffy Lube,
+  etc.) do NOT need to explain their basic service. A movie ticket deal at AMC does not
+  need to describe what a cinema is. Apply only category-critical gaps, not generic ones
+  that any competent consumer already knows about the brand from daily life.
 
 OVERALL SCORE WEIGHTING
 -----------------------
@@ -96,6 +114,36 @@ Flag specific issues that could hurt conversion or damage trust:
 
 Normal Groupon conventions (Groupon Promise, standard expiry terms, "must purchase by" dates)
 are NOT flags — customers expect these.
+
+CONTENT FRESHNESS — MANDATORY CHECK
+-------------------------------------
+After reviewing all page content, check for any text that appears outdated or from a prior time period.
+If a STALE CONTENT DETECTED section appears at the top of the audit data, those items are already
+identified — you must include them in ai_flags. Also independently scan the provided highlights,
+fine print, and description for:
+  - Pandemic/COVID language: "during this crisis", "covid", "pandemic", "social distancing",
+    "their top priority during", "safety is our top priority" (with crisis framing)
+  - References to "coming weeks" or "coming months" with no date anchor
+  - "When we reopen", "temporarily closed", or similar closure language
+  - Seasonal references that are clearly stale
+
+If found (whether pre-flagged or newly discovered):
+  1. Include in ai_flags: exact text + location + why it's a problem
+     Example: "Active COVID-era notice in highlights: 'their top priority during this crisis...'
+     — this text is outdated and damages page credibility. Recommend immediate removal."
+  2. Flag as high-priority content issue
+
+CATEGORY & LOCATION INFERENCE
+-----------------------------
+The audit data shows a "Category:" and "Location:" line. When either reads "Unknown",
+infer it from the title, description, and other page content and return it:
+  - inferred_category: a concise human-readable category (2–4 words, title case),
+    e.g. "Online Education", "Auto Detailing", "Spa & Massage", "Escape Room".
+  - inferred_location: the deal's location. Use "City, ST" for a physical place,
+    "Online" for virtual/online courses or services, or "Nationwide" for shipped goods.
+Only return an empty string for these when the content genuinely gives no indication.
+When the audit data already provides a category/location, you may still return your best
+inference (it will only be used if the extracted value is missing).
 
 INSTRUCTIONS
 ------------

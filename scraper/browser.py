@@ -160,17 +160,33 @@ async def fetch_page_with_retry(
                     wait_until="domcontentloaded",
                 )
 
-                # Wait for the main content to appear
-                try:
-                    await page.wait_for_selector(
-                        "h1, [data-qa='deal-page-title'], .deal-title",
-                        timeout=10_000,
-                    )
-                except Exception:
-                    pass  # continue even if selector not found
+                # Groupon is a React SPA — wait for real content to render
+                # Try the deal title first (most reliable indicator), then fall back
+                _CONTENT_SELECTORS = (
+                    "[data-qa='deal-page-title']",
+                    "h1.deal-title",
+                    "h1",
+                    "[class*='DealTitle']",
+                    "[class*='deal-title']",
+                )
+                for sel in _CONTENT_SELECTORS:
+                    try:
+                        await page.wait_for_selector(sel, timeout=8_000)
+                        break
+                    except Exception:
+                        continue
+
+                # Extra settle time for React hydration and lazy components
+                await asyncio.sleep(1.5)
 
                 if scroll:
                     await _scroll_page(page)
+
+                # Wait for network to quiet after scroll-triggered requests
+                try:
+                    await page.wait_for_load_state("networkidle", timeout=5_000)
+                except Exception:
+                    pass  # networkidle is best-effort; proceed regardless
 
                 html = await page.content()
                 final_url = page.url

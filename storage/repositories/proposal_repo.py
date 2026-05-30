@@ -31,19 +31,27 @@ def upsert_proposal(proposal: OptimizationProposal, usage_prompt: int, usage_com
             proposed_title,
             proposed_meta_title,
             proposed_meta_description,
+            proposed_h1,
             proposed_highlights,
-            title_reasoning,
-            generated_at
-        ) VALUES (?, ?, ?, ?, ?, ?, ?)
+            pricing_framing,
+            executive_summary,
+            generated_at,
+            prompt_tokens,
+            completion_tokens
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """,
         [
             proposal.deal_id,
             proposal.proposed_title,
             proposal.proposed_meta_title,
             proposal.proposed_meta_description,
+            proposal.proposed_h1,
             json.dumps(proposal.proposed_highlights),
-            proposal.executive_summary,   # stored in title_reasoning column for now
+            proposal.pricing_framing,
+            proposal.executive_summary,
             proposal.generated_at,
+            usage_prompt,
+            usage_completion,
         ],
     )
 

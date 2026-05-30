@@ -119,6 +119,16 @@ def _extract_knowledge_panel(
         log.info("No Google knowledge panel found for %r", merchant_name)
         return None
 
+    # Verify the page actually references this merchant before attributing a
+    # rating to it. Without this, a redirect/blocked SERP or an unrelated
+    # knowledge panel could be misreported as the merchant's reputation. (Problem 4)
+    if not _page_mentions_merchant(merchant_name, page_text):
+        log.warning(
+            "Google SERP does not clearly reference %r — discarding rating to "
+            "avoid attributing the wrong business's reputation.", merchant_name,
+        )
+        return None
+
     return GoogleData(
         name=merchant_name,
         rating=rating,
@@ -126,3 +136,29 @@ def _extract_knowledge_panel(
         address=address,
         source_url=source_url,
     )
+
+
+def _page_mentions_merchant(merchant_name: str, page_text: str) -> bool:
+    """
+    Return True if the merchant's distinctive name tokens appear in the page.
+
+    Generic words (spa, salon, the, ...) are ignored so a match requires the
+    merchant's actual brand tokens — not just category words shared by any
+    business in the results.
+    """
+    _NOISE = {
+        "the", "a", "an", "and", "or", "of", "in", "at", "on", "for", "by", "to",
+        "inc", "llc", "ltd", "co", "corp", "spa", "salon", "studio", "center",
+        "centre", "clinic", "shop", "store", "services", "service", "courses",
+        "course", "online",
+    }
+    tokens = {
+        w for w in re.sub(r"[^a-z0-9\s]", " ", merchant_name.lower()).split()
+        if len(w) >= 4 and w not in _NOISE
+    }
+    if not tokens:
+        return True  # nothing distinctive to verify against — don't block
+    text_lower = page_text.lower()
+    hits = sum(1 for t in tokens if t in text_lower)
+    # Require at least half of the distinctive tokens to appear.
+    return hits >= max(1, len(tokens) // 2)

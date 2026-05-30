@@ -17,6 +17,7 @@ from typing import Optional
 from bs4 import BeautifulSoup, Tag
 
 from models import PricingOption
+from scraper.parsers.next_data_parser import extract_next_data, extract_pricing_from_next_data
 
 
 # ---------------------------------------------------------------------------
@@ -24,7 +25,21 @@ from models import PricingOption
 # ---------------------------------------------------------------------------
 
 def parse_pricing_options(soup: BeautifulSoup) -> list[PricingOption]:
-    """Return a list of all pricing options found on the page."""
+    """
+    Return a list of all pricing options found on the page.
+
+    NOTE: groupon.py now calls extract_pricing_from_jsonld() before
+    this function, so this is effectively a fallback for pages that
+    don't have a ProductGroup JSON-LD schema.
+    """
+
+    # Strategy 0: __NEXT_DATA__ JSON
+    next_data = extract_next_data(soup)
+    if next_data:
+        options = extract_pricing_from_next_data(next_data)
+        if options:
+            return options
+
     options: list[PricingOption] = []
 
     # Strategy 1: structured option cards (multi-option deals)

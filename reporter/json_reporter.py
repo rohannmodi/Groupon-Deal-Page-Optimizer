@@ -59,6 +59,8 @@ def write_research_json(deal_id: str, data: ResearchData, synthesis: ResearchSyn
     payload = {
         "raw_research": data.model_dump(mode="json"),
         "synthesis": synthesis.model_dump(mode="json"),
+        # Priority 10: failure reporting / quality metadata
+        "data_quality": getattr(data, "quality", None) and data.quality.model_dump(mode="json"),
     }
     out_path = out_dir / "research.json"
     out_path.write_text(

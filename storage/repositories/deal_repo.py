@@ -2,7 +2,8 @@
 Deal repository — all DB reads/writes for the scrape/parse stage.
 
 The orchestrator only calls these methods; it never writes raw SQL.
-All writes use INSERT OR REPLACE (upsert) so re-runs are idempotent.
+All writes are idempotent via DELETE + INSERT (DuckDB does not support
+the SQLite-specific INSERT OR REPLACE / INSERT OR IGNORE syntax).
 """
 
 from __future__ import annotations
@@ -23,10 +24,15 @@ def upsert_deal(audit: DealAudit) -> None:
     """Write (or overwrite) the core deal row and all child rows."""
     db = get_db()
 
-    # --- deals ---
+    # Delete children first (FK refs on deal_id), then the deal row itself.
+    # DuckDB doesn't support INSERT OR REPLACE (SQLite syntax), so we
+    # do an explicit DELETE + INSERT instead.
+    _delete_children(audit.deal_id)
+    db.execute("DELETE FROM deals WHERE deal_id = ?", [audit.deal_id])
+
     db.execute(
         """
-        INSERT OR REPLACE INTO deals (
+        INSERT INTO deals (
             deal_id, url, title, subtitle, merchant_name, category,
             city, state, description, reviews_count, reviews_avg_rating,
             scraped_at, scrape_duration_s, raw_html_path, scrape_error
@@ -51,9 +57,6 @@ def upsert_deal(audit: DealAudit) -> None:
         ],
     )
 
-    # --- child tables: delete then re-insert (simpler than row-level upsert) ---
-    _delete_children(audit.deal_id)
-
     # pricing_options
     for opt in audit.pricing_options:
         db.execute(
@@ -74,10 +77,10 @@ def upsert_deal(audit: DealAudit) -> None:
             ],
         )
 
-    # deal_content
+    # deal_content  (_delete_children already cleared this row)
     db.execute(
         """
-        INSERT OR REPLACE INTO deal_content (deal_id, highlights, fine_print, faqs)
+        INSERT INTO deal_content (deal_id, highlights, fine_print, faqs)
         VALUES (?, ?, ?, ?)
         """,
         [
@@ -106,11 +109,11 @@ def upsert_deal(audit: DealAudit) -> None:
             ],
         )
 
-    # seo_elements
+    # seo_elements  (_delete_children already cleared this row)
     seo = audit.seo
     db.execute(
         """
-        INSERT OR REPLACE INTO seo_elements (
+        INSERT INTO seo_elements (
             deal_id, meta_title, meta_description, h1_text, h2_texts,
             has_schema_markup, schema_type, canonical_url,
             og_title, og_description, og_image_url, image_count, script_count
@@ -188,11 +191,16 @@ def upsert_pipeline_run(run: PipelineRun) -> None:
     """Record a stage's status. Used by checkpoint and orchestrator."""
     db = get_db()
 
-    # Ensure the deal row exists (with minimal data) so FK constraint holds
-    db.execute(
-        "INSERT OR IGNORE INTO deals (deal_id, url) VALUES (?, ?)",
-        [run.deal_id, ""],
-    )
+    # Ensure the deal row exists (with minimal data) so FK constraint holds.
+    # INSERT OR IGNORE is SQLite syntax; DuckDB needs an explicit exists-check.
+    exists = db.execute(
+        "SELECT 1 FROM deals WHERE deal_id = ?", [run.deal_id]
+    ).fetchone()
+    if not exists:
+        db.execute(
+            "INSERT INTO deals (deal_id, url) VALUES (?, ?)",
+            [run.deal_id, ""],
+        )
 
     db.execute(
         """
@@ -219,7 +227,7 @@ def get_stage_status(deal_id: str, stage: str) -> Optional[str]:
         """
         SELECT status FROM pipeline_runs
         WHERE deal_id = ? AND stage = ?
-        ORDER BY id DESC LIMIT 1
+        ORDER BY rowid DESC LIMIT 1
         """,
         [deal_id, stage],
     ).fetchone()

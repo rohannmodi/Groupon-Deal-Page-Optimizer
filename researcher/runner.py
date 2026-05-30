@@ -20,6 +20,7 @@ from models import (
     DealAudit,
     GoogleData,
     ResearchData,
+    ResearchQuality,
     YelpData,
 )
 from researcher.category_benchmarker import get_category_context
@@ -61,10 +62,17 @@ async def research_deal(audit: DealAudit) -> ResearchData:
         _safe_run("google", scrape_google_business(merchant, city))
     )
     competitor_task = asyncio.create_task(
-        _safe_run("competitors", find_competitors(service_type, city, deal_price))
+        _safe_run("competitors", find_competitors(
+            service_type, city, deal_price,
+            merchant_name=merchant,
+            category=category,
+        ))
     )
     category_task = asyncio.create_task(
-        _safe_run("category", get_category_context(category, city, deal_price))
+        _safe_run("category", get_category_context(
+            category, city, deal_price,
+            service_type=service_type,  # critical: drives category detection
+        ))
     )
 
     yelp_data, google_data, competitors, category_context = await asyncio.gather(
@@ -101,13 +109,24 @@ async def research_deal(audit: DealAudit) -> ResearchData:
         for sr in (category_context.search_results or []):
             tracker.add_search_results([sr], relevance="category_context")
 
+    # ── Compute research quality / failure report ─────────────────────────────
+    quality = _compute_research_quality(
+        audit=audit,
+        competitors=competitors or [],
+        yelp_data=yelp_data,
+        google_data=google_data,
+        category_context=category_context,
+    )
+
     log.info(
-        "Research complete for %s: yelp=%s, google=%s, competitors=%d, sources=%d",
+        "Research complete for %s: yelp=%s, google=%s, competitors=%d, "
+        "confidence=%.2f, pricing_verifiable=%s",
         audit.deal_id,
         "✓" if yelp_data else "✗",
         "✓" if google_data else "✗",
         len(competitors or []),
-        len(tracker),
+        quality.overall_confidence,
+        quality.pricing_verifiable,
     )
 
     return ResearchData(
@@ -117,6 +136,7 @@ async def research_deal(audit: DealAudit) -> ResearchData:
         competitors=competitors or [],
         category_context=category_context,
         sources=tracker.get_all(),
+        quality=quality,
     )
 
 
@@ -142,20 +162,116 @@ def _empty_for(label: str):
     return None
 
 
+def _compute_research_quality(
+    audit: DealAudit,
+    competitors: list,
+    yelp_data,
+    google_data,
+    category_context,
+) -> ResearchQuality:
+    """
+    Assess data quality across all research dimensions.
+    Returns a ResearchQuality object for failure reporting (Priority 10).
+    """
+    # --- Competitor pricing status ---
+    high_conf = [c for c in competitors if c.sku_match_confidence >= 0.7 and c.regular_price]
+    low_conf_priced = [c for c in competitors if c.sku_match_confidence < 0.7 and c.regular_price]
+    no_price = [c for c in competitors if not c.regular_price]
+
+    if high_conf:
+        comp_status = "verified"
+    elif low_conf_priced:
+        comp_status = "low_confidence"
+    elif no_price and (len(competitors) > 0):
+        comp_status = "partial_data"
+    else:
+        comp_status = "no_data"
+
+    # --- Merchant reputation ---
+    if yelp_data and google_data:
+        rep_status = "verified"
+    elif yelp_data or google_data:
+        rep_status = "partial_data"
+    else:
+        rep_status = "no_data"
+
+    # --- Category context ---
+    if category_context and category_context.typical_price_low:
+        cat_status = "validated"
+    elif category_context and category_context.search_results:
+        cat_status = "insufficient"
+    else:
+        cat_status = "no_data"
+
+    # --- Pricing verifiable (Priority 1) ---
+    # Check if the scraper captured original prices for the primary option
+    p = audit.primary_pricing
+    pricing_verifiable = (
+        p is not None
+        and p.deal_price is not None
+        and p.original_price is not None
+        and p.discount_pct is not None
+    )
+
+    # --- Overall confidence ---
+    scores = []
+    if comp_status == "verified":
+        scores.append(1.0)
+    elif comp_status == "low_confidence":
+        scores.append(0.4)
+    elif comp_status == "partial_data":
+        scores.append(0.2)
+    else:
+        scores.append(0.0)
+
+    if rep_status == "verified":
+        scores.append(1.0)
+    elif rep_status == "partial_data":
+        scores.append(0.6)
+    else:
+        scores.append(0.0)
+
+    if cat_status == "validated":
+        scores.append(0.8)
+    elif cat_status == "insufficient":
+        scores.append(0.3)
+    else:
+        scores.append(0.0)
+
+    overall_confidence = round(sum(scores) / len(scores), 2) if scores else 0.0
+
+    # Source tracking
+    total_sources = len(competitors) + (1 if yelp_data else 0) + (1 if google_data else 0)
+
+    return ResearchQuality(
+        competitor_pricing_status=comp_status,
+        merchant_reputation_status=rep_status,
+        category_context_status=cat_status,
+        pricing_verifiable=pricing_verifiable,
+        overall_confidence=overall_confidence,
+        sources_found=total_sources + len(no_price),
+        sources_accepted=len(high_conf) + len(low_conf_priced),
+        sources_rejected=len(no_price),
+    )
+
+
 def _infer_service_type(audit: DealAudit) -> str:
     """
     Derive a clean, searchable service type from the audit data.
     Prefers the title over the category since the title is more specific.
     """
+    import re as _re
     title = (audit.title or "").lower()
     category = (audit.category or "").lower()
 
-    # Strip common Groupon boilerplate from titles
-    for phrase in ("groupon", "deal", "discount", "off", "save"):
-        title = title.replace(phrase, "")
+    # Strip common Groupon boilerplate — use word boundaries so "off" doesn't mangle "offering"
+    for phrase in ("groupon", "deal", "discount", r"\boff\b", r"\bsave\b", r"\bat\b"):
+        title = _re.sub(phrase, "", title)
+
+    title = _re.sub(r"\s+", " ", title).strip()
 
     # Use the title if it's informative (longer than category)
-    if len(title.strip()) > len(category.strip()):
-        return title.strip()[:60]
+    if len(title) > len(category):
+        return title[:60]
 
-    return category.strip() or audit.title or "service"
+    return category.strip() or (audit.title or "service")[:60]

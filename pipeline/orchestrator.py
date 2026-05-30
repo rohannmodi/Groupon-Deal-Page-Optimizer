@@ -293,6 +293,14 @@ async def _run_audit_ai_stage(
         )
         write_audit_scores_json(deal.deal_id, scores)
 
+        # analyze_audit may have enriched the audit with an inferred category or
+        # location (when the scraper couldn't extract them). Persist the updated
+        # audit so audit.json and the markdown reflect the fallback values and
+        # downstream re-runs (which reload from disk) pick them up.
+        upsert_deal(audit)
+        write_audit_json(audit)
+        write_audit_markdown(audit)
+
         log.info(
             "Audit AI done for %s: overall=%.1f, cost≈$%.4f",
             deal.deal_id,
@@ -484,6 +492,14 @@ def _load_audit_from_db(deal_id: str) -> Optional[DealAudit]:
     if row is None:
         return None
 
+    # city/state may be absent from the DB row if the DB schema pre-dates those
+    # columns (DuckDB CREATE TABLE IF NOT EXISTS won't add new columns).
+    # Fall back to the audit JSON that was written during the fresh run.
+    city = row.get("city")
+    state = row.get("state")
+    if not city and not state:
+        city, state = _load_location_from_audit_json(deal_id)
+
     return DealAudit(
         deal_id=row["deal_id"],
         url=row["url"],
@@ -491,14 +507,32 @@ def _load_audit_from_db(deal_id: str) -> Optional[DealAudit]:
         subtitle=row.get("subtitle"),
         merchant_name=row.get("merchant_name"),
         category=row.get("category"),
-        city=row.get("city"),
-        state=row.get("state"),
+        city=city,
+        state=state,
         description=row.get("description"),
         reviews_count=row.get("reviews_count"),
         reviews_avg_rating=row.get("reviews_avg_rating"),
         raw_html_path=row.get("raw_html_path"),
         # Child tables not loaded here — AI stages reload from DB directly
     )
+
+
+def _load_location_from_audit_json(deal_id: str) -> tuple[Optional[str], Optional[str]]:
+    """
+    Read city/state from the audit JSON file written during the report stage.
+    Used as a fallback when city/state are missing from the DB row.
+    """
+    import json as _json
+    from config.settings import settings
+
+    audit_json = settings.outputs_dir / deal_id / "1_audit" / "audit.json"
+    try:
+        if audit_json.exists():
+            data = _json.loads(audit_json.read_text(encoding="utf-8"))
+            return data.get("city"), data.get("state")
+    except Exception as exc:
+        log.debug("Could not read location from audit JSON for %s: %s", deal_id, exc)
+    return None, None
 
 
 def _load_scores_from_db(deal_id: str) -> Optional[AuditScores]:

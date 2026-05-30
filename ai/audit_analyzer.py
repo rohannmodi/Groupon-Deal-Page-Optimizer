@@ -69,6 +69,12 @@ def analyze_audit(audit: DealAudit) -> tuple[AuditScores, TokenUsage]:
         score_reasoning=result.data.get("score_reasoning", {}),
     )
 
+    # Fallback enrichment: when the scraper couldn't extract a category or a
+    # location, fill them from the AI's inference of the page content so the
+    # reports don't render a bare "—". We only ever fill MISSING fields — a
+    # value the parser extracted always wins.
+    _apply_inferred_fields(audit, result.data)
+
     log.info(
         "Audit scores for %s: overall=%.1f gaps=%d flags=%d tokens=%d",
         audit.deal_id,
@@ -79,6 +85,38 @@ def analyze_audit(audit: DealAudit) -> tuple[AuditScores, TokenUsage]:
     )
 
     return scores, result.usage
+
+
+import re as _re
+
+# "City, ST" — a US state abbreviation makes the location geographically usable.
+_CITY_STATE_RE = _re.compile(r"^(?P<city>[A-Za-z .'-]{2,40}),\s*(?P<state>[A-Z]{2})$")
+# Non-geographic location labels we accept verbatim (online/shipped deals).
+_NON_GEO_LOCATIONS = {"online", "nationwide", "virtual"}
+
+
+def _apply_inferred_fields(audit: DealAudit, data: dict) -> None:
+    """
+    Fill audit.category / location from the AI's inference, but ONLY when the
+    scraper didn't already extract them. Parser-extracted values always win.
+    """
+    inferred_category = (data.get("inferred_category") or "").strip()
+    if not audit.category and inferred_category:
+        audit.category = inferred_category[:60]
+        log.info("Inferred category for %s: %r", audit.deal_id, audit.category)
+
+    has_location = bool(audit.city or audit.state or audit.location_label)
+    inferred_location = (data.get("inferred_location") or "").strip()
+    if not has_location and inferred_location:
+        audit.location_label = inferred_location[:80]
+        m = _CITY_STATE_RE.match(inferred_location)
+        if m:
+            # Geographic — also populate city/state so research can use them.
+            if not audit.city:
+                audit.city = m.group("city").strip()
+            if not audit.state:
+                audit.state = m.group("state")
+        log.info("Inferred location for %s: %r", audit.deal_id, audit.location_label)
 
 
 def _build_audit_context(audit: DealAudit) -> str:
@@ -97,8 +135,20 @@ def _build_audit_context(audit: DealAudit) -> str:
             if p.discount_pct:
                 pricing_summary += f", {p.discount_pct:.0f}% off"
             pricing_summary += ")"
+
+    # Show ALL pricing options so the audit AI knows exactly what's on the page.
+    # Without this, the AI sees "7 pricing tiers total" with no detail and
+    # incorrectly flags tiers (including snack combos) as "invisible to customers."
     if len(audit.pricing_options) > 1:
-        pricing_summary += f"\n{len(audit.pricing_options)} pricing tiers total"
+        pricing_summary += f"\n\nAll {len(audit.pricing_options)} pricing options visible on page:"
+        for opt in audit.pricing_options:
+            line = f"\n  • {opt.option_name}: ${opt.deal_price:.2f}"
+            if opt.original_price:
+                line += f" (was ${opt.original_price:.2f}"
+                if opt.discount_pct:
+                    line += f", {opt.discount_pct:.0f}% off"
+                line += ")"
+            pricing_summary += line
 
     seo = audit.seo
     seo_section = f"""
@@ -153,15 +203,35 @@ Images on page: {seo.image_count} | Scripts: {seo.script_count}
         if audit.faqs else "None"
     )
 
+    # Include full description up to 3000 chars so the AI can see rich content
+    # sections (e.g., "Available Escape Rooms", "What To Expect") that appear
+    # past the short intro paragraph. Truncating at 500 caused false content gaps
+    # like "rooms not listed" when rooms ARE present later in the description.
+    desc_preview = (audit.description or 'None')[:3000]
+    if audit.description and len(audit.description) > 3000:
+        desc_preview += f"\n... [description continues — {len(audit.description)} chars total]"
+
+    # Surface stale content warnings prominently at the top
+    stale_section = ""
+    if audit.stale_content_warnings:
+        stale_lines = ["⚠ STALE CONTENT DETECTED — flag these in ai_flags:"]
+        for w in audit.stale_content_warnings:
+            stale_lines.append(
+                f"  [{w.get('location', '?')}] Signal: {w.get('signal', '?')} — "
+                f'"{w.get("text", "")[:120]}"'
+            )
+        stale_section = "\n".join(stale_lines) + "\n\n"
+
     return f"""DEAL PAGE AUDIT DATA
 ====================
-URL: {audit.url}
+{stale_section}URL: {audit.url}
 Title: {audit.title or 'NOT FOUND'}
 Subtitle: {audit.subtitle or 'None'}
 Merchant: {audit.merchant_name or 'NOT FOUND'}
 Category: {audit.category or 'Unknown'}
-Location: {', '.join(filter(None, [audit.city, audit.state])) or 'Unknown'}
-Description (first 500 chars): {(audit.description or 'None')[:500]}
+Location: {', '.join(filter(None, [audit.city, audit.state])) or 'Unknown'}{f" | Address: {audit.redemption_address}" if getattr(audit, 'redemption_address', None) else ""}
+Description (first 3000 chars):
+{desc_preview}
 
 PRICING
 -------

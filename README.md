@@ -9,28 +9,36 @@ A Python pipeline that takes Groupon deal URLs and produces three outputs per de
 ## Quick Start
 
 ```bash
-# 1. Clone and enter the project
-cd groupon-optimizer
+# 1. Enter the project directory
+cd "Groupon Deal Page Optimizer"
 
-# 2. Create a virtual environment
-python -m venv .venv
+# 2. Activate the virtual environment (already created)
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 
-# 3. Install dependencies
+# 3. Confirm environment variables are set
+cat .env   # should have ANTHROPIC_API_KEY and SERPAPI_KEY
+
+# 4. Run the full 20-deal batch (recommended: concurrency 2-3 to avoid rate limits)
+python run.py --concurrency 3
+
+# Other useful commands:
+python run.py --url https://groupon.com/deals/...    # single URL for testing
+python run.py --force                                # re-run all stages (ignores checkpoints)
+python run.py --stage scrape                         # scrape only — no AI, no research
+python run.py --stage audit_ai                       # scrape + AI score (no research)
+python run.py --stage research_ai                    # everything except final proposal
+```
+
+### If starting fresh
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
-
-# 4. Install Playwright browsers (Chromium only)
 playwright install chromium
-
-# 5. Set up environment variables
 cp .env.example .env
-# Edit .env and add your ANTHROPIC_API_KEY (needed for Stages 2 & 3)
-
-# 6. Run the pipeline
-python run.py                          # processes deals.txt
-python run.py --url https://groupon.com/deals/...   # single URL
-python run.py --concurrency 3          # adjust parallelism
-python run.py --force                  # re-run all stages
+# Edit .env: add ANTHROPIC_API_KEY and SERPAPI_KEY
+python run.py --concurrency 3
 ```
 
 ## Output Structure
@@ -39,14 +47,15 @@ python run.py --force                  # re-run all stages
 outputs/
 └── {deal_id}/
     ├── 1_audit/
-    │   ├── audit.json          ← full structured extraction
-    │   └── audit_summary.md    ← human-readable scorecard
-    ├── 2_research/             ← Stage 2 (coming soon)
-    │   ├── research.json
-    │   └── research_report.md
-    └── 3_proposal/             ← Stage 3 (coming soon)
-        ├── proposal.json
-        └── optimization_proposal.md
+    │   ├── audit.json               ← full structured extraction
+    │   ├── audit_scores.json        ← AI dimension scores (1–10 each)
+    │   └── audit_summary.md         ← human-readable scorecard
+    ├── 2_research/
+    │   ├── research.json            ← raw competitor + Yelp/Google + synthesis
+    │   └── research_report.md       ← sourced research report with deal verdict
+    └── 3_proposal/
+        ├── proposal.json            ← structured recommendations + proposed copy
+        └── optimization_proposal.md ← CEO-ready ranked recommendations
 ```
 
 ## Adding More Deals
@@ -89,21 +98,39 @@ groupon-optimizer/
 │   ├── browser.py          ← Playwright manager (stealth, retry, scroll)
 │   ├── groupon.py          ← orchestrates all parsers → DealAudit
 │   └── parsers/
-│       ├── deal_parser.py  ← title, merchant, highlights, fine print, FAQs
-│       ├── pricing_parser.py
+│       ├── deal_parser.py      ← title, merchant, highlights, fine print, FAQs
+│       ├── jsonld_parser.py    ← ProductGroup JSON-LD (primary data source)
+│       ├── next_data_parser.py ← __NEXT_DATA__ fallback (Next.js blob)
+│       ├── pricing_parser.py   ← fallback HTML pricing extraction
 │       ├── seo_parser.py
-│       ├── trust_parser.py ← trust signals, urgency elements, reviews
+│       ├── trust_parser.py     ← trust signals, urgency elements, reviews
 │       └── image_parser.py
 ├── storage/
 │   ├── database.py         ← DuckDB singleton
-│   ├── schema.sql          ← all table definitions
+│   ├── schema.sql          ← all table definitions (16 tables)
 │   └── repositories/
-│       └── deal_repo.py    ← upsert / query helpers
+│       ├── deal_repo.py    ← scrape stage persistence
+│       ├── research_repo.py← Stage 2 persistence (competitors, reviews, synthesis)
+│       └── proposal_repo.py← Stage 3 persistence (proposals, recommendations)
 ├── reporter/
-│   ├── json_reporter.py
-│   └── markdown_reporter.py
-├── ai/                     ← Stage 2 & 3 (coming soon)
-├── researcher/             ← Stage 2 (coming soon)
+│   ├── json_reporter.py         ← writes .json for all 3 stages
+│   ├── markdown_reporter.py     ← audit_summary.md
+│   ├── research_markdown.py     ← research_report.md with sources
+│   └── proposal_markdown.py     ← optimization_proposal.md (CEO-ready)
+├── ai/
+│   ├── client.py           ← Anthropic SDK wrapper (sync + async, retries)
+│   ├── audit_analyzer.py   ← Stage 1 AI: score page on 6 dimensions
+│   ├── research_synthesizer.py ← Stage 2 AI: verdict + review theme coding
+│   ├── proposal_generator.py   ← Stage 3 AI: ranked recommendations (extended thinking)
+│   └── schemas/            ← tool schemas forcing structured JSON output
+├── researcher/
+│   ├── runner.py           ← parallel research coordinator (asyncio.gather)
+│   ├── web_search.py       ← SerpAPI primary, Google SERP fallback
+│   ├── yelp_scraper.py     ← 3-strategy Yelp data extractor
+│   ├── google_reviews.py   ← knowledge panel extractor
+│   ├── competitor_finder.py← searches + scrapes 3–5 competitors
+│   ├── category_benchmarker.py ← typical price range for 25+ categories
+│   └── source_tracker.py   ← citation recorder for all fetched URLs
 └── data/
     └── groupon_optimizer.duckdb
 ```

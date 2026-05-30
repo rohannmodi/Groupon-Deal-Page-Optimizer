@@ -45,34 +45,75 @@ _HEADERS = {
 async def scrape_yelp(merchant_name: str, city: str) -> Optional[YelpData]:
     """
     Find the merchant on Yelp and extract rating, review count, and review texts.
-    Returns None if the merchant cannot be found or scraping fails.
+
+    Verification: after scraping, the extracted business name must match
+    merchant_name (token overlap ≥ 50%) before the data is returned.  If the
+    name doesn't match we log the mismatch and return None so the pipeline
+    never stores a wrong business's reviews under a different merchant.
+
+    Returns None if the merchant cannot be found, scraping fails, or the
+    business name on the fetched page does not match the target merchant.
     """
     yelp_url = await _find_yelp_url(merchant_name, city)
     if not yelp_url:
         log.info("No Yelp URL found for %r in %s", merchant_name, city)
         return None
 
-    return await _scrape_yelp_page(yelp_url, merchant_name)
+    data = await _scrape_yelp_page(yelp_url, merchant_name)
+    if data is None:
+        return None
+
+    # ── Name-match verification ────────────────────────────────────────────
+    # If we got a name back from the page, confirm it actually refers to the
+    # same business.  A 403/bot-wall returns data.name == merchant_name
+    # (the fallback we supplied), which trivially passes — that is intentional
+    # because we have no page content to check against.
+    if data.name and data.name != merchant_name:
+        if not _names_match(data.name, merchant_name):
+            log.warning(
+                "Yelp name mismatch for %r — page shows %r (url: %s). "
+                "Discarding to avoid wrong-merchant data.",
+                merchant_name, data.name, yelp_url,
+            )
+            return None
+
+    return data
 
 
 async def _find_yelp_url(merchant_name: str, city: str) -> Optional[str]:
-    """Search for the Yelp business listing URL."""
+    """
+    Search for the Yelp business listing URL.
+
+    Pre-filters results by checking that the search result title/snippet
+    contains recognisable tokens from merchant_name so we don't follow a
+    Yelp URL for a completely different business.
+    """
     query = f'site:yelp.com/biz "{merchant_name}" {city}'
     results = await search(query, num_results=5)
 
     for r in results:
         if "yelp.com/biz/" in r.url and "?_fsig" not in r.url:
-            # Clean off query params that redirect to search
-            url = r.url.split("?")[0]
-            log.debug("Found Yelp URL: %s", url)
-            return url
+            # Pre-filter: the search result title/snippet should mention the
+            # merchant; if it clearly names a different business, skip it.
+            candidate_text = f"{r.title} {r.snippet}"
+            if _names_match(merchant_name, candidate_text):
+                url = r.url.split("?")[0]
+                log.debug("Found Yelp URL (pre-verified via snippet): %s", url)
+                return url
+            else:
+                log.debug(
+                    "Skipping Yelp result — snippet doesn't match %r: %r",
+                    merchant_name, r.title[:80],
+                )
 
-    # Fallback: general search
+    # Fallback: general search, same pre-filter
     query2 = f'"{merchant_name}" {city} yelp reviews'
     results2 = await search(query2, num_results=8)
     for r in results2:
         if "yelp.com/biz/" in r.url:
-            return r.url.split("?")[0]
+            candidate_text = f"{r.title} {r.snippet}"
+            if _names_match(merchant_name, candidate_text):
+                return r.url.split("?")[0]
 
     return None
 
@@ -86,10 +127,17 @@ async def _scrape_yelp_page(url: str, merchant_name: str) -> Optional[YelpData]:
     ) as client:
         try:
             resp = await client.get(url)
+            final_url = str(resp.url)  # capture final URL after redirects
             if resp.status_code == 403:
-                log.warning("Yelp returned 403 (bot challenge) for %s", url)
-                # Return partial data with just the URL so we still log the source
-                return YelpData(url=url, name=merchant_name)
+                # Bot challenge — we cannot read the page, so we cannot confirm
+                # this listing actually belongs to the target merchant. Return
+                # None rather than surfacing an unverified URL (a wrong-business
+                # Yelp link is worse than no link). See Problem 4.
+                log.warning(
+                    "Yelp returned 403 (bot challenge) for %s — cannot verify "
+                    "merchant match; discarding.", url,
+                )
+                return None
             resp.raise_for_status()
             html = resp.text
         except Exception as exc:
@@ -98,18 +146,19 @@ async def _scrape_yelp_page(url: str, merchant_name: str) -> Optional[YelpData]:
 
     soup = BeautifulSoup(html, "lxml")
 
-    # Strategy 1: JSON-LD
+    # Strategy 1: JSON-LD — always override URL with the actual Yelp URL we fetched
     data = _extract_json_ld(soup)
     if data:
+        data.url = final_url   # ensure we keep the canonical Yelp biz URL
         return data
 
     # Strategy 2: Embedded Next.js / React data blob
-    data = _extract_next_data(soup, url)
+    data = _extract_next_data(soup, final_url)
     if data:
         return data
 
     # Strategy 3: HTML extraction
-    return _extract_html(soup, url, merchant_name)
+    return _extract_html(soup, final_url, merchant_name)
 
 
 def _extract_json_ld(soup: BeautifulSoup) -> Optional[YelpData]:
@@ -239,6 +288,49 @@ def _extract_html(
         reviews=reviews,
         review_texts=review_texts,
     )
+
+
+def _names_match(name_a: str, name_b: str, threshold: float = 0.5) -> bool:
+    """
+    Return True if name_a and name_b share enough significant tokens to be
+    considered the same business.
+
+    Algorithm: normalise both strings to lowercase word sets, strip common
+    filler words, then compute Jaccard-like overlap.  A threshold of 0.5
+    means at least half of name_a's significant tokens must appear in name_b
+    (or vice versa — we use the smaller set as the denominator so short
+    names like "SoulCycle" still match "SoulCycle Chicago").
+
+    Edge cases:
+      - If name_a has only one significant token, that token must appear in name_b.
+      - If name_b is much longer (e.g. a full search snippet), we only require
+        that name_a's tokens are a subset of name_b's tokens.
+    """
+    _NOISE = {
+        "the", "a", "an", "and", "or", "of", "in", "at", "on", "for",
+        "by", "to", "with", "inc", "llc", "ltd", "co", "corp", "salon",
+        "spa", "studio", "center", "centre", "clinic", "shop", "store",
+    }
+
+    def _tokens(s: str) -> set[str]:
+        words = re.sub(r"[^a-z0-9\s]", " ", s.lower()).split()
+        return {w for w in words if w not in _NOISE and len(w) >= 2}
+
+    tokens_a = _tokens(name_a)
+    tokens_b = _tokens(name_b)
+
+    if not tokens_a:
+        return True   # can't verify — don't block on empty input
+
+    # For short names (1–2 tokens) require all tokens to appear in b
+    if len(tokens_a) <= 2:
+        return bool(tokens_a & tokens_b)
+
+    overlap = len(tokens_a & tokens_b)
+    # Use the smaller set size as denominator so that "Joe's Spa Chicago"
+    # correctly matches "Joe's Spa" even though the sets differ in size
+    denominator = min(len(tokens_a), len(tokens_b)) or 1
+    return (overlap / denominator) >= threshold
 
 
 def _safe_float(v) -> Optional[float]:

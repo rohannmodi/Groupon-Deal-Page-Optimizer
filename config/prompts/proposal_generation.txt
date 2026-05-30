@@ -18,6 +18,46 @@ A bad proposal is:
 
 NON-NEGOTIABLE RULES
 ---------------------
+0. NEVER INVENT FACTS — MANDATORY.
+   All specific facts in proposed copy must come directly from the audit data or research report
+   provided above. This applies to every field: proposed_title, proposed_highlights,
+   proposed_state, image_recommendations, pricing_framing — all of it.
+
+   Prohibited (never do these):
+   ✗ Shipping price tiers by region that don't appear in the audit
+   ✗ "Organic", "certified", "award-winning", or any product attribute not in the source data
+   ✗ Specific URLs (merchant websites, booking links) not found in the research
+   ✗ Specific prices, quantities, or percentages not present in the audit or competitor data
+   ✗ Named staff, specific room counts, or facility details not mentioned in the deal page
+
+   When a specific example would make the copy stronger but the exact value is unknown:
+   prefix it with "[Example — verify with merchant:]" so the implementer knows to confirm.
+
+   Example of correct usage:
+     ✓ "Save $27 vs. booking direct" — only if $27 is in the research data
+     ✓ "[Example — verify with merchant:] Book at merchant-site.com after purchase" — URL invented
+     ✓ "[Example — verify with merchant:] 100% cold-pressed, no preservatives" — claim not verified
+
+   The test: could every specific fact in your proposed copy be traced back to a line in the
+   audit data or research report above? If not, flag it with the prefix.
+
+1. TWO TITLE FIELDS PER RECOMMENDATION.
+   Every recommendation must have BOTH:
+   - short_title: max 10 words, complete sentence fragment, NO ellipsis, used in tables and headers.
+     Examples: "Add appointment requirement to highlights"
+               "Reframe price against $75 competitor average"
+               "Fix stale COVID-era shipping notice"
+   - recommendation: full imperative description, no length limit, used in body text.
+   These are distinct fields. short_title must end at a complete word boundary.
+
+1. EVIDENCE FIRST (Priority 5).
+   Every recommendation MUST have supporting_evidence with ≥1 item from:
+   - A review theme with exact mention count: "12 Yelp reviews mention 'wait times'"
+   - A competitor price with confidence: "SpaBright $55 (high confidence, 78% SKU match)"
+   - A specific audit score or content gap: "completeness_score: 4/10 — no appointment info"
+   Generic observations like "this will help customers understand" are NOT evidence.
+   If you cannot cite specific evidence, do not include the recommendation.
+
 1. WRITE THE COPY, DON'T DESCRIBE IT.
    proposed_state must be the actual text/change — not a description of what to write.
 
@@ -37,16 +77,28 @@ NON-NEGOTIABLE RULES
 
    Unacceptable: "This will help customers understand the service better."
 
-3. PRIORITIZE BY CONVERSION IMPACT, NOT CATEGORY.
-   Rank 1 goes to the change that most directly causes purchase abandonment.
-   Typical high-impact items:
-   - A content gap that causes first-time buyers to hesitate (e.g., appointment policy,
-     age restrictions, service duration)
-   - A value communication failure (e.g., no comparison to market rate)
-   - A trust signal that's missing but easily added (e.g., review count displayed wrong)
-   Low-impact items go last:
-   - Minor SEO tweaks when page already has a meta title
-   - Additional images when the page already has 5+
+3. SCORE AND SORT BY impact_score (Priority 6).
+   impact_score = visibility × user_importance × evidence_strength (each 1–10).
+
+   visibility: how prominently the issue appears in the buyer journey
+     10 = above the fold, first thing seen (title, price, hero image)
+     5  = in the body, requires scrolling
+     1  = footer, fine print, metadata
+
+   user_importance: how much this affects the purchase decision
+     10 = directly causes "I won't buy this" (e.g., suspicious price, missing key info)
+     5  = creates hesitation or confusion
+     1  = minor preference, nice-to-have
+
+   evidence_strength: quality of data supporting the recommendation
+     10 = 20+ review mentions OR high-confidence competitor data
+     7  = 5–19 review mentions OR moderate-confidence competitor data
+     4  = audit score OR 1–4 review mentions
+     1  = observation with no data backing
+
+   Sort ALL recommendations by impact_score DESC. Set priority_rank accordingly.
+   Address clarification (visibility=3, importance=4, evidence=5) → score=60 → rank LOW.
+   Trust signal near CTA (visibility=9, importance=9, evidence=8) → score=648 → rank HIGH.
 
 4. EXECUTIVE SUMMARY IS FOR A CEO, NOT A DEVELOPER.
    Write: "The page scores 4.2/10 overall. The #1 issue is that it never explains
@@ -82,8 +134,20 @@ content
   Each gap → one proposed_state that closes it exactly.
 
 images
-  Be specific about WHAT type of image to add:
-  "Add 2 before/after photos of the service" not "add more images."
+  Use the image_recommendations field (separate from the recommendations list) to give
+  3–5 specific image suggestions. For each: what exact image to add/change, why it helps
+  conversion, and priority (High/Medium/Low).
+
+  Category guidance:
+  - Food/wellness (juices, meals, spa): product shots of the actual items, facility photos, before/after
+  - Services (hair, massage, auto): staff photos, treatment room, work samples, before/after
+  - Activities: action shots, group photos, venue/location shots
+  - High priority = addresses a known buyer hesitation (e.g., "what does this look like?")
+
+  Be specific: "Photo of all 7 juice bottles labeled by day" not "add product images."
+  Also reference the audit's image inventory in your reasoning (count, alt text gaps, missing types).
+
+  Note: image_recommendations is a top-level field, NOT inside the recommendations array.
 
 seo
   Meta title: primary keyword + city + value prop, under 60 chars.

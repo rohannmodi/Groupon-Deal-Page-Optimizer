@@ -116,6 +116,15 @@ class DealAudit(BaseModel):
     category: Optional[str] = None
     city: Optional[str] = None
     state: Optional[str] = None
+    # Full street address if available (e.g. "38 West 32nd Street, New York")
+    # Parsed from "Where To Redeem" section for local service deals.
+    # None for nationwide/shipped-goods deals.
+    redemption_address: Optional[str] = None
+    # Human-readable location for display (e.g. "Brookfield, WI" or "Online").
+    # Used when city/state aren't parsed from the page — populated by the audit
+    # AI as a fallback (e.g. "Online" for virtual/shipped deals). None only when
+    # the location genuinely can't be determined from the page content.
+    location_label: Optional[str] = None
     description: Optional[str] = None
 
     # Pricing
@@ -140,6 +149,10 @@ class DealAudit(BaseModel):
     # Trust & urgency
     trust_signals: list[TrustSignal] = Field(default_factory=list)
     urgency_elements: list[UrgencyElement] = Field(default_factory=list)
+
+    # Content freshness warnings — stale/outdated text found on the live page
+    # Each entry: {"text": "<exact text>", "location": "<highlights|fine_print|description>"}
+    stale_content_warnings: list[dict] = Field(default_factory=list)
 
     # Metadata
     scraped_at: datetime = Field(default_factory=datetime.utcnow)
@@ -184,6 +197,18 @@ class CompetitorPrice(BaseModel):
     sale_price: Optional[float] = None
     source_url: str
     notes: Optional[str] = None
+    # Confidence that this is actually the same service/product (0.0–1.0).
+    # Only trust price comparisons where sku_match_confidence >= 0.7.
+    sku_match_confidence: float = 0.5
+    # True if this is confirmed as a direct merchant competitor (not an aggregator,
+    # informational site, or government resource).
+    is_merchant: bool = False
+    # match_type: how closely this matches the deal being analyzed
+    # exact = same product type, same duration/quantity
+    # close = same category, different duration or minor variation
+    # tangential = same category, different format (e.g. single bottle vs. 3-day cleanse)
+    # aggregator = marketplace/aggregator site (Instacart, Amazon, DoorDash, etc.)
+    match_type: str = "close"   # exact | close | tangential | aggregator
 
 
 class YelpReview(BaseModel):
@@ -234,6 +259,41 @@ class ResearchSource(BaseModel):
     fetched_at: datetime = Field(default_factory=datetime.utcnow)
 
 
+class ResearchQuality(BaseModel):
+    """
+    Data quality / failure reporting for the research stage (Priority 10).
+    Tells downstream AI exactly what data was and wasn't found, preventing
+    it from inventing conclusions when evidence is thin.
+    """
+    competitor_pricing_status: str = "no_data"
+    # "verified"     — ≥1 high-confidence (≥0.7) competitor price found
+    # "low_confidence" — prices found but all confidence < 0.7
+    # "partial_data" — some competitors found, prices missing
+    # "no_data"      — no valid competitor sources found
+
+    merchant_reputation_status: str = "no_data"
+    # "verified"     — Yelp or Google data found
+    # "partial_data" — one platform found, not both
+    # "no_data"      — no reputation data
+
+    category_context_status: str = "no_data"
+    # "validated"    — price range from validated sources
+    # "insufficient" — fewer than 2 accepted sources
+    # "no_data"      — all sources rejected
+
+    pricing_verifiable: bool = False
+    # True if the deal page's own original prices were captured by the scraper
+    # (i.e., strikethrough pricing is present and parsed)
+
+    overall_confidence: float = 0.0
+    # 0.0–1.0: composite data quality score
+    # < 0.4 → report should be clearly marked as low-confidence
+
+    sources_found: int = 0
+    sources_accepted: int = 0
+    sources_rejected: int = 0
+
+
 class ResearchData(BaseModel):
     """
     All raw research gathered for one deal.
@@ -245,11 +305,25 @@ class ResearchData(BaseModel):
     competitors: list[CompetitorPrice] = Field(default_factory=list)
     category_context: Optional[CategoryContext] = None
     sources: list[ResearchSource] = Field(default_factory=list)
+    quality: ResearchQuality = Field(default_factory=ResearchQuality)
 
 
 # ---------------------------------------------------------------------------
 # AI output models — Stage 1 (audit scoring)
 # ---------------------------------------------------------------------------
+
+class ExecutiveMetrics(BaseModel):
+    """
+    Portfolio-level executive dashboard metrics (Priority 8).
+    All scores 0–100 for easy cross-deal comparison.
+    """
+    deal_strength_score: Optional[int] = None       # overall deal quality 0–100
+    competitive_price_rank: Optional[int] = None     # 1=best price in category, 5=worst
+    review_sentiment_score: Optional[int] = None     # 0=all negative, 100=all positive
+    trust_score_pct: Optional[int] = None            # trust signals strength 0–100
+    content_completeness_pct: Optional[int] = None   # how complete the deal page is 0–100
+    optimization_opportunity_pct: Optional[int] = None  # how much room for improvement 0–100
+
 
 class AuditScores(BaseModel):
     """
@@ -292,7 +366,10 @@ class ResearchSynthesis(BaseModel):
     groupon_vs_competitor_savings: Optional[float] = None  # $ saved vs competitor
     merchant_differentiators: list[str] # what makes this merchant stand out
     red_flags: list[str]                # specific concerns from data
-    deal_quality: str                   # strong | average | weak
+    deal_quality: str                   # strong | good | average | weak (label)
+    deal_quality_score: float = 5.0     # 1–10 numeric: price × reputation × demand
+    key_insight: str = ""               # one sentence: core tension or opportunity
+    overall_verdict: str = ""           # 3–4 sentence structured verdict (lead with finding)
     review_themes: list[ReviewTheme]    # coded themes from review corpus
 
 
@@ -300,21 +377,34 @@ class ResearchSynthesis(BaseModel):
 # AI output models — Stage 3 (optimization proposal)
 # ---------------------------------------------------------------------------
 
+class ImageRecommendation(BaseModel):
+    """A specific image recommendation for the deal page."""
+    image_type: str         # e.g. "Photo of all 7 juice bottles together"
+    conversion_reason: str  # why this image improves purchase confidence
+    priority: str           # High | Medium | Low
+
+
 class ProposalRecommendation(BaseModel):
     """
     A single actionable change to the deal page, grounded in audit + research data.
-    Recommendations are ranked by expected conversion impact (1 = highest).
+    Recommendations are ranked by impact_score = visibility × user_importance × evidence_strength.
     """
     priority_rank: int
     # title|pricing|highlights|content|images|seo|positioning|trust|urgency
     category: str
-    recommendation: str     # what to do — specific, imperative
-    current_state: str      # what the page says / does today
-    proposed_state: str     # the concrete replacement copy or change
-    data_citation: str      # the specific data point that motivates this change
-    # high|medium|low — impact on conversion rate / deal quality perception
-    expected_impact: str
-    impact_rationale: str   # why this matters for buyer confidence / SEO / urgency
+    # short_title: ≤10 words, used in tables and section headers (no ellipsis)
+    # recommendation: full description, used in body text (no length limit)
+    short_title: str = ""           # max 10 words, complete fragment, no ellipsis
+    recommendation: str             # what to do — specific, imperative (full length)
+    current_state: str              # what the page says / does today
+    proposed_state: str             # the concrete replacement copy or change
+    data_citation: str              # the specific data point that motivates this change
+    expected_impact: str            # high|medium|low
+    impact_rationale: str           # why this matters for conversion
+    # Priority 5: evidence list (review quotes, competitor prices, audit scores)
+    supporting_evidence: list[str] = Field(default_factory=list)
+    # Priority 6: visibility × user_importance × evidence_strength (1–1000)
+    impact_score: int = 0
 
 
 class OptimizationProposal(BaseModel):
@@ -334,6 +424,9 @@ class OptimizationProposal(BaseModel):
 
     # CEO-level summary
     executive_summary: str  # 2-3 sentences: what's wrong, what to fix, expected outcome
+
+    # Specific image recommendations (Improvement 5)
+    image_recommendations: list[ImageRecommendation] = Field(default_factory=list)
 
     # Priority-ranked change list
     recommendations: list[ProposalRecommendation]

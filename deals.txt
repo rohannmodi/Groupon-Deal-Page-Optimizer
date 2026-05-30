@@ -1,43 +1,50 @@
 # Groupon Deal URLs — one per line
 # Lines starting with # are ignored
-# 20 deals: 3+ cities, 4+ categories, mix of strong/weak
+# 20 deals: 3 cities, 4+ categories, mix of strong/weak deals
+# All URLs verified as live Groupon deals (May 2026)
+#
+# STRONG deals (high-brand, established):
+#   King Spa Chicago, Leaf Spa Fairmont, Circle Line NYC
+# WEAK deals (generic chains, sparse descriptions):
+#   Jiffy Lube, Midas, A1 Auto Spa, Elite Auto Spa
 
 # ── Chicago — Spa/Wellness ──────────────────────────────────────────────────
-https://www.groupon.com/deals/ga-pure-sweat-yoga-chicago
-https://www.groupon.com/deals/spa-810-chicago
-https://www.groupon.com/deals/ga-king-spa-sauna-chicago
+https://www.groupon.com/deals/king-spa-and-sauna-chicago-35
+https://www.groupon.com/deals/o-spa-chicago
+https://www.groupon.com/deals/leaf-spa-at-the-fairmont
 
 # ── Chicago — Health & Beauty ───────────────────────────────────────────────
-https://www.groupon.com/deals/ga-great-clips-chicago
-https://www.groupon.com/deals/ga-european-wax-center-chicago-2
+https://www.groupon.com/deals/sig-charles-ifergan-salon-oak-street
+https://www.groupon.com/deals/felicia-at-tint-salon-spa
 
 # ── Chicago — Activities/Tours ──────────────────────────────────────────────
-https://www.groupon.com/deals/ga-chicago-architecture-center
-https://www.groupon.com/deals/ga-chicago-riverwalk-boat-tours
+https://www.groupon.com/deals/chicago-food-planet-food-tours-26
+https://www.groupon.com/deals/sidewalk-food-tours-of-chicago-2
 
 # ── Chicago — Automotive ────────────────────────────────────────────────────
-https://www.groupon.com/deals/ga-jiffy-lube-chicago-oil-change
-https://www.groupon.com/deals/ga-midas-chicago-brake-service
+https://www.groupon.com/deals/jiffy-lube-chicago-area
+https://www.groupon.com/deals/midas-chicago
 
 # ── New York — Spa/Wellness ─────────────────────────────────────────────────
-https://www.groupon.com/deals/bliss-spa-nyc
-https://www.groupon.com/deals/ga-massage-envy-new-york
+https://www.groupon.com/deals/renew-body-spa-inc
+https://www.groupon.com/deals/beauty-spa-1-716271240
 
 # ── New York — Health & Beauty ──────────────────────────────────────────────
-https://www.groupon.com/deals/ga-natural-nails-nyc
-https://www.groupon.com/deals/ga-great-clips-new-york
+https://www.groupon.com/deals/beauty-bar-salon-spa-25
 
 # ── New York — Activities/Tours ─────────────────────────────────────────────
-https://www.groupon.com/deals/ga-circle-line-sightseeing-nyc
-https://www.groupon.com/deals/ga-topgolf-new-york
+https://www.groupon.com/deals/gl-best-of-new-york-city-circle-line-sightseeing
+https://www.groupon.com/deals/escape-room-madness-nyc
 
 # ── Los Angeles — Spa/Wellness ──────────────────────────────────────────────
-https://www.groupon.com/deals/ga-wi-spa-los-angeles
-https://www.groupon.com/deals/ga-burke-williams-los-angeles
+https://www.groupon.com/deals/a-plus-spa-15
+https://www.groupon.com/deals/golden-ocean-spa
+https://www.groupon.com/deals/lavender-spa-7
 
 # ── Los Angeles — Health & Beauty ───────────────────────────────────────────
-https://www.groupon.com/deals/ga-drybar-los-angeles
-https://www.groupon.com/deals/ga-sport-clips-los-angeles
+https://www.groupon.com/deals/inspire-nails-la-2
+https://www.groupon.com/deals/daryl-jane-delacruz-2
 
 # ── Los Angeles — Automotive ────────────────────────────────────────────────
-https://www.groupon.com/deals/ga-midas-los-angeles-oil-change
+https://www.groupon.com/deals/a1-auto-spa-2
+https://www.groupon.com/deals/elite-auto-spa-1

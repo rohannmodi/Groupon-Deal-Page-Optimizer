@@ -38,8 +38,19 @@ def get_db() -> duckdb.DuckDBPyConnection:
 def _apply_schema(conn: duckdb.DuckDBPyConnection) -> None:
     schema_path = Path(__file__).parent / "schema.sql"
     sql = schema_path.read_text()
-    # DuckDB can execute a multi-statement string directly
-    conn.execute(sql)
+    # DuckDB's Python API executes ONE statement per conn.execute() call.
+    # Split on semicolons and run each statement individually.
+    for raw in sql.split(";"):
+        stmt = raw.strip()
+        # Skip blank chunks and pure-comment blocks
+        lines = [ln for ln in stmt.splitlines() if ln.strip() and not ln.strip().startswith("--")]
+        if not lines:
+            continue
+        try:
+            conn.execute(stmt)
+        except Exception as exc:
+            # Re-raise with the offending statement for easier debugging
+            raise RuntimeError(f"Schema error on statement:\n{stmt}\n\nOriginal error: {exc}") from exc
 
 
 def close_db() -> None:

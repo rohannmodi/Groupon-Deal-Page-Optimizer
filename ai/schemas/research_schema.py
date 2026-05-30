@@ -77,11 +77,57 @@ RESEARCH_TOOL_SCHEMA: dict = {
             },
             "deal_quality": {
                 "type": "string",
-                "enum": ["strong", "average", "weak"],
+                "enum": ["strong", "good", "average", "weak"],
                 "description": (
-                    "Overall deal quality combining value assessment, merchant reputation, "
-                    "and page completeness. 'strong' = great price + great merchant. "
+                    "Overall deal quality based ONLY on the deal itself: price vs. market, "
+                    "merchant rating, sold count, and review patterns. Do NOT factor in "
+                    "page optimization quality here. "
+                    "'strong' = great price + strong merchant reputation (score 7.5+). "
+                    "'good' = solid deal (score 6.5–7.4). "
+                    "'average' = unremarkable (score below 6.5). "
                     "'weak' = poor price or concerning review patterns."
+                ),
+            },
+            "deal_quality_score": {
+                "type": "number",
+                "minimum": 1,
+                "maximum": 10,
+                "description": (
+                    "Numeric deal quality score 1–10 based on: price vs. market (40% weight), "
+                    "merchant rating/reviews (30% weight), sold count / demand signals (20% weight), "
+                    "absence of red flags (10% weight). "
+                    "Strong review signals matter: a high rating (4.8★+) with a large review "
+                    "count (500+) is a major positive demand signal and should score 7.5+. "
+                    "8–10 = excellent deal independent of page quality. "
+                    "6.5–7.4 = good. 5–6.4 = solid but unremarkable. "
+                    "1–4 = weak value or reputation concerns. "
+                    "This is explicitly about the DEAL (price + merchant), NOT the page's copywriting."
+                ),
+            },
+            "key_insight": {
+                "type": "string",
+                "description": (
+                    "One sentence capturing the core tension or opportunity for this deal. "
+                    "This is the single most important takeaway from all the research. "
+                    "Structure: [deal quality summary] + [page quality contrast] + [implication]. "
+                    "Example: 'This is a strong deal (4.7★, below-market at $27/day) with a "
+                    "poorly optimized page (6.2/10) — the opportunity is in communicating existing "
+                    "value, not in improving the deal itself.' "
+                    "If the deal is weak: 'This deal is overpriced vs. the $55 competitor average — "
+                    "copy optimization alone cannot fix a $10 price disadvantage.' "
+                    "Always distinguish whether the problem is the DEAL or the PAGE."
+                ),
+            },
+            "overall_verdict": {
+                "type": "string",
+                "description": (
+                    "3–4 sentence structured verdict. Must follow this exact sequence: "
+                    "1. One sentence: what kind of deal is this (strong/weak/average) and WHY "
+                    "   in plain terms — cite the specific data (price, rating, sold count). "
+                    "2. One sentence: what the page is doing wrong relative to the deal's actual quality. "
+                    "3. One sentence: what the single biggest opportunity is (most impactful change). "
+                    "4. Supporting context: pricing data, competitor comparison, caveats. "
+                    "Do NOT open with caveats or competitor data — lead with the main finding."
                 ),
             },
             "review_themes": {
@@ -127,6 +173,9 @@ RESEARCH_TOOL_SCHEMA: dict = {
             "merchant_differentiators",
             "red_flags",
             "deal_quality",
+            "deal_quality_score",
+            "key_insight",
+            "overall_verdict",
             "review_themes",
         ],
     },

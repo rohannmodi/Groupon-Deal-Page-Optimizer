@@ -46,7 +46,7 @@ def _render(a: DealAudit) -> str:
     lines += _kv_table({
         "Merchant": a.merchant_name,
         "Category": a.category,
-        "Location": _location(a.city, a.state),
+        "Location": _location(a.city, a.state) or a.location_label,
         "Title": a.title,
         "Subtitle": a.subtitle,
     })

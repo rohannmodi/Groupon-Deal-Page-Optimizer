@@ -83,8 +83,9 @@ def upsert_research_data(data: ResearchData) -> None:
             """
             INSERT INTO competitor_prices
                 (deal_id, competitor_name, service_name, regular_price,
-                 sale_price, source_url, scraped_at, notes)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+                 sale_price, source_url, scraped_at, notes,
+                 sku_match_confidence, is_merchant)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             [
                 data.deal_id,
@@ -95,6 +96,8 @@ def upsert_research_data(data: ResearchData) -> None:
                 comp.source_url,
                 datetime.utcnow(),
                 comp.notes,
+                getattr(comp, "sku_match_confidence", 0.5),
+                getattr(comp, "is_merchant", False),
             ],
         )
 
@@ -146,14 +149,15 @@ def upsert_research_synthesis(deal_id: str, synthesis: ResearchSynthesis) -> Non
     db.execute(
         """
         INSERT INTO research_synthesis (
-            deal_id, value_assessment, groupon_vs_direct_savings,
-            groupon_vs_competitor_savings, merchant_differentiators,
-            red_flags, deal_quality, synthesized_at
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+            deal_id, value_assessment, value_reasoning,
+            groupon_vs_direct_savings, groupon_vs_competitor_savings,
+            merchant_differentiators, red_flags, deal_quality, synthesized_at
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
         """,
         [
             deal_id,
             synthesis.value_assessment,
+            synthesis.value_reasoning,
             synthesis.groupon_vs_direct_savings,
             synthesis.groupon_vs_competitor_savings,
             json.dumps(synthesis.merchant_differentiators),

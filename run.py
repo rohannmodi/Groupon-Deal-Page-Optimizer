@@ -137,21 +137,28 @@ def main(
     # ── Run ───────────────────────────────────────────────────────────────────
     t_start = time.monotonic()
 
+    async def _run() -> None:
+        """Wrap pipeline + browser teardown in one event loop."""
+        try:
+            await run_pipeline(
+                deals,
+                max_concurrency=concurrency,
+                force_rerun=force,
+                stage_filter=stage_filter,
+                on_progress=on_progress,
+            )
+        finally:
+            # Close browser in the SAME event loop it was created in —
+            # calling asyncio.run(close_browser()) after the loop exits
+            # causes "future belongs to a different loop" errors.
+            await close_browser()
+
     with progress:
         try:
-            asyncio.run(
-                run_pipeline(
-                    deals,
-                    max_concurrency=concurrency,
-                    force_rerun=force,
-                    stage_filter=stage_filter,
-                    on_progress=on_progress,
-                )
-            )
+            asyncio.run(_run())
         except KeyboardInterrupt:
             console.print("\n[yellow]Interrupted. Progress has been saved.[/yellow]")
         finally:
-            asyncio.run(close_browser())
             close_db()
 
     elapsed = time.monotonic() - t_start

@@ -141,7 +141,7 @@ def call_with_tool(
     )
 
     log.debug("Calling Claude (%s) with tool=%s", model, tool_name)
-    response = client.messages.create(**kwargs)
+    response = _create_message_sync(client, kwargs)
     return _parse_tool_response(response, tool_name)
 
 
@@ -207,7 +207,7 @@ async def async_call_with_tool(
     for attempt in range(1, 5):
         try:
             log.debug("Async Claude (%s) tool=%s attempt=%d", model, tool_name, attempt)
-            response = await client.messages.create(**kwargs)
+            response = await _create_message_async(client, kwargs)
             return _parse_tool_response(response, tool_name)
         except (anthropic.RateLimitError, anthropic.APIStatusError) as exc:
             last_exc = exc
@@ -277,9 +277,49 @@ def _build_kwargs(
 
     if thinking_budget is not None and "haiku" not in model:
         kwargs["thinking"] = {"type": "enabled", "budget_tokens": thinking_budget}
-        kwargs["max_tokens"] = max(max_tokens, thinking_budget + 2048)
+        # The Anthropic API counts thinking tokens against max_tokens. The
+        # caller's `max_tokens` is the budget for the *visible* output (the tool
+        # call), so the request ceiling must be thinking_budget + max_tokens.
+        # The previous `max(max_tokens, thinking_budget + 2048)` left only ~2048
+        # tokens for output after a 16k thinking budget, which truncated the
+        # response mid-tool-call and dropped the (last-generated, largest)
+        # recommendations array — producing an empty Priority-Ranked section.
+        kwargs["max_tokens"] = thinking_budget + max_tokens
+        # Anthropic API: tool_choice "tool" (forced) is incompatible with
+        # extended thinking. Switch to "auto" — Claude will still call the
+        # tool reliably when the prompt and schema are well-specified.
+        kwargs["tool_choice"] = {"type": "auto"}
 
     return kwargs
+
+
+# The Anthropic SDK refuses a non-streaming request whose max_tokens implies a
+# completion that could exceed the 10-minute non-streaming ceiling. Extended
+# thinking (which adds its budget on top of the output budget) pushes max_tokens
+# past that line, so those requests must be streamed.
+_NONSTREAMING_MAX_TOKENS = 8192
+
+
+def _needs_streaming(kwargs: dict[str, Any]) -> bool:
+    return "thinking" in kwargs or kwargs.get("max_tokens", 0) > _NONSTREAMING_MAX_TOKENS
+
+
+def _create_message_sync(
+    client: anthropic.Anthropic, kwargs: dict[str, Any]
+) -> anthropic.types.Message:
+    if _needs_streaming(kwargs):
+        with client.messages.stream(**kwargs) as stream:
+            return stream.get_final_message()
+    return client.messages.create(**kwargs)
+
+
+async def _create_message_async(
+    client: anthropic.AsyncAnthropic, kwargs: dict[str, Any]
+) -> anthropic.types.Message:
+    if _needs_streaming(kwargs):
+        async with client.messages.stream(**kwargs) as stream:
+            return await stream.get_final_message()
+    return await client.messages.create(**kwargs)
 
 
 def _parse_tool_response(
@@ -291,6 +331,18 @@ def _parse_tool_response(
         completion=response.usage.output_tokens,
     )
     log.info("Claude usage: %s", usage)
+
+    # A max_tokens stop while emitting a tool call means the tool input JSON was
+    # cut off mid-stream — fields generated last (e.g. the recommendations
+    # array) may be missing or empty. Surface this loudly so callers don't
+    # silently ship a half-populated result.
+    if response.stop_reason == "max_tokens":
+        log.warning(
+            "Claude response for tool '%s' hit max_tokens — the tool input may be "
+            "truncated and trailing fields (e.g. recommendations) may be missing. "
+            "Consider raising max_tokens.",
+            tool_name,
+        )
 
     for block in response.content:
         if block.type == "tool_use" and block.name == tool_name:
