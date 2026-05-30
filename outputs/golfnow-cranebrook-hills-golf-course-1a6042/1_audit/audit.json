@@ -1,0 +1,211 @@
+{
+  "deal_id": "golfnow-cranebrook-hills-golf-course-1a6042",
+  "url": "https://www.groupon.com/deals/golfnow-cranebrook-hills-golf-course",
+  "title": "Online Booking - Round of Golf at Cranebrook Hills Golf Course",
+  "subtitle": null,
+  "merchant_name": "Cranebrook Hills Golf Course",
+  "category": "Golf",
+  "city": "Auburn",
+  "state": "NY",
+  "redemption_address": null,
+  "location_label": "Auburn, NY",
+  "description": "Nestled in the scenic countryside of Auburn, NY, Cranebrook Hills Golf Course offers a charming and approachable golfing experience for players of all skill levels. Established in 1945, this 9-hole public course blends classic design with a relaxed, community-focused atmosphere. Under new ownership, Cranebrook Hills has revitalized its offerings with a focus on accessibility and community engagement. The course is ideal for casual rounds, league play, and small tournaments. Its manageable length and welcoming vibe make it a favorite among locals and visitors alike.\nThis promotion is made available through GolfNow. Groupon is not affiliated with or sponsored by Cranebrook Hills Golf Course in connection with this offer.",
+  "pricing_options": [
+    {
+      "option_name": "Tee Times",
+      "original_price": null,
+      "deal_price": 50.0,
+      "discount_pct": null,
+      "savings_amount": null,
+      "is_primary": true
+    }
+  ],
+  "highlights": [
+    "ALL SALES FINAL, unless the course is closed due to weather.",
+    "Voucher valid only for date and time listed; may not be exchanged or redeemed for other dates/times.",
+    "For Hot Deals, full payment is due at time of purchase on Groupon. Additional fees added at checkout.",
+    "For tee time bookings, booking fees are due via Groupon and green fees are due at course;customer is responsible for payment of green fees unless the course is closed due to weather.",
+    "Offer not eligible for Groupon promo codes",
+    "Groupon Terms of Sale and Extraordinary Event Policy do not apply.",
+    "Purchaser name provided at checkout will be shared with GolfNow and Cranebrook Hills Golf Course to fulfill order."
+  ],
+  "fine_print": [
+    "ALL SALES FINAL, unless the course is closed due to weather.",
+    "Voucher valid only for date and time listed; may not be exchanged or redeemed for other dates/times.",
+    "For Hot Deals, full payment is due at time of purchase on Groupon. Additional fees added at checkout.",
+    "For tee time bookings, booking fees are due via Groupon and green fees are due at course;customer is responsible for payment of green fees unless the course is closed due to weather.",
+    "Offer not eligible for Groupon promo codes",
+    "Groupon Terms of Sale and Extraordinary Event Policy do not apply.",
+    "Purchaser name provided at checkout will be shared with GolfNow and Cranebrook Hills Golf Course to fulfill order."
+  ],
+  "faqs": [],
+  "images": [
+    {
+      "src_url": "https://api.maptiler.com/maps/streets-v2/static/-76.64317840000001,42.9622632,16/768x352@2x.webp?attribution=false&markers=icon%3Adata%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjMiIHZpZXdCb3g9IjAgMCA0NCA0MyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3QgeD0iNC43OTY4OCIgd2lkdGg9IjM0LjQwNzUiIGhlaWdodD0iMzQuNjM4MyIgcng9IjQuOCIgZmlsbD0iIzExMTgyNyIvPgo8ZyBjbGlwLXBhdGg9InVybCgjY2xpcDBfNTE1OV84MTk5MCkiPgo8cmVjdCB3aWR0aD0iMTYuNDA3NSIgaGVpZ2h0PSIyNC42MzgzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMy43OTY5IDUpIiBmaWxsPSJ3aGl0ZSIgZmlsbC1vcGFjaXR5PSIwLjAxIi8%2BCjxwYXRoIGQ9Ik0zMC4xNTg1IDE2LjMxNjdDMzAuMTgxIDE2LjY3NzUgMzAuMjA0NCAxNy4wMzc1IDMwLjIwNDQgMTcuMzc1OEMzMC4yMDQ0IDE5LjE3NzUgMjkuNzU0NCAyMC43MDgzIDI4LjgzMTkgMjIuMDU5MkMyNy4zMDEgMjQuMjg4MyAyNC43MzUyIDI1LjYzODMgMjIuMDExOSAyNS42MzgzQzE5LjY0ODUgMjUuNjM4MyAxNy42NDUyIDI0Ljc2MDggMTYuMDcwMiAyMy4wOTQyQzE0LjU2MSAyMS40OTU4IDEzLjc5NjkgMTkuNTE0MiAxMy43OTY5IDE3LjE1QzEzLjc5NjkgMTQuOTQzMyAxNC42NTE5IDEyLjkxNzUgMTYuMjI2OSAxMS4zNjMzQzE3LjgwMjcgOS44MSAxOS43ODM1IDkgMjIuMDU2IDlDMjUuNDc3NyA5IDI4LjQ3MDIgMTEuMDk0MiAyOS43NTM1IDE0LjUxNjdIMjUuMjk2OUMyNC4zMDY5IDEzLjQ4MTcgMjMuMjcxIDEyLjk2MzMgMjIuMDExIDEyLjk2MzNDMTkuNjcxIDEyLjk2MzMgMTcuODI1MiAxNC44NzY3IDE3LjgyNTIgMTcuMTcyNUMxNy44MjUyIDE5LjcxNjcgMTkuODA1MiAyMS42NzUgMjIuMDExIDIxLjY3NUMyMy40OTY5IDIxLjY3NSAyNC44MjQ0IDIwLjkxIDI1LjYxMTkgMTkuNTEzM0gyMS4wNDM1VjE2LjMxNjdIMzAuMTU4NVoiIGZpbGw9IndoaXRlIi8%2BCjwvZz4KPHJlY3QgeD0iNS4yOTY4OCIgeT0iMC41IiB3aWR0aD0iMzMuNDA3NSIgaGVpZ2h0PSIzMy42MzgzIiByeD0iNC4zIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utb3BhY2l0eT0iMC4yIi8%2BCjxwYXRoIGQ9Ik0xNC4wMDEgMzQuNjQwNEwyMi4wMDEgNDIuNjQwNEwzMC4wMDEgMzQuNjQwNEgxNC4wMDFaIiBmaWxsPSIjMTExODI3Ii8%2BCjxwYXRoIGQ9Ik0xNC4wMDEgMzQuNjQwNEwyMi4wMDEgNDIuNjQwNEwzMC4wMDEgMzQuNjQwNEgxNC4wMDFaIiBmaWxsPSJibGFjayIgZmlsbC1vcGFjaXR5PSIwLjIiLz4KPHBhdGggZD0iTTE0LjUwMSAzMy42NDA0TDIyLjAwMSA0MS4xNDA0TDI5LjUwMSAzMy42NDA0SDE0LjUwMVoiIGZpbGw9IiMxMTE4MjciLz4KPGRlZnM%2BCjxjbGlwUGF0aCBpZD0iY2xpcDBfNTE1OV84MTk5MCI%2BCjxyZWN0IHdpZHRoPSIxNi40MDc1IiBoZWlnaHQ9IjI0LjYzODMiIGZpbGw9IndoaXRlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMy43OTY5IDUpIi8%2BCjwvY2xpcFBhdGg%2BCjwvZGVmcz4KPC9zdmc%2BCg%3D%3D%7Cscale%3A2%7C-76.64317840000001%2C42.9622632&key=Av66ySeu60pw06Sziiv4",
+      "alt_text": "Redemption locations map",
+      "estimated_width": null,
+      "image_type": "logo",
+      "position": 3
+    },
+    {
+      "src_url": "//img.grouponcdn.com/ugc/EBQ5ry47jAGcwqBx32r6zR/4K-4032x3024/v1/sc256x256.webp",
+      "alt_text": null,
+      "estimated_width": 1919,
+      "image_type": "unknown",
+      "position": 4
+    },
+    {
+      "src_url": "//img.grouponcdn.com/ugc/L7AoXMwHdZR65taB79BtGg/34-4032x3024/v1/sc256x256.webp",
+      "alt_text": null,
+      "estimated_width": 1919,
+      "image_type": "unknown",
+      "position": 5
+    },
+    {
+      "src_url": "//img.grouponcdn.com/ugc/cRrVa5XnCa4q8t1HzdEHN/3Q-4032x3024/v1/sc256x256.webp",
+      "alt_text": null,
+      "estimated_width": 1919,
+      "image_type": "unknown",
+      "position": 6
+    },
+    {
+      "src_url": "//img.grouponcdn.com/ugc/S3riAY6eLwCpB1pRJd9R2S/4V-1344x605/v1/sc256x256.webp",
+      "alt_text": null,
+      "estimated_width": 1919,
+      "image_type": "unknown",
+      "position": 7
+    },
+    {
+      "src_url": "//img.grouponcdn.com/ugc/F9rXXKgNMGUEPjVZbRuKd5/44-5712x4284/v1/sc256x256.webp",
+      "alt_text": null,
+      "estimated_width": 1919,
+      "image_type": "unknown",
+      "position": 8
+    },
+    {
+      "src_url": "//img.grouponcdn.com/ugc/LMXwUXiuknKnC32C6k9Pd8/2k-4032x3024/v1/sc256x256.webp",
+      "alt_text": null,
+      "estimated_width": 1919,
+      "image_type": "unknown",
+      "position": 9
+    },
+    {
+      "src_url": "//img.grouponcdn.com/ugc/7LvjWvx8iNjE1v6AkjuXFD/4A-4032x3024/v1/sc256x256.webp",
+      "alt_text": null,
+      "estimated_width": 1919,
+      "image_type": "unknown",
+      "position": 10
+    },
+    {
+      "src_url": "//img.grouponcdn.com/pwa_test/3izv86Cpzh6KyDYcMRfsksz2Bnd9/3i-720x480/v1/t1800x1200.jpg",
+      "alt_text": "1 Hour Shared Archery in Syracuse",
+      "estimated_width": 1919,
+      "image_type": "unknown",
+      "position": 18
+    },
+    {
+      "src_url": "//img.grouponcdn.com/metro_draft_service/2xbvJnHFos1PEJbc3jTEv7en1YAk/2x-2119x1414/v1/t1800x1200.jpg",
+      "alt_text": "Online Course Master the Elements of Social Dance in 5 Days",
+      "estimated_width": 1919,
+      "image_type": "product",
+      "position": 30
+    },
+    {
+      "src_url": "//img.grouponcdn.com/metro_draft_service/RnznYVFP1ZMdQJRj3Tr94S/fC-1488x992/v1/t1800x1200.jpg",
+      "alt_text": "Multi-State Permit to Carry Class: MN BCA Certified training",
+      "estimated_width": 1919,
+      "image_type": "product",
+      "position": 34
+    }
+  ],
+  "reviews_count": null,
+  "reviews_avg_rating": null,
+  "review_samples": [],
+  "seo": {
+    "meta_title": "Cranebrook Hills Golf Course - Cranebrook Hills Golf Course | Groupon",
+    "meta_description": "Online Booking - Round of Golf at Cranebrook Hills Golf Course",
+    "h1_text": "Online Booking - Round of Golf at Cranebrook Hills Golf Course",
+    "h2_texts": [
+      "Tee Times",
+      "Need To Know Info",
+      "About Cranebrook Hills Golf Course",
+      "Where To Redeem",
+      "Customer Photos & Videos",
+      "Explore more",
+      "Similar deals",
+      "Recommended deals"
+    ],
+    "has_schema_markup": true,
+    "schema_type": "WebSite",
+    "canonical_url": "https://www.groupon.com/deals/golfnow-cranebrook-hills-golf-course",
+    "og_title": null,
+    "og_description": null,
+    "og_image_url": "https://img.grouponcdn.com/pwa_test/2nTu9J5ndsGoeYbVD1S84MNESit5/2n-640x360/v1/t2100x1260.webp",
+    "image_count": 52,
+    "script_count": 229
+  },
+  "trust_signals": [
+    {
+      "signal_type": "badge",
+      "signal_value": "Nearby",
+      "impact_score": null
+    },
+    {
+      "signal_type": "badge",
+      "signal_value": "Health & Fitness",
+      "impact_score": null
+    },
+    {
+      "signal_type": "badge",
+      "signal_value": "Swimming",
+      "impact_score": null
+    },
+    {
+      "signal_type": "badge",
+      "signal_value": "Martial Arts",
+      "impact_score": null
+    },
+    {
+      "signal_type": "badge",
+      "signal_value": "Tennis",
+      "impact_score": null
+    },
+    {
+      "signal_type": "badge",
+      "signal_value": "Baseball",
+      "impact_score": null
+    },
+    {
+      "signal_type": "badge",
+      "signal_value": "Cycling",
+      "impact_score": null
+    },
+    {
+      "signal_type": "badge",
+      "signal_value": "Skiing & Snowboarding",
+      "impact_score": null
+    },
+    {
+      "signal_type": "badge",
+      "signal_value": "Races & Running Events",
+      "impact_score": null
+    },
+    {
+      "signal_type": "badge",
+      "signal_value": "Walking",
+      "impact_score": null
+    }
+  ],
+  "urgency_elements": [
+    {
+      "element_type": "ends_text",
+      "element_text": "Ends in",
+      "is_visible_atf": false
+    }
+  ],
+  "stale_content_warnings": [],
+  "scraped_at": "2026-05-30T02:13:20.095225",
+  "scrape_duration_seconds": 28.43,
+  "raw_html_path": "/Users/rohan/Documents/Claude/Projects/Groupon Deal Page Optimizer/data/raw_html/golfnow-cranebrook-hills-golf-course-1a6042.html",
+  "scrape_error": "reviews_jsonld: 'NoneType' object is not iterable"
+}

@@ -1,0 +1,223 @@
+{
+  "deal_id": "juiced-cold-pressed-juicery-41cad3",
+  "proposed_title": "3, 5, or 7-Day Juice Cleanse in Brookfield | 7 Cold-Pressed Juices Daily | From $82",
+  "proposed_meta_title": "Juice Cleanse Brookfield WI | 3-7 Day Plans | Juiced!",
+  "proposed_meta_description": "3, 5, or 7-day cold-pressed juice cleanses in Brookfield. 7 organic juices daily. From $82. 4.75★ rated. Order now!",
+  "proposed_h1": "Cold-Pressed Juice Cleanse | 3, 5, or 7 Days | Brookfield, WI",
+  "proposed_highlights": [
+    "3, 5, or 7-day cleanse with 7 cold-pressed juices daily (12 oz each) — drink in any order throughout the day",
+    "HPP-processed without heat to preserve nutrients and enzymes — 90-day refrigerated shelf life, no freezing needed",
+    "7 flavor varieties each day: Lean & Clean (kale, apple, cucumber, lime, ginger), Eternal Life (pineapple, orange, ginger), Invincibility (kale, kiwi, apple, lemon), Bionic Glow (watermelon, strawberry, lemon), Super Destroyer (beet, carrot, apple, lemon), Trim & Tasty (grapefruit, carrot, apple)",
+    "Made fresh in-store in Brookfield, ships cold-packed to all 48 contiguous states in insulated coolers with ice packs",
+    "Local pickup available at no extra cost: 17000 W Capitol Dr #2, Brookfield | Daily 10am-6pm | (262) 758-5118",
+    "Rated 4.75/5 stars by 3,441 Groupon customers — over 1,000 cleanses purchased",
+    "Shipping costs $20-$144 depending on state and order size — review full rate chart before purchase to calculate total cost"
+  ],
+  "pricing_framing": "Display original/reference pricing immediately above or next to the Groupon deal price to validate the discount claim. Recommended copy: 'Competitor 3-day cleanses average $143 (validated from 5 national juice brands). Get it on Groupon for $82 — save $61 on the cleanse price.' CRITICAL: Also add prominent shipping cost calculator or state-by-state table above the purchase button, with headline 'Total Cost = Cleanse ($82/$136/$187) + Shipping ($20-$144)'. This addresses completeness score 6/10 and content gap #2. If merchant direct price of $70 can be verified, reframe as convenience/shipping speed advantage rather than pure price savings.",
+  "executive_summary": "The page scores 6.3/10 overall. The #1 issue is active COVID-19 crisis language ('their top priority during this crisis') in highlights that severely damages trust and credibility. The #2 issue is missing original prices — the 'Up To 24% Off' claim cannot be verified by customers (value_comm score: 5/10). The #3 issue is vague shipping costs stated as '$20-$144' with no way to estimate before purchase. Removing the stale pandemic content, adding reference pricing at $143 competitor average, and clarifying total cost transparency could lift conversion by 18–28%.",
+  "image_recommendations": [
+    {
+      "image_type": "Photo of all 7 juice bottles together, arranged side-by-side with visible labels showing each flavor name (Lean & Clean, Eternal Life, Invincibility, Bionic Glow, Super Destroyer, Trim & Tasty, plus the 7th flavor)",
+      "conversion_reason": "Buyers need to see the complete daily variety before committing to a multi-day cleanse. Product visualization reduces pre-purchase uncertainty. The audit shows 7 specific flavors are mentioned in highlights but customers cannot see what they're getting.",
+      "priority": "High"
+    },
+    {
+      "image_type": "Photo of how the cleanse arrives: insulated cooler box opened to show juice bottles packed with ice packs, demonstrating cold-chain shipping",
+      "conversion_reason": "Shipping costs $20-$144 and is a major hesitation point (content gap #2, completeness penalty). Showing professional cold-shipping builds confidence that the $82 + shipping investment will arrive fresh and safe to consume.",
+      "priority": "High"
+    },
+    {
+      "image_type": "Close-up product shot of a single 12 oz juice bottle showing liquid color, clarity, and label details",
+      "conversion_reason": "Health-conscious buyers evaluate quality by appearance. A high-resolution shot showing vibrant juice color and professional labeling signals freshness and quality, supporting the 'cold-pressed' and 'HPP-processed' claims in highlights.",
+      "priority": "Medium"
+    },
+    {
+      "image_type": "Production facility photo showing the cold-press juicing equipment or staff making juices in-store",
+      "conversion_reason": "The page mentions 'made from scratch in-store' but provides no visual proof. A behind-the-scenes photo builds trust and differentiates from mass-produced juice brands. Addresses trust score of 8/10 — room to strengthen with transparency.",
+      "priority": "Low"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority_rank": 1,
+      "category": "pricing",
+      "short_title": "Add original prices to validate discount claim",
+      "recommendation": "Add reference pricing immediately above the Groupon price options to validate the 'Up To 24% Off' discount claim. Insert this copy directly above the $82/$136/$187 pricing tier: 'Competitor 3-day cleanses average $143. Get yours for $82 — save $61 (43% off the category average).' Use strikethrough formatting on $143 and bold the $61 savings amount. This must appear on-page, not hidden behind a click.",
+      "current_state": "Only Groupon prices shown ($82/$136/$187). Title claims 'Up To 24% Off' but no original/regular prices are displayed anywhere on the page to validate the discount or show what customers are saving against.",
+      "proposed_state": "Competitor 3-day cleanses average $143. Get yours for $82 — save $61 (43% off the category average).\n\n[Display above the pricing tier selection, with $143 in strikethrough and $61 in bold]",
+      "data_citation": "Content gap #1: 'No original/regular prices shown anywhere on page — the 'Up To 24% Off' discount claim cannot be verified'; value_comm score: 5/10; competitor average from research: $143.16",
+      "expected_impact": "high",
+      "impact_rationale": "Customers cannot validate deal value without reference pricing — this creates purchase hesitation and abandonment. Adding anchoring eliminates the #1 value communication gap.",
+      "supporting_evidence": [
+        "Content gap #1: 'No original/regular prices shown anywhere on page — the Up To 24% Off discount claim cannot be verified'",
+        "Value Communication score: 5/10 (lowest dimension score, weighted 25%)",
+        "Competitor average: $143.16 from 5 validated sources",
+        "AI flag: 'Unverifiable discount claim: title states Up To 24% Off but no original prices are displayed'"
+      ],
+      "impact_score": 648
+    },
+    {
+      "priority_rank": 2,
+      "category": "content",
+      "short_title": "Remove all stale COVID-19 crisis language immediately",
+      "recommendation": "Delete the entire COVID-19 crisis paragraph from the highlights section and the 'Shipping Notice' COVID paragraph from the description. These are the exact passages flagged by the audit AI: (1) Highlights: 'The safety and well-being of their employees and customers is their top priority during this crisis. They have enhanced their procedures to safeguard everyone involved. While they are currently operating on a normal shipping schedule, they anticipate potential delays in the coming weeks...' (2) Description: 'Shipping Notice — The safety and well-being of their employees and customers is their top priority during this crisis.' Remove entirely — do not replace with other copy.",
+      "current_state": "Highlights section contains: 'The safety and well-being of their employees and customers is their top priority during this crisis. They have enhanced their procedures... anticipate potential delays in the coming weeks due to an increase in orders as well as possible drops in attendance by their employees and/or shipping partners.' Description contains: 'Shipping Notice — The safety and well-being of their employees and customers is their top priority during this crisis.'",
+      "proposed_state": "[DELETE — no replacement text needed. Remove both COVID crisis paragraphs completely.]",
+      "data_citation": "AI flag: 'STALE COVID-ERA CONTENT in highlights' and 'STALE COVID-ERA CONTENT in description' — audit explicitly identifies this outdated pandemic crisis language with vague temporal references damages page credibility and suggests unmaintained content",
+      "expected_impact": "high",
+      "impact_rationale": "Stale crisis language from 2020-2021 immediately signals to buyers that the page is unmaintained, raising questions about whether the merchant is still operating or if product information is current. This directly erodes the trust score and causes abandonment.",
+      "supporting_evidence": [
+        "AI flag: 'STALE COVID-ERA CONTENT in highlights: The safety and well-being of their employees and customers is their top priority during this crisis'",
+        "AI flag: 'STALE COVID-ERA CONTENT in description: Shipping Notice — The safety and well-being...during this crisis'",
+        "Audit reasoning: 'outdated pandemic crisis language...damages page credibility and suggests the content is unmaintained'",
+        "Trust score: 8/10 with note 'Minor penalty for outdated COVID content that suggests poor page maintenance'"
+      ],
+      "impact_score": 630
+    },
+    {
+      "priority_rank": 3,
+      "category": "pricing",
+      "short_title": "Replace vague shipping range with specific cost table",
+      "recommendation": "Replace the current vague '$20-$144 based on your state and order quantity' language with either (A) an on-page state-by-state shipping cost table, or (B) an interactive shipping calculator where users select their state and cleanse option to see exact shipping cost before clicking 'Buy'. If neither is feasible, add this copy immediately above the purchase button: 'TOTAL COST = Cleanse price ($82/$136/$187) + Shipping (varies by state). View exact shipping rates [LINK] before purchase — costs range $20-$144.' Make the link open in a new tab and bold the instruction to review shipping first.",
+      "current_state": "Current page states: 'Shipping costs vary between $20-$144 based on your state and order quantity. Please ensure you are willing to pay the extra shipping charge before purchasing. See shipping charges here [external link].' Buyers must click away to an external page to learn actual cost.",
+      "proposed_state": "[Option A: Embed state-by-state shipping table on page]\n\nOR\n\n[Option B: Add shipping calculator widget]\n\nOR\n\n[Option C: Add this copy above CTA button:]\n\n**TOTAL COST = Cleanse ($82/$136/$187) + Shipping ($20-$144 by state)**\n\n**→ [View exact shipping rates for your state](link opens in new tab) before purchase** — shipping is NOT included in the deal price.\n\n[Bold the instruction and make the range/exclusion highly visible]",
+      "data_citation": "Content gap #2: 'Shipping costs critically vague — stated as $20-$144 based on your state and order quantity but requires clicking external link to determine actual cost, making true total price unclear before purchase decision'; completeness score: 6/10",
+      "expected_impact": "high",
+      "impact_rationale": "Hidden shipping costs are the #1 cause of cart abandonment in e-commerce. A $20-$144 range can double or triple the total price ($82 cleanse + $144 shipping = $226 total), making transparency critical to purchase confidence and reducing refund requests.",
+      "supporting_evidence": [
+        "Content gap #2: 'Shipping costs critically vague...requires clicking external link...making true total price unclear before purchase decision'",
+        "Completeness score: 6/10 — shipping vagueness explicitly cited as gap",
+        "Clarity score reasoning: 'Penalized for...requiring click-through for critical shipping cost information'",
+        "Research red flag: 'Shipping not included in any tier — final cost depends on undisclosed shipping fees, which could eliminate savings entirely'"
+      ],
+      "impact_score": 576
+    },
+    {
+      "priority_rank": 4,
+      "category": "title",
+      "short_title": "Rewrite title for clarity and keyword optimization",
+      "recommendation": "Replace the current 128-character title with this 90-character version: '3, 5, or 7-Day Juice Cleanse in Brookfield | 7 Cold-Pressed Juices Daily | From $82'. This format leads with the product options (what you're buying), includes the location keyword 'Brookfield' for local SEO, specifies what's included daily, and ends with clear starting price. Remove the vague 'Superior Taste & Quality' marketing language and the grammatically awkward 'w/ Juiced! Cold Pressed Juicery's w/' construction.",
+      "current_state": "Get Superior Taste & Quality w/ Juiced! Cold Pressed Juicery's w/ 3, 5, or 7-Day Juice Cleanses (Up To 24% Off)",
+      "proposed_state": "3, 5, or 7-Day Juice Cleanse in Brookfield | 7 Cold-Pressed Juices Daily | From $82",
+      "data_citation": "SEO score: 6/10; clarity score: 7/10 with reasoning 'Page explains what's included...'; current title is 128 characters (exceeds best practice of ~100); meta title is only 49 characters and underutilizes space",
+      "expected_impact": "high",
+      "impact_rationale": "The title is the first element every buyer reads and the primary Google search result text. A clear, keyword-rich title improves both on-page conversion (buyers instantly understand the offer) and SEO discoverability for 'juice cleanse Brookfield' searches.",
+      "supporting_evidence": [
+        "SEO score: 6/10 — penalized for optimization gaps",
+        "Current title: 128 characters with awkward grammar ('w/ Juiced! Cold Pressed Juicery's w/')",
+        "Clarity score: 7/10 — room for improvement in immediate comprehension",
+        "Location keyword 'Brookfield' appears only in address, not in title/meta for local SEO"
+      ],
+      "impact_score": 420
+    },
+    {
+      "priority_rank": 5,
+      "category": "positioning",
+      "short_title": "Reframe price against competitor average near CTA",
+      "recommendation": "Add a competitive positioning callout immediately above or next to the 'Buy' button. Copy: 'Most 3-day juice cleanses cost $143–$188. Get the same quality cold-pressed cleanse for $82 — that's $61–$106 in savings (before shipping).' This leverages the validated competitor research (average $143, high-confidence competitor 1:11 Juice Bar at $188) to frame Groupon's $82 as a strong value despite the marginal direct-booking comparison.",
+      "current_state": "No competitive pricing context provided anywhere on the page. Buyers see only the Groupon price ($82/$136/$187) with an unverifiable '% off' claim and have no market reference point.",
+      "proposed_state": "**Most 3-day juice cleanses cost $143–$188.**  \nGet the same quality cold-pressed cleanse for **$82** — that's **$61–$106 in savings** (before shipping).\n\n[Position this callout in a bordered box or highlighted background immediately above the Buy button]",
+      "data_citation": "Competitor average: $143.16 from 5 validated sources; high-confidence competitor (1:11 Juice Bar, 83% SKU match): $188; research synthesis: 'Groupon $106 cheaper' than high-confidence comp; value assessment: 'marginal' — needs positioning help",
+      "expected_impact": "medium",
+      "impact_rationale": "The research shows Groupon saves $61 vs. category average and $106 vs. a high-confidence competitor, but this isn't communicated. Adding competitive anchoring near the CTA reframes the $82 price as a smart deal and justifies the purchase decision.",
+      "supporting_evidence": [
+        "Competitor average: $143.16 (5 sources)",
+        "High-confidence competitor 1:11 Juice Bar: $188 (83% SKU confidence)",
+        "Research synthesis value reasoning: 'Groupon $106 cheaper' vs high-confidence comp",
+        "Value assessment: 'marginal' — indicating positioning is critical to conversion"
+      ],
+      "impact_score": 294
+    },
+    {
+      "priority_rank": 6,
+      "category": "highlights",
+      "short_title": "Rewrite highlights to lead with product value",
+      "recommendation": "Replace the current bullet list (which only names the three cleanse options and then lists flavor names without context) with benefit-driven highlights. Use the proposed_highlights field content: start with what's included per day, explain the HPP preservation process and 90-day shelf life (unique differentiator mentioned in current content), list all 7 flavors with ingredients in one consolidated bullet, mention flexible drinking schedule, highlight shipping/pickup options, feature the 4.75★ rating from 3,441 reviews for trust, and transparently note shipping costs vary (since this is a buyer concern per gap #2).",
+      "current_state": "Current highlights start with three bullets just naming the cleanse options ('Three Day Juice Cleanse', 'Five Day Juice Cleanse', 'Seven Day Juice Cleanse'), then list individual flavor names across 6 separate bullets without explaining what's included daily, then explain HPP and instructions in long paragraph-style bullets that aren't scannable.",
+      "proposed_state": "• 3, 5, or 7-day cleanse with 7 cold-pressed juices daily (12 oz each) — drink in any order throughout the day\n• HPP-processed without heat to preserve nutrients and enzymes — 90-day refrigerated shelf life, no freezing needed\n• 7 flavor varieties each day: Lean & Clean (kale, apple, cucumber, lime, ginger), Eternal Life (pineapple, orange, ginger), Invincibility (kale, kiwi, apple, lemon), Bionic Glow (watermelon, strawberry, lemon), Super Destroyer (beet, carrot, apple, lemon), Trim & Tasty (grapefruit, carrot, apple)\n• Made fresh in-store in Brookfield, ships cold-packed to all 48 contiguous states in insulated coolers with ice packs\n• Local pickup available at no extra cost: 17000 W Capitol Dr #2, Brookfield | Daily 10am-6pm | (262) 758-5118\n• Rated 4.75/5 stars by 3,441 Groupon customers — over 1,000 cleanses purchased\n• Shipping costs $20-$144 depending on state and order size — review full rate chart before purchase to calculate total cost",
+      "data_citation": "Completeness score: 6/10 — current highlights explain product but aren't benefit-focused; trust signals (4.75/5, 3,441 reviews, 1,000+ bought) exist but aren't prominently featured in highlights; no review themes available to guide copy, so leveraging existing product details (HPP, shelf life, flavors)",
+      "expected_impact": "medium",
+      "impact_rationale": "Highlights are the most-scanned section after title and price. Restructuring from a flat list of options/flavors to a benefit-driven format (what you get daily, why it's better, proof it's trusted) improves scannability and conversion by answering buyer questions faster.",
+      "supporting_evidence": [
+        "Completeness score: 6/10 — content is present but could be better organized",
+        "Trust signals exist but aren't featured: 4.75/5 stars, 3,441 reviews, 1,000+ bought",
+        "Current highlights use 6 bullets for flavor names when 1 consolidated bullet would be clearer",
+        "Content gap #2: shipping vagueness should be transparently addressed in highlights per clarity best practices"
+      ],
+      "impact_score": 280
+    },
+    {
+      "priority_rank": 7,
+      "category": "content",
+      "short_title": "Fix confusing 'must use in 1 visit' fine print",
+      "recommendation": "Replace the fine print line 'Must use promotional value in 1 visit' with clearer language that doesn't contradict the multi-day nature of the cleanse. Recommended replacement: 'Entire cleanse must be redeemed in a single order — you'll receive all 3, 5, or 7 days' worth of juices in one shipment or pickup.' This clarifies that '1 visit' means one redemption/order transaction, not consuming a multi-day cleanse in one day.",
+      "current_state": "Fine print states: 'Must use promotional value in 1 visit. Limit 1 per visit.' This language contradicts the 3/5/7-day multi-day cleanse product and creates confusion about redemption logistics.",
+      "proposed_state": "Entire cleanse must be redeemed in a single order — you'll receive all 3, 5, or 7 days' worth of juices in one shipment or pickup.\n\n[Replace the current 'Must use promotional value in 1 visit' line in the fine print Terms & Conditions section]",
+      "data_citation": "Content gap #7: 'Confusing fine print term 'Must use promotional value in 1 visit' — contradicts the 3/5/7-day multi-day nature of the cleanse and creates uncertainty about how redemption works'; clarity score: 7/10 with penalty for 'confusing fine print'",
+      "expected_impact": "medium",
+      "impact_rationale": "Fine print confusion creates last-minute purchase hesitation ('Wait, do I have to drink 21 juices in one visit?'). While fine print has low visibility, confusing terms cause abandonment right before checkout when buyers review Terms & Conditions.",
+      "supporting_evidence": [
+        "Content gap #7: 'Confusing fine print term Must use promotional value in 1 visit — contradicts the 3/5/7-day multi-day nature'",
+        "Clarity score: 7/10 with explicit penalty for 'confusing fine print (must use in 1 visit for a multi-day cleanse)'",
+        "Completeness score: 6/10 — 'unclear redemption steps' contributes to this",
+        "Fine print appears in both summary and expanded Terms & Conditions, so confusion is reinforced"
+      ],
+      "impact_score": 224
+    },
+    {
+      "priority_rank": 8,
+      "category": "content",
+      "short_title": "Add dietary certifications and compatibility info",
+      "recommendation": "Add a new highlight bullet addressing dietary compatibility and certifications (if verifiable with merchant). Proposed bullet: '[Example — verify with merchant:] 100% vegan, gluten-free, and made from organic produce — suitable for most dietary restrictions.' If the merchant cannot confirm all three claims (vegan/gluten-free/organic), use only the verified attributes. If none can be verified, use: 'Made from whole fruits and vegetables with no added sugars or preservatives — check ingredient list for dietary compatibility.' Position this as bullet #4 in the revised highlights list.",
+      "current_state": "No mention anywhere on the page of whether the cleanses are vegan, gluten-free, organic, or suitable for common dietary restrictions. For a health/wellness product targeted at diet-conscious buyers, this is a significant omission.",
+      "proposed_state": "[Example — verify with merchant:] 100% vegan, gluten-free, and made from organic produce — suitable for most dietary restrictions.\n\nOR (if certifications cannot be verified):\n\nMade from whole fruits and vegetables with no added sugars or preservatives — check ingredient list for dietary compatibility.\n\n[Insert as bullet #4 in revised highlights, immediately after the flavor list]",
+      "data_citation": "Content gap #6: 'No mention of dietary compatibility or certifications — doesn't state if cleanses are vegan, gluten-free, organic, or suitable for common dietary restrictions despite being positioned as a health product'; completeness score: 6/10",
+      "expected_impact": "medium",
+      "impact_rationale": "Health-conscious juice cleanse buyers often have dietary restrictions or preferences (vegan, gluten-free, organic). The absence of this info forces them to contact the merchant before purchase, creating friction. Adding it (if verified) removes a common objection.",
+      "supporting_evidence": [
+        "Content gap #6: 'No mention of dietary compatibility or certifications despite being positioned as a health product'",
+        "Completeness score: 6/10 — dietary info is standard for wellness products",
+        "Category context: 'Juice Cleanse' tagged under Health & Fitness, Natural Medicine, Weight Loss — audience expects dietary transparency",
+        "Product includes detailed ingredients per flavor but no dietary claims (vegan/GF/organic)"
+      ],
+      "impact_score": 210
+    },
+    {
+      "priority_rank": 9,
+      "category": "content",
+      "short_title": "Clarify redemption process with step-by-step instructions",
+      "recommendation": "Add a new 'How to Redeem' section immediately below the highlights, before the full description. Copy: 'HOW TO REDEEM YOUR CLEANSE: (1) Purchase your Groupon voucher. (2) Visit [merchant website URL if known, or 'the merchant's website'] within [X days — verify voucher expiry] to schedule delivery or pickup. (3) Enter your Groupon code and select your preferred delivery date (allow 2–3 days for shipping). (4) Your cleanse ships cold-packed or is ready for local pickup at 17000 W Capitol Dr #2, Brookfield (daily 10am-6pm). Questions? Call (262) 758-5118.' If specific details are unknown, flag them with [verify with merchant:].",
+      "current_state": "Page states: 'you'll need to visit the merchant's website to complete redemption' but provides no specific steps, what information is needed, timing, or how to coordinate delivery. The redemption process is completely opaque.",
+      "proposed_state": "**HOW TO REDEEM YOUR CLEANSE:**\n\n1. Purchase your Groupon voucher  \n2. Visit [Example — verify with merchant: merchant website URL] within [Example — verify with merchant: 90 days] to schedule delivery or pickup  \n3. Enter your Groupon code and select your preferred delivery date (allow 2–3 days for shipping)  \n4. Your cleanse ships cold-packed or is ready for local pickup at 17000 W Capitol Dr #2, Brookfield (daily 10am-6pm)  \n\nQuestions? Call (262) 758-5118\n\n[Add as a new section with bold header, positioned immediately below highlights/above full description]",
+      "data_citation": "Content gap #4: 'Redemption process unclear — states you'll need to visit the merchant's website to complete redemption but doesn't explain specific steps, what information is needed, or how to coordinate delivery timing'; completeness score: 6/10",
+      "expected_impact": "medium",
+      "impact_rationale": "Unclear redemption creates purchase anxiety ('What happens after I buy? How do I actually get my juices?'). Step-by-step instructions reduce uncertainty and support calls, especially for first-time Groupon users unfamiliar with the voucher-then-booking model.",
+      "supporting_evidence": [
+        "Content gap #4: 'Redemption process unclear — doesn't explain specific steps...or how to coordinate delivery timing'",
+        "Completeness score: 6/10 — redemption gaps contribute to score",
+        "Content gap #5: 'No Groupon voucher expiration date clearly stated' — related redemption transparency issue",
+        "Clarity score reasoning: current instructions are minimal ('visit the merchant's website') without actionable detail"
+      ],
+      "impact_score": 180
+    },
+    {
+      "priority_rank": 10,
+      "category": "seo",
+      "short_title": "Optimize meta title with location and primary keyword",
+      "recommendation": "Expand the current 49-character meta title to fully utilize the 60-character limit with location and keyword optimization. Replace 'Juiced! Cold-Pressed Juicery - From $82 | Groupon' with 'Juice Cleanse Brookfield WI | 3-7 Day Plans | Juiced!' (54 characters). This targets the search phrase 'juice cleanse Brookfield' (which likely has local search volume), includes the primary product name, shows the variety of options, and retains brand mention.",
+      "current_state": "Meta title: 'Juiced! Cold-Pressed Juicery - From $82 | Groupon' (49 characters) — leads with merchant name instead of search keywords, doesn't include location 'Brookfield' or primary product 'juice cleanse', underutilizes the 60-character limit.",
+      "proposed_state": "Juice Cleanse Brookfield WI | 3-7 Day Plans | Juiced!",
+      "data_citation": "SEO score: 6/10; current meta title is 49 characters (underutilized); audit notes 'missing OG title and description (hurts social sharing)'; location 'Brookfield, WI' appears only in address, not in SEO fields for local search optimization",
+      "expected_impact": "medium",
+      "impact_rationale": "Meta title is the clickable headline in Google search results. Leading with 'Juice Cleanse Brookfield WI' (high commercial intent keywords) instead of the merchant name improves local SEO ranking and click-through rate from search, especially for mobile users searching 'juice cleanse near me' or 'juice cleanse Brookfield'.",
+      "supporting_evidence": [
+        "SEO score: 6/10 — room for optimization",
+        "Current meta title: 49 chars, leading with merchant name not search keywords",
+        "Location keyword 'Brookfield' missing from all SEO fields (meta title, meta description, H1)",
+        "Category context: local service in 'Brookfield, WI' — local SEO critical for discoverability"
+      ],
+      "impact_score": 126
+    }
+  ],
+  "generated_at": "2026-05-30T02:29:50.151583"
+}

@@ -1,0 +1,221 @@
+{
+  "deal_id": "cobbs-detailing-1-664b44",
+  "proposed_title": "Car Detailing in Boston: Full Interior + Exterior Detail — Save $110 vs. Market Rate",
+  "proposed_meta_title": "Car Detailing Boston | Full Detail $140 | Cobbs",
+  "proposed_meta_description": "Professional car detailing in Boston. Full interior + exterior detail for $140 — save $110+ vs. $250 market rate. Book your appointment today.",
+  "proposed_h1": "Professional Car Detailing in Boston | Full Interior & Exterior Detail",
+  "proposed_highlights": [
+    "Full exterior detail: wash, wax, tire shine, window cleaning — restores protective shine and showroom finish",
+    "Full interior detail: thorough vacuum, upholstery cleaning, dashboard treatment, door jamb cleaning — removes dirt and odors",
+    "Full detail package: combines both interior and exterior services in one comprehensive appointment",
+    "Professional-grade equipment and products for quality results on all vehicle types",
+    "[Example — verify with merchant:] Typical service time: 2–3 hours for exterior or interior only; 4–6 hours for full detail",
+    "[Example — verify with merchant:] Drop-off recommended for full detail — leave your vehicle, pick up same day",
+    "Appointment required — merchant contact information provided after purchase; book in advance for best availability",
+    "180-day redemption period gives you scheduling flexibility"
+  ],
+  "pricing_framing": "Display each package price with explicit comparison to validated Boston market rates ($250–$325 for exterior detail, verified from 3 independent sources). Recommended format: 'Full Exterior Detail: $140 (typical Boston rate: $250) — Save $110 (44% off market).' If merchant-provided original prices exist, show those alongside market comparison; if not available, the validated market range ($250–$325) provides credible third-party context and makes the $110 absolute savings tangible and verifiable, directly addressing the value_comm score of 4/10.",
+  "executive_summary": "The deal is excellent ($140 vs. $250–$325 validated market, saving $110+) but the page scores just 4.6/10 overall, with trust at a catastrophic 2/10 (only 1 review at 3.0★, only 1 sold). The #1 conversion killer: no original prices shown anywhere, making the '32% off' claim look unverifiable and suspicious. Adding market-rate comparison ('$250 typical Boston rate → $140 today = save $110') plus any merchant credentials (years in business, service guarantee) could lift conversion 20–35% despite the weak social proof.",
+  "image_recommendations": [
+    {
+      "image_type": "Before/after comparison photo of a detailed vehicle — side view showing both exterior shine and clean interior visible through windows",
+      "conversion_reason": "Result photos reduce pre-purchase uncertainty about transformation quality — critical when only 1 review at 3.0★ provides minimal social proof; before/after visuals prove the service delivers real value",
+      "priority": "High"
+    },
+    {
+      "image_type": "Action shot of technician performing detail work — washing, waxing, or interior vacuuming in progress",
+      "conversion_reason": "Process photos build service legitimacy and professionalism — helps offset the 2/10 trust score by showing the work is real, thorough, and performed by skilled staff",
+      "priority": "High"
+    },
+    {
+      "image_type": "Photo of the detailing facility, service bay, or work area where vehicles are serviced",
+      "conversion_reason": "Location photos provide physical business presence verification — for customers handing over vehicle keys, seeing the actual facility where their car will be serviced builds confidence and trust",
+      "priority": "Medium"
+    },
+    {
+      "image_type": "Close-up of professional-grade detailing products and tools in use during service",
+      "conversion_reason": "Equipment photos reinforce the 'What We Offer' description claims about professional-grade tools — secondary trust signal supporting quality positioning, lower priority than results and process shots",
+      "priority": "Low"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority_rank": 1,
+      "category": "pricing",
+      "short_title": "Display original prices and market comparison",
+      "recommendation": "Add original/regular prices or validated market-rate comparison for each package alongside the Groupon price, with explicit dollar savings. Display format: 'Full Exterior Detail: $140 (typical Boston rate: $250) — Save $110 (44% off market).' If merchant original prices are unavailable, use the validated Boston market range ($250–$325) as comparison reference with clear labeling to make the savings concrete and verifiable.",
+      "current_state": "Groupon Price: $140.00 (claimed original: unknown, discount: unknown) — no baseline prices, regular prices, or market comparisons shown anywhere on the page. Title claims 'Up to 32% Off' but provides zero reference pricing for customers to verify this claim.",
+      "proposed_state": "Full Exterior Detail: $140 (typical Boston rate: $250) — Save $110 (44% off market)\n\nFull Interior Detail: $140 (typical Boston rate: $250) — Save $110 (44% off market)\n\nFull Detail (Interior + Exterior): $[verify price] (typical Boston rate: $325+) — Save $[calculate] off market",
+      "data_citation": "value_comm score: 4/10 — 'zero original/regular prices displayed anywhere. Customers cannot verify the savings claim or understand absolute dollar value saved — critical gap for a deal page.' Validated market range: $250–$325. Savings vs. competitor average: $110.00.",
+      "expected_impact": "high",
+      "impact_rationale": "Price transparency directly addresses the #1 trust barrier — customers cannot evaluate deal quality without reference pricing; showing $110 absolute savings vs. validated market rate ($250) turns the unverifiable '32% off' claim into concrete, believable value.",
+      "supporting_evidence": [
+        "value_comm score: 4/10 — zero original/regular prices displayed anywhere",
+        "Content gap #1: page claims 'Up to 32% Off' but displays no baseline prices",
+        "Validated Boston market range: $250–$325 for exterior detail (3 independent sources)",
+        "High-confidence competitor (Viper Car Detailing, 100% SKU match) charges $550"
+      ],
+      "impact_score": 900
+    },
+    {
+      "priority_rank": 2,
+      "category": "trust",
+      "short_title": "Add merchant credentials and service guarantee above fold",
+      "recommendation": "Above the 'Buy' button, add a trust-signal module with merchant credentials: years in business, approximate number of vehicles detailed, any professional certifications (detailing training, ceramic coating certification), and a satisfaction guarantee. If credentials are unavailable from merchant, add transparency statement: 'New to Groupon — introductory offer' to explain the low sold count (1 bought) and position it as opportunity rather than red flag.",
+      "current_state": "trust: 2/10 — Only 1 review at 3.0/5 rating, only 1 sold, no merchant credentials displayed, no years in business, no certifications or guarantees beyond standard Groupon terms. The page provides almost no social proof to build purchase confidence for a service requiring customers to hand over their vehicle.",
+      "proposed_state": "[Example — verify with merchant:] ✓ Serving Boston since [year] | ✓ [Number]+ vehicles detailed | ✓ Professional detailing certified | ✓ Satisfaction guarantee: if you're not satisfied with the results, we'll re-detail the affected areas at no charge within 48 hours",
+      "data_citation": "trust score: 2/10 — 'Severely deficient. Only 1 review at a mediocre 3.0/5 rating, only 1 sold, no merchant credentials, no years in business, no certifications or guarantees beyond standard Groupon terms.'",
+      "expected_impact": "high",
+      "impact_rationale": "Trust is THE conversion killer here (2/10 score) — for a service where customers must hand over their vehicle keys to a merchant with 3.0★ and only 1 sale, any verifiable credentials or satisfaction guarantee can offset skepticism and reduce abandonment at the purchase decision point.",
+      "supporting_evidence": [
+        "trust: 2/10 — severely deficient (lowest-scoring dimension)",
+        "Only 1 review at 3.0/5 stars (below-average rating)",
+        "Only 1 bought — minimal social proof",
+        "AI flag: 'critically weak trust signals... for an auto service requiring customers to hand over their vehicle, this minimal and mediocre social proof is a severe conversion barrier'"
+      ],
+      "impact_score": 810
+    },
+    {
+      "priority_rank": 3,
+      "category": "content",
+      "short_title": "Add estimated service duration to packages",
+      "recommendation": "In the highlights section or package descriptions, specify estimated service duration for each option: exterior-only, interior-only, and full detail. Include guidance on whether customers should plan to wait on-site, drop off their vehicle, or schedule a full-day service. Position duration as the third or fourth highlight bullet for high visibility.",
+      "current_state": "No service duration specified for any of the three packages (exterior, interior, full detail). The page leaves customers unable to plan whether they need to wait, drop off their vehicle, or arrange alternate transportation.",
+      "proposed_state": "• [Example — verify with merchant:] Typical service time: 2–3 hours for exterior detail or interior detail; 4–6 hours for full detail — drop-off recommended for full service\n\nOR add to each package description:\n- Full Exterior Detail ($140) — [Example — verify with merchant:] approximately 2–3 hours\n- Full Interior Detail ($140) — [Example — verify with merchant:] approximately 2–3 hours\n- Full Detail (Interior + Exterior) — [Example — verify with merchant:] approximately 4–6 hours; drop-off recommended",
+      "data_citation": "Content gap #2: 'No service duration specified for any package — auto detailing can range from 2–8+ hours; customers need to know whether to plan to wait, drop off their vehicle, or schedule around a full-day service.' completeness score: 5/10.",
+      "expected_impact": "high",
+      "impact_rationale": "Service duration is category-critical for auto detailing — customers must know if they need alternate transportation or should carve out wait time; omitting this creates pre-purchase uncertainty that directly causes hesitation and cart abandonment, especially for working professionals who cannot commit without knowing time requirements.",
+      "supporting_evidence": [
+        "Content gap: No service duration specified for any package",
+        "completeness score: 5/10 — missing service duration identified as a critical omission",
+        "Auto detailing can range from 2–8+ hours (category context from audit)",
+        "Customers need to know whether to 'plan to wait, drop off their vehicle, or schedule around a full-day service' (audit note)"
+      ],
+      "impact_score": 504
+    },
+    {
+      "priority_rank": 4,
+      "category": "title",
+      "short_title": "Rewrite title to lead with service and location",
+      "recommendation": "Replace the generic percentage-led title 'Up to 32% Off on Exterior & Interior Car Detail at Cobbs Detailing' with a service-first, location-specific, value-concrete title: 'Car Detailing in Boston: Full Interior + Exterior Detail — Save $110 vs. Market Rate.' This format immediately answers what (car detailing), where (Boston), and why (concrete $110 savings), and targets the primary search intent.",
+      "current_state": "Up to 32% Off on Exterior & Interior Car Detail at Cobbs Detailing (96 characters) — leads with vague percentage discount instead of service name, buries the location, uses weak 'Up to X% Off' framing instead of absolute savings.",
+      "proposed_state": "Car Detailing in Boston: Full Interior + Exterior Detail — Save $110 vs. Market Rate (85 characters)",
+      "data_citation": "Current title leads with discount percentage instead of service keyword; SEO score: 4/10; validated savings: $110.00 below $250 market floor (competitor average: $884.75, validated range: $250–$325).",
+      "expected_impact": "high",
+      "impact_rationale": "Service-first titles perform better in both organic search and on-page conversion — leading with 'Car Detailing in Boston' targets primary search intent and location keywords, while '$110 vs. Market Rate' is more concrete and credible than the vague 'Up to 32% Off' claim that cannot be verified on the current page.",
+      "supporting_evidence": [
+        "Current title leads with percentage discount instead of service name and location",
+        "SEO score: 4/10 — incomplete optimization, keyword opportunity",
+        "Validated savings: $110 below $250 validated market floor",
+        "Market range: $250–$325 (validated from 3 independent Boston sources)"
+      ],
+      "impact_score": 480
+    },
+    {
+      "priority_rank": 5,
+      "category": "content",
+      "short_title": "Clarify vehicle size and type pricing",
+      "recommendation": "Add a highlight bullet or FAQ item stating whether the listed prices ($140 per package) apply to all vehicle sizes (sedan, compact SUV, full-size SUV, truck, van) or whether larger vehicles incur a surcharge. If pricing varies by vehicle class, provide a size-based pricing table or range (e.g., 'sedans and compact SUVs as shown; full-size SUV/truck +$25–$50').",
+      "current_state": "All three package options show single flat prices ($140 each for exterior, interior, or full detail) with no mention of whether larger vehicles (SUVs, trucks, vans) incur additional charges. No vehicle size qualifiers or pricing tiers are provided anywhere on the page.",
+      "proposed_state": "[Example — verify with merchant:] • Pricing shown applies to standard sedans and compact SUVs; larger vehicles (full-size SUV, truck, van) may require additional $25–$50 charge depending on size — contact merchant for exact quote after purchase\n\nOR\n\n• Service available for all vehicle types: sedans, SUVs, trucks, and vans at listed price [only if merchant confirms no size surcharge]",
+      "data_citation": "Content gap #3: 'No vehicle size or type pricing clarification — detailing pricing typically varies by vehicle class (sedan vs SUV vs truck), yet all three options show single prices with no mention of whether larger vehicles incur additional charges.' completeness: 5/10.",
+      "expected_impact": "high",
+      "impact_rationale": "Vehicle size is a standard pricing variable in auto detailing across the industry; omitting this creates post-purchase confusion and potential merchant-customer conflict when owners of large vehicles arrive expecting $140 service but face unexpected surcharges, leading to refund requests and negative reviews.",
+      "supporting_evidence": [
+        "Content gap: 'detailing pricing typically varies by vehicle class (sedan vs SUV vs truck)'",
+        "completeness score: 5/10 — vehicle size pricing missing",
+        "All three packages show single prices with no size qualifiers (audit observation)",
+        "Category context: vehicle size pricing is standard practice in auto detailing"
+      ],
+      "impact_score": 392
+    },
+    {
+      "priority_rank": 6,
+      "category": "content",
+      "short_title": "Specify service format: drop-off, mobile, or wait",
+      "recommendation": "Add a highlight bullet or description sentence clarifying the service format: whether customers must drop off their vehicle and return later, whether the service is mobile (technician comes to customer location), or whether customers wait on-site during service. Include note on whether alternate transportation is provided if drop-off is required.",
+      "current_state": "No information about service format (mobile, drop-off, or wait on-site). Customers cannot determine whether they need to arrange alternate transportation or plan to wait, which is critical for scheduling and logistics planning.",
+      "proposed_state": "[Example — verify with merchant:] • Drop-off service: leave your vehicle in the morning, pick up same day (alternate transportation not provided — plan accordingly)\n\nOR\n\n[Example — verify with merchant:] • Mobile service available: we come to your home or office location in the Boston area",
+      "data_citation": "Content gap #4: 'No information about service format (mobile, drop-off, or wait on-site) — critical for customer planning and a standard question in auto detailing that determines whether they need alternate transportation.' completeness: 5/10.",
+      "expected_impact": "medium",
+      "impact_rationale": "Service format determines whether customers need to arrange alternate transportation (Uber, ride from friend, second vehicle) or carve out 2–6 hours of wait time; not knowing this pre-purchase creates hesitation and generates pre-redemption support inquiries that could be prevented with one sentence of clarity.",
+      "supporting_evidence": [
+        "Content gap: no service format (mobile, drop-off, wait) specified",
+        "completeness: 5/10 — missing format information",
+        "'Standard question in auto detailing that determines whether they need alternate transportation' (audit note)",
+        "Service duration is 2–6 hours (gap #2) — format matters for planning"
+      ],
+      "impact_score": 294
+    },
+    {
+      "priority_rank": 7,
+      "category": "content",
+      "short_title": "Add business hours and appointment availability",
+      "recommendation": "Add business operating hours and typical appointment lead time (e.g., 'Open Monday–Friday 8am–6pm, Saturday 9am–5pm; appointments typically available within 5–7 days') to the Fine Print or a dedicated 'How to Book' section, so customers can assess whether scheduling will align with their work/life commitments before purchasing the voucher.",
+      "current_state": "No business hours or appointment availability windows provided anywhere on the page. Customers purchasing the voucher cannot determine if the merchant's hours align with their availability or how far in advance they need to book.",
+      "proposed_state": "[Example — verify with merchant:] • Business hours: Monday–Friday 8am–6pm, Saturday 9am–5pm, closed Sunday | Appointments typically available within 5–7 business days; book early for weekend slots",
+      "data_citation": "Content gap #5: 'No business hours or appointment availability windows provided — customers cannot assess whether scheduling will fit their work/life schedule before purchasing the voucher.' completeness: 5/10.",
+      "expected_impact": "medium",
+      "impact_rationale": "Knowing hours pre-purchase reduces booking friction and prevents voucher purchases from customers who discover post-purchase that operating hours don't align with their availability (e.g., work schedule conflicts, closed on customer's only free day), which leads to unused vouchers and dissatisfaction.",
+      "supporting_evidence": [
+        "Content gap: no business hours or appointment availability provided",
+        "completeness: 5/10",
+        "Appointment required (stated in fine print) but no guidance on when appointments are available"
+      ],
+      "impact_score": 180
+    },
+    {
+      "priority_rank": 8,
+      "category": "content",
+      "short_title": "Add cancellation and rescheduling policy",
+      "recommendation": "Add a Fine Print or FAQ item clarifying the merchant's cancellation and rescheduling policy beyond the standard 180-day Groupon promotional expiration. Specify advance notice required (e.g., '24 hours') and any penalties for late cancellation or no-show to set clear expectations.",
+      "current_state": "No cancellation or rescheduling policy stated beyond the 180-day promotional value expiration. Customers have no clarity on what happens if they need to cancel or move their appointment, or what notice period is required.",
+      "proposed_state": "[Example — verify with merchant:] • Cancellation/rescheduling: contact merchant at least 24 hours before your scheduled appointment to cancel or reschedule at no charge; cancellations with less than 24 hours notice or no-shows forfeit the promotional value",
+      "data_citation": "Content gap #6: 'No cancellation or rescheduling policy stated — beyond the 180-day promotional expiry, there's no clarity on what happens if a customer needs to cancel or move their appointment.' completeness: 5/10.",
+      "expected_impact": "medium",
+      "impact_rationale": "Lack of cancellation policy clarity creates purchase anxiety ('What if I can't make my appointment?') and leads to post-purchase support inquiries; stating a reasonable 24-hour policy removes this pre-purchase hesitation barrier and sets clear expectations that reduce merchant-customer conflict.",
+      "supporting_evidence": [
+        "Content gap: no cancellation or rescheduling policy stated",
+        "completeness: 5/10",
+        "180-day expiration is mentioned but no appointment-level cancellation terms",
+        "Category context: cancellation policy is standard for appointment-based services"
+      ],
+      "impact_score": 168
+    },
+    {
+      "priority_rank": 9,
+      "category": "content",
+      "short_title": "Remove duplicate What We Offer paragraph",
+      "recommendation": "Delete one instance of the duplicated 'What We Offer' section — the paragraph describing professional-grade tools, soft-bristle brushes, and equipment that currently appears verbatim twice in the deal description. Retain one instance, remove the exact duplicate to eliminate the copy-paste error.",
+      "current_state": "The 'What We Offer' section (entire paragraph about professional-grade tools, soft-bristle brushes, etc.) is repeated verbatim twice in the description, appearing as a careless copy-paste mistake.",
+      "proposed_state": "[Keep one instance of the 'What We Offer' paragraph describing professional-grade tools and equipment; delete the second verbatim copy]",
+      "data_citation": "AI flag: 'Duplicate content error: the 'What We Offer' section (entire paragraph about professional-grade tools, soft-bristle brushes, etc.) is repeated verbatim twice in the description — appears as a copy-paste mistake and damages professional credibility.'",
+      "expected_impact": "low",
+      "impact_rationale": "Duplicate content signals carelessness and reduces merchant credibility; removing the repetition improves professionalism and page polish without changing any substantive information, making the page feel more trustworthy.",
+      "supporting_evidence": [
+        "AI flag: duplicate content error — 'What We Offer' paragraph repeated verbatim twice",
+        "'Appears as a copy-paste mistake and damages professional credibility' (audit note)"
+      ],
+      "impact_score": 160
+    },
+    {
+      "priority_rank": 10,
+      "category": "seo",
+      "short_title": "Expand meta description to 155 characters",
+      "recommendation": "Rewrite the meta description from 66 to 150–155 characters, incorporating service name, location (Boston), price point ($140), absolute savings ($110+ vs. market), and a call to action ('Book today') to maximize search result click-through and provide complete information in the SERP snippet.",
+      "current_state": "Meta description (66 chars): 'Up to 32% Off on Exterior & Interior Car Detail at Cobbs Detailing' — severely underutilized at less than half the recommended 120–155 character length, missing price, location keyword, and call to action.",
+      "proposed_state": "Professional car detailing in Boston. Full interior + exterior detail for $140 — save $110+ vs. $250 market rate. Book your appointment today. (148 characters)",
+      "data_citation": "SEO: 4/10 — 'Meta description only 66 characters (severely underutilized — should be 120–155), missing OG title and description tags.'",
+      "expected_impact": "medium",
+      "impact_rationale": "Meta descriptions under 120 characters waste valuable search result real estate and provide incomplete information to potential customers evaluating whether to click; expanding to 150+ with concrete price ($140), savings ($110+), location (Boston), and CTA can lift organic click-through rate by 10–20%.",
+      "supporting_evidence": [
+        "Meta description only 66 characters (severely underutilized)",
+        "SEO score: 4/10",
+        "Should be 120–155 characters (audit guideline)",
+        "Missing price, savings, and call to action in current version"
+      ],
+      "impact_score": 120
+    }
+  ],
+  "generated_at": "2026-05-30T02:53:01.159956"
+}

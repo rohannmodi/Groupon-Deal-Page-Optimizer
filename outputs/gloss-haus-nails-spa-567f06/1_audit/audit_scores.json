@@ -1,0 +1,32 @@
+{
+  "clarity_score": 7,
+  "trust_score": 3,
+  "urgency_score": 6,
+  "seo_score": 6,
+  "value_comm_score": 4,
+  "completeness_score": 5,
+  "overall_score": 5.0,
+  "content_gaps": [
+    "No original/regular prices shown — the page claims 'Up to 30% Off' but provides no baseline prices, making it impossible for customers to verify the actual savings or understand the deal value",
+    "No physical address or specific location details — customers cannot determine if this salon is conveniently located before purchasing (SEO title mentions Chicago but no neighborhood, street address, or proximity landmarks provided)",
+    "No service duration indicated for any package — critical for appointment planning, customers need to know if a service takes 30 minutes or 90 minutes to block appropriate calendar time",
+    "Severe day restriction buried in fine print — 'Valid Wednesday & Friday only' eliminates 71% of the week but is not prominently disclosed in the deal description or highlights, potentially misleading customers about usability",
+    "No cancellation or rescheduling policy stated — for appointment-based services, customers need to know the cancellation window, no-show fees, and rescheduling flexibility before committing",
+    "No hours of operation provided — even knowing the valid days, customers don't know if early morning, evening, or weekend hours are available for booking",
+    "'New guests only' eligibility not defined — unclear whether this means first-time Groupon customers at this salon, first-time customers ever, or new to this specific promotion",
+    "No appointment booking instructions — beyond stating 'appointment required,' no details on whether to call, book online via a specific platform, or how far in advance to schedule"
+  ],
+  "ai_flags": [
+    "Unverifiable discount claim — advertises 'Up to 30% Off' but shows no original prices anywhere on the page. Without regular pricing displayed, customers cannot confirm they're receiving the stated discount, undermining the core value proposition.",
+    "Trust concern: Below-average rating with serious quality complaint — only 4 reviews averaging 3.25/5 stars, including one detailed negative review stating 'The tips of my nails turned black and three of them peeled off.' This specific quality and safety issue combined with very low review volume creates a significant trust barrier.",
+    "Severe availability restriction buried in fine print — 'Valid Wednesday & Friday only' is mentioned only in terms, not in the main description or highlights. This eliminates most of the week and may frustrate customers who discover the limitation after purchase, especially those with traditional work schedules."
+  ],
+  "score_reasoning": {
+    "clarity": "Service descriptions are detailed and well-structured, with four distinct packages clearly outlined and specific inclusions listed (nail shaping, cuticle care, polish options, etc.). However, missing practical details like service duration and specific booking instructions prevent a higher score.",
+    "trust": "Very weak trust signals: only 4 reviews with a below-average 3.25/5 rating, only 2 sold, and one review describing nails turning black and peeling off—a serious quality concern. No merchant credentials, years in business, or other trust-building information provided.",
+    "urgency": "Active countdown promotion with specific end date (5/30/2026) and 'Extra $9.62 off' messaging creates moderate urgency. However, extremely low sold count (only 2) undermines any 'selling fast' momentum. Countdown present but weak social proof.",
+    "seo": "Basic SEO fundamentals are present: meta title with location and price, meta description within character limits (112 chars), H1 matching title, multiple H2 headings, and schema markup. Missing OG title and OG description for social sharing hurts discoverability.",
+    "value_comm": "Major weakness: claims 'Up to 30% Off' in title but shows no original prices anywhere, making the discount unverifiable. Deal prices are clearly listed, but without baseline pricing context, customers cannot assess whether this represents genuine value or confirm the stated savings.",
+    "completeness": "Missing several category-critical details for nail salon services: no service duration, no physical address/location, no hours of operation, no cancellation policy, no booking instructions beyond 'appointment required.' Severe day restriction (Wed/Fri only) buried in fine print rather than prominently disclosed."
+  }
+}

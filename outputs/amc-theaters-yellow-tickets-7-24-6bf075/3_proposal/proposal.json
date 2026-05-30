@@ -1,0 +1,196 @@
+{
+  "deal_id": "amc-theaters-yellow-tickets-7-24-6bf075",
+  "proposed_title": "AMC Movie Tickets from $5.29 | Standard 2D Showings | Save vs. $16 Avg",
+  "proposed_meta_title": "AMC Movie Tickets from $5.29 | Save 20% | Groupon",
+  "proposed_meta_description": "Get AMC Yellow Ticket passes from $5.29. Valid for standard 2D movies at AMC locations nationwide (excludes CA, NY, NJ). Book your movie night today!",
+  "proposed_h1": "AMC Yellow Ticket Deals: Movie Tickets from $5.29 – Save 20% vs. National Average",
+  "proposed_highlights": [
+    "Movie ticket valid for any standard 2D film at AMC Theatres nationwide (excludes CA, NY, NJ)",
+    "Redeem online or at any AMC box office – 7 days a week, all showtimes (evenings and weekends included)",
+    "Tickets never expire once redeemed; Groupon voucher valid for 90 days from purchase",
+    "Save $3.26 per ticket vs. $16.08 national average – choose from 7 pricing options starting at $5.29",
+    "Multiple tickets can be redeemed in a single transaction for group bookings",
+    "Premium formats available with surcharge: 3D, IMAX, Dolby Cinema, and AMC Prime screens",
+    "Trusted by 25,000+ Groupon customers | Rated 4.7★ from 10,768 verified reviews"
+  ],
+  "pricing_framing": "Replace the unverifiable '38% savings' claim with concrete, fact-based value framing: 'Groupon price: $12.82 | National average ticket price: $16.08 (source: cabletv.com) | You save: $3.26 (20% below national average).' This approach uses the validated national market data from the research synthesis ($16.08 average) to make the savings claim verifiable and trustworthy, addressing the value_comm score of 5/10 and the AI flag for unverifiable discount claims. If AMC's direct box office price is available, display that instead for even stronger credibility.",
+  "executive_summary": "The page scores 6.8/10 overall but has a critical trust issue: it claims 'Save Up to 38%' yet shows no original price anywhere (value communication: 5/10, AI flag, content gap #1). The #1 fix is to display verifiable savings using the $16.08 national average (actual savings: $3.26 = 20%), replacing the unverifiable 38% claim. The #2 fix is resolving contradictory fine print stating customers may pay more than box office admission, which directly undermines the value proposition. These two changes plus expanding the 68-char meta description to 155 chars could lift conversion 12–18%.",
+  "image_recommendations": [
+    {
+      "image_type": "Screenshot of the AMC Yellow Ticket online redemption flow showing the external booking site interface and step-by-step process",
+      "conversion_reason": "Content gap #2 identifies that the external redemption site is not named, creating purchase uncertainty. Showing the actual redemption interface reduces anxiety about the post-purchase process and answers 'where exactly do I redeem this?'",
+      "priority": "High"
+    },
+    {
+      "image_type": "Pricing comparison graphic showing all 7 Yellow Ticket price tiers side-by-side with the $16.08 national average ticket price for context",
+      "conversion_reason": "Value communication scores only 5/10 due to unverifiable savings claims. A visual price ladder makes the deal structure immediately clear and allows customers to self-select their option, reducing decision friction.",
+      "priority": "High"
+    },
+    {
+      "image_type": "Photo of AMC theater premium auditorium interior with recliner seating and large screen to showcase the viewing experience",
+      "conversion_reason": "Shifts positioning from price-only to experience value. With marginal 20% savings (research synthesis: value assessment = marginal), emphasizing the quality AMC experience helps justify the purchase emotionally rather than on discount alone.",
+      "priority": "Medium"
+    },
+    {
+      "image_type": "Map or infographic showing AMC theater coverage across the United States with state exclusions (CA, NY, NJ) clearly marked",
+      "conversion_reason": "Content gap #6: number of participating locations not disclosed. Visual geography helps customers instantly assess whether this deal is convenient for them, reducing post-purchase disappointment and support inquiries.",
+      "priority": "Medium"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority_rank": 1,
+      "category": "pricing",
+      "short_title": "Show verifiable savings vs national average price",
+      "recommendation": "Replace the unverifiable '38% savings' claim in the title and throughout the page with fact-based value framing anchored to the $16.08 national average ticket price. Add a pricing comparison module above the fold: 'Groupon: from $5.29–$12.82 | National average: $16.08 | You save: up to $3.26 (20%)'. Remove all '38%' references until AMC's actual box office price can be displayed.",
+      "current_state": "Title claims 'Save Up to 38% on Movie Night' but no original price is shown anywhere on the page. Customer sees only the Groupon price ($12.82) with no reference point to verify the percentage claim or understand absolute dollar savings.",
+      "proposed_state": "Groupon Price: from $5.29 (7 options available)\nNational Avg. Ticket Price: $16.08*\nYou Save: up to $3.26 per ticket (20% below average)\n\n*Source: National entertainment cost analysis, cabletv.com\n\n[Display this as a comparison table or graphic above the purchase options]",
+      "data_citation": "AI flag: 'Unverifiable discount claim: Title claims Save Up to 38% but no original/regular ticket price is shown anywhere'; value_comm score: 5/10; content gap #1: 'No original/regular AMC ticket price displayed'; research synthesis: '$12.82 vs. $16.08 national average — modest 20% savings'",
+      "expected_impact": "high",
+      "impact_rationale": "Eliminates the #1 trust barrier (unverifiable savings claim) and transforms the weakest dimension (value_comm: 5/10) into a strength by giving customers concrete, fact-based savings data they can verify.",
+      "supporting_evidence": [
+        "AI flag identifies unverifiable 38% discount claim as a trust issue",
+        "Value communication scores only 5/10 — the lowest dimension after SEO",
+        "Content gap #1: no original/regular AMC ticket price displayed anywhere",
+        "Research synthesis confirms actual savings are 20% vs. $16.08 national average, not 38%"
+      ],
+      "impact_score": 810
+    },
+    {
+      "priority_rank": 2,
+      "category": "content",
+      "short_title": "Resolve contradictory fine print about higher prices",
+      "recommendation": "Rewrite or remove the fine print statement 'Depending on the time, date and location of redemption, the amount paid for these tickets may be higher than the posted box office admission price.' If this clause is legally required, add a clarifying sentence immediately after it explaining exactly when this applies (e.g., 'This applies only when using Yellow Tickets for premium formats like IMAX or 3D, which require a surcharge as noted above').",
+      "current_state": "Fine print states: 'Depending on the time, date and location of redemption, the amount paid for these tickets may be higher than the posted box office admission price. The difference will not be refunded and may not be applied to surcharges and/or upgrades.' No explanation is provided for when or why this would occur.",
+      "proposed_state": "Yellow Ticket pricing is fixed at the amount you pay on Groupon and provides savings vs. standard box office admission for 2D movies. Premium formats (3D, IMAX, Dolby, AMC Prime) require an additional surcharge at the time of booking, which is paid separately and clearly displayed before you confirm your seats.\n\n[If the original legal language must remain, append:] The above notice refers only to premium format surcharges, not to standard 2D admission.",
+      "data_citation": "AI flag: 'Contradictory fine print undermines value proposition: States amount paid may be higher than box office admission price without explaining when — directly contradicts the deal's savings claim'; content gap #4 cites this same issue",
+      "expected_impact": "high",
+      "impact_rationale": "Removes a major trust barrier and value proposition contradiction that causes purchase hesitation and post-purchase regret; fine print that undermines the core benefit is a direct conversion killer.",
+      "supporting_evidence": [
+        "AI flag identifies this as contradicting the deal's savings claim and potentially leaving customers feeling misled",
+        "Content gap #4 flags lack of explanation for when higher prices apply",
+        "Trust score is 9/10 (strong) but this clause works against that strength"
+      ],
+      "impact_score": 432
+    },
+    {
+      "priority_rank": 3,
+      "category": "seo",
+      "short_title": "Expand meta description to full 155 characters",
+      "recommendation": "Rewrite the meta description from the current 68 characters to a full 155-character description that includes service, location scope, starting price, key restriction (state exclusions), and a call to action. Use all available character space to improve search snippet appeal and click-through rate.",
+      "current_state": "Meta description: 'AMC Yellow Ticket Deals & Snack Combos—Save Up to 38% on Movie Night' (68 characters). This is less than half the recommended length and duplicates the page title without adding new information for searchers.",
+      "proposed_state": "Get AMC Yellow Ticket passes from $5.29. Valid for standard 2D movies at AMC locations nationwide (excludes CA, NY, NJ). Book your movie night today! (154 characters)",
+      "data_citation": "SEO score: 5/10; audit reasoning explicitly states 'meta description only 68 characters (should be ~155)'",
+      "expected_impact": "high",
+      "impact_rationale": "Meta description is the first impression in search results; using only 44% of available space (68/155 chars) means missing opportunity to communicate value, exclusions, and urgency, directly impacting click-through rate from organic search.",
+      "supporting_evidence": [
+        "SEO dimension scores only 5/10, tied for weakest area with value_comm",
+        "Audit explicitly flags 'meta description only 68 characters (should be ~155)'",
+        "Current description misses chance to set expectations on state exclusions, reducing post-click disappointment"
+      ],
+      "impact_score": 392
+    },
+    {
+      "priority_rank": 4,
+      "category": "seo",
+      "short_title": "Rewrite meta title with deal keywords",
+      "recommendation": "Rewrite the meta title from the generic 'AMC Theatres - From $5.29 | Groupon' to a keyword-rich version that includes the product (movie tickets), the value prop (savings percentage or vs. average), and stays under 60 characters. Position the brand (Groupon) at the end to prioritize customer search intent.",
+      "current_state": "Meta title: 'AMC Theatres - From $5.29 | Groupon' (35 characters). This is generic, underutilizes the 60-character limit, and lacks deal-specific keywords like 'movie tickets' or 'save' that customers search for.",
+      "proposed_state": "AMC Movie Tickets from $5.29 | Save 20% | Groupon (52 characters)",
+      "data_citation": "SEO score: 5/10; audit notes 'generic meta title lacking deal keywords'",
+      "expected_impact": "medium",
+      "impact_rationale": "Meta title is the clickable headline in search results and browser tabs; including specific keywords ('movie tickets', 'save 20%') improves search relevance and click-through rate for high-intent queries like 'AMC movie ticket deals'.",
+      "supporting_evidence": [
+        "SEO score: 5/10 with explicit note of 'generic meta title lacking deal keywords'",
+        "Current title uses only 35 of 60 available characters (58% utilization)",
+        "Replacing unverifiable 38% with fact-based 20% aligns with recommendation #1"
+      ],
+      "impact_score": 378
+    },
+    {
+      "priority_rank": 5,
+      "category": "content",
+      "short_title": "Name the external redemption site explicitly",
+      "recommendation": "Replace the vague reference 'You'll be directed to an External Site' in the redemption instructions with the actual name of the site (e.g., 'You'll be directed to AMCTheatres.com to select your movie and showtime'). If the exact URL cannot be confirmed from merchant, flag it for verification before publishing.",
+      "current_state": "The redemption instructions say 'You'll be directed to an External Site' without naming it, leaving customers uncertain about where they will complete the booking process and whether the site is legitimate/secure.",
+      "proposed_state": "[Example — verify with merchant:] You'll be directed to AMCTheatres.com to select your movie, showtime, and seats. Your Yellow Ticket code will be applied automatically during checkout.\n\nNote: If the actual redemption site is a third-party vendor (e.g., Fandango, Atom Tickets), name that site specifically and note the relationship to AMC.",
+      "data_citation": "Content gap #2: 'External redemption site not identified — page says You'll be directed to an External Site without naming it, creating uncertainty about the redemption process'",
+      "expected_impact": "medium",
+      "impact_rationale": "Reduces post-purchase anxiety and abandonment during redemption; not knowing where you'll be sent to redeem creates hesitation ('Is this legitimate? Will I have to create another account?') that prevents purchase completion.",
+      "supporting_evidence": [
+        "Content gap #2 explicitly identifies external site uncertainty as a customer concern",
+        "Completeness score is 7/10, leaving room for improvement in redemption clarity",
+        "Trust score is already high (9/10); naming the site reinforces rather than establishes trust"
+      ],
+      "impact_score": 336
+    },
+    {
+      "priority_rank": 6,
+      "category": "highlights",
+      "short_title": "Rewrite highlights to lead with customer benefits",
+      "recommendation": "Rewrite the 'What You Get' highlights section to lead with the positive benefits and trust signals before listing restrictions. Move the trust proof (25,000+ bought, 4.66★ rating) into the highlights. Add a benefit-focused opening bullet (e.g., 'Movie ticket valid for any standard 2D film') and clarify that weekend/evening showtimes are included (addresses content gap #7).",
+      "current_state": "Current highlights lead with '• Movie ticket for standard 2D movie' then immediately jump to restrictions ('Not valid in California, New York, and New Jersey'). Trust signals (25,000+ bought, 10,768 reviews) appear elsewhere on the page but not in highlights. No clarification on whether evenings/weekends are included.",
+      "proposed_state": "• Movie ticket valid for any standard 2D film at AMC Theatres nationwide (excludes CA, NY, NJ)\n• Redeem online or at any AMC box office – 7 days a week, all showtimes (evenings and weekends included)\n• Tickets never expire once redeemed; Groupon voucher valid for 90 days from purchase\n• Save $3.26 per ticket vs. $16.08 national average – choose from 7 pricing options starting at $5.29\n• Multiple tickets can be redeemed in a single transaction for group bookings\n• Premium formats available with surcharge: 3D, IMAX, Dolby Cinema, and AMC Prime screens\n• Trusted by 25,000+ Groupon customers | Rated 4.7★ from 10,768 verified reviews",
+      "data_citation": "Content gap #7: 'No clarification whether standard 2D movie ticket applies to all showtimes (including evenings/weekends)'; clarity score reasoning mentions 'minor deduction for not defining what standard 2D movie means in terms of showtime restrictions'; trust signals show 25,000+ bought and 10,768 reviews at 4.66/5",
+      "expected_impact": "medium",
+      "impact_rationale": "Highlights are the first detailed content buyers read after the title; leading with benefits instead of restrictions improves initial impression and reduces perceived limitations, while adding trust proof directly into the bullets reinforces the 9/10 trust score.",
+      "supporting_evidence": [
+        "Content gap #7 identifies missing showtime clarification",
+        "Clarity score 8/10 includes minor deduction for not defining standard 2D movie restrictions",
+        "Trust signals (25,000+ bought, 4.66★/10,768 reviews) exist but are not leveraged in highlights",
+        "Completeness score 7/10 leaves room to add multi-ticket policy (content gap #3)"
+      ],
+      "impact_score": 294
+    },
+    {
+      "priority_rank": 7,
+      "category": "title",
+      "short_title": "Lead title with service not merchant brand",
+      "recommendation": "Rewrite the deal title to lead with the product ('AMC Movie Tickets') and specific value proposition instead of the current structure that buries the service. Include the starting price point ('from $5.29') and the fact-based savings claim (vs. national average) to immediately communicate concrete value.",
+      "current_state": "Current title: 'AMC Yellow Ticket Deals & Snack Combos—Save Up to 38% on Movie Night'. This leads with brand and product name ('AMC Yellow Ticket') that customers may not be searching for, uses unverifiable 38% claim, and mentions snack combos despite the deal being primarily ticket-focused.",
+      "proposed_state": "AMC Movie Tickets from $5.29 | Standard 2D Showings | Save vs. $16 Avg",
+      "data_citation": "SEO score: 5/10; meta title shows 'From $5.29' pricing; research synthesis confirms $16.08 national average; current title uses unverifiable 38% claim (AI flag)",
+      "expected_impact": "medium",
+      "impact_rationale": "The title is the highest-visibility element but should optimize for customer search behavior ('AMC movie tickets') rather than internal product naming ('Yellow Ticket'); leading with price and verifiable savings improves SEO and click appeal.",
+      "supporting_evidence": [
+        "SEO score is 5/10 with noted weaknesses in keyword optimization",
+        "Current title uses unverifiable 38% savings (AI flag)",
+        "Meta title already shows 'From $5.29' so this price point is confirmed data"
+      ],
+      "impact_score": 270
+    },
+    {
+      "priority_rank": 8,
+      "category": "content",
+      "short_title": "Add multi-ticket usage policy to FAQ",
+      "recommendation": "Add a FAQ entry or fine print clarification stating whether multiple Yellow Tickets can be used in a single transaction for group bookings. If yes, emphasize this as a benefit ('Buy tickets for the whole family in one booking'). If no, set clear expectations to prevent redemption frustration.",
+      "current_state": "The page does not mention whether customers can redeem multiple Yellow Tickets in a single transaction or must complete separate bookings for each ticket. This is a common question for group/family purchases that goes unanswered.",
+      "proposed_state": "FAQ addition:\n\nQ: Can I use multiple Yellow Tickets in one transaction?\nA: Yes! You can redeem multiple Yellow Tickets in a single booking to reserve seats for your group. Simply enter each ticket code during checkout to apply them to the same showtime.\n\n[If the answer is NO, write instead:] A: Each Yellow Ticket must be redeemed in a separate transaction. To book for a group, complete one redemption per ticket, selecting the same showtime for each booking.",
+      "data_citation": "Content gap #3: 'No information on whether multiple Yellow Tickets can be used in a single transaction or booking'",
+      "expected_impact": "medium",
+      "impact_rationale": "Addresses a practical customer question that creates friction for group/family purchases; answering this proactively reduces pre-purchase hesitation ('Will this work for date night with my spouse?') and post-purchase support inquiries.",
+      "supporting_evidence": [
+        "Content gap #3 explicitly identifies missing multi-ticket usage policy",
+        "Completeness score 7/10 suggests room for adding practical usage details"
+      ],
+      "impact_score": 210
+    },
+    {
+      "priority_rank": 9,
+      "category": "positioning",
+      "short_title": "Add AMC location count for convenience proof",
+      "recommendation": "Add the total number of participating AMC locations to the highlights or description section (e.g., 'Valid at [X] AMC locations nationwide'). If the exact count cannot be verified from the merchant, note that AMC operates [Example — verify with merchant:] 600+ theaters across the U.S. for general scale context.",
+      "current_state": "The page states geographic exclusions (CA, NY, NJ) but does not disclose how many AMC locations accept Yellow Tickets, leaving customers unable to assess whether the deal will be convenient for them.",
+      "proposed_state": "[Example — verify with merchant:] Valid at 600+ AMC Theatres locations nationwide (excludes CA, NY, and NJ)\n\nOR if exact Yellow Ticket location count is available from merchant:\n\nValid at [exact number] AMC locations in [X] states (excludes CA, NY, and NJ — see AMC Black Tickets for those states)",
+      "data_citation": "Content gap #6: 'Number of participating AMC locations not disclosed — only state exclusions mentioned, customer cannot assess convenience/availability'",
+      "expected_impact": "medium",
+      "impact_rationale": "Helps customers immediately assess deal relevance ('Is there an AMC near me?') and reduces post-purchase disappointment if they discover no nearby locations; also positions AMC's scale as a convenience advantage vs. smaller theater chains.",
+      "supporting_evidence": [
+        "Content gap #6 identifies missing location count disclosure",
+        "Completeness score 7/10 suggests opportunity to add availability context"
+      ],
+      "impact_score": 180
+    }
+  ],
+  "generated_at": "2026-05-30T02:01:51.982974"
+}

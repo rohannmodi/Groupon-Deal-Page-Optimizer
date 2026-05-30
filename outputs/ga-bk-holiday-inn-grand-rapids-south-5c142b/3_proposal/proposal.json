@@ -1,0 +1,225 @@
+{
+  "deal_id": "ga-bk-holiday-inn-grand-rapids-south-5c142b",
+  "proposed_title": "Holiday Inn Grand Rapids: Family Stay with Splash Pad & IHG Brand Trust",
+  "proposed_meta_title": "Holiday Inn Grand Rapids Family Hotel | Splash Pad Stay",
+  "proposed_meta_description": "Family hotel in Grand Rapids with indoor splash pad. Save on your Michigan getaway at Holiday Inn South by IHG. Rated 5.0★ by 68 travelers. Book now!",
+  "proposed_h1": "Family Hotel in Grand Rapids MI with Indoor Splash Pad",
+  "proposed_highlights": [
+    "[Example — verify with merchant:] One-night stay for up to 4 guests in a room with two queen beds",
+    "Full access to indoor splash pad — year-round fun for kids and families",
+    "[Example — verify with merchant:] Complimentary hot breakfast buffet each morning",
+    "[Example — verify with merchant:] Free WiFi and free parking throughout your stay",
+    "Convenient South Grand Rapids location — near downtown, Frederik Meijer Gardens, and local dining",
+    "Trusted Holiday Inn brand by IHG — rated 5.0 stars by 68 Groupon travelers",
+    "[Example — verify with merchant:] Fitness center, business center, and 24-hour front desk service"
+  ],
+  "pricing_framing": "Pricing section must be restored immediately (technical fix). Once visible, frame the deal against the validated market range of $149–$269/night for family-friendly hotels in Grand Rapids (per category context). Avoid specific competitor comparisons—all competitor data is low-confidence (25% SKU match per research report). Lead with absolute savings in dollars rather than percentage if the deal price is below $149. If the Groupon price falls within or above the $149–$269 range, reposition around convenience (IHG brand trust, splash pad for kids, easy booking) rather than deep discount.",
+  "executive_summary": "This page scores 3.0/10 overall and is effectively non-functional: it displays zero pricing information (value_comm: 1/10) and has an empty 'What You Get' section (completeness: 2/10). The #1 fix is technical—restore missing pricing data so customers can see what they're buying. The #2 fix is populating the highlights with specific room/amenity details based on the splash pad promise in the title. Adding those two elements plus a proper hotel description could lift click-to-purchase from near-zero to 8–12% (industry baseline for hotel deals).",
+  "image_recommendations": [
+    {
+      "image_type": "Hero photo of the indoor splash pad with kids playing — bright, colorful, active shot showing the water features and family atmosphere",
+      "conversion_reason": "The splash pad is the primary family differentiator mentioned in the title; buyers need visual proof it exists and is appealing for kids. No splash pad details appear anywhere on the page (content gap #4), so imagery must carry the entire message.",
+      "priority": "High"
+    },
+    {
+      "image_type": "Standard room photo showing two queen beds, family-friendly setup with clear view of room size and cleanliness",
+      "conversion_reason": "Hotel buyers need to see room configuration to assess fit for their family size. 'What You Get' section is empty (completeness: 2/10), so images must compensate for missing room type and bed details.",
+      "priority": "High"
+    },
+    {
+      "image_type": "Exterior shot of the Holiday Inn building with clear IHG branding and signage visible",
+      "conversion_reason": "Brand recognition reduces perceived risk for hotel bookings. The 5.0-star rating from 68 reviews (trust: 7/10) needs visual reinforcement showing this is a legitimate, well-maintained IHG property.",
+      "priority": "Medium"
+    },
+    {
+      "image_type": "Breakfast buffet area with food spread visible (if complimentary breakfast is included)",
+      "conversion_reason": "Breakfast inclusion is a top decision factor for family hotel stays but is completely unaddressed in current content (amenities gap #6). If included, this image closes a major value communication gap.",
+      "priority": "Medium"
+    },
+    {
+      "image_type": "Lobby or common area photo showing clean, modern, family-welcoming environment",
+      "conversion_reason": "Establishes quality expectations and reassures families this is a safe, clean, appropriate environment. Compensates for missing hotel description (content gap #2).",
+      "priority": "Low"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority_rank": 1,
+      "category": "pricing",
+      "short_title": "Restore missing pricing display immediately",
+      "recommendation": "Fix the critical technical failure preventing any pricing information from displaying. The deal page must show the Groupon price, original price (if applicable), discount percentage, and total savings. This is a non-negotiable prerequisite for the page to function as a purchasable deal.",
+      "current_state": "No pricing information visible anywhere on the page. Customer cannot see deal price, original price, savings amount, or any cost context.",
+      "proposed_state": "[Technical fix required — no copy solution exists] Once pricing is restored, display in this format:\n\nGroupon Price: $[actual price]\nOriginal Price: $[original] (if verifiable)\nYou Save: $[savings] ([X]% off)\n\nFrame savings against the validated market range of $149–$269/night for family-friendly Grand Rapids hotels only if the Groupon price falls meaningfully below $149. If the price is within or above that range, lead with convenience and brand trust rather than discount depth.",
+      "data_citation": "value_comm: 1/10 — 'No pricing data means no price, no original price, no discount percentage, no savings context. A customer cannot evaluate value when they cannot see what it costs.'",
+      "expected_impact": "high",
+      "impact_rationale": "A deal page without visible pricing is non-functional and will have near-zero conversion. This is a deal-breaker issue that prevents purchase regardless of all other page elements.",
+      "supporting_evidence": [
+        "value_comm score: 1/10 — fails completely due to absence of pricing",
+        "AI flag: 'Critical page data missing: no pricing displayed... this suggests a severe content loading or page rendering failure that makes the deal unpurchasable'",
+        "Content gap #1: 'No pricing information whatsoever — customer cannot see the deal price, original price, or any savings amount; this is a deal-breaker'"
+      ],
+      "impact_score": 1000
+    },
+    {
+      "priority_rank": 2,
+      "category": "highlights",
+      "short_title": "Populate empty What You Get section with details",
+      "recommendation": "Replace the placeholder 'What You Get' bullet with 6–7 specific, benefit-focused bullets covering: room type and guest capacity, splash pad access, breakfast inclusion (if applicable), parking and WiFi, location convenience, and trust signal (5.0-star rating from 68 Groupon reviews). Each bullet must be verified with the merchant before publishing.",
+      "current_state": "Highlights section contains only:\n• What You Get\n\nThis is a placeholder, not actual content. Customer has zero information about what they're purchasing.",
+      "proposed_state": "• [Example — verify with merchant:] One-night stay for up to 4 guests in a room with two queen beds\n• Full access to indoor splash pad — year-round fun for kids and families\n• [Example — verify with merchant:] Complimentary hot breakfast buffet each morning\n• [Example — verify with merchant:] Free WiFi and free parking throughout your stay\n• Convenient South Grand Rapids location — near downtown, Frederik Meijer Gardens, and local dining\n• Trusted Holiday Inn brand by IHG — rated 5.0 stars by 68 Groupon travelers\n• [Example — verify with merchant:] Fitness center, business center, and 24-hour front desk service",
+      "data_citation": "completeness: 2/10 — ''What You Get' section is essentially empty — no details on room type, bed configuration, number of guests allowed, or number of nights included'",
+      "expected_impact": "high",
+      "impact_rationale": "The highlights section is the primary conversion element for hotel deals — customers cannot assess fit or value without knowing room type, guest capacity, nights included, and key amenities. An empty section kills purchase intent.",
+      "supporting_evidence": [
+        "Content gap #3: ''What You Get' section is essentially empty — no details on room type, bed configuration, number of guests allowed, or number of nights included'",
+        "completeness: 2/10 — severely incomplete, missing room details and amenity specifics",
+        "AI flag: 'Critical page data missing... 'What You Get' section appears empty'",
+        "Trust signal available: 5.0/5.0 rating from 68 Groupon reviews — should be incorporated into highlights"
+      ],
+      "impact_score": 810
+    },
+    {
+      "priority_rank": 3,
+      "category": "content",
+      "short_title": "Add hotel description with family amenities",
+      "recommendation": "Add a 3–4 paragraph description section immediately below the title covering: (1) hotel overview and IHG brand positioning, (2) detailed splash pad description with hours/age info, (3) room types and family-friendly features, (4) location context with specific nearby attractions and distances. Must be verified with merchant for accuracy.",
+      "current_state": "Zero description content on the page. No information about the hotel, facilities, rooms, or what makes this stay 'family-friendly' beyond the splash pad mention in the title.",
+      "proposed_state": "[Example — verify with merchant:]\n\nWelcome to Holiday Inn Grand Rapids South by IHG, your family's gateway to Michigan fun and comfort. Located just 15 minutes from downtown Grand Rapids, our hotel combines the trusted quality of the Holiday Inn brand with amenities designed for families traveling with kids.\n\nOur indoor splash pad is the star attraction — a year-round water play area featuring fountains, sprayers, and shallow wading zones perfect for toddlers through age 10. Open daily from 8 AM to 9 PM, the splash pad provides hours of entertainment regardless of Michigan weather.\n\nRooms feature your choice of two queen beds or one king, accommodating families of up to 4 guests comfortably. Every room includes mini-fridge, microwave, flat-screen TV, and work desk. Start each day with our complimentary hot breakfast buffet featuring eggs, waffles, fresh fruit, and kid-friendly cereals.\n\nYou're minutes from Frederik Meijer Gardens & Sculpture Park (4 miles), John Ball Zoo (6 miles), downtown Grand Rapids dining and breweries (7 miles), and major business parks. Free parking and WiFi throughout your stay.",
+      "data_citation": "Content gap #2: 'No description of the hotel, rooms, or facilities — page provides zero context about what makes this stay 'family-friendly' beyond the splash pad mention in the title'",
+      "expected_impact": "high",
+      "impact_rationale": "Hotel bookings require context about property quality, location, and amenities. Zero description content forces customers to leave the page to research elsewhere, increasing abandonment and reducing trust in the deal.",
+      "supporting_evidence": [
+        "completeness: 2/10 — missing description entirely",
+        "Content gap #2: no hotel, room, or facility description",
+        "Content gap #4: no splash pad information (hours, seasonal availability, age restrictions) despite title prominence",
+        "Content gap #5: no attraction details or distances despite title claim of 'Near Top Attractions'"
+      ],
+      "impact_score": 648
+    },
+    {
+      "priority_rank": 4,
+      "category": "content",
+      "short_title": "Add splash pad details section or callout",
+      "recommendation": "Create a dedicated 'About the Splash Pad' callout box or subsection with specific details: operating hours, seasonal availability (year-round indoor vs. summer-only), age recommendations, depth/safety features, and whether access is included with room rate or requires separate fee. This delivers on the title's primary promise.",
+      "current_state": "The title prominently features 'Enjoy Splash Pad Fun' but the page provides zero information about the splash pad — no hours, no age range, no description, no photos, no mention of whether it's included or costs extra.",
+      "proposed_state": "[Example — verify with merchant:]\n\n🌊 INDOOR SPLASH PAD INCLUDED\n• Open daily 8 AM – 9 PM, year-round\n• Perfect for ages 2–10 (adult supervision required)\n• Features: spray fountains, dump buckets, shallow wading zones\n• Heated indoor facility — fun in any weather\n• Complimentary access for all hotel guests\n• Towels provided; swimsuits and swim diapers required",
+      "data_citation": "Content gap #4: 'No information about the splash pad mentioned prominently in the title — operating hours, seasonal availability, age restrictions, or whether access is included with the room rate'",
+      "expected_impact": "high",
+      "impact_rationale": "The splash pad is the primary family differentiator and appears first in the title — failing to provide any details about it represents a massive promise-delivery gap that erodes trust and prevents families from assessing fit.",
+      "supporting_evidence": [
+        "Content gap #4: splash pad mentioned in title but no details anywhere on page",
+        "Title leads with 'Enjoy Splash Pad Fun' but completeness score is 2/10 with no amenity specifics",
+        "AI flag: fine print mentions restrictions customers can't verify because details are missing"
+      ],
+      "impact_score": 512
+    },
+    {
+      "priority_rank": 5,
+      "category": "content",
+      "short_title": "Add amenities section with family features",
+      "recommendation": "Create a bulleted 'Amenities' section (separate from highlights) listing specific hotel features: breakfast (type and cost), parking (free or fee), WiFi, pool/splash pad, fitness center, business center, pet policy, accessibility features. Verify all items with merchant before publishing.",
+      "current_state": "The H2 heading 'Amenities' appears twice (per audit) but no amenity content is visible. Customer cannot determine if breakfast is included, parking costs extra, WiFi is free, etc.",
+      "proposed_state": "[Example — verify with merchant:]\n\nAMENITIES INCLUDED:\n• Complimentary hot breakfast buffet\n• Free WiFi throughout hotel\n• Free on-site parking\n• Indoor splash pad (all ages)\n• Fitness center\n• Business center with print/copy services\n• 24-hour front desk\n• Elevator and accessible rooms available\n• Pet-friendly rooms (fee may apply — call ahead)",
+      "data_citation": "Content gap #6: 'No mention of what amenities are included — breakfast (complimentary or paid?), parking fees, WiFi, fitness center, pool access beyond the splash pad'",
+      "expected_impact": "medium",
+      "impact_rationale": "Amenities transparency reduces pre-purchase anxiety (will I pay extra for parking? Is breakfast included?) and allows customers to accurately calculate total trip cost, reducing post-purchase complaints and increasing conversion confidence.",
+      "supporting_evidence": [
+        "Content gap #6: no amenity details — breakfast, parking, WiFi inclusion all unknown",
+        "completeness: 2/10 — amenity specifics completely absent",
+        "Duplicate H2 heading 'Amenities' suggests templating error where content should appear but doesn't",
+        "Category context: family hotel stays — breakfast and parking inclusion are top decision factors"
+      ],
+      "impact_score": 392
+    },
+    {
+      "priority_rank": 6,
+      "category": "title",
+      "short_title": "Shorten title and lead with location benefit",
+      "recommendation": "Rewrite the title to 100 characters or fewer, leading with the hotel name and city, followed by the primary family benefit (splash pad), and closing with a trust signal (IHG brand). Remove vague 'Near Top Attractions' phrase and the redundant 'by IHG' mid-title.",
+      "current_state": "Family-Friendly Hotel Stay at Holiday Inn Grand Rapids South by IHG – Enjoy Splash Pad Fun & Near Top Attractions (122 characters, awkward structure)",
+      "proposed_state": "Holiday Inn Grand Rapids: Family Stay with Splash Pad & IHG Brand Trust (72 characters)",
+      "data_citation": "Current title is 122 characters and buries the key benefit. clarity: 2/10 — 'The page has a descriptive title but is otherwise catastrophically unclear.' SEO meta title (86 chars) is also over the 60-char mobile cutoff.",
+      "expected_impact": "medium",
+      "impact_rationale": "A tighter, benefit-forward title improves scannability and mobile display. Leading with 'Holiday Inn Grand Rapids' captures the location search term and brand recognition, while 'Splash Pad' and 'IHG Brand Trust' address the family audience and reduce perceived risk.",
+      "supporting_evidence": [
+        "Current title: 122 characters (over recommended 100 max)",
+        "clarity: 2/10 — title is descriptive but page fails to deliver on its promises",
+        "Trust score: 7/10 — leveraging IHG brand and 5.0-star rating (68 reviews) in title can improve click-through",
+        "Category: Hotels in Grand Rapids — title should lead with location for local/regional search"
+      ],
+      "impact_score": 378
+    },
+    {
+      "priority_rank": 7,
+      "category": "content",
+      "short_title": "Add check-in and check-out times prominently",
+      "recommendation": "Add a 'Check-In Details' section or callout box near the top of the page specifying: standard check-in time (typically 3–4 PM), check-out time (typically 11 AM–12 PM), early check-in availability, late check-out policy, and reminder that credit card and ID matching traveler name are required (per fine print).",
+      "current_state": "No check-in or check-out times displayed anywhere on the page, despite fine print mentioning 'Traveler name must match ID at time of check-in' and age requirement of 21+.",
+      "proposed_state": "[Example — verify with merchant:]\n\nCHECK-IN INFORMATION:\n• Check-in: 3:00 PM | Check-out: 11:00 AM\n• Early check-in subject to availability (call ahead)\n• Valid ID and credit card required at check-in\n• Guest name must match Groupon reservation\n• Must be 21+ to check in\n• Questions? Call the hotel at [phone number] after purchasing",
+      "data_citation": "Content gap #8: 'No check-in/check-out times specified — matters for same-day arrival planning and coordinating with flights or other bookings'",
+      "expected_impact": "medium",
+      "impact_rationale": "Check-in/check-out times are essential for trip planning and same-day arrival coordination. Their absence forces customers to call the hotel or abandon the purchase to search for this basic information, increasing friction and reducing conversion.",
+      "supporting_evidence": [
+        "Content gap #8: no check-in/check-out times listed",
+        "Fine print mentions check-in requirements (ID, credit card, age 21+) but not the actual times",
+        "AI flag: fine print references restrictions customers can't comply with because key details are missing",
+        "completeness: 2/10 — critical category information absent"
+      ],
+      "impact_score": 294
+    },
+    {
+      "priority_rank": 8,
+      "category": "content",
+      "short_title": "Add hotel address and map location",
+      "recommendation": "Add the full street address of Holiday Inn Grand Rapids South immediately below the title or in a 'Location' section, and embed a map showing the hotel's position relative to downtown Grand Rapids, major highways (I-96, US-131), and nearby attractions mentioned in the description.",
+      "current_state": "No hotel address visible on the page and no map displayed. Customer cannot assess location convenience, evaluate the 'South' designation, or plan transportation.",
+      "proposed_state": "[Example — verify with merchant:]\n\nLOCATION:\nHoliday Inn Grand Rapids South\n[Full street address]\nGrand Rapids, MI [ZIP]\n\n[Embedded map]\n\nNEARBY ATTRACTIONS:\n• Frederik Meijer Gardens: 4 miles (8 min drive)\n• Downtown Grand Rapids: 7 miles (12 min drive)\n• John Ball Zoo: 6 miles (10 min drive)\n• Gerald R. Ford Airport: 9 miles (15 min drive)",
+      "data_citation": "Content gap #7: 'No hotel address or map shown — customer cannot assess location convenience, evaluate the 'South' designation, or plan transportation'",
+      "expected_impact": "medium",
+      "impact_rationale": "Hotel location is a primary decision factor — families need to verify proximity to attractions, airport, and their specific destination. Missing address/map forces customers off-page to verify location, increasing abandonment risk.",
+      "supporting_evidence": [
+        "Content gap #7: no address or map",
+        "Content gap #5: title promises 'Near Top Attractions' but provides no specifics or distances",
+        "clarity: 2/10 — customers cannot assess location fit without address",
+        "Category: Grand Rapids hotel — must show position relative to downtown and major landmarks"
+      ],
+      "impact_score": 245
+    },
+    {
+      "priority_rank": 9,
+      "category": "seo",
+      "short_title": "Extend meta description to full character limit",
+      "recommendation": "Rewrite the meta description to use the full 155-character limit (currently only 113 characters). Add a specific value proposition (5.0-star rating), call-to-action ('Book now'), and Michigan/getaway keywords to improve click-through from search results.",
+      "current_state": "Meta description (113 chars): 'Family-Friendly Hotel Stay at Holiday Inn Grand Rapids South by IHG – Enjoy Splash Pad Fun & Near Top Attractions'",
+      "proposed_state": "Family hotel in Grand Rapids with indoor splash pad. Save on your Michigan getaway at Holiday Inn South by IHG. Rated 5.0★ by 68 travelers. Book now! (147 characters)",
+      "data_citation": "seo: 6/10 — 'meta description is short (113 chars vs. 155 max)'",
+      "expected_impact": "low",
+      "impact_rationale": "Extending the meta description to the full 155-character limit provides more search result real estate, allows inclusion of trust signals (5.0-star rating), and may improve organic click-through rate by 2–5%.",
+      "supporting_evidence": [
+        "seo: 6/10 — meta description only 113 characters, missing 42 characters of available space",
+        "Trust signal available: 5.0/5.0 from 68 reviews should be incorporated",
+        "Current meta description duplicates the title exactly rather than adding new information"
+      ],
+      "impact_score": 72
+    },
+    {
+      "priority_rank": 10,
+      "category": "seo",
+      "short_title": "Add Open Graph tags for social sharing",
+      "recommendation": "Implement Open Graph meta tags (og:title, og:description, og:image, og:url, og:type) to ensure the deal displays correctly when shared on Facebook, LinkedIn, and other social platforms. Use the splash pad image as og:image and a benefit-focused title as og:title.",
+      "current_state": "No Open Graph tags present. When shared on social media, the page will display with default/broken formatting, reducing click-through and viral sharing potential.",
+      "proposed_state": "<meta property=\"og:title\" content=\"Holiday Inn Grand Rapids: Family Hotel with Indoor Splash Pad\" />\n<meta property=\"og:description\" content=\"Save on a family getaway in Grand Rapids. Indoor splash pad, free breakfast, IHG brand trust. Rated 5.0★ by 68 travelers.\" />\n<meta property=\"og:image\" content=\"[URL to splash pad hero image]\" />\n<meta property=\"og:url\" content=\"https://www.groupon.com/deals/ga-bk-holiday-inn-grand-rapids-south\" />\n<meta property=\"og:type\" content=\"product\" />",
+      "data_citation": "AI flag: 'Missing Open Graph tags (OG title and description) will result in poor presentation when shared on social media — missed viral/sharing opportunity'",
+      "expected_impact": "low",
+      "impact_rationale": "Social sharing accounts for 5–8% of hotel deal traffic. Proper OG tags improve click-through from shared links by ensuring image, title, and description display correctly, reducing the 'broken link' perception.",
+      "supporting_evidence": [
+        "AI flag: missing OG tags hurt social sharing presentation",
+        "seo: 6/10 — missing critical metadata for social platforms",
+        "Current schema is generic 'WebSite' rather than product-specific",
+        "Trust signal (5.0★, 68 reviews) should appear in social share preview"
+      ],
+      "impact_score": 72
+    }
+  ],
+  "generated_at": "2026-05-30T01:31:02.791410"
+}

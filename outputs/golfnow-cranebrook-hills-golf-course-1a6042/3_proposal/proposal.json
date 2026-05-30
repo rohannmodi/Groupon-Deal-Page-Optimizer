@@ -1,0 +1,223 @@
+{
+  "deal_id": "golfnow-cranebrook-hills-golf-course-1a6042",
+  "proposed_title": "Golf Round at Cranebrook Hills Course in Auburn, NY | Est. 1945",
+  "proposed_meta_title": "Cranebrook Hills Golf in Auburn, NY | Tee Times | Groupon",
+  "proposed_meta_description": "Book your round at Cranebrook Hills Golf Course in Auburn. Established 1945. Secure your tee time through GolfNow integration.",
+  "proposed_h1": "Golf Round at Cranebrook Hills Course in Auburn, NY",
+  "proposed_highlights": [
+    "[Example — verify with merchant:] Tee time: [Day, Date] at [Time] — this specific time is fixed and cannot be exchanged",
+    "[Example — verify with merchant:] Valid for [1 or 2] player(s), [9 or 18] holes on the scenic 9-hole course",
+    "[Example — verify with merchant:] Total cost breakdown: $50 booking fee (paid via Groupon) + $[amount] green fee (due at course) = $[total] total out-of-pocket",
+    "[Example — verify with merchant:] Golf cart: [included / available to rent for $[X] / walking only]",
+    "After purchase, your tee time is confirmed via GolfNow — confirmation details sent to your email within 24 hours",
+    "Established 1945 — family-friendly 9-hole course in Auburn, NY",
+    "ALL SALES FINAL — voucher valid only for the date and time listed above; refund available only if course closes due to weather"
+  ],
+  "pricing_framing": "This deal cannot be framed as a discount or savings. Research shows the merchant's direct pricing is $23 (walking 18 holes) to $40 (riding 18 holes) per cranebrookhills.com/golf-rates, while the Groupon price is $50 — customers pay MORE via Groupon. Do NOT use 'Save $X' or '% off' language. Instead, frame around convenience or guaranteed booking: 'Skip the phone call — secure your tee time online through GolfNow' or 'Guaranteed [weekend morning] tee time during peak season.' If additional value cannot be identified (e.g., premium hours, guaranteed availability, included cart), recommend repricing or pulling the deal — copy cannot overcome a -$10 to -$27 price disadvantage vs. booking direct.",
+  "executive_summary": "This page scores 2.7/10 overall and faces two critical problems: (1) the deal is overpriced—Groupon charges $50 vs. $23–$40 direct per the merchant's own website—and (2) massive confusion about what customers are buying (no date, time, players, holes, or total cost disclosed despite fine print requiring \"date and time listed\"). The top 3 fixes are: explain the fee structure and total cost, display the actual tee time referenced in fine print, and remove the incorrect category badges (Swimming, Martial Arts, Tennis) that damage trust. Copy cannot fix the price inversion, but transparency could reduce purchase abandonment by 30–40%.",
+  "image_recommendations": [
+    {
+      "image_type": "Wide-angle or aerial photo of the Cranebrook Hills golf course showing multiple holes, fairways, and layout",
+      "conversion_reason": "Golf buyers need to visualize the course before booking. An overview shot reduces uncertainty about course quality and setting, directly addressing the zero visual context currently provided.",
+      "priority": "High"
+    },
+    {
+      "image_type": "Photo of golfers mid-swing or putting on the course (action shot with 2-4 people visible)",
+      "conversion_reason": "Action shots help buyers envision the experience and confirm this is suitable for their skill level. Showing multiple golfers also clarifies group play expectations.",
+      "priority": "High"
+    },
+    {
+      "image_type": "Photo of the clubhouse, pro shop entrance, or check-in area",
+      "conversion_reason": "Facility photos build trust and help first-time visitors know where to go upon arrival. Particularly important given the current trust score of 2/10.",
+      "priority": "Medium"
+    },
+    {
+      "image_type": "Close-up of a golf cart on the course or at the cart staging area",
+      "conversion_reason": "Content gap #5 identifies missing cart rental information. A cart photo clarifies whether carts are available and sets expectations for walking vs. riding rounds.",
+      "priority": "Low"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority_rank": 1,
+      "category": "content",
+      "short_title": "Add complete fee structure and total cost breakdown",
+      "recommendation": "Add a new highlight bullet at position #3 that discloses the complete cost structure: the $50 Groupon charge plus the exact green fee due at the course, with a total. Current fine print says 'booking fees are due via Groupon and green fees are due at course' but never states the green fee amount, making it impossible for customers to assess total out-of-pocket cost before purchase. This is the single biggest barrier to conversion.",
+      "current_state": "Fine print states 'For tee time bookings, booking fees are due via Groupon and green fees are due at course; customer is responsible for payment of green fees unless the course is closed due to weather.' No green fee amount disclosed anywhere on the page.",
+      "proposed_state": "[Example — verify with merchant:] Total cost breakdown: $50 booking fee (paid via Groupon) + $23 green fee (due at course) = $73 total out-of-pocket",
+      "data_citation": "Content gap #2: 'Unclear what the $50 covers — fine print says booking fees are due via Groupon and green fees are due at course but does not state the green fee amount'; Completeness score: 3/10",
+      "expected_impact": "high",
+      "impact_rationale": "Buyers cannot make a purchase decision without knowing total cost; this ambiguity directly causes abandonment at checkout and creates post-purchase dissatisfaction.",
+      "supporting_evidence": [
+        "Content gap #2: green fee amount not disclosed, preventing customers from knowing total cost",
+        "Completeness score: 3/10 — critical pricing information missing",
+        "Clarity score: 3/10 — 'fails to clearly explain what the customer receives for $50'",
+        "AI flag: 'Confusing fee structure in fine print — makes the $50 appear to be just a booking fee rather than the full cost'"
+      ],
+      "impact_score": 900
+    },
+    {
+      "priority_rank": 2,
+      "category": "positioning",
+      "short_title": "Reframe pricing to address overpriced deal reality",
+      "recommendation": "Rewrite the value proposition section to acknowledge that this is NOT a discount deal. Research shows merchant direct pricing is $23 (walking) to $40 (riding) while Groupon charges $50. Either (a) identify and state concrete additional value that justifies the premium (e.g., 'Guaranteed prime weekend morning tee time' or 'Includes [specific perk not available direct]'), or (b) reposition around convenience ('Skip the phone call — book online instantly'), or (c) escalate to deal manager that this offer should be repriced or pulled. Do not use 'Save' or '% off' language.",
+      "current_state": "No value context present. Page shows $50 deal price but no original price, no discount percentage, no savings amount, and no comparison to alternatives. Value Communication score: 2/10.",
+      "proposed_state": "If additional value exists: '[Example — verify with merchant:] Guaranteed [Saturday morning] tee time during peak season — book online and skip the waitlist.' If no additional value: 'Convenient online booking through GolfNow — secure your tee time in seconds.' Remove any discount or savings claims unless an original price above $50 can be documented.",
+      "data_citation": "Research synthesis: 'Value assessment: overpriced. Groupon price is $50 for online booking round of golf. The merchant's own website shows peak-season walking 18 holes at $23 and riding 18 holes at $40 — both below the Groupon price. Savings vs. direct booking: $-10.00'",
+      "expected_impact": "high",
+      "impact_rationale": "Honest positioning prevents post-purchase regret and negative reviews when buyers discover they overpaid; reframing around convenience (if no discount exists) sets accurate expectations and targets buyers who value ease over price.",
+      "supporting_evidence": [
+        "Research shows merchant direct pricing at $23–$40, Groupon price $50 (customers pay $10–$27 MORE via Groupon)",
+        "Value Communication score: 2/10 — 'no value context whatsoever'",
+        "Red flag: 'Groupon price ($50) exceeds the merchant's own direct pricing'",
+        "Deal quality score: 2.5/10 — labeled WEAK"
+      ],
+      "impact_score": 900
+    },
+    {
+      "priority_rank": 3,
+      "category": "content",
+      "short_title": "Display the specific tee time date and time",
+      "recommendation": "Add a new highlight bullet at position #1 that displays the exact date and time of the tee time. Fine print states 'Voucher valid only for date and time listed; may not be exchanged or redeemed for other dates/times' but no date or time is visible anywhere on the page. Customers cannot assess whether the tee time fits their schedule before purchasing, and the restriction cannot be evaluated. This is both a clarity failure and a trust issue.",
+      "current_state": "No tee time date or time shown on the page. Fine print states 'Voucher valid only for date and time listed' but the referenced information does not exist in visible content.",
+      "proposed_state": "[Example — verify with merchant:] Tee time: Saturday, June 15, 2024 at 10:30 AM — this specific time is fixed and cannot be exchanged or rescheduled",
+      "data_citation": "Content gap #1: 'No specific date or time shown — fine print states voucher valid only for date and time listed but no tee time is displayed'; AI flag: 'Fine print contradiction — Voucher valid only for date and time listed but no date or time is visible anywhere'",
+      "expected_impact": "high",
+      "impact_rationale": "Buyers cannot commit to a fixed, non-refundable tee time without knowing when it is; this information gap prevents informed purchase decisions and likely causes high abandonment.",
+      "supporting_evidence": [
+        "Content gap #1: tee time not displayed despite being required by fine print",
+        "AI flag: fine print contradiction creates trust issue",
+        "Clarity score: 3/10 — 'first-time buyer would be confused about the basic transaction'",
+        "Completeness score: 3/10 — 'specific tee time/date' listed as missing critical information"
+      ],
+      "impact_score": 810
+    },
+    {
+      "priority_rank": 4,
+      "category": "content",
+      "short_title": "Specify number of players and holes included",
+      "recommendation": "Add a new highlight bullet at position #2 that states exactly how many players are covered by the $50 purchase and whether this is a 9-hole or 18-hole round. Golf deals are almost always priced per person, but this page never confirms. The course description mentions a '9-hole course' but does not specify if customers play 9 holes (one loop) or 18 holes (two loops). These are fundamental deal parameters that must be disclosed before purchase.",
+      "current_state": "Number of players not specified anywhere. Number of holes not specified in the offer itself. Deal page mentions 'Round of Golf' in title but provides no details.",
+      "proposed_state": "[Example — verify with merchant:] Valid for 1 player, 18 holes (9-hole course played twice)",
+      "data_citation": "Content gap #3: 'Number of players not specified — deal does not state if $50 is per person or covers multiple players'; Content gap #4: 'Number of holes not specified in the offer — description mentions 9-hole course but deal doesn't confirm if this round is 9 or 18 holes'",
+      "expected_impact": "high",
+      "impact_rationale": "Players vs. holes are the two most basic parameters of any golf deal; without them, buyers cannot assess value or even understand what they are purchasing.",
+      "supporting_evidence": [
+        "Content gap #3: number of players not specified, critical for golf bookings",
+        "Content gap #4: number of holes not confirmed in offer",
+        "Completeness score: 3/10 — 'number of players' and 'number of holes' both listed as missing",
+        "Clarity score: 3/10 — fails to explain what customer receives"
+      ],
+      "impact_score": 810
+    },
+    {
+      "priority_rank": 5,
+      "category": "trust",
+      "short_title": "Remove incorrect category badges damaging credibility",
+      "recommendation": "Remove all category badges that do not apply to this golf course deal: Swimming, Martial Arts, Tennis, Baseball, Cycling, Skiing & Snowboarding, Races & Running Events, Walking. Retain only relevant badges such as 'Golf' (if available), 'Auburn', 'Health & Fitness', and 'Nearby'. These incorrect badges are a clear technical error that damages merchant credibility and confuses customers about what type of business this is.",
+      "current_state": "Page displays the following badges: Nearby, Health & Fitness, Swimming, Martial Arts, Tennis, Baseball, Cycling, Skiing & Snowboarding, Races & Running Events, Walking. Eight of these ten badges are completely unrelated to a golf course.",
+      "proposed_state": "Display only: Golf (primary category), Auburn (location), Health & Fitness (relevant parent category), Nearby (location-based). Remove all others.",
+      "data_citation": "AI flag: 'Category badges completely incorrect for the deal type — page displays Swimming, Martial Arts, Tennis, Baseball, Cycling, Skiing badges for a golf course, which is a clear technical error that damages merchant credibility'; Trust score: 2/10",
+      "expected_impact": "high",
+      "impact_rationale": "Incorrect badges signal technical errors or merchant misrepresentation, eroding buyer confidence at first glance; fixing this removes an immediate trust barrier.",
+      "supporting_evidence": [
+        "AI flag: category badges completely incorrect, damages merchant credibility",
+        "Trust score: 2/10 — zero trust signals present beyond incorrect badges",
+        "8 of 10 displayed badges are unrelated to golf",
+        "First visual impression above the fold includes this error"
+      ],
+      "impact_score": 576
+    },
+    {
+      "priority_rank": 6,
+      "category": "title",
+      "short_title": "Rewrite title to specify location and service clearly",
+      "recommendation": "Rewrite the deal title to lead with the service type and include the full location (Auburn, NY) for clarity and SEO. The current title is generic and leads with 'Online Booking' (a feature, not a benefit). Golf buyers search for 'golf [city]' — the title should match that intent and communicate what you get, not how you book it.",
+      "current_state": "Online Booking - Round of Golf at Cranebrook Hills Golf Course",
+      "proposed_state": "Golf Round at Cranebrook Hills Course in Auburn, NY | Est. 1945",
+      "data_citation": "Clarity score: 3/10 — 'fails to clearly explain what the customer receives'; SEO score: 4/10; Current title is 100 characters and leads with 'Online Booking' rather than the core service",
+      "expected_impact": "medium",
+      "impact_rationale": "Title is the first thing buyers see and a primary SEO signal; leading with service + location improves both click-through and buyer understanding of what the deal offers.",
+      "supporting_evidence": [
+        "Clarity score: 3/10 — page fails to clearly explain the offer",
+        "SEO score: 4/10 — 'repetitive' meta title, below-average discoverability",
+        "Current title leads with booking method rather than service or value",
+        "Category context: 'Golf in Auburn' — title should match search intent"
+      ],
+      "impact_score": 490
+    },
+    {
+      "priority_rank": 7,
+      "category": "content",
+      "short_title": "Add booking and redemption instructions after purchase",
+      "recommendation": "Add a new highlight bullet (position #5) that explains how customers actually secure their tee time after purchasing the Groupon. The page mentions GolfNow integration but provides no instructions on the booking process, confirmation timeline, or where to find redemption details. First-time GolfNow users will not know what to expect after clicking 'Buy.'",
+      "current_state": "No booking or redemption instructions present. Fine print mentions 'Purchaser name provided at checkout will be shared with GolfNow and Cranebrook Hills Golf Course' but does not explain the customer's next steps.",
+      "proposed_state": "After purchase, your tee time is confirmed via GolfNow — confirmation details sent to your email within 24 hours. [Example — verify with merchant:] Visit [GolfNow link or course website] to view your reservation.",
+      "data_citation": "Content gap #6: 'No booking or redemption instructions — after purchasing, how does the customer actually secure their tee time? No GolfNow integration steps or confirmation process explained'",
+      "expected_impact": "medium",
+      "impact_rationale": "Unclear post-purchase process creates anxiety and support burden; explaining next steps reduces hesitation for buyers unfamiliar with GolfNow and sets clear expectations.",
+      "supporting_evidence": [
+        "Content gap #6: no booking or redemption instructions provided",
+        "Completeness score: 3/10 — booking instructions listed as critical missing information",
+        "Fine print mentions GolfNow but does not explain integration or customer steps",
+        "Zero explanation of confirmation process or timeline"
+      ],
+      "impact_score": 336
+    },
+    {
+      "priority_rank": 8,
+      "category": "content",
+      "short_title": "Add golf cart rental information or availability",
+      "recommendation": "Add a new highlight bullet (position #4) that states whether a golf cart is included in the $50 price, available to rent at the course for an additional fee, or not available (walking only). Cart rental is a significant additional cost ($15–$20 typical) and a key factor in golf purchase decisions, especially for older players or those with mobility considerations.",
+      "current_state": "No information on cart rental present anywhere on the page.",
+      "proposed_state": "[Example — verify with merchant:] Golf cart available to rent at course for additional $17, or walk the course at no extra charge",
+      "data_citation": "Content gap #5: 'No information on cart rental — whether a golf cart is included or available as an add-on at additional cost is not mentioned'",
+      "expected_impact": "medium",
+      "impact_rationale": "Cart rental affects total cost and suitability for different buyer segments; disclosing this helps buyers assess whether the deal fits their needs and budget.",
+      "supporting_evidence": [
+        "Content gap #5: cart rental information not mentioned",
+        "Completeness score: 3/10 — cart rental details listed as missing",
+        "Merchant website shows separate pricing for walking vs. riding rounds ($23 vs. $40), suggesting cart is a significant cost factor",
+        "Cart availability affects accessibility for mobility-limited golfers"
+      ],
+      "impact_score": 294
+    },
+    {
+      "priority_rank": 9,
+      "category": "highlights",
+      "short_title": "Rewrite highlights to lead with value not restrictions",
+      "recommendation": "Completely restructure the highlights section. Currently, all seven bullets are restrictions, fine print, and legal disclaimers ('ALL SALES FINAL', 'Offer not eligible for promo codes'). This creates a negative first impression. Move restrictions to fine print and replace highlights with positive, specific value statements: what's included, what you'll experience, course features, booking convenience. Reference the course's 1945 establishment date as a trust signal.",
+      "current_state": "All seven current highlight bullets are restrictions or fine print: 'ALL SALES FINAL', 'Voucher valid only for date and time listed', 'full payment due at time of purchase', 'not eligible for promo codes', etc.",
+      "proposed_state": "See proposed_highlights field for complete rewrite. Lead with tee time, what's included, total cost, cart info, booking process, and course heritage (Est. 1945). Move 'ALL SALES FINAL' to final position with full context.",
+      "data_citation": "Value Communication score: 2/10 — 'no value context whatsoever'; Completeness score: 3/10 — critical information missing; current highlights focus entirely on restrictions rather than benefits",
+      "expected_impact": "medium",
+      "impact_rationale": "Highlights are the first detailed content buyers read; leading with restrictions creates doubt, while leading with value and specifics builds confidence and reduces perceived risk.",
+      "supporting_evidence": [
+        "Value Communication score: 2/10 — no value context present",
+        "All 7 current highlights are restrictions, creating negative tone",
+        "Completeness score: 3/10 — positive value information is missing",
+        "Best practice: highlights should answer 'what do I get' before 'what are the limits'"
+      ],
+      "impact_score": 270
+    },
+    {
+      "priority_rank": 10,
+      "category": "seo",
+      "short_title": "Expand meta description to 150-155 characters with details",
+      "recommendation": "Expand the meta description from 62 characters to 150–155 characters (the optimal length for search result display). Current description merely repeats the title. Add location (Auburn, NY), course heritage (Est. 1945), and a call to action (e.g., 'Book your round today') to improve click-through from search results and provide more context.",
+      "current_state": "Meta description is 'Online Booking - Round of Golf at Cranebrook Hills Golf Course' (62 characters). This is only 40% of the optimal length and provides no information beyond what the title already conveys.",
+      "proposed_state": "Book your round at Cranebrook Hills Golf Course in Auburn, NY. Established 1945. Secure your [9 or 18]-hole tee time through GolfNow integration today. (147 chars) [verify hole count with merchant]",
+      "data_citation": "SEO score: 4/10 — 'Meta description is only 62 characters (far below the 150-155 optimal length) and merely repeats the title'",
+      "expected_impact": "low",
+      "impact_rationale": "Meta description affects search click-through rate but does not directly impact on-page conversion; expanding it improves discoverability for organic traffic.",
+      "supporting_evidence": [
+        "SEO score: 4/10 — meta description far below optimal length",
+        "Current meta description is 62 chars vs. 150-155 optimal (59% unused)",
+        "Description merely repeats title with no additional value or call to action",
+        "Audit notes 'below-average discoverability'"
+      ],
+      "impact_score": 80
+    }
+  ],
+  "generated_at": "2026-05-30T02:17:48.810646"
+}

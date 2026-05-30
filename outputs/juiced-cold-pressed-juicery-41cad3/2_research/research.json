@@ -1,0 +1,254 @@
+{
+  "raw_research": {
+    "deal_id": "juiced-cold-pressed-juicery-41cad3",
+    "yelp": null,
+    "google": null,
+    "competitors": [
+      {
+        "competitor_name": "Juiced! Cold-Pressed Juicery",
+        "service_name": "juice cleanse",
+        "regular_price": 104.79,
+        "sale_price": 70.0,
+        "source_url": "https://coldpressedjuiced.com/products/three-day-cleanse?srsltid=AfmBOorE-woZH_WG7aFigNRfFxbpfjgmMh3-Dm3iX6ibK_rRshKERnf6",
+        "notes": "DIRECT_BOOKING_CANDIDATE — use for groupon_vs_direct_savings",
+        "sku_match_confidence": 0.32,
+        "is_merchant": true,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "1:11 Juice Bar",
+        "service_name": "juice cleanse",
+        "regular_price": 192.0,
+        "sale_price": 188.0,
+        "source_url": "https://111juicebar.com/products/3-day-cleanse-ana-eats-full-cleanse-twenty-six-8-oz-bottles?srsltid=AfmBOoqjfQ78VpqUAg0enholFPkQDtY_ZyW-09rgnhvj5Npwq146cfjm",
+        "notes": null,
+        "sku_match_confidence": 0.83,
+        "is_merchant": true,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Juice From the RAW®",
+        "service_name": "juice cleanse",
+        "regular_price": 372.0,
+        "sale_price": 219.99,
+        "source_url": "https://www.juicefromtheraw.com/?srsltid=AfmBOor83sj7Q5fvWpImT0wLtcliZuQUeB1ZZEYOK96n8Ae4MRMRAcaO",
+        "notes": null,
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Pure Juice Cafe",
+        "service_name": "juice cleanse",
+        "regular_price": 11.99,
+        "sale_price": 9.99,
+        "source_url": "https://www.purejuicecafe.com/",
+        "notes": null,
+        "sku_match_confidence": 0.83,
+        "is_merchant": true,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Cleanse 1Digestive Reset for First Timers",
+        "service_name": "juice cleanse",
+        "regular_price": 35.0,
+        "sale_price": 5.0,
+        "source_url": "https://pressed.com/products/first-time-juice-cleanse?srsltid=AfmBOoq5soFLN2pqw9Er1pEz6cUVHmCKC4ItEhVYaVvL-Z9St_sgGD0L",
+        "notes": null,
+        "sku_match_confidence": 0.83,
+        "is_merchant": true,
+        "match_type": "close"
+      }
+    ],
+    "category_context": {
+      "category": "Juice Cleanse",
+      "city": "Brookfield",
+      "typical_price_low": 65.0,
+      "typical_price_high": 174.51,
+      "typical_discount_pct": 35.0,
+      "notes": "Research quality: 8/18 sources accepted (10 rejected as non-competitor/informational). Validated market range for juice cleanse in Brookfield: $65–$175 Groupon price ($82.00) is within validated market range. Saves ~$38 vs market midpoint.",
+      "search_results": [
+        {
+          "title": "One Day Cleanse",
+          "url": "https://coldpressedjuiced.com/products/one-day-cleanse?srsltid=AfmBOopyWha54ptHMh4eXh9ObykVx7mYIKgQxH_Pl4t1Sv8z93CoZbIU",
+          "snippet": "1-Day. Regular price: $34.93.",
+          "position": 1
+        },
+        {
+          "title": "TOP 10 BEST Juice Cleanse near Brookfield, IL - Updated 2026",
+          "url": "https://m.yelp.com/search?find_desc=Juice+Cleanse&find_loc=Brookfield%2C+IL",
+          "snippet": "... fast and worth a walk if needed. The price range was around $10 for my drink but great for on the go energy for a busy day. Honestly I'm so happy I stopped ...",
+          "position": 6
+        },
+        {
+          "title": "Seven Day Cleanse",
+          "url": "https://coldpressedjuiced.com/products/seven-day-cleanse?srsltid=AfmBOorHmsHItGDUw8KAos9qwk654qgBJqx_Gyp6Hn58Bd9P8vEcrjHh",
+          "snippet": "7-Day. Regular price: $174.51. Sale price: $174.51 ...",
+          "position": 1
+        },
+        {
+          "title": "3 Day Juice Cleanse",
+          "url": "https://thejuicebarjuicecompany.com/products/3-day-juice-cleanse?srsltid=AfmBOopsGb1a3UNEXsSpcX02saxneEmrP034HsJluzTUomdN98cfnMmy",
+          "snippet": "3 Day Juice Cleanse. Sale. Regular price $108.00. Pay in 4 interest-free ...",
+          "position": 3
+        },
+        {
+          "title": "One Day Cleanse",
+          "url": "https://coldpressedjuiced.com/products/one-day-cleanse?srsltid=AfmBOopIas0hexZkkmGLx-X1sBWNyZAHVtOwAwKMIRxuTNmL8_NkMOfS",
+          "snippet": "1-Day. Regular price: $34.93.",
+          "position": 1
+        },
+        {
+          "title": "Seven Day Cleanse",
+          "url": "https://coldpressedjuiced.com/products/seven-day-cleanse?srsltid=AfmBOorZyp-P3Iin6kMlLg0ZflnVG6e9qTSZRrTGkEoI6ufhTpFRM_YF",
+          "snippet": "7-Day. Regular price: $174.51. Sale price: $174.51 ...",
+          "position": 3
+        },
+        {
+          "title": "Fresh and Refreshing Juice Cleanse",
+          "url": "https://order.edensmoothies.com/product/juice-cleanse/183?srsltid=AfmBOoro-6vHdVCIFB9sjeV74IEQO6zkXRJbbFyFVPnnObgGqgOAq0w-",
+          "snippet": "$65.00 - $175.00 ... This item has a prep time of 3 business days. It may change when your order is available. ... Everything you need to feel refreshed for 1, 2, ...",
+          "position": 5
+        },
+        {
+          "title": "Three Day Cleanse",
+          "url": "https://coldpressedjuiced.com/products/three-day-cleanse?srsltid=AfmBOorIvAGWSZQIyyDzNR8ROdiDI019_MRe4UVVSmBetmzcNrQN2ao4",
+          "snippet": "Promotion specific to Cleanses. 3-Day Cleanse. Jumpstart Cleanse. 3-Day. Regular price: $74.79. Sale price: $74.79; Regular price: $104.79. Sale Sold out.",
+          "position": 6
+        }
+      ]
+    },
+    "sources": [
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://coldpressedjuiced.com/products/three-day-cleanse?srsltid=AfmBOorE-woZH_WG7aFigNRfFxbpfjgmMh3-Dm3iX6ibK_rRshKERnf6",
+        "source_title": "Juiced! Cold-Pressed Juicery",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-30T02:25:35.000128"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://111juicebar.com/products/3-day-cleanse-ana-eats-full-cleanse-twenty-six-8-oz-bottles?srsltid=AfmBOoqjfQ78VpqUAg0enholFPkQDtY_ZyW-09rgnhvj5Npwq146cfjm",
+        "source_title": "1:11 Juice Bar",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-30T02:25:35.000147"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.juicefromtheraw.com/?srsltid=AfmBOor83sj7Q5fvWpImT0wLtcliZuQUeB1ZZEYOK96n8Ae4MRMRAcaO",
+        "source_title": "Juice From the RAW®",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-30T02:25:35.000152"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.purejuicecafe.com/",
+        "source_title": "Pure Juice Cafe",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-30T02:25:35.000157"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://pressed.com/products/first-time-juice-cleanse?srsltid=AfmBOoq5soFLN2pqw9Er1pEz6cUVHmCKC4ItEhVYaVvL-Z9St_sgGD0L",
+        "source_title": "Cleanse 1Digestive Reset for First Timers",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-30T02:25:35.000161"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://coldpressedjuiced.com/products/one-day-cleanse?srsltid=AfmBOopyWha54ptHMh4eXh9ObykVx7mYIKgQxH_Pl4t1Sv8z93CoZbIU",
+        "source_title": "One Day Cleanse",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-30T02:25:35.000168"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://m.yelp.com/search?find_desc=Juice+Cleanse&find_loc=Brookfield%2C+IL",
+        "source_title": "TOP 10 BEST Juice Cleanse near Brookfield, IL - Updated 2026",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-30T02:25:35.000173"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://coldpressedjuiced.com/products/seven-day-cleanse?srsltid=AfmBOorHmsHItGDUw8KAos9qwk654qgBJqx_Gyp6Hn58Bd9P8vEcrjHh",
+        "source_title": "Seven Day Cleanse",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-30T02:25:35.000178"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://thejuicebarjuicecompany.com/products/3-day-juice-cleanse?srsltid=AfmBOopsGb1a3UNEXsSpcX02saxneEmrP034HsJluzTUomdN98cfnMmy",
+        "source_title": "3 Day Juice Cleanse",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-30T02:25:35.000182"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://coldpressedjuiced.com/products/one-day-cleanse?srsltid=AfmBOopIas0hexZkkmGLx-X1sBWNyZAHVtOwAwKMIRxuTNmL8_NkMOfS",
+        "source_title": "One Day Cleanse",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-30T02:25:35.000187"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://coldpressedjuiced.com/products/seven-day-cleanse?srsltid=AfmBOorZyp-P3Iin6kMlLg0ZflnVG6e9qTSZRrTGkEoI6ufhTpFRM_YF",
+        "source_title": "Seven Day Cleanse",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-30T02:25:35.000192"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://order.edensmoothies.com/product/juice-cleanse/183?srsltid=AfmBOoro-6vHdVCIFB9sjeV74IEQO6zkXRJbbFyFVPnnObgGqgOAq0w-",
+        "source_title": "Fresh and Refreshing Juice Cleanse",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-30T02:25:35.000197"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://coldpressedjuiced.com/products/three-day-cleanse?srsltid=AfmBOorIvAGWSZQIyyDzNR8ROdiDI019_MRe4UVVSmBetmzcNrQN2ao4",
+        "source_title": "Three Day Cleanse",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-30T02:25:35.000203"
+      }
+    ],
+    "quality": {
+      "competitor_pricing_status": "verified",
+      "merchant_reputation_status": "no_data",
+      "category_context_status": "validated",
+      "pricing_verifiable": false,
+      "overall_confidence": 0.6,
+      "sources_found": 5,
+      "sources_accepted": 5,
+      "sources_rejected": 0
+    }
+  },
+  "synthesis": {
+    "value_assessment": "marginal",
+    "value_reasoning": "Groupon price is $82 for a 3-day cleanse. The merchant's own website shows the same product at $104.79 (regular) with a sale price of $70 (32% SKU confidence — LOW). High-confidence competitor 1:11 Juice Bar charges $188 for a 3-day cleanse (83% confidence), making Groupon $106 cheaper. However, the comparable market price appears highly variable: validated category research shows 3-day cleanses ranging from $65–$175, with one source citing $108 regular price. Groupon's $82 sits in the middle of this range — not dramatically cheaper than direct alternatives. The deal page claims \"Up To 24% Off\" but original pricing is NOT verifiable (no strikethrough pricing captured). Given the merchant's own site shows a $70 sale price (if accurate), Groupon at $82 is actually $12 MORE expensive than booking direct, though this is based on low-confidence data. This is a marginal deal: modest savings vs. some competitors, but potentially more expensive than direct booking.",
+    "groupon_vs_direct_savings": -12.0,
+    "groupon_vs_competitor_savings": 106.0,
+    "merchant_differentiators": [],
+    "red_flags": [
+      "Deal page contains active COVID-19 crisis language ('The safety and well-being of their employees and customers is their top priority during this crisis') in both highlights and description sections — severely outdated content that undermines credibility",
+      "Original pricing NOT verifiable: the deal page claims 'Up To 24% Off' but no strikethrough pricing was captured to validate the claimed original price",
+      "No third-party reviews found (Yelp/Google data unavailable) — cannot independently assess merchant reputation beyond 3,441 Groupon ratings",
+      "Merchant's direct website shows a sale price of $70 for the 3-day cleanse (32% SKU confidence — LOW) — if accurate, buying direct saves $12 vs. this Groupon deal",
+      "Shipping not included in any tier — final cost depends on undisclosed shipping fees, which could eliminate savings entirely"
+    ],
+    "deal_quality": "good",
+    "deal_quality_score": 7.0,
+    "key_insight": "This is an average deal (4.75★, $82 vs. $65–$175 market range, but possibly $12 MORE than direct at $70) with severely outdated page content (active COVID crisis language) — the primary problem is both page quality (stale copy undermines trust) and uncertain value (may be cheaper to book direct, shipping fees undisclosed).",
+    "overall_verdict": "This is an average deal with uncertain value: Groupon charges $82 for a 3-day juice cleanse vs. a validated market range of $65–$175, offering savings vs. high-confidence competitor 1:11 Juice Bar ($188) but sitting in the middle of the market, and the merchant's own website shows a $70 sale price (32% confidence) that would make Groupon $12 more expensive if accurate. The page suffers from severe credibility problems: active COVID-19 \"crisis\" language appears in both highlights and description sections, and the claimed \"Up To 24% Off\" cannot be verified because no original strikethrough pricing was captured. The biggest opportunity is removing outdated crisis language immediately and clarifying shipping costs (currently excluded from all tiers), while investigating whether the direct booking price of $70 is accurate — if so, this deal offers negative value vs. booking direct. Supporting context: high-confidence competitor pricing shows $188 (1:11 Juice Bar, 83% match), but category research reveals significant price variation ($65–$175 range); with 3,441 Groupon ratings at 4.75★ but zero independent Yelp/Google reviews, merchant reputation cannot be verified outside Groupon's ecosystem.",
+    "review_themes": []
+  },
+  "data_quality": {
+    "competitor_pricing_status": "verified",
+    "merchant_reputation_status": "no_data",
+    "category_context_status": "validated",
+    "pricing_verifiable": false,
+    "overall_confidence": 0.6,
+    "sources_found": 5,
+    "sources_accepted": 5,
+    "sources_rejected": 0
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "raw_research": {
+    "deal_id": "golfnow-cranebrook-hills-golf-course-1a6042",
+    "yelp": null,
+    "google": null,
+    "competitors": [
+      {
+        "competitor_name": "Services",
+        "service_name": "online booking round of golf cranebrook",
+        "regular_price": null,
+        "sale_price": null,
+        "source_url": "http://cranebrookhills.com/golf-rates",
+        "notes": "DIRECT_BOOKING_CANDIDATE — use for groupon_vs_direct_savings",
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Golf Advisor",
+        "service_name": "online booking round of golf cranebrook",
+        "regular_price": 120.0,
+        "sale_price": 10.0,
+        "source_url": "https://www.golfpass.com/travel-advisor/courses/16640-cranebrook-hills-golf-course",
+        "notes": null,
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "GolfLink",
+        "service_name": "online booking round of golf cranebrook",
+        "regular_price": 28.0,
+        "sale_price": null,
+        "source_url": "https://www.golflink.com/golf-courses/ny/auburn/cranebrook-hills-golf-club",
+        "notes": null,
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      }
+    ],
+    "category_context": {
+      "category": "Golf",
+      "city": "Auburn",
+      "typical_price_low": 23.0,
+      "typical_price_high": 40.0,
+      "typical_discount_pct": null,
+      "notes": "Research quality: 5/18 sources accepted (13 rejected as non-competitor/informational). Validated market range for online booking round of golf cranebrook in Auburn: $23–$40 Groupon price ($50.00) is ABOVE the validated market range ($23–$40) — verify value proposition.",
+      "search_results": [
+        {
+          "title": "Services",
+          "url": "http://cranebrookhills.com/golf-rates",
+          "snippet": "Cranebrook Hills Golf Course · ​ Peak-Season · Walking 9 Holes..................$15 · Riding 9 Holes.....................$27 · Walking 18 Holes................$23.",
+          "position": 1
+        },
+        {
+          "title": "Cranebrook Hills Golf Club, Auburn, NY - Scorecard & Overview",
+          "url": "https://www.golflink.com/golf-courses/ny/auburn/cranebrook-hills-golf-club",
+          "snippet": "The estimated green fees for 9 holes is $28. The Cranebrook Hills golf course opened in 1945. Estimated Green Fees. $28. These rates are an estimate of what ...",
+          "position": 6
+        },
+        {
+          "title": "Services",
+          "url": "http://cranebrookhills.com/golf-rates",
+          "snippet": "Leagues:​​ · (Weekday morning leagues for $20 per week) · *$40 discount if paid cash upfront for 20 week league* · *$30 discount for 16 week league* · Year end ...",
+          "position": 1
+        },
+        {
+          "title": "Services",
+          "url": "http://cranebrookhills.com/golf-rates",
+          "snippet": "​ Peak-Season · Walking 9 Holes..................$15 · Riding 9 Holes.....................$27 · Walking 18 Holes................$23 · Riding 18 Holes...............",
+          "position": 1
+        },
+        {
+          "title": "Rates",
+          "url": "https://www.golfcranbrook.com/rates/",
+          "snippet": "Rates ; Regular, Weekdays, $60.00 ; Twilight, Weekends, $46.00 ; Twilight, Weekdays, $40.00 ; Off-season, Weekends, $54.00 ...",
+          "position": 6
+        }
+      ]
+    },
+    "sources": [
+      {
+        "source_type": "direct_scrape",
+        "source_url": "http://cranebrookhills.com/golf-rates",
+        "source_title": "Services",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-30T02:14:31.681735"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.golfpass.com/travel-advisor/courses/16640-cranebrook-hills-golf-course",
+        "source_title": "Golf Advisor",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-30T02:14:31.681745"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.golflink.com/golf-courses/ny/auburn/cranebrook-hills-golf-club",
+        "source_title": "GolfLink",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-30T02:14:31.681748"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://www.golfcranbrook.com/rates/",
+        "source_title": "Rates",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-30T02:14:31.681757"
+      }
+    ],
+    "quality": {
+      "competitor_pricing_status": "low_confidence",
+      "merchant_reputation_status": "no_data",
+      "category_context_status": "validated",
+      "pricing_verifiable": false,
+      "overall_confidence": 0.4,
+      "sources_found": 4,
+      "sources_accepted": 2,
+      "sources_rejected": 1
+    }
+  },
+  "synthesis": {
+    "value_assessment": "overpriced",
+    "value_reasoning": "Groupon price is $50 for online booking round of golf. The merchant's own website (http://cranebrookhills.com/golf-rates) shows peak-season walking 18 holes at $23 and riding 18 holes at $40 — both below the Groupon price. Validated market range for golf in Auburn is $23–$40 across 5 accepted sources. The Groupon price of $50 is ABOVE this validated range. Even if booking direct at full weekend rate, the merchant's site shows twilight weekend at $46 (per golfcranbrook.com/rates, though this may be a different course). No original pricing was captured from the deal page, so the claimed discount percentage cannot be verified. This is not a genuine deal — customers can book directly for less.",
+    "groupon_vs_direct_savings": -10.0,
+    "groupon_vs_competitor_savings": null,
+    "merchant_differentiators": [],
+    "red_flags": [
+      "Groupon price ($50) exceeds the merchant's own direct pricing: peak-season riding 18 holes is $40, walking 18 holes is $23 per http://cranebrookhills.com/golf-rates — customers pay MORE using Groupon than booking direct",
+      "Deal page original pricing not captured — cannot verify any discount claim independently",
+      "No third-party reviews found (Yelp/Google unavailable) — cannot assess merchant reputation or service quality independently of Groupon platform",
+      "Groupon price ($50) is above the validated Auburn golf market range of $23–$40 across 5 sources"
+    ],
+    "deal_quality": "weak",
+    "deal_quality_score": 2.5,
+    "key_insight": "This is a weak deal ($50 Groupon vs. $23–$40 direct pricing at the same merchant) with insufficient data to assess page quality — the fundamental problem is price inversion (customers pay more via Groupon), which cannot be fixed through copy optimization alone.",
+    "overall_verdict": "This is a weak deal because the Groupon price ($50) is higher than booking directly with the merchant ($23–$40 for 18 holes per http://cranebrookhills.com/golf-rates) and above the validated Auburn market range ($23–$40). The deal page fails to communicate any value proposition that justifies the premium, and original pricing was not captured so discount claims cannot be verified. The biggest opportunity is fundamental deal restructuring — the current pricing structure creates negative value (customers lose $10+ vs. direct booking), making this deal uncompetitive regardless of page optimization. With no reputation data available (Yelp/Google unavailable) and pricing that exceeds both direct booking and market alternatives, this deal has no clear competitive advantage.",
+    "review_themes": []
+  },
+  "data_quality": {
+    "competitor_pricing_status": "low_confidence",
+    "merchant_reputation_status": "no_data",
+    "category_context_status": "validated",
+    "pricing_verifiable": false,
+    "overall_confidence": 0.4,
+    "sources_found": 4,
+    "sources_accepted": 2,
+    "sources_rejected": 1
+  }
+}

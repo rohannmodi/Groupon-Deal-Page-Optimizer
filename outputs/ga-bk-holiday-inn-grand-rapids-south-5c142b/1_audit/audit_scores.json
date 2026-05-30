@@ -1,0 +1,33 @@
+{
+  "clarity_score": 2,
+  "trust_score": 7,
+  "urgency_score": 3,
+  "seo_score": 6,
+  "value_comm_score": 1,
+  "completeness_score": 2,
+  "overall_score": 3.0,
+  "content_gaps": [
+    "No pricing information whatsoever — customer cannot see the deal price, original price, or any savings amount; this is a deal-breaker",
+    "No description of the hotel, rooms, or facilities — page provides zero context about what makes this stay 'family-friendly' beyond the splash pad mention in the title",
+    "'What You Get' section is essentially empty — no details on room type, bed configuration, number of guests allowed, or number of nights included",
+    "No information about the splash pad mentioned prominently in the title — operating hours, seasonal availability, age restrictions, or whether access is included with the room rate",
+    "No details about which 'top attractions' are nearby or their distances — title promises proximity but provides no specifics for trip planning",
+    "No mention of what amenities are included — breakfast (complimentary or paid?), parking fees, WiFi, fitness center, pool access beyond the splash pad",
+    "No hotel address or map shown — customer cannot assess location convenience, evaluate the 'South' designation, or plan transportation",
+    "No check-in/check-out times specified — matters for same-day arrival planning and coordinating with flights or other bookings"
+  ],
+  "ai_flags": [
+    "Critical page data missing: no pricing displayed, no description content, and 'What You Get' section appears empty — this suggests a severe content loading or page rendering failure that makes the deal unpurchasable",
+    "Duplicate H2 headings ('What You Get' and 'Amenities' appear twice) suggest a content structure or templating error",
+    "Missing Open Graph tags (OG title and description) will result in poor presentation when shared on social media — missed viral/sharing opportunity",
+    "The fine print mentions 'Dates cannot be changed once booked; valid only for night(s) purchased' but nowhere on the page does it specify how many nights are included or which dates are available — customers cannot comply with restrictions they can't see"
+  ],
+  "score_reasoning": {
+    "clarity": "The page has a descriptive title but is otherwise catastrophically unclear. No pricing, no description content, and an empty 'What You Get' section mean a customer cannot understand what they're buying, at what price, or for how many nights. Only the title provides any context.",
+    "trust": "Strong trust signals present: 5.0-star rating with 68 reviews is solid social proof for a hotel deal. However, no sold count, no merchant credentials (years in business, IHG affiliation details), and no visible guarantee messaging beyond standard fine print prevent a higher score.",
+    "urgency": "Very weak. Only 'Ends in' text with no actual countdown timer, timestamp, or sold count. No 'selling fast' messaging or limited inventory signals. Minimal motivation to book today rather than tomorrow.",
+    "seo": "Meta title and description present and keyword-relevant, H1 present, schema markup exists. However, meta description is short (113 chars vs. 155 max), missing critical OG tags for social sharing, and schema is generic WebSite rather than Hotel-specific Product or LodgingBusiness markup.",
+    "value_comm": "Fails completely. No pricing data means no price, no original price, no discount percentage, no savings context. A customer cannot evaluate value when they cannot see what it costs. This is a non-functional deal page from a value communication standpoint.",
+    "completeness": "Severely incomplete. Missing pricing, description, room details, amenity specifics, splash pad information, attraction details, address, check-in times, and what's included. Only basic fine print and images are present. Critical category information (nights, room type, breakfast) completely absent."
+  }
+}

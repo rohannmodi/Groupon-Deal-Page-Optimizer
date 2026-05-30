@@ -1,0 +1,30 @@
+{
+  "clarity_score": 8,
+  "trust_score": 9,
+  "urgency_score": 7,
+  "seo_score": 5,
+  "value_comm_score": 5,
+  "completeness_score": 7,
+  "overall_score": 6.8,
+  "content_gaps": [
+    "No original/regular AMC ticket price displayed anywhere on page — customer cannot verify the claimed 38% savings or understand absolute value",
+    "External redemption site not identified — page says 'You'll be directed to an External Site' without naming it, creating uncertainty about the redemption process",
+    "No information on whether multiple Yellow Tickets can be used in a single transaction or booking",
+    "Fine print states 'amount paid for these tickets may be higher than the posted box office admission price' but provides no explanation of when or how this applies — contradicts the savings value proposition",
+    "No mention of refund or exchange policy once Groupon voucher is redeemed for AMC tickets — customer cannot assess risk if plans change",
+    "Number of participating AMC locations not disclosed — only state exclusions mentioned, customer cannot assess convenience/availability",
+    "No clarification whether 'standard 2D movie' ticket applies to all showtimes (including evenings/weekends) or only non-premium times — affects perceived value"
+  ],
+  "ai_flags": [
+    "Unverifiable discount claim: Title claims 'Save Up to 38% on Movie Night' but no original/regular ticket price is shown anywhere on the page — customer has no way to verify this percentage or understand the actual dollar savings",
+    "Contradictory fine print undermines value proposition: States 'Depending on the time, date and location of redemption, the amount paid for these tickets may be higher than the posted box office admission price' without explaining when this applies — directly contradicts the deal's savings claim and could leave customers feeling misled"
+  ],
+  "score_reasoning": {
+    "clarity": "Page clearly explains what customers receive (movie ticket for standard 2D), shows 7 pricing options, outlines a 4-step redemption process, and explicitly states geographic restrictions. Minor deduction for not defining what 'standard 2D movie' means in terms of showtime restrictions.",
+    "trust": "Exceptionally strong trust signals: 10,768 reviews at 4.66/5 rating, 25,000+ bought social proof, and national AMC brand recognition. Multiple trust badges present. Only minor room for improvement prevents a perfect 10.",
+    "urgency": "Active countdown promotion ('Extra $0.64 off — ends 5/31' with timestamp), 'Ends in' text, and strong social proof (25,000+ bought). Multiple urgency elements working together justify solid score.",
+    "seo": "Significant SEO gaps: meta description only 68 characters (should be ~155), generic meta title lacking deal keywords, OG tags completely missing. H1 and schema present but overall optimization well below best practice.",
+    "value_comm": "Major weakness: claims '38% savings' in title but shows no original price anywhere, making the discount unverifiable. Customer sees $12.82 with percentage context but cannot assess absolute value or verify the claim against normal AMC pricing.",
+    "completeness": "Redemption process, expiry (90 days for voucher, none for tickets), and restrictions clearly stated. For a known national brand like AMC, basic service understanding assumed. However, missing original price, location count, multi-ticket usage policy, and external site identification leave real questions unanswered."
+  }
+}

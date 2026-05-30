@@ -1,0 +1,30 @@
+{
+  "clarity_score": 8,
+  "trust_score": 8,
+  "urgency_score": 8,
+  "seo_score": 6,
+  "value_comm_score": 4,
+  "completeness_score": 6,
+  "overall_score": 6.3,
+  "content_gaps": [
+    "No original or regular price displayed — customer has no context to assess whether $210 represents genuine savings or market value for a tandem skydive from 14,000 feet",
+    "No minimum age requirement stated — critical for skydiving (typically 18+), meaning gift purchasers cannot confirm recipient eligibility before buying",
+    "No health or medical restrictions listed — skydiving typically excludes pregnant customers, those with heart conditions, recent surgeries, or seizure disorders; absence creates uncertainty and potential disappointment",
+    "No specific street address or facility location shown — 'Michigan City, IN' is too vague for customers to assess travel time, parking logistics, or exact meeting point",
+    "Purpose of the mandatory $39 deposit unclear — fine print says it's refunded at check-in, but doesn't explain what it secures (reservation hold, equipment, insurance, or other)",
+    "What to wear and bring beyond ID not specified — customers don't know if closed-toe shoes required, whether to dress in layers, or if they should bring anything else",
+    "Weather cancellation and rescheduling policy not explained — page notes 'subject to weather' but doesn't clarify if customers can reschedule for free, get refunds, or lose their deposit",
+    "Whether non-jumping spectators or guests can attend not mentioned — family and friends often want to watch, but page doesn't confirm if observers are welcome or if there are viewing areas"
+  ],
+  "ai_flags": [
+    "No merchant regular price shown anywhere on page — the $210 deal price exists in a vacuum with zero savings context. Customer cannot determine if this is a discount, a premium, or market rate. This severely undermines value communication and conversion for a high-consideration purchase like skydiving."
+  ],
+  "score_reasoning": {
+    "clarity": "The page clearly communicates the core offer: tandem skydive from 14,000 feet with USPA-certified instructor, ~3 hours duration, and epic Chicago skyline views. Pricing for 1-4 people is transparent. Minor ambiguity around freefall vs. parachute time breakdown.",
+    "trust": "Strong trust signals: 4.9/5 rating from 1,963 reviews is excellent social proof. '160+ bought' provides moderate sales validation. USPA certification mentioned. Groupon Promise guarantee present. Multiple positive review quotes visible.",
+    "urgency": "Effective urgency: active countdown promotion ('Extra $42 off — ends 5/30' with timestamp) combined with 'Selling fast!' signal. This dual-urgency approach (scarcity + deadline) scores well per calibration guide.",
+    "seo": "Meta title and H1 present and keyword-appropriate. Meta description exists but short (111 chars vs. 155 max). Schema markup present (WebSite type). Missing OG title and OG description hurts social sharing optimization. Solid foundation with room for improvement.",
+    "value_comm": "Critical weakness: no original or regular price shown. Customer sees $210 but has no baseline to understand savings. Promo shows '$42 off' but off what? No market comparison. For a $210 purchase requiring trust (jumping from a plane), lack of value context is a major conversion barrier.",
+    "completeness": "Covers duration, hours, weight limits, ID requirement, waiver process, and accessibility. Missing category-critical information: minimum age (must be 18+ for skydiving), health/medical restrictions, specific address, what to wear, weather rescheduling policy, and spectator policy. These gaps create hesitation for cautious buyers."
+  }
+}

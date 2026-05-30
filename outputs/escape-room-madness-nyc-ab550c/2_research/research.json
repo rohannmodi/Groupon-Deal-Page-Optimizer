@@ -1,0 +1,205 @@
+{
+  "raw_research": {
+    "deal_id": "escape-room-madness-nyc-ab550c",
+    "yelp": null,
+    "google": null,
+    "competitors": [
+      {
+        "competitor_name": "Escape Room NYC - Mission Escape Games",
+        "service_name": "escape room",
+        "regular_price": 500.0,
+        "sale_price": 200.0,
+        "source_url": "https://missionescapegames.com/blog/what-is-the-typical-price-for-an-nyc-escape-room/",
+        "notes": null,
+        "sku_match_confidence": 1.0,
+        "is_merchant": true,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "www.escaperoommadness.com",
+        "service_name": "escape room",
+        "regular_price": 55.0,
+        "sale_price": 40.0,
+        "source_url": "https://escaperoommadness.com/prices/",
+        "notes": "DIRECT_BOOKING_CANDIDATE — use for groupon_vs_direct_savings",
+        "sku_match_confidence": 0.5,
+        "is_merchant": true,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Escape the Room NYC — The Original Since 2013",
+        "service_name": "escape room",
+        "regular_price": 44.0,
+        "sale_price": 34.0,
+        "source_url": "https://escapetheroom.com/new-york/",
+        "notes": "DIRECT_BOOKING_CANDIDATE — use for groupon_vs_direct_savings",
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "BrainXcape",
+        "service_name": "escape room",
+        "regular_price": 90.0,
+        "sale_price": 80.0,
+        "source_url": "https://www.brainxcape.com/blog/discover-best-escape-room-prices/",
+        "notes": null,
+        "sku_match_confidence": 0.5,
+        "is_merchant": true,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Resova Booking",
+        "service_name": "escape room",
+        "regular_price": null,
+        "sale_price": null,
+        "source_url": "https://escapetheroomnyc.resova.us/",
+        "notes": "DIRECT_BOOKING_CANDIDATE — use for groupon_vs_direct_savings",
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      }
+    ],
+    "category_context": {
+      "category": "Escape Room",
+      "city": "New York",
+      "typical_price_low": 35.2,
+      "typical_price_high": 44.0,
+      "typical_discount_pct": 20.0,
+      "notes": "Research quality: 8/18 sources accepted (10 rejected as non-competitor/informational). Validated market range for escape room in New York: $35–$44 Groupon price ($98.99) is ABOVE the validated market range ($35–$44) — verify value proposition.",
+      "search_results": [
+        {
+          "title": "Escape Rooms NYC — Top-Rated Escape Room in New York",
+          "url": "https://escapetheroom.com/new-york/",
+          "snippet": "Prices start from $44 per person and vary by room and time slot. Group discounts are available for larger parties. Gift cards can also be applied at checkout.",
+          "position": 2
+        },
+        {
+          "title": "What Is the Typical Price for an NYC Escape Room?",
+          "url": "https://missionescapegames.com/blog/what-is-the-typical-price-for-an-nyc-escape-room/",
+          "snippet": "Escape rooms in NYC typically cost between $30 and $60 per person, depending on factors like location, booking type, and game complexity.",
+          "position": 3
+        },
+        {
+          "title": "Escape Room NYC Prices | Private ...",
+          "url": "https://escaperoommadness.com/prices/",
+          "snippet": "Private Game Pricing Per Person · 2 players · 3 players, $44.00, $35.20. 4–12 players (Most Popular), $40.00, $32.00. Total updates automatically at checkout ...",
+          "position": 4
+        },
+        {
+          "title": "Escape Room NYC Prices | Private ...",
+          "url": "https://escaperoommadness.com/prices/",
+          "snippet": "Private Game Pricing Per Person ; 2 players, $55.00, $44.00 ; 3 players, $44.00, $35.20 ; 4–12 players (Most Popular), $40.00, $32.00 ...",
+          "position": 3
+        },
+        {
+          "title": "Discover the Best Escape Room Prices Today",
+          "url": "https://www.brainxcape.com/blog/discover-best-escape-room-prices/",
+          "snippet": "Prices in NYC typically range from $40 to $55 per person, depending on the theme, location, and whether you book during peak hours. Horror- ...",
+          "position": 4
+        },
+        {
+          "title": "How Much Escape Rooms Cost? Guide to Find the Best ...",
+          "url": "https://www.brainxcape.com/blog/escape-rooms-cost-guide-find-best-deals/",
+          "snippet": "Per player pricing at BrainXcape Escape Room NYC goes from $39 for a weekday booking for a 10-player team all the way up to $99 for a 2-person ...",
+          "position": 3
+        },
+        {
+          "title": "Escape Room NYC Prices | Private ...",
+          "url": "https://escaperoommadness.com/prices/",
+          "snippet": "Private Game Pricing Per Person ; 2 players, $55.00, $44.00 ; 3 players, $44.00, $35.20 ; 4–12 players (Most Popular), $40.00, $32.00 ...",
+          "position": 4
+        },
+        {
+          "title": "Escape Rooms NYC — Top-Rated Escape Room in New York",
+          "url": "https://escapetheroom.com/new-york/",
+          "snippet": "NYC's original escape room since 2013 — 9 immersive rooms in Flatiron District. ☆ 4.9 stars (10923 reviews). Unlimited hints, from $44/person. Book today!",
+          "position": 5
+        }
+      ]
+    },
+    "sources": [
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://missionescapegames.com/blog/what-is-the-typical-price-for-an-nyc-escape-room/",
+        "source_title": "Escape Room NYC - Mission Escape Games",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-30T01:37:13.559337"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://escaperoommadness.com/prices/",
+        "source_title": "www.escaperoommadness.com",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-30T01:37:13.559352"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://escapetheroom.com/new-york/",
+        "source_title": "Escape the Room NYC — The Original Since 2013",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-30T01:37:13.559357"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.brainxcape.com/blog/discover-best-escape-room-prices/",
+        "source_title": "BrainXcape",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-30T01:37:13.559360"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://escapetheroomnyc.resova.us/",
+        "source_title": "Resova Booking",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-30T01:37:13.559364"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://www.brainxcape.com/blog/escape-rooms-cost-guide-find-best-deals/",
+        "source_title": "How Much Escape Rooms Cost? Guide to Find the Best ...",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-30T01:37:13.559379"
+      }
+    ],
+    "quality": {
+      "competitor_pricing_status": "verified",
+      "merchant_reputation_status": "no_data",
+      "category_context_status": "validated",
+      "pricing_verifiable": false,
+      "overall_confidence": 0.6,
+      "sources_found": 6,
+      "sources_accepted": 4,
+      "sources_rejected": 1
+    }
+  },
+  "synthesis": {
+    "value_assessment": "overpriced",
+    "value_reasoning": "Groupon charges $98.99 for 2 people ($49.49/person). The merchant's own website (MODERATE CONFIDENCE 50%) shows $40/person pricing for 4-12 players and $44/person for 3 players. For a group of 2, normalized direct booking would be approximately $80-$88 total. The validated market range from category research is $35-$44 per person ($70-$88 for 2 people). One HIGH CONFIDENCE competitor (Mission Escape Games, 100% SKU match) lists typical NYC escape room prices at $30-$60/person with their own pricing at $200-$500 for groups, but the broader category context shows the $35-$44 range is standard. Groupon's $49.49/person is approximately 12-41% ABOVE the validated market floor of $35-$44/person. This is not a genuine savings deal — customers would pay less booking elsewhere.",
+    "groupon_vs_direct_savings": -10.99,
+    "groupon_vs_competitor_savings": -10.99,
+    "merchant_differentiators": [],
+    "red_flags": [
+      "No third-party reviews found (Yelp/Google unavailable) — cannot assess merchant reputation independently of 23 Groupon reviews",
+      "Groupon price ($49.49/person) is ABOVE the validated NYC escape room market range of $35–$44/person cited in category research from Mission Escape Games and Escape the Room NYC",
+      "The merchant's own direct booking site (escaperoommadness.com) shows $40/person pricing for 4-12 players — Groupon appears more expensive than booking direct for larger groups",
+      "Stale pandemic reference found on live deal page: 'You and your team will be instantly transported into richly detailed worlds, whether you're a detective on the hunt in' — suggests outdated content",
+      "Original prices not captured from deal page — cannot verify any discount percentage claims made by Groupon"
+    ],
+    "deal_quality": "weak",
+    "deal_quality_score": 3.8,
+    "key_insight": "This is a weak deal ($49.49/person vs. $35-$44 validated market range, potentially more expensive than direct booking at $40/person) with no independent reputation data — copy optimization cannot fix a structural pricing disadvantage of $5-$15/person above market.",
+    "overall_verdict": "This is a weak deal because the Groupon price of $49.49/person is 12-41% above the validated NYC escape room market range of $35-$44/person, and appears more expensive than booking directly with the merchant (whose website shows $40/person for groups of 4-12). The deal page fails to justify this premium pricing with any compelling value proposition, and stale pandemic-era content suggests the page has not been updated to reflect current market conditions. The single biggest opportunity is a pricing correction — this deal needs to be restructured at $30-$35/person to be competitive, as copy improvements alone cannot overcome a $10-$15/person price disadvantage. With zero third-party reviews (no Yelp or Google data), only 23 Groupon ratings (4.7★), and no verifiable original pricing to confirm discount claims, this deal lacks both competitive pricing and independent social proof.",
+    "review_themes": []
+  },
+  "data_quality": {
+    "competitor_pricing_status": "verified",
+    "merchant_reputation_status": "no_data",
+    "category_context_status": "validated",
+    "pricing_verifiable": false,
+    "overall_confidence": 0.6,
+    "sources_found": 6,
+    "sources_accepted": 4,
+    "sources_rejected": 1
+  }
+}

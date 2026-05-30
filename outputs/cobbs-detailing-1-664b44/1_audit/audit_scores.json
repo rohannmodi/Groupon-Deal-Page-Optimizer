@@ -1,0 +1,31 @@
+{
+  "clarity_score": 7,
+  "trust_score": 2,
+  "urgency_score": 5,
+  "seo_score": 4,
+  "value_comm_score": 4,
+  "completeness_score": 5,
+  "overall_score": 4.6,
+  "content_gaps": [
+    "No original/regular prices shown — page claims 'Up to 32% Off' but displays no baseline prices, so customers cannot verify the discount math or understand the absolute dollar savings they're getting",
+    "No service duration specified for any package — auto detailing can range from 2–8+ hours; customers need to know whether to plan to wait, drop off their vehicle, or schedule around a full-day service",
+    "No vehicle size or type pricing clarification — detailing pricing typically varies by vehicle class (sedan vs SUV vs truck), yet all three options show single prices with no mention of whether larger vehicles incur additional charges",
+    "No information about service format (mobile, drop-off, or wait on-site) — critical for customer planning and a standard question in auto detailing that determines whether they need alternate transportation",
+    "No business hours or appointment availability windows provided — customers cannot assess whether scheduling will fit their work/life schedule before purchasing the voucher",
+    "No cancellation or rescheduling policy stated — beyond the 180-day promotional expiry, there's no clarity on what happens if a customer needs to cancel or move their appointment",
+    "No vehicle condition requirements or service exclusions mentioned — some detailers refuse excessively soiled vehicles or charge supplements for pet hair, heavy staining, or oversized vehicles; customers need to know if their car qualifies"
+  ],
+  "ai_flags": [
+    "Critically weak trust signals: only 1 review at 3.0/5 stars (below-average rating) and only 1 purchase recorded — for an auto service requiring customers to hand over their vehicle, this minimal and mediocre social proof is a severe conversion barrier",
+    "Unverifiable discount claim: headline states 'Up to 32% Off' but no original prices are shown anywhere on the page — customers cannot validate the savings or compare value, undermining the core deal proposition",
+    "Duplicate content error: the 'What We Offer' section (entire paragraph about professional-grade tools, soft-bristle brushes, etc.) is repeated verbatim twice in the description — appears as a copy-paste mistake and damages professional credibility"
+  ],
+  "score_reasoning": {
+    "clarity": "Service options are clearly presented with three distinct packages and prices. The description explains interior vs exterior scope. However, no service duration mentioned and some repetitive content. Overall understandable but leaves minor questions.",
+    "trust": "Severely deficient. Only 1 review at a mediocre 3.0/5 rating, only 1 sold, no merchant credentials, no years in business, no certifications or guarantees beyond standard Groupon terms. Almost no social proof to build confidence.",
+    "urgency": "Countdown timer present with specific end date (Extra $28 off ends 5/30), which creates baseline urgency. However, extremely low sold count (1 bought) actively undermines urgency and suggests lack of demand rather than scarcity.",
+    "seo": "Meta description only 66 characters (severely underutilized — should be 120–155), missing OG title and description tags, basic WebSite schema only (no LocalBusiness or Service markup). Meta title acceptable but overall SEO execution is incomplete.",
+    "value_comm": "Discount percentage shown in title (32% off) and deal prices clearly listed, but zero original/regular prices displayed anywhere. Customers cannot verify the savings claim or understand absolute dollar value saved — critical gap for a deal page.",
+    "completeness": "Appointment requirement and location covered. However, missing service duration, vehicle size pricing, service format (drop-off vs mobile), business hours, cancellation policy, and vehicle condition requirements — all category-critical for auto detailing."
+  }
+}

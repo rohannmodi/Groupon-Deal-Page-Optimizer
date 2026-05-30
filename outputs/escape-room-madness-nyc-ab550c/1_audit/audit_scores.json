@@ -1,0 +1,30 @@
+{
+  "clarity_score": 7,
+  "trust_score": 6,
+  "urgency_score": 6,
+  "seo_score": 6,
+  "value_comm_score": 4,
+  "completeness_score": 6,
+  "overall_score": 5.7,
+  "content_gaps": [
+    "No original or regular price shown anywhere on the page — customer has no baseline to understand the savings or value of the $98.99+ pricing",
+    "No mention of experience duration for any escape room (45 minutes? 60 minutes? 90 minutes?) — critical for customers planning their day and subsequent activities",
+    "No complete street address displayed — only floor numbers (5th, 6th) mentioned, making it impossible for customers to assess exact location convenience or plan travel",
+    "No clarification whether bookings are private (your group only) or shared with strangers — essential information for corporate events, parties, or customers wanting exclusive experiences",
+    "Operating hours say 'Check here for latest hours' but actual hours are not displayed on the page — customer cannot verify when they can actually book",
+    "No parking information or public transit directions provided — critical for an NYC venue where transportation planning significantly affects the visit",
+    "No explanation of what happens if the team doesn't escape in time — do you still get hints, does the game just end, is there a reveal of the solution?",
+    "No accessibility information (wheelchair access, elevator availability, physical demands) — important for a multi-floor venue with potential mobility constraints"
+  ],
+  "ai_flags": [
+    "Pandemic-era language detected in description: 'racing against a pandemic in Quarantine' — while 'Quarantine' is an escape room theme name, the STALE CONTENT system flagged pandemic reference language. Though this appears to be describing a permanent room theme (deadly virus outbreak scenario), the framing may read as outdated COVID-era content to some visitors. Recommend reviewing for contemporary relevance or reframing if needed."
+  ],
+  "score_reasoning": {
+    "clarity": "The page clearly explains what customers get: choice of 6 escape rooms with detailed descriptions of each room's theme, capacity (2-12 players), and age requirements. The 22 pricing options are well-labeled by group size and timing (weekday 12-5pm vs any day). Minor point deduction for the sheer number of options potentially overwhelming some users, but overall very clear.",
+    "trust": "Moderate trust signals present: 4.7/5 star rating with 23 reviews, 170+ bought count, and Groupon Promise guarantee. However, 23 reviews is a relatively modest sample size for establishing strong credibility, and no merchant credentials (years in business, awards, certifications) are mentioned. Adequate but not compelling.",
+    "urgency": "Active urgency elements include a countdown promotion ('Extra $8.91 off — ends 5/30' with timestamp), 'Ends in' text, and 170+ bought social proof. The countdown timer plus modest sold count creates moderate urgency, though the small discount amount ($8.91) and moderate bought count don't create intense pressure to act immediately.",
+    "seo": "Basic SEO elements present: keyword-rich meta title, H1 matches title, schema markup (WebSite) implemented. However, meta description is only 113 characters (should be 150-155 for maximum SERP real estate), and both OG title and OG description are missing, hurting social sharing performance. Functional but incomplete optimization.",
+    "value_comm": "Major weakness — the page shows deal prices ($98.99+) but provides NO original price, NO discount percentage, and NO dollar savings amount. Customers see naked pricing with zero context for why this represents value. The promotional $8.91 off provides minimal framing. For an escape room market where customers may not know typical pricing, this absence severely undermines value perception.",
+    "completeness": "Several category-critical gaps for an escape room experience: no mention of session duration (essential for planning), no full street address shown, operating hours not displayed (just a 'check here' link), no clarification on private vs. shared bookings, no parking/transit info for NYC location, and no accessibility details for a multi-floor venue. Cancellation policy and age limits are present, but too many planning questions remain unanswered."
+  }
+}

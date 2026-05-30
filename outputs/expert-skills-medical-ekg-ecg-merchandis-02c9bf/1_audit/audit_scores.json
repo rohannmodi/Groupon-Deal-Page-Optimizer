@@ -1,0 +1,35 @@
+{
+  "clarity_score": 7,
+  "trust_score": 6,
+  "urgency_score": 6,
+  "seo_score": 5,
+  "value_comm_score": 4,
+  "completeness_score": 5,
+  "overall_score": 5.4,
+  "content_gaps": [
+    "No mention of total course hours or estimated completion time — customer cannot assess the time commitment required to complete certification",
+    "Accreditation claim ('Expert Skills Accredited' badge) is not explained — no information on which accrediting body provides certification or whether it is recognized by hospitals/employers in hiring",
+    "No description of what certification customers receive upon completion (certificate format, issuing body, credentials earned) — critical for employability and resume value",
+    "Course delivery format not specified (video lectures, reading materials, interactive simulations, live sessions) — customer doesn't know the actual learning experience",
+    "Original prices not shown despite 'Up to 50% Off' claim in title — customer cannot verify the discount or compare value to market alternatives",
+    "Bundle claims 'Save $60 versus buying separately' but individual courses are $29.99 each ($59.98 total) vs. bundle at $59.99 — the math shows <$1 savings, not $60, and this discrepancy is unexplained",
+    "Fine print states 'Consultation required before service; if you are ineligible, a refund will be provided' with no explanation of what makes someone ineligible for an online course or what the consultation entails",
+    "No instructor credentials, qualifications, or healthcare background shown — important for credibility in medical/clinical education",
+    "No information on technical requirements (compatible devices, browsers, internet speed, software) needed to access and complete the online course"
+  ],
+  "ai_flags": [
+    "Bundle savings claim appears mathematically incorrect: page states 'Save $60 versus buying separately' but individual courses are $29.99 each (total $59.98) while the bundle is $59.99 — this represents ~$0 savings, not $60. This misleading claim could seriously damage trust and may violate advertising standards.",
+    "Title claims 'Up to 50% Off' but no original prices are shown anywhere on the page — the discount percentage is completely unverifiable by the customer",
+    "'Expert Skills Accredited' badge is prominently displayed throughout but there is zero explanation of what body provides this accreditation, whether it's industry-recognized, or what standards it represents — this is an unsubstantiated credential claim",
+    "Review quotes are extremely generic ('Great communication and excellent quality', 'Fast, reliable, and professional') and don't reference online courses, learning outcomes, or certification value — raises questions about review relevance or authenticity for this product type",
+    "Stark mismatch between 3,425 reviews (very high) and only '11 bought' (extremely low sold count) — this unusual ratio may confuse customers or suggest reviews are from different products/time periods"
+  ],
+  "score_reasoning": {
+    "clarity": "Page clearly explains the three course options (CMT, EKG, or bundle), learning modules covered, and 2-month access period. Course content outline is well-structured. Loses points for missing execution details like total hours, format, and assessment structure.",
+    "trust": "Strong review count (3,425 ratings at 4.55/5) provides solid social proof. However, 'Expert Skills Accredited' claim lacks verification, only '11 bought' is very weak social proof, and generic review quotes don't feel specific to online medical courses.",
+    "urgency": "Active countdown timer present ('Extra $6 off — ends 5/30' with promoEndTimeStamp) creates some urgency. However, extremely low sold count ('11 bought') significantly undermines FOMO and suggests weak demand.",
+    "seo": "Has basic elements (H1, H2s, schema markup) but meta title lacks key search terms like 'EKG certification online', meta description is only 81 chars (should be ~155), and both OG title and OG description are missing, hurting social sharing.",
+    "value_comm": "Major weakness: title claims 'Up to 50% Off' but no original prices shown to verify. Bundle claims 'Save $60 vs buying separately' but the math ($29.99+$29.99=$59.98 vs $59.99 bundle) doesn't support this. Customer cannot assess true value without pricing context.",
+    "completeness": "Provides course outline and access period but missing critical details for online education: total hours, course format (video/text/interactive), instructor credentials, what specific certification is earned, industry recognition, technical requirements, and why 'consultation required' for a self-paced online course."
+  }
+}

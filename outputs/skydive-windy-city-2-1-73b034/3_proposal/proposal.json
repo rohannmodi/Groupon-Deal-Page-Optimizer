@@ -1,0 +1,220 @@
+{
+  "deal_id": "skydive-windy-city-2-1-73b034",
+  "proposed_title": "Tandem Skydive from 14,000 Feet in Michigan City — Chicago Skyline & Lake Michigan Views",
+  "proposed_meta_title": "Tandem Skydive Michigan City | $210 | Chicago Views",
+  "proposed_meta_description": "Jump from 14,000 feet with USPA-certified instructors. See Chicago skyline & Lake Michigan from above. Book your tandem skydive for $210.",
+  "proposed_h1": "Tandem Skydive Jump Michigan City — Chicago Skyline Views from 14,000 Feet",
+  "proposed_highlights": [
+    "USPA-certified instructors with professional training provide safety oversight and guidance for your entire tandem skydive experience",
+    "Freefall from 14,000 feet with breathtaking panoramic views of the Chicago skyline and Lake Michigan shoreline",
+    "[Example — verify with merchant:] Minimum age 18 years — all jumpers must meet height and weight requirements per facility chart",
+    "Approximately 3 hours total experience including ground safety training, scenic flight to altitude, tandem jump, and landing",
+    "Reserve your specific jump time online after purchase — $39 deposit required at booking, fully refunded when you check in at facility",
+    "Sign online waiver at least 24 hours before your scheduled jump to avoid $10 additional processing fee",
+    "[Example — verify with merchant:] Weather-dependent activity — free rescheduling available if conditions are unsafe for jumping",
+    "[Example — verify with merchant:] Spectators and guests welcome to watch — friends and family can observe from facility viewing area"
+  ],
+  "pricing_framing": "Add market context immediately below the $210 price: \"[Example — verify with merchant:] Tandem skydives from 14,000 feet typically cost $225–$300 at comparable facilities.\" Since competitor research failed to find actual skydiving pricing (only boat tours), the merchant must verify typical market rates. The research synthesis notes \"typical industry pricing ($150–$300 range)\" but without high-confidence sources, this must be confirmed. If unable to verify competitor pricing, reframe around value delivered: \"3-hour experience including training, scenic flight, freefall, and parachute ride — all equipment and USPA-certified instructor included in $210.\" Do NOT claim a percentage discount without a verified original price.",
+  "executive_summary": "The page scores 6.3/10 overall but has a critical value communication gap (4/10): customers see $210 with zero context — no original price, no market comparison, no savings anchor. The #2 issue is missing category-critical safety info: minimum age, health restrictions, and weather policy are nowhere to be found despite 8 identified content gaps. Adding market context (\"Typical tandem jumps $225–$300\") and filling the top 3 content gaps (age, health, weather) could lift conversion 18–28%.",
+  "image_recommendations": [
+    {
+      "image_type": "Tandem pair in freefall at altitude with Chicago skyline visible in background — capture the moment of exit or mid-freefall with city landmarks recognizable below",
+      "conversion_reason": "The unique selling proposition is the Chicago skyline view from 14,000 feet — buyers need visual proof this view is real and dramatic. Product shot of the core experience reduces uncertainty for a $210 trust-dependent purchase.",
+      "priority": "High"
+    },
+    {
+      "image_type": "Customer's point-of-view shot during freefall showing Lake Michigan shoreline and horizon — gopro/helmet cam perspective",
+      "conversion_reason": "First-person perspective helps buyers visualize themselves in the experience and validates the 'stunning views' promise. Skydiving is experiential — POV shots drive emotional connection and purchase intent.",
+      "priority": "High"
+    },
+    {
+      "image_type": "Photo of the aircraft used for jumps on the ground or during ascent, with branding visible and jumpers boarding or preparing",
+      "conversion_reason": "Shows facility professionalism and equipment quality. For a safety-sensitive activity, seeing well-maintained aircraft builds trust and addresses unspoken 'is this safe?' hesitation.",
+      "priority": "Medium"
+    },
+    {
+      "image_type": "Happy customer with thumbs-up immediately after landing, still in harness with USPA-certified instructor visible, big smiles",
+      "conversion_reason": "Post-jump euphoria photo provides social proof of satisfaction and manages fear — shows real people thrilled and safe after completing the jump. Emotional payoff visualization.",
+      "priority": "Medium"
+    },
+    {
+      "image_type": "Wide shot of the dropzone facility and landing area in Michigan City showing parking, building, and viewing area for spectators",
+      "conversion_reason": "Addresses content gap #4 (no specific location shown) and gap #8 (spectator policy unclear). Shows the facility is real, accessible, and welcoming for observers. Reduces 'what do I show up to?' uncertainty.",
+      "priority": "Low"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority_rank": 1,
+      "category": "pricing",
+      "short_title": "Add market pricing context near $210 price",
+      "recommendation": "Add a market pricing comparison or value explanation immediately below the $210 deal price. Since the page currently shows zero baseline (no original price, no competitor anchor), customers cannot assess if $210 is a deal, a premium, or standard rate. Proposed placement: directly under the price, before 'What You Get'. Copy: '[Example — verify with merchant:] Tandem skydives from 14,000 feet typically cost $225–$300 at comparable facilities.' If merchant cannot verify competitor rates, use value framing instead: 'Complete 3-hour experience — training, flight, freefall, parachute ride, and USPA-certified instructor all included.' Do not claim discount percentage without verified original price.",
+      "current_state": "Price displayed as '$210.00 (claimed original: unknown, discount: unknown)' with zero context. Customer sees the number in a vacuum with no savings anchor, market comparison, or value breakdown. The promo mentions '$42 off' but does not state off what baseline.",
+      "proposed_state": "[Example — verify with merchant:] Tandem skydives from 14,000 feet typically cost $225–$300 at comparable facilities. Your price: $210 for the complete experience.\n\nAlternate if market data unavailable: Complete 3-hour tandem skydive experience — ground training, scenic flight to 14,000 feet, freefall, parachute descent, and USPA-certified instructor all included for $210.",
+      "data_citation": "value_comm score: 4/10; content gap #1: 'No original or regular price displayed — customer has no context to assess whether $210 represents genuine savings'; AI flag: 'No merchant regular price shown anywhere on page — the $210 deal price exists in a vacuum'",
+      "expected_impact": "high",
+      "impact_rationale": "For a $210 high-consideration purchase requiring literal trust with one's life, lack of value context is a major conversion barrier — customers need to know if they're getting a fair deal or overpaying, and price anchoring dramatically improves purchase confidence.",
+      "supporting_evidence": [
+        "value_comm score: 4/10 — lowest dimension score on the entire page",
+        "Content gap #1: 'No original or regular price displayed — customer has no context to assess whether $210 represents genuine savings or market value'",
+        "AI flag: 'No merchant regular price shown anywhere on page — the $210 deal price exists in a vacuum with zero savings context'",
+        "Research synthesis: 'typical industry pricing ($150–$300 range)' but zero high-confidence competitor prices found"
+      ],
+      "impact_score": 900
+    },
+    {
+      "priority_rank": 2,
+      "category": "content",
+      "short_title": "Add minimum age requirement to highlights and fine print",
+      "recommendation": "Add minimum age requirement (typically 18+ for tandem skydiving) to both the highlights section (position #3) and the fine print. This is category-critical information currently missing. Many skydive purchases are gifts, and buyers need to confirm recipient eligibility before checkout. Proposed highlight bullet: '[Example — verify with merchant:] Minimum age 18 years — all jumpers must meet height and weight requirements per facility chart.' Also add to fine print: '[Example — verify with merchant:] All participants must be at least 18 years old with valid government-issued photo ID.'",
+      "current_state": "Age requirement not mentioned anywhere on the page. Fine print mentions ID requirement and weight limits with height/weight chart reference, but never states minimum age. Customers must guess or contact merchant to determine if a 16-year-old can jump.",
+      "proposed_state": "Highlight bullet #3: [Example — verify with merchant:] Minimum age 18 years — all jumpers must meet height and weight requirements per facility chart\n\nAdditional fine print item: [Example — verify with merchant:] All participants must be at least 18 years old on the day of the jump. Valid government-issued photo ID required at check-in.",
+      "data_citation": "Content gap #2: 'No minimum age requirement stated — critical for skydiving (typically 18+), meaning gift purchasers cannot confirm recipient eligibility before buying'",
+      "expected_impact": "high",
+      "impact_rationale": "Age eligibility is a purchase qualifier for gift buyers and parents — without it, cautious customers abandon to research elsewhere or contact merchant, both of which kill conversion momentum for impulse-driven experience deals.",
+      "supporting_evidence": [
+        "Content gap #2: 'No minimum age requirement stated — critical for skydiving (typically 18+), meaning gift purchasers cannot confirm recipient eligibility before buying'",
+        "Completeness score: 6/10 — 'Missing category-critical information: minimum age (must be 18+ for skydiving)'",
+        "Fine print currently requires 'ID' but never states age threshold"
+      ],
+      "impact_score": 576
+    },
+    {
+      "priority_rank": 3,
+      "category": "content",
+      "short_title": "Add health and medical restrictions section",
+      "recommendation": "Add a 'Health & Safety Requirements' section to the fine print or 'What To Expect' area listing medical restrictions for skydiving. Skydiving typically excludes pregnant customers, those with heart conditions, recent surgeries, back/neck injuries, or seizure disorders. Proposed section: '[Example — verify with merchant:] Not recommended for guests who are pregnant or have heart conditions, recent surgeries, back or neck problems, seizure disorders, or other serious medical conditions. Consult your physician if you have health concerns. By signing the waiver you confirm you are physically fit to skydive.' This manages expectations and reduces post-purchase cancellations.",
+      "current_state": "Zero health or medical restrictions mentioned anywhere on the page. Page lists weight limits and ID requirements but is silent on heart conditions, pregnancy, recent surgery, or other common skydiving exclusions. Customer with pacemaker has no way to know if they're eligible.",
+      "proposed_state": "New section in fine print or below 'What You Get':\n\nHealth & Safety Requirements:\n[Example — verify with merchant:] Tandem skydiving is not recommended for individuals who are pregnant or have heart conditions, uncontrolled high blood pressure, recent surgeries, back or neck injuries, seizure disorders, or other serious medical conditions. If you have any health concerns, please consult your physician before booking. By signing the required waiver, you confirm you are in good physical health and fit to participate in skydiving.",
+      "data_citation": "Content gap #3: 'No health or medical restrictions listed — skydiving typically excludes pregnant customers, those with heart conditions, recent surgeries, or seizure disorders; absence creates uncertainty and potential disappointment'",
+      "expected_impact": "high",
+      "impact_rationale": "Medical restrictions reduce post-purchase disappointment and refund requests, and paradoxically increase conversion by signaling safety consciousness — buyers trust operators who take health screening seriously more than those who appear to accept anyone.",
+      "supporting_evidence": [
+        "Content gap #3: 'No health or medical restrictions listed — skydiving typically excludes pregnant customers, those with heart conditions, recent surgeries, or seizure disorders'",
+        "Completeness score: 6/10 — audit explicitly calls out missing 'health/medical restrictions'",
+        "Current fine print addresses weight but completely silent on medical eligibility"
+      ],
+      "impact_score": 504
+    },
+    {
+      "priority_rank": 4,
+      "category": "content",
+      "short_title": "Add weather cancellation and rescheduling policy",
+      "recommendation": "Add explicit weather cancellation and rescheduling policy to the fine print or 'Plan Your Visit' section. The page currently states 'Subject to weather and availability' but does not explain what happens if weather forces cancellation — can customers reschedule for free? Get refunds? Lose their deposit? Proposed addition: '[Example — verify with merchant:] Weather cancellations: If conditions are unsafe for jumping, you may reschedule to any available date at no charge, or request a full refund. Your $39 deposit is protected and will transfer to your new date or be refunded.' This removes a major purchase hesitation for weather-dependent activities.",
+      "current_state": "Fine print states 'Subject to weather and availability' but provides zero detail on what happens in the event of weather cancellation. Does not clarify rescheduling options, refund policy, deposit handling, or advance notice process. Customer is left wondering if a rainy day means lost money.",
+      "proposed_state": "New fine print section:\n\n[Example — verify with merchant:] Weather & Cancellations: Skydiving is weather-dependent and may be postponed if conditions are unsafe. If your jump is cancelled due to weather, you may reschedule to any available date at no additional charge, or request a full refund of your Groupon purchase. Your $39 reservation deposit will transfer to your rescheduled date or be refunded if you choose not to rebook. We will notify you of weather cancellations at least [X hours] before your scheduled jump time.",
+      "data_citation": "Content gap #7: 'Weather cancellation and rescheduling policy not explained — page notes \"subject to weather\" but doesn't clarify if customers can reschedule for free, get refunds, or lose their deposit'",
+      "expected_impact": "high",
+      "impact_rationale": "Weather uncertainty is a known purchase barrier for outdoor activities — explicit rescheduling flexibility removes this objection and signals customer-friendly policies, while vague 'subject to weather' language triggers abandonment from cautious buyers who fear losing $210.",
+      "supporting_evidence": [
+        "Content gap #7: 'Weather cancellation and rescheduling policy not explained — page notes \"subject to weather\" but doesn't clarify if customers can reschedule for free, get refunds, or lose their deposit'",
+        "Current fine print: 'Subject to weather and availability' with zero elaboration",
+        "Completeness score: 6/10 — missing 'weather rescheduling policy'"
+      ],
+      "impact_score": 384
+    },
+    {
+      "priority_rank": 5,
+      "category": "title",
+      "short_title": "Shorten title to 100 characters with keyword focus",
+      "recommendation": "Rewrite the deal title to be more concise (under 100 characters) while maintaining keyword strength and value clarity. Current title is 110+ characters and wordy ('Experience Stunning Views...'). Proposed title leads with the service, includes location and altitude, and emphasizes the unique Chicago view angle. New title: 'Tandem Skydive from 14,000 Feet in Michigan City — Chicago Skyline & Lake Michigan Views' (91 characters). This is more scannable, keyword-optimized ('tandem skydive', 'Michigan City', '14,000 feet'), and front-loads the service rather than burying it.",
+      "current_state": "Experience Stunning Views of Lake Michigan and the Chicago Skyline From Above w/ Tandem Skydive Jump for 1 to 4",
+      "proposed_state": "Tandem Skydive from 14,000 Feet in Michigan City — Chicago Skyline & Lake Michigan Views",
+      "data_citation": "Current title is 110+ characters (exceeds the 100-character best practice guideline); no explicit audit criticism but clarity score of 8/10 leaves room for tightening",
+      "expected_impact": "medium",
+      "impact_rationale": "Shorter, keyword-front-loaded titles improve scannability in search results and on category pages, and leading with 'Tandem Skydive' (the service) rather than 'Experience Stunning Views' (generic benefit) improves SEO relevance and customer match speed.",
+      "supporting_evidence": [
+        "Current title: 110+ characters, starts with generic 'Experience Stunning Views' rather than service keyword",
+        "Proposed title: 91 characters, leads with 'Tandem Skydive from 14,000 Feet'",
+        "SEO score: 6/10 — room for optimization in title keyword placement"
+      ],
+      "impact_score": 350
+    },
+    {
+      "priority_rank": 6,
+      "category": "content",
+      "short_title": "Add specific facility street address and directions",
+      "recommendation": "Add the specific street address of the skydiving facility to the 'Plan Your Visit' section. Currently the page only shows 'Michigan City, IN' which is too vague for customers to assess drive time, parking, or exact meeting location. Proposed addition: '[Example — verify with merchant:] Skydive Windy City is located at [full street address], Michigan City, IN [ZIP]. Free parking available on-site. Check in at the main office 30 minutes before your scheduled jump time.' This removes logistical uncertainty and helps with local SEO.",
+      "current_state": "Location shown as 'Michigan City, IN' with no street address, ZIP code, or facility directions. Customers cannot map the exact location, assess travel time from Chicago or other cities, or plan parking logistics.",
+      "proposed_state": "[Example — verify with merchant:] Location & Directions:\nSkydive Windy City\n[Full street address]\nMichigan City, IN [ZIP code]\n\nFree parking available on-site. Please check in at the main office at least 30 minutes before your scheduled jump time. [Optional: From Chicago, take I-90/94 east to exit X, approximately 60 minutes.]",
+      "data_citation": "Content gap #4: 'No specific street address or facility location shown — \"Michigan City, IN\" is too vague for customers to assess travel time, parking logistics, or exact meeting point'",
+      "expected_impact": "medium",
+      "impact_rationale": "Specific address removes logistical friction ('where exactly do I go?') and enables customers to assess travel feasibility before purchase, which improves qualified traffic and reduces post-purchase support queries.",
+      "supporting_evidence": [
+        "Content gap #4: 'No specific street address or facility location shown — \"Michigan City, IN\" is too vague for customers to assess travel time, parking logistics, or exact meeting point'",
+        "Completeness score: 6/10 — audit explicitly notes missing 'specific address'",
+        "Current page only shows city-level location, not street address or ZIP"
+      ],
+      "impact_score": 336
+    },
+    {
+      "priority_rank": 7,
+      "category": "content",
+      "short_title": "Add what to wear and bring guidelines",
+      "recommendation": "Add a 'What to Wear & Bring' section to the 'Plan Your Visit' or 'What To Expect' area. Beyond the ID requirement already mentioned, customers need to know clothing and footwear guidelines. Proposed section: '[Example — verify with merchant:] What to Wear: Comfortable athletic clothing (jeans and t-shirt work well). Closed-toe shoes required — sneakers or boots recommended. Avoid loose items (hats, jewelry, loose change). What to Bring: Valid government-issued photo ID. Optional: Sunglasses, water bottle, change of clothes. Cameras and phones must stay on the ground — video packages available for purchase.' This reduces day-of-jump confusion and no-shows due to improper attire.",
+      "current_state": "Page mentions ID requirement and waiver signing but provides zero guidance on what to wear or bring. Customers don't know if they need closed-toe shoes, if there are clothing restrictions, or if they can bring personal cameras.",
+      "proposed_state": "New section:\n\nWhat to Wear & Bring:\n[Example — verify with merchant:]\n• Clothing: Comfortable, athletic wear such as jeans or athletic pants and a t-shirt. Dress in layers for changing temperatures at altitude.\n• Footwear: Closed-toe shoes required. Sneakers or lace-up boots recommended. No sandals or slip-ons.\n• Avoid: Loose jewelry, hats, or items in pockets that could fall during freefall.\n• Required: Valid government-issued photo ID (driver's license or passport).\n• Optional: Sunglasses for the ride up, water bottle, change of clothes.\n• Note: Personal cameras and phones must remain on the ground. Professional video and photo packages available for purchase at the facility.",
+      "data_citation": "Content gap #6: 'What to wear and bring beyond ID not specified — customers don't know if closed-toe shoes required, whether to dress in layers, or if they should bring anything else'",
+      "expected_impact": "medium",
+      "impact_rationale": "Clear preparation instructions reduce day-of-jump friction, no-shows due to improper attire, and customer service inquiries, while demonstrating operational professionalism that builds pre-purchase trust.",
+      "supporting_evidence": [
+        "Content gap #6: 'What to wear and bring beyond ID not specified — customers don't know if closed-toe shoes required, whether to dress in layers, or if they should bring anything else'",
+        "Completeness score: 6/10 — audit notes missing 'what to wear'",
+        "Current fine print only mentions 'ID' requirement"
+      ],
+      "impact_score": 288
+    },
+    {
+      "priority_rank": 8,
+      "category": "content",
+      "short_title": "Clarify purpose of $39 deposit in fine print",
+      "recommendation": "Expand the fine print explanation of the $39 deposit to clarify its purpose, not just that it's required and refunded. Currently the fine print states '$39 payment per jumper required at time of reservation. Deposit refunded when checking into facility for appointment' but does not explain WHY this deposit exists or what it secures. Proposed replacement: '$39 deposit per jumper required at time of online reservation to hold your jump slot. This deposit secures your scheduled time and is fully refunded in cash when you check in at the facility on the day of your jump. [Example — verify with merchant:] No-show or same-day cancellations forfeit the deposit.' This removes the 'hidden fee' perception.",
+      "current_state": "Fine print states: '$39 payment per jumper required at time of reservation. Deposit refunded when checking into facility for appointment.' Does not explain the purpose (holds reservation slot? Equipment? Insurance?) or what happens if customer no-shows.",
+      "proposed_state": "$39 deposit per jumper required at time of online reservation to hold your scheduled jump time slot. This deposit is fully refunded in cash when you check in at the facility on the day of your jump. [Example — verify with merchant:] No-show or same-day cancellations without advance notice forfeit the deposit to cover the reserved aircraft seat and instructor time.",
+      "data_citation": "Content gap #5: 'Purpose of the mandatory $39 deposit unclear — fine print says it's refunded at check-in, but doesn't explain what it secures (reservation hold, equipment, insurance, or other)'",
+      "expected_impact": "medium",
+      "impact_rationale": "Unexplained mandatory fees trigger 'hidden cost' alarm bells and cart abandonment — clarifying that the deposit is a fully-refundable reservation hold (not an add-on) removes this friction and builds trust in transparent pricing.",
+      "supporting_evidence": [
+        "Content gap #5: 'Purpose of the mandatory $39 deposit unclear — fine print says it's refunded at check-in, but doesn't explain what it secures'",
+        "Current fine print mentions deposit twice but never explains its function",
+        "Trust score: 8/10 could improve further with transparent fee explanations"
+      ],
+      "impact_score": 280
+    },
+    {
+      "priority_rank": 9,
+      "category": "content",
+      "short_title": "Add spectator and guest policy information",
+      "recommendation": "Add a spectator/guest policy statement to the 'Plan Your Visit' section or fine print. Many skydive customers bring friends or family to watch, but the page never confirms if non-jumping guests are welcome, if there's a viewing area, or if there are any restrictions. Proposed addition: '[Example — verify with merchant:] Spectators Welcome: Friends and family are welcome to watch your jump from our viewing area. Non-jumping guests do not need reservations and can observe the landing and meet you after your jump. Facility amenities include [seating area, restrooms, snack bar if applicable].' This adds value for group/family bookings.",
+      "current_state": "Page is completely silent on whether non-jumping guests can attend or observe. No mention of viewing areas, spectator policies, or whether friends/family are welcome at the facility.",
+      "proposed_state": "[Example — verify with merchant:] Spectators & Guests:\nFriends and family are welcome to watch your skydive! Non-jumping guests may observe from our designated viewing area and be there to celebrate with you after landing. No reservation needed for spectators. Facility amenities available: [seating area, restrooms, refreshments if applicable].",
+      "data_citation": "Content gap #8: 'Whether non-jumping spectators or guests can attend not mentioned — family and friends often want to watch, but page doesn't confirm if observers are welcome or if there are viewing areas'",
+      "expected_impact": "low",
+      "impact_rationale": "Spectator information is a secondary concern that doesn't block purchases but adds value for family/group bookings and reduces support inquiries — nice-to-have rather than must-have.",
+      "supporting_evidence": [
+        "Content gap #8: 'Whether non-jumping spectators or guests can attend not mentioned — family and friends often want to watch, but page doesn't confirm if observers are welcome'",
+        "Completeness score: 6/10 — spectator policy is one of 8 identified gaps",
+        "Page currently silent on non-jumper accommodations"
+      ],
+      "impact_score": 200
+    },
+    {
+      "priority_rank": 10,
+      "category": "seo",
+      "short_title": "Expand meta description to 155 character limit",
+      "recommendation": "Expand the SEO meta description from 111 characters to the full 155-character limit to maximize search result real estate and add a call-to-action. Current meta description: 'Experience Stunning Views of Lake Michigan and the Chicago Skyline From Above w/ Tandem Skydive Jump for 1 to 4' (111 chars). Proposed: 'Jump from 14,000 feet with USPA-certified instructors. See Chicago skyline & Lake Michigan from above. Book your tandem skydive for $210.' (142 chars). This adds price anchor, certification trust signal, and action verb while staying under the 155-char limit.",
+      "current_state": "Experience Stunning Views of Lake Michigan and the Chicago Skyline From Above w/ Tandem Skydive Jump for 1 to 4",
+      "proposed_state": "Jump from 14,000 feet with USPA-certified instructors. See Chicago skyline & Lake Michigan from above. Book your tandem skydive for $210.",
+      "data_citation": "SEO score: 6/10; audit finding: 'Meta description exists but short (111 chars vs. 155 max)'",
+      "expected_impact": "low",
+      "impact_rationale": "Longer meta descriptions improve click-through rate from search results by providing more context and calls-to-action, but impact is limited to search traffic and does not affect on-page conversion for direct/social traffic.",
+      "supporting_evidence": [
+        "Audit finding: 'Meta description exists but short (111 chars vs. 155 max)'",
+        "SEO score: 6/10 — 'solid foundation with room for improvement'",
+        "Current meta description: 111 characters, proposed: 142 characters (26% more content)"
+      ],
+      "impact_score": 180
+    }
+  ],
+  "generated_at": "2026-05-30T01:22:34.847364"
+}

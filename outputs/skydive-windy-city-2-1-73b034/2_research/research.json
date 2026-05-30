@@ -1,0 +1,144 @@
+{
+  "raw_research": {
+    "deal_id": "skydive-windy-city-2-1-73b034",
+    "yelp": null,
+    "google": null,
+    "competitors": [
+      {
+        "competitor_name": "Airbnb",
+        "service_name": "experience stunning views of lake michigan",
+        "regular_price": 264.0,
+        "sale_price": 233.0,
+        "source_url": "https://www.airbnb.com/michigan-city-in/stays",
+        "notes": null,
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "City Experiences™",
+        "service_name": "experience stunning views of lake michigan",
+        "regular_price": 50.0,
+        "sale_price": null,
+        "source_url": "https://www.cityexperiences.com/chicago/city-cruises/lake-michigan-dinner-cruise/",
+        "notes": null,
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Harbor Country Adventures",
+        "service_name": "experience stunning views of lake michigan",
+        "regular_price": 36.0,
+        "sale_price": 18.0,
+        "source_url": "https://www.harborcountryadventures.com/michigan-city-boat-tours/",
+        "notes": null,
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Chicago Boat & Architecture Tours | Shoreline Sightseeing",
+        "service_name": "experience stunning views of lake michigan",
+        "regular_price": 32.5,
+        "sale_price": 11.5,
+        "source_url": "https://shorelinesightseeing.com/tours/skyline-lake-tour/",
+        "notes": null,
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      }
+    ],
+    "category_context": {
+      "category": "Skydiving",
+      "city": "Michigan City",
+      "typical_price_low": null,
+      "typical_price_high": null,
+      "typical_discount_pct": null,
+      "notes": "Research quality: 1/18 sources accepted (17 rejected as non-competitor/informational).",
+      "search_results": [
+        {
+          "title": "Panoramic Views of Lake Michigan - Beachwalk Resort",
+          "url": "https://www.vacationcottage.com/property/panoramic-views-of-lake-michigan-beachwalk-resort/HA-3212215745",
+          "snippet": "Panoramic Views of Lake Michigan - Beachwalk Resort | House in Michigan City ... Best-rates for the Michigan City house starts from US $1,100 per night with ...",
+          "position": 5
+        }
+      ]
+    },
+    "sources": [
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.airbnb.com/michigan-city-in/stays",
+        "source_title": "Airbnb",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-30T00:58:24.239991"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.cityexperiences.com/chicago/city-cruises/lake-michigan-dinner-cruise/",
+        "source_title": "City Experiences™",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-30T00:58:24.240038"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.harborcountryadventures.com/michigan-city-boat-tours/",
+        "source_title": "Harbor Country Adventures",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-30T00:58:24.240042"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://shorelinesightseeing.com/tours/skyline-lake-tour/",
+        "source_title": "Chicago Boat & Architecture Tours | Shoreline Sightseeing",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-30T00:58:24.240045"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://www.vacationcottage.com/property/panoramic-views-of-lake-michigan-beachwalk-resort/HA-3212215745",
+        "source_title": "Panoramic Views of Lake Michigan - Beachwalk Resort",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-30T00:58:24.240052"
+      }
+    ],
+    "quality": {
+      "competitor_pricing_status": "low_confidence",
+      "merchant_reputation_status": "no_data",
+      "category_context_status": "insufficient",
+      "pricing_verifiable": false,
+      "overall_confidence": 0.23,
+      "sources_found": 4,
+      "sources_accepted": 4,
+      "sources_rejected": 0
+    }
+  },
+  "synthesis": {
+    "value_assessment": "marginal",
+    "value_reasoning": "Competitor pricing: insufficient data (0 high-confidence sources found). All four competitor sources have 25% SKU confidence and are LOW CONFIDENCE — critically, none are skydiving services. The sources are boat tours ($11.50–$32.50), a dinner cruise ($50), and vacation rentals ($233–$1,100/night), which are not comparable products to a tandem skydive jump. Cannot verify market comparison for skydiving services. Deal page pricing verifiable: NO — original prices not captured from the page, so the claimed discount % cannot be independently verified. The Groupon price of $210/person for a tandem skydive appears in line with typical industry pricing ($150–$300 range), but without direct competitor data or verified original pricing, this assessment remains tentative.",
+    "groupon_vs_direct_savings": null,
+    "groupon_vs_competitor_savings": null,
+    "merchant_differentiators": [],
+    "red_flags": [
+      "No third-party reviews found (Yelp/Google unavailable) — cannot assess merchant reputation independently of 1,963 Groupon reviews.",
+      "Original prices not captured from deal page — cannot verify discount % claim against independent source.",
+      "All competitor pricing sources (4 total) are non-comparable products (boat tours, dinner cruises, vacation rentals) with 25% SKU confidence — no actual skydiving competitor data collected.",
+      "Research quality extremely low: 1/18 category sources accepted, 0 high-confidence competitor prices — insufficient data to validate market positioning."
+    ],
+    "deal_quality": "strong",
+    "deal_quality_score": 7.5,
+    "key_insight": "This is a solid deal on demand signals alone (4.9★ rating with 1,963 Groupon reviews) but with zero independent reputation verification (no Yelp/Google data) and zero comparable competitor pricing (all 4 sources are boat tours/rentals, not skydiving) — the page cannot communicate competitive value because the research failed to establish what the competitive landscape actually is.",
+    "overall_verdict": "This is an average-quality deal based on strong Groupon-platform demand signals (4.9★ with 1,963 reviews, suggesting high customer satisfaction) but with critical data gaps that prevent independent verification of either merchant reputation or price competitiveness. The research collected zero comparable skydiving competitor prices — all four \"competitor\" sources are boat tours ($11.50–$50) or vacation rentals ($233+/night), not skydiving services, making market comparison impossible. The page cannot credibly communicate \"best price\" or competitive positioning without actual skydiving competitor data to reference. The biggest opportunity is external: conduct proper competitive research on actual skydiving operators in the Michigan City/Chicago region (e.g., Chicagoland Skydiving Center, Wisconsin competitors) to establish whether $210/person is genuinely competitive, then rebuild value messaging around verified savings claims. No third-party reputation data (Yelp/Google) exists to validate the merchant's 4.9★ Groupon rating independently — limiting trust-building opportunities beyond Groupon's own platform.",
+    "review_themes": []
+  },
+  "data_quality": {
+    "competitor_pricing_status": "low_confidence",
+    "merchant_reputation_status": "no_data",
+    "category_context_status": "insufficient",
+    "pricing_verifiable": false,
+    "overall_confidence": 0.23,
+    "sources_found": 4,
+    "sources_accepted": 4,
+    "sources_rejected": 0
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "raw_research": {
+    "deal_id": "expert-skills-medical-ekg-ecg-merchandis-02c9bf",
+    "yelp": null,
+    "google": null,
+    "competitors": [
+      {
+        "competitor_name": "Elite Medical Academy",
+        "service_name": "clinical medical technician & ekg/ecg co",
+        "regular_price": 299.0,
+        "sale_price": 200.0,
+        "source_url": "https://www.elitemedacademy.com/product/online-ekg-technician-prep-training-course/",
+        "notes": null,
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "CALRegional",
+        "service_name": "clinical medical technician & ekg/ecg co",
+        "regular_price": 1995.0,
+        "sale_price": 1495.0,
+        "source_url": "https://calregional.com/program-category/ekg-technician-program/",
+        "notes": null,
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "EKG Monitor Technician",
+        "service_name": "clinical medical technician & ekg/ecg co",
+        "regular_price": 849.0,
+        "sale_price": 27.0,
+        "source_url": "https://acls123.com/online-ekg-monitor-technician/",
+        "notes": null,
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      }
+    ],
+    "category_context": {
+      "category": "Online Medical Training",
+      "city": "",
+      "typical_price_low": 117.0,
+      "typical_price_high": 849.0,
+      "typical_discount_pct": 70.0,
+      "notes": "Research quality: 3/18 sources accepted (15 rejected as non-competitor/informational). Validated market range for clinical medical technician & ekg/ecg co in online: $117–$849 Groupon price ($29.99) is BELOW the validated market low ($117) — strong deal.",
+      "search_results": [
+        {
+          "title": "Online EKG Technician - ES Academy 2026",
+          "url": "https://esacademy-usa.com/2022/06/20/ekg-technician-program-2023/",
+          "snippet": "Online ekg certification program cost: $500.00 USD. · Estimated time: 4 weeks of self-paced online learning. · Start anytime after you enroll.",
+          "position": 3
+        },
+        {
+          "title": "Online EKG Technician Program",
+          "url": "https://calregional.com/program-category/ekg-technician-program/",
+          "snippet": "Gain the skills you need to become an EKG technician in less than one month. 100% online. Only $1995. Easy payment plans.",
+          "position": 4
+        },
+        {
+          "title": "EKG | ECG | Monitor | Technician | Course | Los Angeles",
+          "url": "https://acls123.com/ekg-monitor-technician/",
+          "snippet": "Course Fee: $849. NHA Test Fee: $117. The ECG or EKG Technician course is designed specifically for individuals interested in becoming a certified EKG ...",
+          "position": 5
+        }
+      ]
+    },
+    "sources": [
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.elitemedacademy.com/product/online-ekg-technician-prep-training-course/",
+        "source_title": "Elite Medical Academy",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-30T01:43:38.083078"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://calregional.com/program-category/ekg-technician-program/",
+        "source_title": "CALRegional",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-30T01:43:38.083104"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://acls123.com/online-ekg-monitor-technician/",
+        "source_title": "EKG Monitor Technician",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-30T01:43:38.083107"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://esacademy-usa.com/2022/06/20/ekg-technician-program-2023/",
+        "source_title": "Online EKG Technician - ES Academy 2026",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-30T01:43:38.083115"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://acls123.com/ekg-monitor-technician/",
+        "source_title": "EKG | ECG | Monitor | Technician | Course | Los Angeles",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-30T01:43:38.083120"
+      }
+    ],
+    "quality": {
+      "competitor_pricing_status": "low_confidence",
+      "merchant_reputation_status": "no_data",
+      "category_context_status": "validated",
+      "pricing_verifiable": false,
+      "overall_confidence": 0.4,
+      "sources_found": 3,
+      "sources_accepted": 3,
+      "sources_rejected": 0
+    }
+  },
+  "synthesis": {
+    "value_assessment": "genuine_deal",
+    "value_reasoning": "Groupon price is $29.99 for the Clinical Medical Technician Course. The validated market range from category research is $117–$849 (sources: ES Academy $500, CALRegional $1,995, ACLS123 $849+$117 NHA test fee). Groupon's $29.99 is 74% below the validated market low of $117. However, original prices were NOT captured from the deal page — the \"up to 50% off\" claim in the title cannot be independently verified against the merchant's own regular pricing. All three competitor URLs provided have low confidence (25% SKU match) and should not be used for direct comparison. The deal is genuine based on validated category context showing typical market pricing is $117–$849.",
+    "groupon_vs_direct_savings": null,
+    "groupon_vs_competitor_savings": null,
+    "merchant_differentiators": [],
+    "red_flags": [
+      "No third-party reviews found (Yelp/Google unavailable) — cannot assess merchant reputation independently of 3,425 Groupon reviews.",
+      "Original prices not captured from the deal page — the 'up to 50% off' discount claim cannot be verified against Expert Skills Courses' own regular pricing.",
+      "All three competitor price sources have low SKU confidence (25%) — specific product comparability not verified, though validated category research confirms $117–$849 market range.",
+      "No verifiable information about accreditation, certification validity, or employer recognition of these courses — critical for medical training credibility."
+    ],
+    "deal_quality": "good",
+    "deal_quality_score": 7.2,
+    "key_insight": "This is a good deal (4.55★, 3,425 ratings, $29.99 vs. $117–$849 validated market range) with zero verifiable third-party reputation data — the opportunity is in establishing credibility and accreditation transparency, as price alone cannot overcome trust barriers in medical certification training.",
+    "overall_verdict": "This is a good deal because the $29.99 price sits 74% below the validated market floor of $117–$849 for comparable online EKG/clinical medical technician courses, and it has accumulated 3,425 Groupon ratings at 4.55★, indicating strong demand and satisfaction on the platform. However, the page cannot leverage third-party credibility signals (no Yelp/Google reviews found, no visible accreditation details in the research data) and the original price claim (\"up to 50% off\") is unverifiable because deal page pricing was not captured. The single biggest opportunity is adding trust indicators specific to medical training: accreditation body recognition (e.g., NHA, NCCT), employer acceptance data, certification exam pass rates, or graduate employment outcomes — price competitiveness is already established, but credibility transparency is missing. Supporting context: validated category research shows ES Academy charges $500, CALRegional $1,995, and ACLS123 $849+$117 for similar online EKG technician programs, confirming Groupon's sub-$30 price is genuinely disruptive, though the lack of independent reputation data is a meaningful gap for a healthcare certification product.",
+    "review_themes": []
+  },
+  "data_quality": {
+    "competitor_pricing_status": "low_confidence",
+    "merchant_reputation_status": "no_data",
+    "category_context_status": "validated",
+    "pricing_verifiable": false,
+    "overall_confidence": 0.4,
+    "sources_found": 3,
+    "sources_accepted": 3,
+    "sources_rejected": 0
+  }
+}

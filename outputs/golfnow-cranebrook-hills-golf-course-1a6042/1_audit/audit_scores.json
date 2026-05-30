@@ -1,0 +1,31 @@
+{
+  "clarity_score": 3,
+  "trust_score": 2,
+  "urgency_score": 3,
+  "seo_score": 4,
+  "value_comm_score": 2,
+  "completeness_score": 3,
+  "overall_score": 2.7,
+  "content_gaps": [
+    "No specific date or time shown — fine print states 'voucher valid only for date and time listed' but no tee time is displayed, making it impossible to assess availability before purchase",
+    "Unclear what the $50 covers — fine print says 'booking fees are due via Groupon and green fees are due at course' but does not state the green fee amount, preventing customers from knowing total out-of-pocket cost",
+    "Number of players not specified — deal does not state if $50 is per person or covers multiple players, critical for golf bookings",
+    "Number of holes not specified in the offer — description mentions 9-hole course but the deal itself doesn't confirm if this round is 9 or 18 holes",
+    "No information on cart rental — whether a golf cart is included or available as an add-on at additional cost is not mentioned",
+    "No booking or redemption instructions — after purchasing, how does the customer actually secure their tee time? No GolfNow integration steps or confirmation process explained",
+    "No cancellation or rescheduling policy beyond weather closure — all sales are final, but no clarity on what happens if customer needs to reschedule for personal reasons or how weather closure refunds work"
+  ],
+  "ai_flags": [
+    "Category badges completely incorrect for the deal type — page displays 'Swimming', 'Martial Arts', 'Tennis', 'Baseball', 'Cycling', 'Skiing' badges for a golf course, which is a clear technical error that damages merchant credibility and confuses customers",
+    "Confusing fee structure in fine print — states 'booking fees are due via Groupon and green fees are due at course' without disclosing the green fee amount, making the $50 appear to be just a booking fee rather than the full cost. This contradicts typical Groupon value propositions where customers know total cost upfront",
+    "Fine print contradiction — 'Voucher valid only for date and time listed' but no date or time is visible anywhere in the page content, rendering the restriction unverifiable and the purchase decision uninformed"
+  ],
+  "score_reasoning": {
+    "clarity": "The page fails to clearly explain what the customer receives for $50. The fine print suggests this is a booking fee with additional green fees due at the course, but the split and total cost are never explained. No date, time, number of players, or holes specified. A first-time buyer would be confused about the basic transaction.",
+    "trust": "Zero trust signals present: no rating shown, no review count, no sold count. The category badges displayed (Swimming, Martial Arts, Tennis, etc.) are completely wrong for a golf course, suggesting technical errors. Only credential is a brief mention of 1945 establishment.",
+    "urgency": "Minimal urgency present. 'Ends in' text appears but with no countdown timer, specific date, or quantity indicator. No sold count or 'selling fast' messaging. Weak motivation to act immediately.",
+    "seo": "Meta description is only 62 characters (far below the 150-155 optimal length) and merely repeats the title. Meta title is repetitive. OG tags missing entirely. Schema markup present but basic. Below-average discoverability and social sharing potential.",
+    "value_comm": "No value context whatsoever. Shows $50 deal price but no original price, no discount percentage, no savings amount, and no comparison. Worse, the structure is confusing—appears to be a booking fee plus undisclosed green fees, making it impossible to assess value.",
+    "completeness": "Critical information missing: specific tee time/date, number of players, actual green fee amount, total cost breakdown, cart rental details, booking instructions. A cautious buyer cannot make an informed purchase decision with the information provided."
+  }
+}

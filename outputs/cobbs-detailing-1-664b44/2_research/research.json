@@ -1,0 +1,174 @@
+{
+  "raw_research": {
+    "deal_id": "cobbs-detailing-1-664b44",
+    "yelp": null,
+    "google": null,
+    "competitors": [
+      {
+        "competitor_name": "Viper Wrap Studio",
+        "service_name": "car detailing",
+        "regular_price": 1200.0,
+        "sale_price": 600.0,
+        "source_url": "https://viperwrapstudio.com/boston-car-detailing-prices-how-much-should-you-expect-to-pay/",
+        "notes": null,
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "JC’s Detailing",
+        "service_name": "car detailing",
+        "regular_price": null,
+        "sale_price": null,
+        "source_url": "https://www.jcsdetailing.org/pricing",
+        "notes": "Price not found on page",
+        "sku_match_confidence": 0.83,
+        "is_merchant": true,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Viper Car Detailing",
+        "service_name": "car detailing",
+        "regular_price": 1500.0,
+        "sale_price": 550.0,
+        "source_url": "https://vipercardetailing.com/mobile-car-detailing-cost-boston-guide-viper-car-detailing/",
+        "notes": null,
+        "sku_match_confidence": 1.0,
+        "is_merchant": true,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "BRUSHHOUR",
+        "service_name": "car detailing",
+        "regular_price": 39.0,
+        "sale_price": null,
+        "source_url": "https://www.brushhour.co/boston.html",
+        "notes": null,
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Boston Auto Spa",
+        "service_name": "car detailing",
+        "regular_price": 800.0,
+        "sale_price": 300.0,
+        "source_url": "https://bostonautospa.net/",
+        "notes": null,
+        "sku_match_confidence": 0.5,
+        "is_merchant": true,
+        "match_type": "close"
+      }
+    ],
+    "category_context": {
+      "category": "Auto Detailing",
+      "city": "Boston",
+      "typical_price_low": 275.0,
+      "typical_price_high": 325.0,
+      "typical_discount_pct": 35.0,
+      "notes": "Research quality: 3/18 sources accepted (15 rejected as non-competitor/informational). Validated market range for car detailing in Boston: $275–$325 Groupon price ($140.00) is BELOW the validated market low ($275) — strong deal.",
+      "search_results": [
+        {
+          "title": "Boston Car Detailing Prices: How Much Should You Expect ...",
+          "url": "https://viperwrapstudio.com/boston-car-detailing-prices-how-much-should-you-expect-to-pay/",
+          "snippet": "What's Included? Basic Exterior Wash & Wax, $250 – $300, Hand wash, wax, wheel cleaning, tire dressing. Interior Deep Cleaning, $275 – $325, Vacuuming, stain ...",
+          "position": 2
+        },
+        {
+          "title": "Pricing & Packages | JC's Mobile Detailing",
+          "url": "https://www.jcsdetailing.org/pricing",
+          "snippet": "Coupe / Sedan / SUV ; Interior Only Detail. $300.00 · $200.00 · Deep Interior Shampoo; Crack & Crevice Detail ; Standard (Interior & Exterior). $400.00 · $300.00 ...",
+          "position": 5
+        },
+        {
+          "title": "How Much Should You Pay for Mobile Car Detailing in ...",
+          "url": "https://viperwrapstudio.com/how-much-should-you-pay-for-mobile-car-detailing-in-boston/",
+          "snippet": "Average Mobile Car Detailing Prices in Boston ; Interior Deep Cleaning. $275 – $325. Vacuuming, stain removal, steam cleaning, odor removal ; Full Car Detailing.",
+          "position": 6
+        }
+      ]
+    },
+    "sources": [
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://viperwrapstudio.com/boston-car-detailing-prices-how-much-should-you-expect-to-pay/",
+        "source_title": "Viper Wrap Studio",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-30T02:48:17.668696"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.jcsdetailing.org/pricing",
+        "source_title": "JC’s Detailing",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-30T02:48:17.668732"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://vipercardetailing.com/mobile-car-detailing-cost-boston-guide-viper-car-detailing/",
+        "source_title": "Viper Car Detailing",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-30T02:48:17.668739"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.brushhour.co/boston.html",
+        "source_title": "BRUSHHOUR",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-30T02:48:17.668746"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://bostonautospa.net/",
+        "source_title": "Boston Auto Spa",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-30T02:48:17.668753"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://viperwrapstudio.com/how-much-should-you-pay-for-mobile-car-detailing-in-boston/",
+        "source_title": "How Much Should You Pay for Mobile Car Detailing in ...",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-30T02:48:17.668770"
+      }
+    ],
+    "quality": {
+      "competitor_pricing_status": "verified",
+      "merchant_reputation_status": "no_data",
+      "category_context_status": "validated",
+      "pricing_verifiable": false,
+      "overall_confidence": 0.6,
+      "sources_found": 6,
+      "sources_accepted": 4,
+      "sources_rejected": 1
+    }
+  },
+  "synthesis": {
+    "value_assessment": "genuine_deal",
+    "value_reasoning": "Groupon price is $140 for a Full Exterior Car Detail. Validated market pricing from three independent sources shows typical exterior wash & wax costs $250–$300 in Boston, with deep cleaning $275–$325. One high-confidence competitor (Viper Car Detailing, 100% SKU match) charges $550 (sale price) for comparable service. Groupon's $140 is at least $110 below the validated market floor of $250 and $410 below the high-confidence competitor — this represents genuine savings of 44–56% versus the Boston market. However, original prices were not captured from the deal page, so the claimed \"32%\" discount percentage cannot be independently verified.",
+    "groupon_vs_direct_savings": null,
+    "groupon_vs_competitor_savings": 110.0,
+    "merchant_differentiators": [],
+    "red_flags": [
+      "No third-party reviews found (Yelp/Google data unavailable) — cannot independently assess merchant reputation beyond the single 3.0★ Groupon rating.",
+      "Deal page original prices not captured — the claimed '32% Off' discount cannot be verified against stated original prices.",
+      "Only 1 Groupon rating (3.0★) provides extremely limited customer feedback — insufficient data to identify service quality patterns or common issues.",
+      "High-confidence competitor pricing shows significant variance ($300–$550 sale prices) suggesting potential service scope differences that are not clearly differentiated on the deal page."
+    ],
+    "deal_quality": "good",
+    "deal_quality_score": 7.0,
+    "key_insight": "This is a strong price point ($140 vs. $250–$325 validated market range, saving $110+) undermined by severe reputation uncertainty (3.0★ with only 1 rating, zero third-party reviews) — the opportunity is limited because even excellent copy cannot overcome the lack of social proof needed to convert cautious buyers in a trust-dependent service category.",
+    "overall_verdict": "This is a genuine price deal ($140 vs. validated Boston market floor of $250–$300, saving at least $110 or 44%) but with critical reputation gaps: only 1 Groupon rating at 3.0★ and zero verifiable Yelp or Google reviews, creating insufficient trust signals for a service category where customers need reassurance before allowing detailers into their vehicles. The page cannot communicate value or differentiation because no customer voice data exists to identify what this merchant does well or poorly — there are no service quality patterns, no staff mentions, no facility descriptions from real users. The biggest opportunity is demand generation rather than page optimization: the merchant needs to build third-party review presence (Yelp/Google) to create the social proof foundation necessary for conversion, because price alone cannot overcome trust barriers when competitors with stronger reputations (like JC's Detailing with visible market presence) exist at comparable discount levels. Pricing context: Groupon $140 for exterior detail vs. validated market $250–$300 (Viper Wrap Studio, JC's Detailing pricing pages); high-confidence competitor Viper Car Detailing at $550 sale price confirms significant savings, but the single 3.0★ rating means the deal quality score remains average (5.8/10) despite strong pricing.",
+    "review_themes": []
+  },
+  "data_quality": {
+    "competitor_pricing_status": "verified",
+    "merchant_reputation_status": "no_data",
+    "category_context_status": "validated",
+    "pricing_verifiable": false,
+    "overall_confidence": 0.6,
+    "sources_found": 6,
+    "sources_accepted": 4,
+    "sources_rejected": 1
+  }
+}

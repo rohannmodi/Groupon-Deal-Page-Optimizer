@@ -1,0 +1,171 @@
+{
+  "raw_research": {
+    "deal_id": "ga-bk-holiday-inn-grand-rapids-south-5c142b",
+    "yelp": null,
+    "google": null,
+    "competitors": [
+      {
+        "competitor_name": "Dayuse",
+        "service_name": "family friendly hotel stay holiday inn",
+        "regular_price": 150.0,
+        "sale_price": 106.0,
+        "source_url": "https://www.dayuse.com/hotels/usa/holiday-inn-grand-rapids-south",
+        "notes": null,
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "KAYAK",
+        "service_name": "family friendly hotel stay holiday inn",
+        "regular_price": 432.0,
+        "sale_price": 273.0,
+        "source_url": "https://www.kayak.com/Grand-Rapids-Hotels-Holiday-Inn-Grand-Rapids-Downtown.18457.ksp",
+        "notes": null,
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      }
+    ],
+    "category_context": {
+      "category": "Hotels & Accommodations",
+      "city": "Grand Rapids",
+      "typical_price_low": 149.0,
+      "typical_price_high": 269.0,
+      "typical_discount_pct": null,
+      "notes": "Research quality: 8/18 sources accepted (10 rejected as non-competitor/informational). Validated market range for family friendly hotel stay holiday inn in Grand Rapids: $149–$269",
+      "search_results": [
+        {
+          "title": "Holiday Inn Grand Rapids Downtown by IHG",
+          "url": "https://www.expedia.com/Grand-Rapids-Hotels-Holiday-Inn-Grand-Rapids-Downtown.h8622.Hotel-Information",
+          "snippet": "As of May 27, 2026, prices found for a 1-night stay for 2 adults at Holiday Inn Grand Rapids Downtown by IHG on May 31, 2026 start from $170, including taxes ...",
+          "position": 2
+        },
+        {
+          "title": "Holiday Inn Grand Rapids - Airport By IHG",
+          "url": "https://www.kayak.com/Kentwood-Hotels-Holiday-Inn-Grand-Rapids---Airport.38186.ksp",
+          "snippet": "The cheapest price a room at Holiday Inn Grand Rapids - Airport By IHG was booked for on KAYAK in the last 2 weeks was $149, while the most expensive was $269.",
+          "position": 3
+        },
+        {
+          "title": "Holiday Inn Grand Rapids - Airport By IHG",
+          "url": "https://www.kayak.com/Kentwood-Hotels-Holiday-Inn-Grand-Rapids---Airport.38186.ksp",
+          "snippet": "The cheapest price a room at Holiday Inn Grand Rapids - Airport By IHG was booked for on KAYAK in the last 2 weeks was $149, while the most expensive was $269.",
+          "position": 2
+        },
+        {
+          "title": "Holiday Inn Grand Rapids Downtown by IHG",
+          "url": "https://www.expedia.com/Grand-Rapids-Hotels-Holiday-Inn-Grand-Rapids-Downtown.h8622.Hotel-Information",
+          "snippet": "As of May 27, 2026, prices found for a 1-night stay for 2 adults at Holiday Inn Grand Rapids Downtown by IHG on May 31, 2026 start from $170, including taxes ...",
+          "position": 3
+        },
+        {
+          "title": "Holiday Inn Grand Rapids - South By IHG",
+          "url": "https://www.hotelscombined.com/Hotel/Holiday_Inn_Express_Suites_Grand_Rapids_South.htm",
+          "snippet": "In Grand Rapids, the average nightly rate for 3 stars hotels is $329. The expected nightly rate for Holiday Inn Grand Rapids - South By IHG is around $187 ...",
+          "position": 4
+        },
+        {
+          "title": "Holiday Inn Grand Rapids - Airport By IHG",
+          "url": "https://www.kayak.com/Kentwood-Hotels-Holiday-Inn-Grand-Rapids---Airport.38186.ksp",
+          "snippet": "The cheapest price a room at Holiday Inn Grand Rapids - Airport By IHG was booked for on KAYAK in the last 2 weeks was $149, while the most expensive was $269.",
+          "position": 1
+        },
+        {
+          "title": "Holiday Inn Grand Rapids Downtown by IHG",
+          "url": "https://www.expedia.com/Grand-Rapids-Hotels-Holiday-Inn-Grand-Rapids-Downtown.h8622.Hotel-Information",
+          "snippet": "As of May 27, 2026, prices found for a 1-night stay for 2 adults at Holiday Inn Grand Rapids Downtown by IHG on May 31, 2026 start from $170, including taxes ...",
+          "position": 3
+        },
+        {
+          "title": "Holiday Inn Express & Suites Grand Rapids-North By IHG",
+          "url": "https://www.momondo.com/hotels/walker/Holiday-Inn-Express-Hotel-Suites-Grand-Rapids-North-An-IHG-Hotel.mhd273900.ksp",
+          "snippet": "Find rooms from $88 to $312 at Holiday Inn Express & Suites Grand Rapids-North By IHG. Compare room types and prices from 10 providers.",
+          "position": 5
+        }
+      ]
+    },
+    "sources": [
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.dayuse.com/hotels/usa/holiday-inn-grand-rapids-south",
+        "source_title": "Dayuse",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-30T01:27:49.308176"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.kayak.com/Grand-Rapids-Hotels-Holiday-Inn-Grand-Rapids-Downtown.18457.ksp",
+        "source_title": "KAYAK",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-30T01:27:49.308247"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://www.expedia.com/Grand-Rapids-Hotels-Holiday-Inn-Grand-Rapids-Downtown.h8622.Hotel-Information",
+        "source_title": "Holiday Inn Grand Rapids Downtown by IHG",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-30T01:27:49.308263"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://www.kayak.com/Kentwood-Hotels-Holiday-Inn-Grand-Rapids---Airport.38186.ksp",
+        "source_title": "Holiday Inn Grand Rapids - Airport By IHG",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-30T01:27:49.308270"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://www.hotelscombined.com/Hotel/Holiday_Inn_Express_Suites_Grand_Rapids_South.htm",
+        "source_title": "Holiday Inn Grand Rapids - South By IHG",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-30T01:27:49.308280"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://www.momondo.com/hotels/walker/Holiday-Inn-Express-Hotel-Suites-Grand-Rapids-North-An-IHG-Hotel.mhd273900.ksp",
+        "source_title": "Holiday Inn Express & Suites Grand Rapids-North By IHG",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-30T01:27:49.308290"
+      }
+    ],
+    "quality": {
+      "competitor_pricing_status": "low_confidence",
+      "merchant_reputation_status": "no_data",
+      "category_context_status": "validated",
+      "pricing_verifiable": false,
+      "overall_confidence": 0.4,
+      "sources_found": 2,
+      "sources_accepted": 2,
+      "sources_rejected": 0
+    }
+  },
+  "synthesis": {
+    "value_assessment": "marginal",
+    "value_reasoning": "Cannot verify the Groupon price — the deal page pricing was not captured (\"Deal page pricing verifiable: NO\"). The research report shows \"Overall confidence: 40%\" and \"Competitor pricing: low_confidence\" with no high-confidence (≥70%) competitor matches. The two competitor prices found are both low-confidence (25%): Dayuse at $106 (sale) and KAYAK at $273 (sale), but these cannot be used for direct price comparison claims. The validated market range for family-friendly hotels in Grand Rapids is $149–$269 per night based on category context from Expedia and KAYAK sources. Without knowing the Groupon price or having high-confidence competitor data, I cannot definitively assess value — marking as marginal due to insufficient verifiable data.",
+    "groupon_vs_direct_savings": null,
+    "groupon_vs_competitor_savings": null,
+    "merchant_differentiators": [],
+    "red_flags": [
+      "Deal page pricing not captured — cannot verify the Groupon price or validate discount percentage claims made on the page.",
+      "No third-party reviews found (Yelp/Google unavailable) — cannot assess merchant reputation independently of the 68 Groupon reviews.",
+      "Overall competitor data confidence is 40% with zero high-confidence price matches — market comparison cannot be reliably verified.",
+      "All competitor pricing sources are low-confidence (25% SKU match) — Dayuse at $106 and KAYAK at $273 cannot be used for direct price comparison."
+    ],
+    "deal_quality": "average",
+    "deal_quality_score": 5.5,
+    "key_insight": "This deal has strong Groupon customer satisfaction (5.0★ from 68 ratings) but suffers from complete absence of verifiable pricing data and third-party reputation signals — the opportunity is entirely diagnostic: capture deal page pricing, verify merchant reputation through Yelp/Google, and establish high-confidence competitor benchmarks before any page optimization can begin.",
+    "overall_verdict": "This is an average-quality deal constrained by incomplete data: the Groupon rating is strong (5.0★ from 68 reviews), but the deal page pricing was not captured, no third-party reviews exist in the dataset (Yelp/Google unavailable), and competitor pricing confidence is only 40% with zero high-confidence matches. The page cannot be optimized when the core deal parameters are unknown — without the Groupon price, original price claims, or verified market comparisons, no meaningful value proposition can be constructed. The single biggest opportunity is diagnostic, not creative: re-scrape the deal page to capture pricing, obtain Yelp/Google reputation data for the Holiday Inn Grand Rapids South, and identify high-confidence competitor hotel rates for comparable stays. The validated market range for family-friendly hotels in Grand Rapids is $149–$269/night (per Expedia and KAYAK category context), but without knowing what Groupon charges or having high-confidence direct comparisons (the two sources found—Dayuse at $106 and KAYAK at $273—are both 25% confidence), no competitive positioning is possible.",
+    "review_themes": []
+  },
+  "data_quality": {
+    "competitor_pricing_status": "low_confidence",
+    "merchant_reputation_status": "no_data",
+    "category_context_status": "validated",
+    "pricing_verifiable": false,
+    "overall_confidence": 0.4,
+    "sources_found": 2,
+    "sources_accepted": 2,
+    "sources_rejected": 0
+  }
+}
