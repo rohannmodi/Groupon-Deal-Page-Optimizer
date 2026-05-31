@@ -1,0 +1,29 @@
+{
+  "clarity_score": 7,
+  "trust_score": 8,
+  "urgency_score": 7,
+  "seo_score": 7,
+  "value_comm_score": 5,
+  "completeness_score": 6,
+  "overall_score": 6.4,
+  "content_gaps": [
+    "No original or regular prices shown anywhere on the page — customer cannot verify the '43% off' claim or independently assess whether $30 for two beers and a sausage platter represents good value",
+    "No mention of whether reservations are required or walk-ins accepted — critical for a restaurant where customers need to plan their visit, especially for a popular spot with 890+ deals sold",
+    "No hours of operation listed — customer cannot determine when the tavern is open to redeem this deal, making it impossible to plan around work schedules or weekend availability",
+    "Ceramic stein option ambiguity: the $55 option lists 'Two Ceramic Oktoberfest Beer Steins' with beer options in parentheses, but doesn't explicitly state whether the steins come filled with beer or are empty keepsakes — matters significantly for value perception",
+    "No description of what accompanies the sausage platter beyond the three sausage types — no mention of sides, bread, sauerkraut, mustards, or condiments that typically come with German sausage platters, leaving customers unsure of the complete meal",
+    "No parking information provided — critical for a Los Angeles location where parking availability and cost significantly impact the dining decision",
+    "Portion size described only as 'platter to share' — vague descriptor that doesn't help customers assess whether this will adequately satisfy two people as a meal or is more of an appetizer"
+  ],
+  "ai_flags": [
+    "Discount claim lacks verification: title prominently states 'up to 43% off' but no original/regular prices are shown anywhere on the page for either option ($30 or $55), making the savings claim impossible for customers to verify — undermines trust in the value proposition"
+  ],
+  "score_reasoning": {
+    "clarity": "Deal clearly specifies beer options (Marzen/Helles/Benediktiner Festbier), sausage varieties (bratwurst, knackwurst, bockwurst), and key restrictions (dine-in only, 21+ ID required). Minor ambiguity: the ceramic stein option doesn't explicitly state whether steins come filled with beer.",
+    "trust": "Strong trust signals: 4.79/5 rating from 3,898 reviews, 890+ bought, multiple positive customer quotes displayed. Robust social proof across multiple dimensions. Slight incongruity with some category badges (Steakhouse, Brazilian) that don't match the German restaurant.",
+    "urgency": "Active countdown timer showing 'Extra $6 off — ends 5/30' with specific timestamp, plus 890+ sold count creates solid urgency. Not top-tier (would need 1,000+ bought or 'selling fast today' language for 8-9), but two meaningful urgency signals present.",
+    "seo": "Meta title (54 chars) and description (112 chars) both well within limits and include location, price, and discount. H1/H2 structure present, schema markup exists. Missing OG title and description hurts social media shareability and click-through from social platforms.",
+    "value_comm": "Significant weakness: page displays '43% off' in title but shows no original prices for either the $30 or $55 option, providing zero context for customers to verify savings or assess value. Customer sees only deal prices with an unsubstantiated discount claim.",
+    "completeness": "Missing multiple restaurant-critical details: hours of operation, reservation vs. walk-in policy, parking information, what sides/accompaniments come with the sausage platter, and specific portion size guidance beyond vague 'to share' language. Address provided in FAQ but other planning essentials absent."
+  }
+}

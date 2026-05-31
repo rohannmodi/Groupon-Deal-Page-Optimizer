@@ -1,0 +1,56 @@
+{
+  "raw_research": {
+    "deal_id": "vetro-auto-films-4f2a48",
+    "yelp": null,
+    "google": null,
+    "competitors": [],
+    "category_context": {
+      "category": "Auto Detailing & Services",
+      "city": "Rancho Cucamonga",
+      "typical_price_low": null,
+      "typical_price_high": null,
+      "typical_discount_pct": 35.0,
+      "notes": "No validated market pricing found — treat price estimates as uncertain.",
+      "search_results": []
+    },
+    "sources": [],
+    "quality": {
+      "competitor_pricing_status": "no_data",
+      "merchant_reputation_status": "no_data",
+      "category_context_status": "no_data",
+      "pricing_verifiable": false,
+      "overall_confidence": 0.0,
+      "sources_found": 0,
+      "sources_accepted": 0,
+      "sources_rejected": 0
+    }
+  },
+  "synthesis": {
+    "value_assessment": "marginal",
+    "value_reasoning": "Competitor pricing: insufficient data (0 high-confidence sources found). Cannot verify market comparison. Deal page pricing not verifiable — original prices were not captured, so the claimed 28% discount cannot be independently confirmed. The $179 price for headlight restoration (pair) falls below the category's typical 35% Groupon discount, suggesting marginal savings at best, but without market data or verified original pricing, this assessment is tentative.",
+    "groupon_vs_direct_savings": null,
+    "groupon_vs_competitor_savings": null,
+    "merchant_differentiators": [],
+    "red_flags": [
+      "Only 1 Groupon review (5.0★) — insufficient reputation data to assess merchant quality independently",
+      "No third-party reviews found (Yelp/Google unavailable) — cannot assess merchant reputation independently of 1 Groupon review",
+      "Deal page pricing not verifiable — original prices not captured, claimed 28% discount cannot be confirmed",
+      "Zero competitor pricing data collected — cannot verify if $179 for headlight restoration represents genuine market savings"
+    ],
+    "deal_quality": "average",
+    "deal_quality_score": 4.0,
+    "key_insight": "This deal has severe reputation and pricing verification problems (1 Groupon review, 0 third-party reviews, 0% research confidence, unverifiable discount claim) with no data to assess whether the page communicates value well — the fundamental issue is lack of trust signals and market validation, not copywriting.",
+    "overall_verdict": "This is a weak deal because it lacks all independent validation: 1 Groupon review provides no credible reputation signal, zero competitor pricing data means the $179 price cannot be benchmarked, and the 28% discount claim is unverifiable since original prices were not captured from the deal page. The page cannot overcome these structural credibility problems — even perfect copy cannot substitute for missing trust signals (third-party reviews, market price validation, transparent original pricing). The single biggest opportunity is not page optimization but foundational trust-building: accumulate verified reviews on Yelp/Google, display verifiable original pricing on the deal page, and collect competitor benchmarks to validate the discount claim. Without these elements, any conversion optimization effort is building on quicksand — potential buyers have no independent reason to trust either the merchant's quality or the deal's value proposition.",
+    "review_themes": []
+  },
+  "data_quality": {
+    "competitor_pricing_status": "no_data",
+    "merchant_reputation_status": "no_data",
+    "category_context_status": "no_data",
+    "pricing_verifiable": false,
+    "overall_confidence": 0.0,
+    "sources_found": 0,
+    "sources_accepted": 0,
+    "sources_rejected": 0
+  }
+}

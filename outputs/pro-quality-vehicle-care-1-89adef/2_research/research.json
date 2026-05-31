@@ -1,0 +1,200 @@
+{
+  "raw_research": {
+    "deal_id": "pro-quality-vehicle-care-1-89adef",
+    "yelp": null,
+    "google": null,
+    "competitors": [
+      {
+        "competitor_name": "Locations",
+        "service_name": "waxing service",
+        "regular_price": 92.0,
+        "sale_price": 71.0,
+        "source_url": "https://locations.waxcenter.com/fl/orlando/orlando-dr-phillips-0581.html",
+        "notes": null,
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Annie's Beauty & Body Waxing",
+        "service_name": "waxing service",
+        "regular_price": 239.0,
+        "sale_price": 68.0,
+        "source_url": "https://anniesbeautyandbodywaxing.com/waxing-prices/",
+        "notes": null,
+        "sku_match_confidence": 0.83,
+        "is_merchant": true,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Booksy",
+        "service_name": "waxing service",
+        "regular_price": 429.0,
+        "sale_price": 250.0,
+        "source_url": "https://booksy.com/en-us/s/body-waxing/134763_orlando",
+        "notes": null,
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "How Much Are Brazilian Waxes? Average Cost & Pricing Factors",
+        "service_name": "waxing service",
+        "regular_price": 780.0,
+        "sale_price": 75.0,
+        "source_url": "https://milanlaser.com/blog/how-much-are-brazilian-waxes",
+        "notes": null,
+        "sku_match_confidence": 0.32,
+        "is_merchant": true,
+        "match_type": "close"
+      }
+    ],
+    "category_context": {
+      "category": "Auto Detailing",
+      "city": "Orlando",
+      "typical_price_low": 30.0,
+      "typical_price_high": 60.0,
+      "typical_discount_pct": 40.0,
+      "notes": "Research quality: 8/18 sources accepted (10 rejected as non-competitor/informational). Validated market range for waxing services in Orlando: $30–$60 Groupon price ($76.00) is ABOVE the validated market range ($30–$60) — verify value proposition.",
+      "search_results": [
+        {
+          "title": "Services and Pricing in Orlando - Nona Place",
+          "url": "https://locations.waxcenter.com/fl/orlando/orlando-nona-place-0946.html",
+          "snippet": "25% Off. Buy a Wax Pass. Orlando - Nona Place Single Service Pricing. Body. Arms, Full$55.00. Half$49.00. Back, Full$79.00. Lower$30.00. Mid$34.00. Upper$34.00.",
+          "position": 2
+        },
+        {
+          "title": "Waxing Near Me in Orlando | Book Body Wax",
+          "url": "https://booksy.com/en-us/s/body-waxing/134763_orlando",
+          "snippet": "Depending on the area(s) you want waxed, the cost of waxing can vary greatly, from $5 for a simple lip wax to $80 for a full back wax. Where Can You Get a Wax ...",
+          "position": 3
+        },
+        {
+          "title": "Services and Pricing in Orlando - Nona Place",
+          "url": "https://locations.waxcenter.com/fl/orlando/orlando-nona-place-0946.html",
+          "snippet": "Service, Wax Pass Price per Visit, Orlando - Nona Place Everyday Prices ; Bikini, $53.25, 71.00 ; $53.25, 71.00 ; $45.00, 60.00 ; $45.00, 60.00 ...",
+          "position": 1
+        },
+        {
+          "title": "Orlando Body & Facial Waxing - MB Skincare",
+          "url": "https://mbskincare.net/services/waxing/",
+          "snippet": "Waxing Prices · Brow Shaping (Inc. wax, tweeze and trim) – $25 · Full Face(Does not include brow shaping) – $70 · Ear – $20 · Nose – $20 · Lip Wax – $12 · Chin Wax – ...",
+          "position": 4
+        },
+        {
+          "title": "Waxing Near Me in Orlando | Book Body Wax",
+          "url": "https://booksy.com/en-us/s/body-waxing/134763_orlando",
+          "snippet": "Depending on the area(s) you want waxed, the cost of waxing can vary greatly, from $5 for a simple lip wax to $80 for a full back wax. Where Can You Get a Wax ...",
+          "position": 5
+        },
+        {
+          "title": "Services and Pricing in Orlando - Nona Place",
+          "url": "https://locations.waxcenter.com/fl/orlando/orlando-nona-place-0946.html",
+          "snippet": "Orlando - Nona Place Single Service Pricing ; Full (V)$60.00 ; Full (P)$60.00 ; Line (V)$52.00 ; Line (P)$52.00 ; Butt, Full (V)$37.00.",
+          "position": 1
+        },
+        {
+          "title": "Services and Pricing in Orlando - Dr Phillips",
+          "url": "https://locations.waxcenter.com/fl/orlando/orlando-dr-phillips-0581.html",
+          "snippet": "Orlando - Dr Phillips Single Service Pricing ; Mid$34.00 ; Upper$34.00 ; Bikini, Brazilian (V)$71.00 ; Brazilian (P)$71.00 ; Full (V)$60.00.",
+          "position": 2
+        },
+        {
+          "title": "Book Bikini & Brazilian Wax Near You in Orlando",
+          "url": "https://booksy.com/en-us/s/bikini-waxing/134763_orlando",
+          "snippet": "Depending on the spa or salon you choose to attend as well as the style of bikini wax you select, the average price in Orlando falls in the $20-45 range.",
+          "position": 3
+        }
+      ]
+    },
+    "sources": [
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://locations.waxcenter.com/fl/orlando/orlando-dr-phillips-0581.html",
+        "source_title": "Locations",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T17:05:22.244428"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://anniesbeautyandbodywaxing.com/waxing-prices/",
+        "source_title": "Annie's Beauty & Body Waxing",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T17:05:22.244437"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://booksy.com/en-us/s/body-waxing/134763_orlando",
+        "source_title": "Booksy",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T17:05:22.244440"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://milanlaser.com/blog/how-much-are-brazilian-waxes",
+        "source_title": "How Much Are Brazilian Waxes? Average Cost & Pricing Factors",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T17:05:22.244441"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://locations.waxcenter.com/fl/orlando/orlando-nona-place-0946.html",
+        "source_title": "Services and Pricing in Orlando - Nona Place",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-31T17:05:22.244445"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://mbskincare.net/services/waxing/",
+        "source_title": "Orlando Body & Facial Waxing - MB Skincare",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-31T17:05:22.244450"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://booksy.com/en-us/s/bikini-waxing/134763_orlando",
+        "source_title": "Book Bikini & Brazilian Wax Near You in Orlando",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-31T17:05:22.244454"
+      }
+    ],
+    "quality": {
+      "competitor_pricing_status": "verified",
+      "merchant_reputation_status": "no_data",
+      "category_context_status": "validated",
+      "pricing_verifiable": false,
+      "overall_confidence": 0.6,
+      "sources_found": 4,
+      "sources_accepted": 4,
+      "sources_rejected": 0
+    }
+  },
+  "synthesis": {
+    "value_assessment": "overpriced",
+    "value_reasoning": "CRITICAL DATA ERROR: All competitor data collected is for BODY WAXING services, NOT auto detailing/car wash services. The deal is for \"exterior wash and wax packages\" for vehicles (sedans, SUVs, trucks) but every competitor source scraped is for human body waxing (Brazilian waxes, bikini waxing, facial waxing). The category context validates \"$30–$60\" as typical for \"waxing services in Orlando\" — again referring to body waxing, not car care. No valid auto detailing competitor pricing was collected. Without legitimate comparable data, the Groupon price of $76 for sedan exterior detail cannot be meaningfully compared to market rates. The data quality report incorrectly flags the price as \"ABOVE the validated market range\" because it's comparing car detailing to body waxing services. This is a fundamental research failure — all pricing comparisons are invalid.",
+    "groupon_vs_direct_savings": null,
+    "groupon_vs_competitor_savings": null,
+    "merchant_differentiators": [],
+    "red_flags": [
+      "All competitor pricing data collected is for body waxing services (Brazilian wax, bikini wax, facial wax), not auto detailing — no valid price comparison possible for this vehicle exterior wash/wax service",
+      "No third-party reviews found (Yelp/Google unavailable) — cannot assess merchant reputation independently of 24 Groupon reviews",
+      "Original prices not captured from deal page — the claimed 'Up To 20% Off' discount cannot be verified",
+      "Category context labeled as 'Auto Detailing in Orlando' but all validated sources are body waxing businesses — fundamental research category mismatch"
+    ],
+    "deal_quality": "average",
+    "deal_quality_score": 4.0,
+    "key_insight": "This deal cannot be properly evaluated due to catastrophic research failure — all competitor data collected is for human body waxing services instead of auto detailing, making price comparison impossible; the 4.88★ Groupon rating (24 reviews) provides minimal reputation validation without third-party verification.",
+    "overall_verdict": "This deal has a strong merchant rating on Groupon (4.88★ from 24 reviews) but cannot be assessed for competitive value because all collected competitor pricing is for body waxing services, not auto detailing — the research confused \"car wax\" with \"body wax\" services entirely. The deal page's claimed \"Up To 20% Off\" discount cannot be verified because original prices were not captured from the page, and no legitimate auto detailing competitors were researched for comparison. The biggest opportunity is to re-run competitive research with correct category targeting (auto detailing/car wash businesses in Orlando, not beauty salons) to establish whether $76 for sedan exterior detail represents genuine market value. Without valid competitor data, this analysis cannot determine if the deal is genuinely competitive or overpriced relative to other Orlando auto detailing services.",
+    "review_themes": []
+  },
+  "data_quality": {
+    "competitor_pricing_status": "verified",
+    "merchant_reputation_status": "no_data",
+    "category_context_status": "validated",
+    "pricing_verifiable": false,
+    "overall_confidence": 0.6,
+    "sources_found": 4,
+    "sources_accepted": 4,
+    "sources_rejected": 0
+  }
+}

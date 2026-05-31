@@ -1,0 +1,32 @@
+{
+  "clarity_score": 6,
+  "trust_score": 3,
+  "urgency_score": 7,
+  "seo_score": 6,
+  "value_comm_score": 4,
+  "completeness_score": 5,
+  "overall_score": 4.9,
+  "content_gaps": [
+    "No salon address or specific location shown anywhere on page — only 'Midtown Manhattan' mentioned in description; customers cannot assess convenience or map the location before purchasing",
+    "No service duration specified for any of the three options — a basic haircut vs. full head color vs. balayage have vastly different time commitments (1hr vs. 3+ hrs); critical for planning",
+    "No specific product brands mentioned — description says 'high-quality products' but customers with sensitivities, allergies, or brand preferences need to know what will be used on their hair",
+    "No definition of what constitutes 'long or extra long hair' that triggers additional fees — customers cannot assess whether extra charges will apply to them (shoulder-length? waist-length?)",
+    "No cancellation or rescheduling policy stated — essential for appointment-based services; customers need to know flexibility if plans change",
+    "Highlights section lists only 2 services but 3 pricing options are available — the $197.10 partial balayage option is missing from the 'What You Get' highlights, creating confusion about what's included",
+    "Fine print states 'consultation required' and 'if you are ineligible, a refund will be provided' but provides zero criteria for eligibility — customers don't know what might disqualify them after purchasing",
+    "No stylist credentials, certifications, or experience level mentioned — for color services especially, customers want assurance about expertise with balayage techniques"
+  ],
+  "ai_flags": [
+    "Highlights/pricing mismatch creates confusion: highlights section shows only 2 services (haircut/style and haircut/full color) but 3 pricing tiers are sold. The $197.10 'Partial Balayage' option is entirely absent from the 'What You Get' section — customers buying that tier don't see it confirmed in highlights.",
+    "Extremely low trust signals: only 3 reviews with a perfect 5.0 rating and just 6 sold. While not necessarily fraudulent, this provides virtually no social proof and the perfect score with minimal reviews may trigger skepticism from cautious buyers.",
+    "Vague 'fees may apply' language for long/extra long hair with zero definition of thresholds — classic hidden-cost red flag. Customers can't know if they'll face unexpected charges at the salon."
+  ],
+  "score_reasoning": {
+    "clarity": "Pricing tiers are clearly listed, but highlights don't match all options (balayage missing from 'What You Get'), service durations are absent, and description uses vague lifestyle language rather than specifics. Customers can see what they're buying but important details are unclear.",
+    "trust": "Minimal trust signals: only 3 reviews and 6 sold count is extremely low social proof. No merchant credentials, years in business, stylist certifications, or guarantees beyond standard Groupon terms. A cautious buyer has almost nothing to rely on.",
+    "urgency": "Strong urgency elements present: countdown timer with specific end date (6/1/2026), 'Extra $6.21 off' promo, 'Limited time' and 'Ends in' messaging. However, the very low sold count (6) undermines scarcity perception.",
+    "seo": "Good fundamentals: meta title 59 chars and keyword-rich, meta description present (102 chars), H1 matches title, H2 structure in place, basic schema. But missing OG title and OG description hurts social sharing, and schema is limited to WebSite only.",
+    "value_comm": "Weak value framing: title shows 'Up To 38% Off' but no original prices, no dollar savings amounts, no side-by-side comparison. Customer sees the deal price ($62.10) but has no context for whether that's genuinely a good value or what they're saving in absolute terms.",
+    "completeness": "Missing several category-critical details: no exact address, no service duration (1hr vs 3+hrs matters), no product brands, no hair length fee thresholds defined, no cancellation policy, no stylist credentials. Fine print mentions consultation and eligibility but doesn't explain criteria."
+  }
+}

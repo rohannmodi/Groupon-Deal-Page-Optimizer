@@ -1,0 +1,228 @@
+{
+  "deal_id": "pro-quality-vehicle-care-1-89adef",
+  "proposed_title": "Exterior Hand Wash & Wax for Sedans, SUVs & Trucks in Orlando – Up to 20% Off",
+  "proposed_meta_title": "Car Wash & Wax Orlando | From $76 | Pro Quality",
+  "proposed_meta_description": "Professional exterior hand wash & wax for sedans ($76), SUVs ($92/$108) in Orlando. Includes wheel cleaning, windows & protective wax. Book today!",
+  "proposed_h1": "Professional Car Wash and Wax Service in Orlando",
+  "proposed_highlights": [
+    "Complete exterior hand wash with premium protective wax – keeps your vehicle shining and protected",
+    "Three package options: Sedans/Coupes ($76), Small SUVs/Trucks ($92), Large SUVs/Vans ($108)",
+    "Includes full wheel & tire cleaning, all exterior windows, and hand-applied wax finish",
+    "Servicing Orlando drivers since 1999 – trusted by customers who say 'My car looks like new!'",
+    "[Example — verify with merchant:] Service takes approximately 60–90 minutes; drop-off or wait on-site in comfortable lounge",
+    "[Example — verify with merchant:] Conveniently located in central Orlando – easy access from I-4 and downtown",
+    "Appointment required – book after purchase using merchant contact info on your voucher (180-day expiry)"
+  ],
+  "pricing_framing": "CRITICAL: The competitor research failed catastrophically—all collected pricing is for human body waxing ($30–$60 range), not auto detailing, making market comparison impossible. Do NOT claim \"X% below competitor average.\" Instead, frame value around: (1) the established merchant credibility (since 1999), (2) the 4.88★ rating with positive customer quotes, and (3) the transparent tiered pricing structure. Most importantly, ADD original/regular pricing for each package to validate the \"Up To 20% Off\" claim—without this baseline, customers cannot verify they're getting a deal. If original prices are unavailable, either remove the discount claim or soften to \"Special offer pricing\" to maintain trust.",
+  "executive_summary": "The page scores 5.8/10 overall. The #1 conversion killer is the severe trust mismatch: only 1 purchase despite a 4.88★ rating from 24 reviews, creating buyer skepticism about deal legitimacy. The second critical issue is missing original pricing—the \"Up To 20% Off\" claim cannot be verified. Adding transparent pricing context, addressing the low sold count with a freshness badge, and filling the 7 identified content gaps (no address, hours, or service duration) could lift conversion by 20–30%.",
+  "image_recommendations": [
+    {
+      "image_type": "Side-by-side before/after comparison of a sedan exterior showing dull paint vs. glossy waxed finish",
+      "conversion_reason": "Auto detailing is a visual transformation service—before/after shots directly demonstrate the value and quality buyers will receive, reducing pre-purchase uncertainty about results.",
+      "priority": "High"
+    },
+    {
+      "image_type": "Photo of technician hand-applying wax to vehicle with microfiber cloth (work-in-progress action shot)",
+      "conversion_reason": "Shows the 'hand wash' and manual wax application process, differentiating from automated car washes and justifying the $76–$108 price point as premium service.",
+      "priority": "High"
+    },
+    {
+      "image_type": "Close-up of finished wheel/tire showing clean rim and tire shine",
+      "conversion_reason": "Highlights the included wheel & tire cleaning (a key package component) and demonstrates attention to detail, addressing buyer questions about what's covered.",
+      "priority": "Medium"
+    },
+    {
+      "image_type": "Exterior shot of the facility/location with visible signage and address",
+      "conversion_reason": "The page currently provides zero location/address information (content gap #1)—a facility photo helps buyers assess convenience and legitimacy before purchase.",
+      "priority": "High"
+    },
+    {
+      "image_type": "Wide shot showing all three vehicle types (sedan, small SUV, large SUV) lined up post-service",
+      "conversion_reason": "Visually reinforces the three package tiers and helps buyers identify which category their vehicle fits, reducing confusion about which option to purchase.",
+      "priority": "Medium"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority_rank": 1,
+      "category": "pricing",
+      "short_title": "Add original pricing to validate discount claim",
+      "recommendation": "Add original/regular pricing for each package tier immediately adjacent to the deal prices. Display as 'Regular Price: $95 → Deal Price: $76' (or similar format with actual regular prices). If original prices are not available from the merchant, remove the 'Up To 20% Off' claim from the title and replace with 'Special Offer' or 'Limited Time Pricing' to avoid unverifiable discount claims that erode trust.",
+      "current_state": "Deal prices shown ($76/$92/$108) with 'Up To 20% Off' claim in title, but zero original/regular pricing displayed anywhere on the page.",
+      "proposed_state": "[Example — verify with merchant:] Silver Package pricing display:\n• Sedan/Coupe: Regular $95 → Deal Price $76 (save $19)\n• Small SUV/Truck: Regular $115 → Deal Price $92 (save $23)\n• Large SUV/Van: Regular $135 → Deal Price $108 (save $27)\n\nAlternative if regular prices unavailable: Remove 'Up To 20% Off' from title and replace with 'Limited Time Offer – From $76'",
+      "data_citation": "Content gap #2: 'No original/regular pricing displayed — the Up To 20% Off claim cannot be verified'; value_comm score 5/10; AI flag: 'Up To 20% Off discount claim prominently featured in title with zero original pricing shown anywhere on the page'",
+      "expected_impact": "high",
+      "impact_rationale": "Customers cannot validate the claimed savings without baseline pricing—this gap directly undermines the value proposition and triggers buyer skepticism about deal legitimacy.",
+      "supporting_evidence": [
+        "value_comm score: 5/10 — 'completely omits original/regular pricing — customers see deal prices with no baseline to validate the claimed savings'",
+        "Content gap #2: No original/regular pricing displayed",
+        "AI flag: 'Up To 20% Off discount claim prominently featured in title with zero original pricing shown anywhere'",
+        "Audit reasoning: 'This is a critical gap in value communication, as buyers cannot verify they're getting a deal'"
+      ],
+      "impact_score": 648
+    },
+    {
+      "priority_rank": 2,
+      "category": "trust",
+      "short_title": "Address severe trust mismatch from low sold count",
+      "recommendation": "Add a 'New Deal – Just Launched' or 'Recently Added' badge near the sold count to explain why only 1 purchase has been made despite the 4.88★ rating from 24 reviews. This reframes the low sold count from a red flag (stale/unpopular deal) to a freshness signal. Alternatively, if the deal has been live for weeks, investigate why purchases are so low despite strong reviews—this may indicate a pricing or value perception issue that copy alone cannot fix.",
+      "current_state": "Sold count displays '1 bought' with no context or explanation, creating stark contrast with 24 reviews and 4.88/5 rating.",
+      "proposed_state": "Add badge above or adjacent to '1 bought': 'NEW DEAL – JUST LAUNCHED' or 'RECENTLY ADDED'\n\nAlternatively, if deal is not new, replace sold count display with review-focused trust signal: 'Rated 4.88/5 by 24 Groupon customers' (de-emphasize the low purchase count)",
+      "data_citation": "Trust score 6/10; audit reasoning: 'only 1 sold is a red flag — such low social proof despite good reviews may raise buyer skepticism about deal freshness or legitimacy'; AI flag: 'Very low social proof: only 1 sold despite 24 reviews and a 4.88 rating — this mismatch may raise customer concerns'",
+      "expected_impact": "high",
+      "impact_rationale": "The severe mismatch between 1 purchase and 24 positive reviews is a primary trust blocker—buyers may assume the deal is outdated, the merchant is unreliable, or the reviews are fake.",
+      "supporting_evidence": [
+        "Trust score: 6/10 due to sold count / review mismatch",
+        "Audit: 'only 1 sold is a red flag — such low social proof despite good reviews may raise buyer skepticism'",
+        "AI flag: 'Very low social proof: only 1 sold despite 24 reviews and a 4.88 rating'",
+        "24 Groupon reviews with 4.88/5 rating but only 1 sold"
+      ],
+      "impact_score": 640
+    },
+    {
+      "priority_rank": 3,
+      "category": "content",
+      "short_title": "Add physical address and location details",
+      "recommendation": "Add the complete street address, neighborhood/district, and major cross-streets or landmarks to the 'Need To Know Info' section and near the merchant name. Include a Google Maps embed or link. For an in-person automotive service, customers must assess convenience and travel time before purchasing—the complete absence of location details is a critical conversion barrier.",
+      "current_state": "Page shows only 'Orlando, FL' with no street address, neighborhood, cross-streets, or facility location. The 'Nearby' badge provides no actionable location information.",
+      "proposed_state": "[Example — verify with merchant:] Add to merchant info section:\n'📍 Located at 1234 W Colonial Drive, Orlando, FL 32804 (near I-4 and downtown Orlando, across from Colonial Plaza)'\n\nAdd to Need To Know Info:\n'Our detail center is conveniently located in central Orlando with easy access from I-4, Highway 50, and Orange Blossom Trail. Free parking available on-site.'",
+      "data_citation": "Content gap #1: 'No physical address or location details shown — customers cannot assess whether the detailing shop is conveniently located before purchasing, critical for an in-person automotive service'; completeness score 5/10",
+      "expected_impact": "high",
+      "impact_rationale": "For an in-person automotive service requiring customers to drive to the location, the complete absence of address or neighborhood information creates a major trust and convenience barrier—many buyers will abandon rather than purchase blind.",
+      "supporting_evidence": [
+        "Content gap #1: No physical address shown — 'critical for an in-person automotive service'",
+        "Completeness score: 5/10",
+        "Audit: 'customers can't assess convenience before purchasing'",
+        "Location shown only as generic 'Orlando, FL' with no actionable details"
+      ],
+      "impact_score": 448
+    },
+    {
+      "priority_rank": 4,
+      "category": "title",
+      "short_title": "Rewrite title with specific service and vehicle types",
+      "recommendation": "Replace the vague 'Explore exterior wash and wax packages' with concrete, keyword-rich phrasing that immediately tells buyers what they get. Lead with the service action ('Exterior Hand Wash & Wax'), specify vehicle types, include location, and keep discount claim. The word 'Explore' is weak and non-committal—buyers searching for car detailing want to know exactly what's offered, not browse options.",
+      "current_state": "Explore exterior wash and wax packages for sedans SUVs and trucks (Up To 20% Off) – 89 characters, uses weak verb 'Explore'",
+      "proposed_state": "Exterior Hand Wash & Wax for Sedans, SUVs & Trucks in Orlando – Up to 20% Off – 83 characters",
+      "data_citation": "Clarity score 7/10; AI flag: 'Description uses unnecessarily complex, corporate-speak language...instead of plain English'; current title uses passive 'Explore' rather than specific service description",
+      "expected_impact": "medium",
+      "impact_rationale": "The title is the first thing buyers see and drives both search visibility and conversion—replacing the passive 'Explore' with specific service details ('Hand Wash & Wax') immediately clarifies the offer and improves keyword targeting.",
+      "supporting_evidence": [
+        "Clarity score: 7/10 due to verbose, unclear language",
+        "AI flag: corporate-speak obscures simple car wash and wax offer",
+        "Current title (89 chars) uses vague 'Explore' instead of concrete service description",
+        "SEO score 6/10 with room for keyword optimization"
+      ],
+      "impact_score": 350
+    },
+    {
+      "priority_rank": 5,
+      "category": "content",
+      "short_title": "Add service duration and time expectations",
+      "recommendation": "Add the estimated service duration to the highlights and 'Need To Know Info' section. Specify whether customers should expect a 30-minute express service, 60–90 minute standard detail, or 2+ hour premium service. This information is essential for buyers to plan their day and decide whether they can wait on-site or need to arrange alternative transportation.",
+      "current_state": "No service duration, time estimate, or completion timeline mentioned anywhere on the page.",
+      "proposed_state": "[Example — verify with merchant:] Add to highlights:\n'• Service takes approximately 60–90 minutes depending on package and vehicle condition'\n\nAdd to Need To Know Info:\n'Plan for 60–90 minutes for your detail appointment. You're welcome to wait in our comfortable customer lounge with Wi-Fi and refreshments, or we can text you when your vehicle is ready for pickup.'",
+      "data_citation": "Content gap #3: 'No service duration or time estimate provided — customers need to know whether this is a 30-minute express service or 2+ hour detail to plan their day and determine if they wait or drop off'; completeness score 5/10",
+      "expected_impact": "high",
+      "impact_rationale": "Service duration directly affects whether buyers can fit this into their schedule and whether they need alternative transportation—the absence of this planning detail creates purchase hesitation and post-purchase frustration.",
+      "supporting_evidence": [
+        "Content gap #3: No service duration provided",
+        "Completeness score: 5/10",
+        "Audit: 'customers need to know...to plan their day and determine if they wait or drop off'",
+        "No time estimate mentioned in highlights, fine print, or description"
+      ],
+      "impact_score": 336
+    },
+    {
+      "priority_rank": 6,
+      "category": "content",
+      "short_title": "Clarify drop-off versus wait on-site process",
+      "recommendation": "Add explicit guidance about whether customers drop off their vehicle and leave, or wait on-site during service. Specify amenities if they wait (lounge, Wi-Fi, refreshments) or pickup process if they drop off (call/text notification). This planning detail affects whether buyers need to arrange a ride and influences their perception of service convenience.",
+      "current_state": "No mention of service process—page is silent on whether customers wait or drop off vehicle, and whether alternative transportation is needed.",
+      "proposed_state": "[Example — verify with merchant:] Add to Need To Know Info:\n'Wait on-site or drop off: You're welcome to relax in our customer lounge with complimentary Wi-Fi and refreshments while we detail your vehicle (60–90 min). Prefer to drop off? We'll text you when your car is ready for pickup—most customers run errands nearby and return within 90 minutes.'",
+      "data_citation": "Content gap #6: 'No mention of whether customers wait on-site or drop off vehicle — this planning detail affects whether customers need alternative transportation'; completeness score 5/10",
+      "expected_impact": "medium",
+      "impact_rationale": "Buyers need to know if they should plan for alternative transportation or block 90 minutes to wait—this operational detail reduces pre-purchase anxiety and post-purchase confusion about logistics.",
+      "supporting_evidence": [
+        "Content gap #6: No mention of wait vs. drop-off process",
+        "Completeness score: 5/10",
+        "Audit: 'this planning detail affects whether customers need alternative transportation'",
+        "Fine print mentions 'appointment required' but not service logistics"
+      ],
+      "impact_score": 252
+    },
+    {
+      "priority_rank": 7,
+      "category": "content",
+      "short_title": "Add business hours and appointment availability",
+      "recommendation": "Add the facility's business hours (days of week and time range) to the 'Need To Know Info' section and merchant details. Since appointment is required, also indicate typical availability (e.g., 'Appointments available Monday–Saturday; book 2–3 days in advance for best selection'). Customers need to confirm the hours align with their schedule before committing to purchase.",
+      "current_state": "No business hours, days of operation, or appointment availability information shown. Fine print states 'Appointment required' but provides no context about when appointments are available.",
+      "proposed_state": "[Example — verify with merchant:] Add to merchant info:\n'Hours: Monday–Saturday 8:00 AM – 6:00 PM, Sunday 10:00 AM – 4:00 PM'\n\nAdd to Need To Know Info:\n'Appointments available Monday–Saturday 8 AM – 6 PM, Sunday 10 AM – 4 PM. We recommend booking 2–3 days in advance, especially for weekend slots. Call or text after purchasing to schedule your preferred date and time.'",
+      "data_citation": "Content gap #4: 'No business hours of operation listed — customers cannot confirm the facility's hours align with their availability before committing to purchase'; completeness score 5/10",
+      "expected_impact": "medium",
+      "impact_rationale": "Customers who work weekdays or have limited availability need to verify the business hours accommodate their schedule before purchasing—absence of this information creates a barrier for buyers with scheduling constraints.",
+      "supporting_evidence": [
+        "Content gap #4: No business hours listed",
+        "Completeness score: 5/10",
+        "Audit: 'customers cannot confirm the facility's hours align with their availability'",
+        "Fine print requires appointment but provides no hours or availability context"
+      ],
+      "impact_score": 245
+    },
+    {
+      "priority_rank": 8,
+      "category": "content",
+      "short_title": "Simplify corporate jargon in service description",
+      "recommendation": "Rewrite the service description to eliminate corporate-speak like 'systematic vehicle maintenance services aimed at managing exterior surfaces and supporting a defined automotive aesthetic.' Replace with plain language that describes the simple car wash and wax service in customer-friendly terms: what you get, how it protects your vehicle, and why it matters.",
+      "current_state": "Description uses unnecessarily complex language: 'systematic vehicle maintenance services aimed at managing exterior surfaces and supporting a defined automotive aesthetic'—obscures the straightforward car wash and wax offer.",
+      "proposed_state": "Replace corporate jargon with plain description:\n'Give your vehicle a showroom shine with our professional exterior hand wash and protective wax service. We hand-wash every surface, clean wheels and tires, polish all windows, and apply a premium wax coating that protects your paint from UV rays, road salt, and environmental damage. Your car will look great and stay protected for weeks.'",
+      "data_citation": "Clarity score 7/10; AI flag: 'Description uses unnecessarily complex, corporate-speak language...instead of plain English — this obscures the simple car wash and wax offer and may confuse first-time buyers'",
+      "expected_impact": "medium",
+      "impact_rationale": "Overly complex language creates unnecessary cognitive load for buyers trying to understand a simple service—plain English improves comprehension and reduces abandonment from confusion.",
+      "supporting_evidence": [
+        "Clarity score: 7/10 despite clear package structure",
+        "AI flag: 'unnecessarily complex, corporate-speak language' obscures simple offer",
+        "Audit: description 'is unnecessarily verbose and uses corporate jargon...that obscures rather than clarifies'",
+        "Example jargon: 'systematic vehicle maintenance services aimed at managing exterior surfaces'"
+      ],
+      "impact_score": 210
+    },
+    {
+      "priority_rank": 9,
+      "category": "seo",
+      "short_title": "Expand meta description to 155 characters",
+      "recommendation": "Expand the meta description from 81 to 140–155 characters to maximize search result real estate and include additional value props: specific package prices, location detail, key service inclusions (hand wash, wax, wheels, windows), and call-to-action. The current description is too short and misses opportunities to drive click-through from search results.",
+      "current_state": "Meta description (81 chars): 'Explore exterior wash and wax packages for sedans SUVs and trucks (Up To 20% Off)' — significantly under the 155-character limit.",
+      "proposed_state": "Professional exterior hand wash & wax for sedans ($76), SUVs ($92/$108) in Orlando. Includes wheel cleaning, windows & protective wax. Book today! (151 characters)",
+      "data_citation": "SEO score 6/10; audit reasoning: 'Meta description is functional but short at 81 chars and could include stronger value props'; meta description limit is 155 characters",
+      "expected_impact": "medium",
+      "impact_rationale": "A fuller meta description improves search result click-through by providing more specific value props (pricing, inclusions) and using available character space to differentiate from competitors.",
+      "supporting_evidence": [
+        "SEO score: 6/10",
+        "Current meta description: 81 characters (well below 155-character limit)",
+        "Audit: 'could include stronger value props'",
+        "Missing specific prices, location details, and concrete inclusions in current meta description"
+      ],
+      "impact_score": 168
+    },
+    {
+      "priority_rank": 10,
+      "category": "content",
+      "short_title": "Add wax type and protection duration details",
+      "recommendation": "Add details about the wax type (carnauba, synthetic, ceramic-based) and how long the protection lasts (30, 60, or 90 days) to the highlights or 'What's Included' section. Buyers comparing auto detailing services expect this information to assess quality and value—premium wax types and longer protection duration justify higher pricing.",
+      "current_state": "Page mentions 'wax' in the title and package descriptions but provides zero details about wax type, brand, quality level, or protection duration.",
+      "proposed_state": "[Example — verify with merchant:] Add to highlights:\n'• Premium carnauba wax blend applied by hand—provides 60–90 days of UV protection and water-beading shine'\n\nOr if synthetic:\n'• Synthetic polymer wax coating—lasts up to 90 days and resists road salt, UV rays, and environmental contaminants'",
+      "data_citation": "Content gap #7: 'No details about wax type or protection duration — customers expect to know if the wax lasts 30, 60, or 90 days and whether it's synthetic, carnauba, or ceramic-based'; completeness score 5/10",
+      "expected_impact": "low",
+      "impact_rationale": "Wax type and duration details help buyers assess quality and compare value against competitor services—it's a quality signal that differentiates premium from basic car washes, though not a primary purchase driver for most buyers.",
+      "supporting_evidence": [
+        "Content gap #7: No wax type or protection duration mentioned",
+        "Completeness score: 5/10",
+        "Audit: 'customers expect to know if the wax lasts 30, 60, or 90 days'",
+        "Current page mentions 'wax' multiple times but provides no product or performance details"
+      ],
+      "impact_score": 150
+    }
+  ],
+  "generated_at": "2026-05-31T17:08:29.532823"
+}

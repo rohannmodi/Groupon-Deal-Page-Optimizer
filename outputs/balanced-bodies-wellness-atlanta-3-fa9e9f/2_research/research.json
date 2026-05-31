@@ -1,0 +1,186 @@
+{
+  "raw_research": {
+    "deal_id": "balanced-bodies-wellness-atlanta-3-fa9e9f",
+    "yelp": null,
+    "google": null,
+    "competitors": [
+      {
+        "competitor_name": "Spas in and near Atlanta, Georgia",
+        "service_name": "day spa",
+        "regular_price": 600.0,
+        "sale_price": 548.0,
+        "source_url": "https://www.resortpass.com/s/us/ga/atlanta/spa",
+        "notes": null,
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "The Spa at The St. Regis Atlanta",
+        "service_name": "day spa",
+        "regular_price": null,
+        "sale_price": null,
+        "source_url": "https://www.stregisatlantaspa.com/",
+        "notes": "Price not found on page",
+        "sku_match_confidence": 0.83,
+        "is_merchant": true,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Welcome to Woodhouse Spa - Buckhead",
+        "service_name": "day spa",
+        "regular_price": 780.0,
+        "sale_price": 620.0,
+        "source_url": "https://locations.woodhousespas.com/georgia/atlanta/65-irby-ave-nw/",
+        "notes": null,
+        "sku_match_confidence": 0.83,
+        "is_merchant": true,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Nobu Atlanta -",
+        "service_name": "day spa",
+        "regular_price": null,
+        "sale_price": null,
+        "source_url": "https://www.nobuhotels.com/atlanta/wellness/spa/",
+        "notes": "Price not found on page",
+        "sku_match_confidence": 0.5,
+        "is_merchant": true,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Spa at Serenbe",
+        "service_name": "day spa",
+        "regular_price": 1300.0,
+        "sale_price": 380.0,
+        "source_url": "https://www.spaatserenbe.com/packages",
+        "notes": null,
+        "sku_match_confidence": 0.83,
+        "is_merchant": true,
+        "match_type": "close"
+      }
+    ],
+    "category_context": {
+      "category": "Medical Wellness",
+      "city": "Atlanta",
+      "typical_price_low": 40.0,
+      "typical_price_high": 275.0,
+      "typical_discount_pct": 50.0,
+      "notes": "Research quality: 5/18 sources accepted (13 rejected as non-competitor/informational). Validated market range for spa day package in Atlanta: $40–$275 Groupon price ($40.50) is within validated market range. Saves ~$117 vs market midpoint.",
+      "search_results": [
+        {
+          "title": "Spa Packages",
+          "url": "https://www.naturalbody.com/day-spa/spa-packages",
+          "snippet": "Our favorite facial for spring delivers a boost of brightening and hydration, plus a relaxing massage with uplifting orange blossom lotion. 1 Hr | $275. Learn ...",
+          "position": 2
+        },
+        {
+          "title": "Best Spa Passes and Treatments in Atlanta, Georgia",
+          "url": "https://www.resortpass.com/s/us/ga/atlanta/spa",
+          "snippet": "The cost of a spa pass in Atlanta varies depending on the property, date, and time of booking. Prices typically range from $40 to $150. You can check the exact ...",
+          "position": 3
+        },
+        {
+          "title": "Spa Packages",
+          "url": "https://www.spaatserenbe.com/packages",
+          "snippet": "Serenbe Sampler Package- $195. Limited on time but still want to have the Serenbe Spa Day experience? The Serenbe Sampler Package includes a 30-minute ...",
+          "position": 4
+        },
+        {
+          "title": "Best Spa Passes and Treatments in Atlanta, Georgia",
+          "url": "https://www.resortpass.com/s/us/ga/atlanta/spa",
+          "snippet": "The cost of a spa pass in Atlanta varies depending on the property, date, and time of booking. Prices typically range from $40 to $150. You can check the exact ...",
+          "position": 3
+        },
+        {
+          "title": "Spa Packages",
+          "url": "https://www.spaatserenbe.com/packages",
+          "snippet": "Executive Spa Package - $395. Looking for the ultimate Serenbe Spa Retreat? Our Serenbe Spa Package includes a 80-minute Swedish massage, a Signature facial ...",
+          "position": 4
+        }
+      ]
+    },
+    "sources": [
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.resortpass.com/s/us/ga/atlanta/spa",
+        "source_title": "Spas in and near Atlanta, Georgia",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T16:49:17.005285"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.stregisatlantaspa.com/",
+        "source_title": "The Spa at The St. Regis Atlanta",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T16:49:17.005293"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://locations.woodhousespas.com/georgia/atlanta/65-irby-ave-nw/",
+        "source_title": "Welcome to Woodhouse Spa - Buckhead",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T16:49:17.005296"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.nobuhotels.com/atlanta/wellness/spa/",
+        "source_title": "Nobu Atlanta -",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T16:49:17.005297"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.spaatserenbe.com/packages",
+        "source_title": "Spa at Serenbe",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T16:49:17.005299"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://www.naturalbody.com/day-spa/spa-packages",
+        "source_title": "Spa Packages",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-31T16:49:17.005302"
+      }
+    ],
+    "quality": {
+      "competitor_pricing_status": "verified",
+      "merchant_reputation_status": "no_data",
+      "category_context_status": "validated",
+      "pricing_verifiable": false,
+      "overall_confidence": 0.6,
+      "sources_found": 7,
+      "sources_accepted": 3,
+      "sources_rejected": 2
+    }
+  },
+  "synthesis": {
+    "value_assessment": "marginal",
+    "value_reasoning": "The Groupon price is $40.50 for five B12 and MIC injections. However, the competitor pricing data collected consists entirely of spa day packages and luxury spa services ($380-$780 sale prices), NOT comparable B12/MIC injection services. The validated market range of $40-$275 appears to reference general spa services, not medical wellness injections. Without high-confidence pricing for comparable B12/MIC injection services from competitors, the true market comparison cannot be verified. The deal page claims \"Up to 60% Off\" but original prices were not captured—discount cannot be independently verified. The category context notes the Groupon price is \"within validated market range\" and \"saves ~$117 vs market midpoint,\" but this appears to be comparing injections to general spa packages, which are fundamentally different services. Marking as marginal due to inability to verify savings against truly comparable services.",
+    "groupon_vs_direct_savings": null,
+    "groupon_vs_competitor_savings": null,
+    "merchant_differentiators": [],
+    "red_flags": [
+      "No third-party reviews found (Yelp/Google data unavailable) — cannot assess merchant reputation independently of 12 Groupon reviews.",
+      "Original prices not captured from deal page — the claimed 'Up to 60% Off' discount cannot be independently verified.",
+      "All high-confidence competitor sources (Woodhouse Spa at $620-$780, Spa at Serenbe at $380-$1300) are luxury spa day packages, NOT B12/MIC injection services — competitor data is not product-comparable and cannot validate pricing claims.",
+      "Overall research confidence is only 60% with 5 of 18 sources accepted — majority of research rejected as non-competitor/informational."
+    ],
+    "deal_quality": "average",
+    "deal_quality_score": 5.8,
+    "key_insight": "This deal has a perfect 5.0★ Groupon rating (12 reviews) but lacks independent reputation verification (no Yelp/Google data) and comparable competitor pricing (all high-confidence sources are spa packages, not B12/MIC injections) — the opportunity is limited by the absence of data to validate either the merchant's credibility or the deal's market competitiveness.",
+    "overall_verdict": "This is an average-quality deal with a perfect 5.0★ Groupon rating from 12 reviews and a $40.50 price point for five B12/MIC injections, but critical validation data is missing: no third-party reviews (Yelp/Google unavailable) and no comparable competitor pricing (all high-confidence sources are luxury spa packages at $380-$780, not injection services). The page fails to address the credibility gap created by the lack of independent reputation data and provides no verifiable original pricing (discount claim of \"Up to 60% Off\" cannot be confirmed). The single biggest opportunity is establishing merchant credibility through third-party validation and obtaining comparable B12/MIC injection pricing from medical wellness competitors to verify the deal's value proposition. Without comparable competitor data, the claimed $117 savings vs. \"market midpoint\" compares medical injections to general spa services—fundamentally different categories that cannot validate this deal's pricing.",
+    "review_themes": []
+  },
+  "data_quality": {
+    "competitor_pricing_status": "verified",
+    "merchant_reputation_status": "no_data",
+    "category_context_status": "validated",
+    "pricing_verifiable": false,
+    "overall_confidence": 0.6,
+    "sources_found": 7,
+    "sources_accepted": 3,
+    "sources_rejected": 2
+  }
+}

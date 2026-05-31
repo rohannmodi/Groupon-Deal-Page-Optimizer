@@ -1,0 +1,30 @@
+{
+  "clarity_score": 8,
+  "trust_score": 9,
+  "urgency_score": 8,
+  "seo_score": 6,
+  "value_comm_score": 5,
+  "completeness_score": 7,
+  "overall_score": 7.0,
+  "content_gaps": [
+    "No original/regular price displayed anywhere on the page — title claims 'Up to 56% Off!' but customers cannot see the baseline price to verify the $19 deal represents genuine savings",
+    "Bar and snacks mentioned in 'Why This Cruise Deal Is Worth It' section — no clarification whether these are included in the ticket price or available for separate purchase, critical for budgeting",
+    "No weather or cancellation policy stated — customers don't know what happens if conditions are poor, whether cruises run in rain, or how to reschedule if seas are too rough",
+    "No information about parking availability, location, or cost near Pier 36 in Manhattan — essential for NYC visitors where parking is notoriously difficult and expensive",
+    "No mention of wheelchair accessibility or ADA accommodations on the yacht — important for mobility-impaired customers planning a 60-minute boat tour with multiple deck levels",
+    "Overlapping sailing times create confusion — 4:30PM and 6:30PM listed for both daytime Statue of Liberty cruise AND nighttime cruise, unclear which experience runs at which time",
+    "No policy on pets or service animals stated — relevant for customers who may need to bring service animals or want to know if pets are permitted"
+  ],
+  "ai_flags": [
+    "Availability stated as 'Seven days a week in 2026' (repeated twice in highlights) — if this deal is currently available, the year-specific language creates confusion about whether customers can book now or must wait until 2026. Recommend changing to 'available daily' or 'seven days a week year-round.'",
+    "Discount claim 'Up to 56% Off!' in title and H1 cannot be verified — no original price shown anywhere on page, making it impossible for customers to confirm the stated savings percentage"
+  ],
+  "score_reasoning": {
+    "clarity": "Very clear on core offering: 60-minute cruise, two experience options (day/night), specific sailing times, exact pier location, and what landmarks customers will see. Minor deduction for overlapping 4:30PM/6:30PM times listed for both cruise types causing slight confusion about which runs when.",
+    "trust": "Exceptional trust signals: 4.56/5 rating, 10,409 reviews, 125,000+ bought (outstanding social proof), 25+ years in business, USCG certification mentioned, and multiple category badges. One of the strongest trust profiles seen on Groupon deals.",
+    "urgency": "Strong urgency: active countdown promotion with specific end date (5/30/2026) clearly flagged in urgency elements, combined with very high sold count (125,000+). Per scoring instructions, promoEndTimeStamp counts as countdown timer. Also includes standard 180-day expiry.",
+    "seo": "Has foundational SEO elements (meta title with location/price, H1, 18 H2s, schema markup) but significant gaps: meta description only 94 chars (should be ~155), missing OG title and OG description for social sharing. Functional but not optimized.",
+    "value_comm": "Discount percentage shown in title (56% off) provides some value framing, but no original price displayed anywhere on page. Customers see $19 deal price but cannot verify what they're saving from or whether 56% claim is accurate. Missing the price comparison that makes value unmistakable.",
+    "completeness": "Good coverage of tour basics: duration, landmarks, departure location/pier/dock, sailing times, arrival instructions, kids policy, and 180-day validity. Missing practical details that cautious buyers need: weather/cancellation policy, parking info (critical for NYC), accessibility, and whether bar/snacks are included or extra."
+  }
+}

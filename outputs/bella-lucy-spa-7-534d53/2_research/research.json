@@ -1,0 +1,225 @@
+{
+  "raw_research": {
+    "deal_id": "bella-lucy-spa-7-534d53",
+    "yelp": null,
+    "google": null,
+    "competitors": [
+      {
+        "competitor_name": "HealingHandsMassage",
+        "service_name": "massage therapy",
+        "regular_price": 150.0,
+        "sale_price": 110.0,
+        "source_url": "https://www.healing-hands-massage.net/pricing",
+        "notes": null,
+        "sku_match_confidence": 0.5,
+        "is_merchant": true,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Booksy",
+        "service_name": "massage therapy",
+        "regular_price": 175.0,
+        "sale_price": 135.0,
+        "source_url": "https://booksy.com/en-us/s/massage/30766_milton",
+        "notes": null,
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Elevate Massage Therapy",
+        "service_name": "massage therapy",
+        "regular_price": 155.0,
+        "sale_price": 135.0,
+        "source_url": "https://www.elevatermt.com/pricing",
+        "notes": null,
+        "sku_match_confidence": 1.0,
+        "is_merchant": true,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Deep Blue Massage Therapy",
+        "service_name": "massage therapy",
+        "regular_price": 120.0,
+        "sale_price": 100.0,
+        "source_url": "https://deepbluemassagetherapy.com/",
+        "notes": null,
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Elite Spa Collection",
+        "service_name": "massage therapy",
+        "regular_price": 100.0,
+        "sale_price": null,
+        "source_url": "https://elitespacollection.com/",
+        "notes": null,
+        "sku_match_confidence": 0.5,
+        "is_merchant": true,
+        "match_type": "close"
+      }
+    ],
+    "category_context": {
+      "category": "Spa & Massage",
+      "city": "Milton",
+      "typical_price_low": 75.0,
+      "typical_price_high": 154.94,
+      "typical_discount_pct": 50.0,
+      "notes": "Research quality: 10/18 sources accepted (8 rejected as non-competitor/informational). Validated market range for massage therapy in Milton: $75–$155 Groupon price ($81.00) is within validated market range. Saves ~$34 vs market midpoint.",
+      "search_results": [
+        {
+          "title": "Milton Massage and Bodywork - CARLISLE PA 17015",
+          "url": "https://www.massagebook.com/therapists/milton/deals?src=external&ncf_source=friendly_url",
+          "snippet": "Milton Massage and Bodywork · In Office Membership Program, 60 min session · $75 /month · $75 /month · In Office Membership Program, 90 min session · $100 /month.",
+          "position": 1
+        },
+        {
+          "title": "Pricing | Healing Hands Massage & Muscular Therapy",
+          "url": "https://www.healing-hands-massage.net/pricing",
+          "snippet": "Promotions · New clients receive $10 OFF your first session · Refer a friend and receive $20 OFF your next session · $10 OFF any service during your birthday ...",
+          "position": 3
+        },
+        {
+          "title": "Pricing | Healing Hands Massage & Muscular Therapy",
+          "url": "https://www.healing-hands-massage.net/pricing",
+          "snippet": "60 min, $90. 75 min, $110. 90 min, $130. 90 min Hot Stone, $150. Sauna & Cold Plunge. 60 min, 1 person $40 60 min, 2 people $35/person",
+          "position": 2
+        },
+        {
+          "title": "Massage Therapy",
+          "url": "https://www.burkewilliams.com/massage-therapy",
+          "snippet": "Beyond the Spa Massages. ; 50-min, $225 (regular), $170 (member price) ; 65-min, $270 (regular), $210 (member price) ; 80-min, $300 (regular), $235 (member price).",
+          "position": 4
+        },
+        {
+          "title": "Prices",
+          "url": "https://wilshiremassage.com/prices/",
+          "snippet": "Prices · $55.00. 30 minutes table massage · $65.00. 60 mintues table massage · $95.00. 90 minutes table massage · $135.00. 120 minutes table massage.",
+          "position": 5
+        },
+        {
+          "title": "SERVICES & PRICING | PACE & MILTON FL",
+          "url": "https://www.liveoakmassage.net/services-pricing",
+          "snippet": "... therapy are integrated with the use of myofascial cupping tools in this massage. Prices begin at: $115 - 60 Minutes. $165 - 90 Minutes. $215 - 120 Minutes.",
+          "position": 6
+        },
+        {
+          "title": "Pricing | Healing Hands Massage & Muscular Therapy",
+          "url": "https://www.healing-hands-massage.net/pricing",
+          "snippet": "60 min, $90. 75 min, $110. 90 min, $130. 90 min Hot Stone, $150. Sauna & Cold Plunge. 60 min, 1 person $40 60 min, 2 people $35/person",
+          "position": 1
+        },
+        {
+          "title": "SERVICES & PRICING | PACE & MILTON FL",
+          "url": "https://www.liveoakmassage.net/services-pricing",
+          "snippet": "Complimentary aromatherapy and hot towels are offered with all our massage sessions. Average pricing: $60 - 30 Minutes.",
+          "position": 4
+        }
+      ]
+    },
+    "sources": [
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.healing-hands-massage.net/pricing",
+        "source_title": "HealingHandsMassage",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T16:43:02.444034"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://booksy.com/en-us/s/massage/30766_milton",
+        "source_title": "Booksy",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T16:43:02.444054"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.elevatermt.com/pricing",
+        "source_title": "Elevate Massage Therapy",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T16:43:02.444059"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://deepbluemassagetherapy.com/",
+        "source_title": "Deep Blue Massage Therapy",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T16:43:02.444063"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://elitespacollection.com/",
+        "source_title": "Elite Spa Collection",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T16:43:02.444066"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://www.massagebook.com/therapists/milton/deals?src=external&ncf_source=friendly_url",
+        "source_title": "Milton Massage and Bodywork - CARLISLE PA 17015",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-31T16:43:02.444073"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://www.burkewilliams.com/massage-therapy",
+        "source_title": "Massage Therapy",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-31T16:43:02.444081"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://wilshiremassage.com/prices/",
+        "source_title": "Prices",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-31T16:43:02.444086"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://www.liveoakmassage.net/services-pricing",
+        "source_title": "SERVICES & PRICING | PACE & MILTON FL",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-31T16:43:02.444090"
+      }
+    ],
+    "quality": {
+      "competitor_pricing_status": "verified",
+      "merchant_reputation_status": "no_data",
+      "category_context_status": "validated",
+      "pricing_verifiable": false,
+      "overall_confidence": 0.6,
+      "sources_found": 5,
+      "sources_accepted": 5,
+      "sources_rejected": 0
+    }
+  },
+  "synthesis": {
+    "value_assessment": "marginal",
+    "value_reasoning": "Groupon price is $81.00 for a 60-minute upper body massage + signature facial. The only HIGH CONFIDENCE competitor price found is Elevate Massage Therapy at $135.00 (100% SKU match confidence, close match type) for a comparable package. One MODERATE CONFIDENCE competitor (Healing Hands Massage) charges $110.00 (50% SKU match confidence). Elite Spa Collection shows $100.00 (50% confidence, moderate). The validated market range is $75–$155 with a midpoint of ~$115. Groupon saves approximately $34 vs. market midpoint and $29–$54 vs. moderate-to-high confidence competitors. However, original prices were not captured from the deal page — the claimed \"up to 55% off\" discount cannot be independently verified. The deal appears to offer modest savings (approximately 25–40% below moderate/high confidence competitors) but without strikethrough pricing verification, the discount claim remains unconfirmed.",
+    "groupon_vs_direct_savings": null,
+    "groupon_vs_competitor_savings": 29.0,
+    "merchant_differentiators": [],
+    "red_flags": [
+      "No third-party reviews found (Yelp/Google unavailable) — cannot assess merchant reputation independently of 9 Groupon reviews.",
+      "Original prices not captured from deal page — the claimed 'up to 55% off' discount cannot be verified against actual strikethrough pricing.",
+      "Only 9 Groupon ratings (5.0/5.0) — very limited sample size to assess service quality or consistency.",
+      "Competitor pricing data limited: only 1 high-confidence source (Elevate Massage Therapy at $135) and 2 moderate-confidence sources — market comparison is tentative."
+    ],
+    "deal_quality": "average",
+    "deal_quality_score": 5.8,
+    "key_insight": "This is an average deal ($81 vs. $110–$135 moderate/high-confidence competitor range, saving ~$29) with severe reputation data gaps (no Yelp/Google, only 9 Groupon reviews) — the primary risk is unverifiable merchant quality, not pricing, making trust-building copy critical but hampered by lack of proof points.",
+    "overall_verdict": "This is an average deal because while the $81 price offers modest savings ($29–$54 below moderate/high confidence competitors at $110–$135), the merchant has no verifiable third-party reputation (no Yelp or Google data, only 9 Groupon ratings). The page cannot communicate credibility or differentiation because there are no differentiating data points available — no review themes, no mentioned strengths, no verifiable merchant history. The biggest opportunity is extremely limited: without reputation data, the only tactical move is to emphasize the Groupon Guarantee and transparent service details (duration, what's included, appointment process) to reduce perceived risk. Pricing context: the deal sits at the lower end of the validated $75–$155 Milton market range, saving approximately $34 vs. the $115 midpoint, but the claimed \"up to 55% off\" cannot be verified as original prices were not captured from the page.",
+    "review_themes": []
+  },
+  "data_quality": {
+    "competitor_pricing_status": "verified",
+    "merchant_reputation_status": "no_data",
+    "category_context_status": "validated",
+    "pricing_verifiable": false,
+    "overall_confidence": 0.6,
+    "sources_found": 5,
+    "sources_accepted": 5,
+    "sources_rejected": 0
+  }
+}

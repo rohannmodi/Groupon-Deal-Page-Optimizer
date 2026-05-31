@@ -1,0 +1,223 @@
+{
+  "deal_id": "bella-lucy-spa-7-534d53",
+  "proposed_title": "60 or 90-Min Massage & Facial in Milton, GA — Save vs. $140 Market Average",
+  "proposed_meta_title": "Massage & Facial Milton GA | From $81 | Bella Lucy Spa",
+  "proposed_meta_description": "Upper body massage + signature facial in Milton from $81. Save vs. $140 market average. Book your appointment today at Bella Lucy Spa!",
+  "proposed_h1": "Upper Body Massage & Signature Facial — Milton, GA",
+  "proposed_highlights": [
+    "Upper body massage targeting neck, shoulders, and décolleté area, plus signature facial treatment",
+    "Total session time: choose 60-minute or 90-minute package (duration includes both massage and facial)",
+    "Appointment required — contact Bella Lucy Spa after purchase to schedule your preferred time",
+    "Save vs. market: comparable massage-facial packages average $140 at Milton-area competitors",
+    "[Example — verify with merchant:] Signature facial includes deep cleansing, exfoliation, custom mask, and moisturizer",
+    "Rated 5.0 out of 5.0 stars by Groupon customers",
+    "[Example — verify with merchant:] Services performed by licensed massage therapists and estheticians",
+    "Consultation required before service; full refund provided if you are ineligible"
+  ],
+  "pricing_framing": "Lead with competitor context instead of the unverifiable '55% off' claim. Frame as: 'Pay $81. Comparable packages at Milton spas average $140 (based on 5 competitor sources).' If the merchant can provide a verifiable regular/original price, add it as strikethrough pricing directly above the $81 Groupon price with the discount percentage. Otherwise, de-emphasize percentage discount and emphasize the $59 absolute savings vs. the documented $140 market average.",
+  "executive_summary": "The page scores 5.1/10 overall, with completeness at 4/10 and value communication at 5/10. The #1 issue: no original price is shown to verify the '55% off' claim, undermining trust. The #2 issue: no appointment booking instructions for a service where advance scheduling is essential (content gap #2). Adding strikethrough pricing, appointment instructions in highlights, and reframing the deal against the $140 competitor average could lift conversion 15–20%.",
+  "image_recommendations": [
+    {
+      "image_type": "Photo of the facial treatment room or massage therapy space showing treatment table, lighting, and setup",
+      "conversion_reason": "For an $81 bodywork service with weak trust signals (only 9 reviews, no Yelp/Google presence), customers need to see the environment is clean and professional before committing to intimate spa services. Facility photos reduce pre-purchase anxiety.",
+      "priority": "High"
+    },
+    {
+      "image_type": "Photo of facial products, tools, or treatment steps used in the Signature Facial",
+      "conversion_reason": "The 'Signature Facial' is completely undefined (content gap #3, clarity score 6/10). Product shots help clarify what customers are purchasing and increase perceived value of the treatment.",
+      "priority": "High"
+    },
+    {
+      "image_type": "Staff photo showing massage therapist or esthetician in professional attire",
+      "conversion_reason": "With no third-party reviews and only 9 Groupon ratings (trust score 5/10), visual trust signals are critical. Licensed professional imagery addresses content gap #7 (no therapist credentials mentioned) and improves credibility for bodywork services.",
+      "priority": "Medium"
+    },
+    {
+      "image_type": "Before-and-after facial treatment photo or close-up of facial massage technique",
+      "conversion_reason": "Demonstrates the value and results of the undefined Signature Facial. Skincare buyers want proof of efficacy, and treatment visualization reduces uncertainty about what the service delivers.",
+      "priority": "Medium"
+    },
+    {
+      "image_type": "Exterior or reception area photo of the Milton, GA spa location",
+      "conversion_reason": "Addresses content gap #8 (no parking or facility access info). Helps first-time visitors feel oriented and reduces logistical uncertainty about finding the location.",
+      "priority": "Low"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority_rank": 1,
+      "category": "pricing",
+      "short_title": "Add original price to verify discount claim",
+      "recommendation": "Add the regular/original price as strikethrough pricing directly above the $81 Groupon price, or remove the unverifiable '55% off' claim from the title and page. If the original price cannot be documented, reframe the entire value proposition around competitor comparison (see recommendation #4) and remove percentage-discount language.",
+      "current_state": "Title claims 'Up to 55% Off' but no original/regular price is shown anywhere on the page. Groupon price is $81, claimed original is unknown, discount percentage cannot be verified by customer.",
+      "proposed_state": "[If merchant can provide verifiable regular price:] Display strikethrough price above $81 (e.g., '$180 $81') and verify discount math. [If original price unavailable:] Remove '55% off' from title and replace with competitor-based value framing: 'Save vs. $140 Market Average.'",
+      "data_citation": "Content gap #1: 'No original price shown anywhere on the page — customer cannot verify the claimed 55% off discount'; AI flag: 'Up to 55% Off prominently displayed in title but no original/regular price shown anywhere'; value_communication score: 5/10",
+      "expected_impact": "high",
+      "impact_rationale": "Price trust is the #1 conversion barrier — customers abandon when discount claims cannot be verified, especially on premium services like spa treatments.",
+      "supporting_evidence": [
+        "AI flag: 'Up to 55% Off prominently displayed but no original price shown — customer has no way to verify savings claim'",
+        "Content gap #1: 'No original price shown anywhere — undermining the value proposition'",
+        "value_communication score: 5/10 — 'critically fails to show original/regular price'",
+        "Research verdict: 'claimed original: unknown, discount: unknown'"
+      ],
+      "impact_score": 720
+    },
+    {
+      "priority_rank": 2,
+      "category": "content",
+      "short_title": "Add appointment booking instructions to highlights",
+      "recommendation": "Add a new highlight bullet (position #3) that explicitly states appointment is required and provides booking method: 'Appointment required — contact Bella Lucy Spa at [phone number] or [booking URL] after purchasing your voucher to schedule your preferred date and time.'",
+      "current_state": "No mention anywhere on the page of whether appointment is required or how to book after purchase. Fine print mentions 'Must sign waiver' and 'Consultation required' but provides zero booking logistics.",
+      "proposed_state": "• Appointment required — contact Bella Lucy Spa after purchase to schedule your preferred time\n[Note: Add specific phone number or booking URL when available from merchant]",
+      "data_citation": "Content gap #2: 'No mention of whether appointment is required or how to book after purchasing the voucher — critical for a spa service where advance scheduling is typically necessary'; completeness score: 4/10",
+      "expected_impact": "high",
+      "impact_rationale": "Spa services require advance booking — omitting this causes post-purchase confusion, support tickets, and negative reviews from walk-in customers who face long waits or rejection.",
+      "supporting_evidence": [
+        "Content gap #2: 'No booking instructions — critical for a spa service where advance scheduling is typically necessary'",
+        "Completeness score: 4/10 — 'no booking instructions' listed as a critical gap",
+        "Audit reasoning: 'no booking instructions' is one of 'multiple category-critical gaps for a spa service'"
+      ],
+      "impact_score": 576
+    },
+    {
+      "priority_rank": 3,
+      "category": "clarity",
+      "short_title": "Clarify whether 60/90 min is total time",
+      "recommendation": "Rewrite the first highlight bullet to explicitly state whether 60/90 minutes is total session time or massage-only duration. Replace current vague bullet with: 'Total session time: choose 60-minute or 90-minute package (duration includes both massage and facial treatment)' OR 'Choose 60 or 90-minute upper body massage, plus signature facial (additional time)' — whichever is accurate.",
+      "current_state": "Current highlights state 'One 60-Minute Upper Body Massage + Signature Facial' and 'One 90-Minute Upper Body Massage + Signature Facial' but it's ambiguous whether 60/90 min represents total time or just massage duration. Customer cannot accurately plan time commitment.",
+      "proposed_state": "• Total session time: choose 60-minute or 90-minute package (duration includes both massage and facial treatment)\n[Alternatively, if 60/90 min is massage-only:]\n• Choose 60 or 90-minute upper body massage, plus signature facial (additional 20–30 minutes)",
+      "data_citation": "Content gap #4: 'Ambiguous whether the 60/90 minutes represents total session time or just the massage portion — customer cannot accurately plan their time commitment'; clarity score: 6/10 ('ambiguous whether 60/90 min is total time or just massage duration')",
+      "expected_impact": "high",
+      "impact_rationale": "Duration ambiguity directly affects purchase decisions — customers need to know total time commitment to assess scheduling feasibility and value per minute spent.",
+      "supporting_evidence": [
+        "Content gap #4: 'Ambiguous whether 60/90 minutes is total session time or just massage — customer cannot plan time commitment'",
+        "Clarity score: 6/10 — 'ambiguous whether 60/90 min is total time or just massage duration' cited as key issue",
+        "Audit reasoning: 'it's ambiguous whether 60/90 min is total time or just massage duration'"
+      ],
+      "impact_score": 504
+    },
+    {
+      "priority_rank": 4,
+      "category": "positioning",
+      "short_title": "Reframe price against $140 competitor average",
+      "recommendation": "Add a highlight bullet (position #4) that frames the $81 Groupon price against the validated competitor range: 'Save vs. market: comparable massage-facial packages average $140 at Milton-area competitors (based on 5 local spa sources).' This replaces the unverifiable discount percentage with concrete market context.",
+      "current_state": "Page shows '55% off' claim but provides no market context, competitor comparison, or absolute value assessment. Customer has no reference point to judge whether $81 is a good deal.",
+      "proposed_state": "• Save vs. market: comparable massage-facial packages average $140 at Milton-area competitors",
+      "data_citation": "Value communication score: 5/10 ('No competitor comparison or market context provided'); Competitor average: $140.00 (5 sources); Groupon price: $81.00; Research synthesis: 'validated market range $75–$155 with midpoint of ~$115'",
+      "expected_impact": "high",
+      "impact_rationale": "Providing verifiable market context rebuilds trust lost from the unsubstantiated discount claim and gives customers a concrete reference point to assess value.",
+      "supporting_evidence": [
+        "Competitor average: $140.00 (5 sources)",
+        "Value communication score: 5/10 — 'No competitor comparison or market context provided'",
+        "Research verdict: 'validated market range $75–$155'",
+        "Savings vs. competitor average: $29.00"
+      ],
+      "impact_score": 392
+    },
+    {
+      "priority_rank": 5,
+      "category": "content",
+      "short_title": "Define what Signature Facial includes",
+      "recommendation": "Add a highlight bullet (position #5) that defines what the 'Signature Facial' treatment includes. If merchant can provide specifics, use exact details: '[Example — verify with merchant:] Signature facial includes deep cleansing, exfoliation, custom mask tailored to your skin type, and moisturizer.' If details unavailable, note this as a merchant data request.",
+      "current_state": "Highlights mention 'Signature Facial' but provide zero detail on what this treatment includes — no steps, products, techniques, or duration breakdown. Customer purchasing a facial has no idea what service they're receiving.",
+      "proposed_state": "• [Example — verify with merchant:] Signature facial includes deep cleansing, exfoliation, custom mask tailored to your skin type, and moisturizer\n[Note: Merchant must provide accurate treatment steps]",
+      "data_citation": "Content gap #3: 'No detail on what the Signature Facial includes (steps, products used, specific techniques, duration) — customers purchasing a facial need to understand what treatment they're receiving'; clarity score: 6/10 ('Signature Facial is undefined')",
+      "expected_impact": "high",
+      "impact_rationale": "Product clarity directly affects purchase confidence — customers will not buy an undefined facial treatment when competitors clearly describe their services.",
+      "supporting_evidence": [
+        "Content gap #3: 'No detail on what Signature Facial includes — customers need to understand what treatment they're receiving'",
+        "Clarity score: 6/10 — 'Signature Facial is undefined' cited as key clarity issue",
+        "Audit reasoning: 'Signature Facial is undefined'"
+      ],
+      "impact_score": 392
+    },
+    {
+      "priority_rank": 6,
+      "category": "seo",
+      "short_title": "Expand meta description from 52 to 155 characters",
+      "recommendation": "Rewrite the meta description to fully utilize the 155-character limit. Replace the current 52-character description ('Up to 55% Off on Pampering Package at Bella Lucy Spa') with the proposed 140-character version that includes service details, location, price, value proposition, and call-to-action.",
+      "current_state": "Meta description is 52 characters: 'Up to 55% Off on Pampering Package at Bella Lucy Spa' — severely underutilized vs. 155-character limit, missing opportunity to communicate value in search results.",
+      "proposed_state": "Upper body massage + signature facial in Milton from $81. Save vs. $140 market average. Book your appointment today at Bella Lucy Spa!",
+      "data_citation": "SEO score: 5/10 — 'meta description is severely underutilized at only 52 characters vs. 155 limit — missing opportunity to communicate value in search results'",
+      "expected_impact": "medium",
+      "impact_rationale": "A fully optimized meta description improves click-through rate from search results by communicating specific value propositions and calls-to-action before the user even visits the page.",
+      "supporting_evidence": [
+        "SEO score: 5/10 — specific finding: 'meta description severely underutilized at only 52 characters vs. 155 limit'",
+        "Current meta description: 52 characters (only 34% of available space used)",
+        "Audit reasoning: 'missing opportunity to communicate value in search results'"
+      ],
+      "impact_score": 378
+    },
+    {
+      "priority_rank": 7,
+      "category": "title",
+      "short_title": "Rewrite title to specify services and location",
+      "recommendation": "Rewrite the deal title from the generic 'Up to 55% Off on Pampering Package at Bella Lucy Spa' to a service-specific, location-optimized, value-focused title: '60 or 90-Min Massage & Facial in Milton, GA — Save vs. $140 Market Average' (95 characters). This improves SEO, clarity, and removes the unverifiable discount claim.",
+      "current_state": "Current title is 'Up to 55% Off on Pampering Package at Bella Lucy Spa' — generic 'pampering package' doesn't communicate what the service is, buries the location, and leads with an unverifiable discount claim.",
+      "proposed_state": "60 or 90-Min Massage & Facial in Milton, GA — Save vs. $140 Market Average",
+      "data_citation": "Current title uses generic 'pampering package' language; clarity score: 6/10; value_communication score: 5/10 (discount claim unverifiable); competitor average: $140.00",
+      "expected_impact": "medium",
+      "impact_rationale": "A specific, keyword-rich title improves SEO rankings for 'massage facial Milton GA' searches and immediately communicates the service offer, increasing relevance for searchers and browsers.",
+      "supporting_evidence": [
+        "Current title: 'Up to 55% Off on Pampering Package' — generic, not service-specific",
+        "Clarity score: 6/10",
+        "Competitor average: $140.00 (provides concrete value framing)",
+        "Meta title already optimized (44 chars) but page title is not"
+      ],
+      "impact_score": 350
+    },
+    {
+      "priority_rank": 8,
+      "category": "trust",
+      "short_title": "Add therapist credential trust signals",
+      "recommendation": "Add a highlight bullet (position #7) stating therapist qualifications: '[Example — verify with merchant:] Services performed by licensed massage therapists and estheticians certified in [state/credential].' This addresses the critical trust gap for bodywork services where credentials matter but no information is provided.",
+      "current_state": "Zero information about therapist qualifications, licensing, or credentials anywhere on the page. For a bodywork and skincare service, this is a critical trust gap.",
+      "proposed_state": "• [Example — verify with merchant:] Services performed by licensed massage therapists and estheticians\n[Note: Request specific license types, certifications, or training from merchant]",
+      "data_citation": "Content gap #7: 'No information about therapist qualifications, licensing, or credentials — important trust signal for bodywork and skincare services'; trust score: 5/10 ('trust signals are weak for a bodywork service where credentials matter')",
+      "expected_impact": "medium",
+      "impact_rationale": "Professional credentials are a key trust signal for spa services — buyers need assurance that treatments will be performed by trained, licensed professionals, especially with only 9 reviews available.",
+      "supporting_evidence": [
+        "Content gap #7: 'No therapist qualifications or credentials — important trust signal for bodywork services'",
+        "Trust score: 5/10 — 'trust signals are weak for a bodywork service where credentials matter'",
+        "Research red flag: 'Only 9 Groupon ratings — very limited sample size to assess service quality'",
+        "Audit: 'only 9 reviews — very low sample size that limits credibility'"
+      ],
+      "impact_score": 336
+    },
+    {
+      "priority_rank": 9,
+      "category": "trust",
+      "short_title": "Clarify consultation eligibility criteria",
+      "recommendation": "Replace the vague fine print statement 'Consultation required before service. If you are ineligible, a refund will be provided' with specific eligibility criteria. Either add a highlight bullet: 'Consultation required before service. Common contraindications: [pregnancy, certain skin conditions, recent procedures — verify with merchant]' OR remove the eligibility clause entirely if no actual restrictions exist.",
+      "current_state": "Fine print states 'Consultation required before service. If you are ineligible, a refund will be provided' but provides zero criteria for eligibility. Creates uncertainty about whether the purchase might be rejected after buying.",
+      "proposed_state": "[Option 1:] • Consultation required before service; common contraindications include [verify with merchant: pregnancy, active skin infections, recent cosmetic procedures]\n[Option 2:] Remove eligibility clause if no restrictions exist\n[Option 3:] Move to FAQ: 'Who should not book this service?' with specific answer",
+      "data_citation": "AI flag: 'Fine print states consultation required and if you are ineligible a refund will be provided but provides zero criteria for eligibility — creates uncertainty about whether purchase might be rejected'",
+      "expected_impact": "medium",
+      "impact_rationale": "Vague eligibility clauses create purchase anxiety and abandonment — customers fear buying something they might not be able to use. Specific criteria or removal of the clause reduces pre-purchase friction.",
+      "supporting_evidence": [
+        "AI flag: 'Fine print provides zero criteria for eligibility — creates uncertainty about whether purchase might be rejected after buying'",
+        "Trust score: 5/10 (vague policies undermine trust)",
+        "Current fine print: 'Consultation required... if ineligible, refund provided' with no explanation"
+      ],
+      "impact_score": 280
+    },
+    {
+      "priority_rank": 10,
+      "category": "content",
+      "short_title": "Add spa operating hours to page",
+      "recommendation": "Add operating hours to the 'Amenities' or 'What We Offer' section, or create a new 'Hours & Location' section: 'Hours: [verify with merchant, e.g., Mon–Sat 9am–7pm, Sun 10am–5pm] | Location: [full address from FAQ].' This helps customers assess scheduling convenience before purchasing.",
+      "current_state": "No spa operating hours or days of operation listed anywhere on the page. Customer cannot assess scheduling convenience or availability before purchasing.",
+      "proposed_state": "[Add to page body or FAQ:]\nHours: [Example — verify with merchant: Monday–Saturday 9:00am–7:00pm, Sunday 10:00am–5:00pm]\nLocation: [Insert full address from FAQ]\n[Note: Request confirmed operating hours from merchant]",
+      "data_citation": "Content gap #5: 'No spa operating hours or days of operation listed — customer cannot assess scheduling convenience before purchasing'; completeness score: 4/10",
+      "expected_impact": "medium",
+      "impact_rationale": "Operating hours help customers self-qualify — if hours don't fit their schedule, they won't buy. Providing this upfront reduces post-purchase cancellations and improves buyer satisfaction.",
+      "supporting_evidence": [
+        "Content gap #5: 'No operating hours listed — customer cannot assess scheduling convenience'",
+        "Completeness score: 4/10 — operating hours listed as one of multiple critical gaps",
+        "Audit: 'no operating hours' among 'category-critical gaps for a spa service'"
+      ],
+      "impact_score": 144
+    }
+  ],
+  "generated_at": "2026-05-31T16:46:41.811397"
+}

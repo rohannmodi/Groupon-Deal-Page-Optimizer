@@ -1,0 +1,31 @@
+{
+  "clarity_score": 8,
+  "trust_score": 9,
+  "urgency_score": 8,
+  "seo_score": 6,
+  "value_comm_score": 5,
+  "completeness_score": 6,
+  "overall_score": 6.7,
+  "content_gaps": [
+    "No original/regular prices displayed — customers cannot verify the claimed 'Up to 22% Off' discount or calculate actual dollar savings, weakening the value proposition",
+    "Operating hours not listed — customers cannot determine if the spa's schedule aligns with their availability or plan their Monday-Thursday visit",
+    "Cancellation policy details absent — fine print references 'Merchant's standard cancellation policy' but doesn't specify how much advance notice is required or what the fees are",
+    "No mention of gratuity expectations — unclear whether tip is included in the deal price or if additional gratuity is customary/expected",
+    "Parking information missing — critical for urban Brookline location; customers need to know if parking is available, validated, or paid street parking only",
+    "Health contraindications not mentioned — no guidance on who should avoid hot stone massage or Tui Na techniques (e.g., pregnancy, high blood pressure, recent injuries, skin conditions)",
+    "No mention of what to wear or bring — customers don't know if special attire is needed or if robes, slippers, and linens are provided",
+    "Gender preference options not stated — no mention of whether customers can request a male or female therapist when booking"
+  ],
+  "ai_flags": [
+    "Discount claim 'Up to 22% Off' cannot be verified — no original or regular prices are displayed anywhere on the page, making it impossible for customers to confirm the actual savings or assess value",
+    "Vague cancellation policy in fine print: references 'Merchant's standard cancellation policy applies' but provides no details about notice period required or fees charged — could lead to customer disputes at redemption"
+  ],
+  "score_reasoning": {
+    "clarity": "The three package options are clearly described with specific durations (60 or 90 minutes), techniques explained (Tui Na, reflexology, hot stones), and validity window stated (Monday–Thursday). A first-time visitor can easily understand what they're purchasing.",
+    "trust": "Exceptional trust signals: 4.79-star rating, 1,679 reviews, and 5,000+ bought provide strong social proof. Mentions nationally certified reflexologists (ARCB), includes positive review quotes, and displays multiple massage-type badges. This is well above average.",
+    "urgency": "Strong urgency: active countdown timer ('Extra $13 off — ends 5/30' with specific timestamp) combined with high social proof (5,000+ bought) creates clear motivation to act now. Both elements working together score highly.",
+    "seo": "Meta title is good (58 chars, includes brand/price/location), H1 is keyword-rich, and schema markup is present. However, meta description is underutilized at only 103 characters (should be closer to 155), and both OG title and OG description are missing, limiting social sharing performance.",
+    "value_comm": "Discount percentage is shown ('Up to 22% Off'), but no original prices are displayed for comparison, making the savings claim unverifiable. Customers see the deal price but lack context to assess whether $65-$104 represents genuine value versus market rates.",
+    "completeness": "Core information is present (appointment required, phone number, days valid, duration, expiry), but several category-critical details are missing: operating hours, cancellation specifics, gratuity expectations, parking info, health contraindications, and what to wear/bring. A cautious buyer would have unanswered planning questions."
+  }
+}

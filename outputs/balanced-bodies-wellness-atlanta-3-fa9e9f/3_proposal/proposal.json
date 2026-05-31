@@ -1,0 +1,43 @@
+{
+  "deal_id": "balanced-bodies-wellness-atlanta-3-fa9e9f",
+  "proposed_title": "B12 Energy & MIC Fat Burner Injection Package in Atlanta | InBody Analysis Included",
+  "proposed_meta_title": "B12 & MIC Injection Package Atlanta | Balanced Bodies",
+  "proposed_meta_description": "B12 energy boost & MIC fat burner injections + InBody composition analysis in Atlanta. 5.0★ rated wellness center. Book appointment today!",
+  "proposed_h1": "B12 Energy & MIC Fat Burner Injection Package in Atlanta",
+  "proposed_highlights": [
+    "[Example — verify with merchant:] Includes 1 B12 injection + 1 MIC fat burner injection (specify exact quantity with merchant)",
+    "InBody composition analysis to measure body fat %, muscle mass, and metabolic rate",
+    "MIC injection combines Methionine, Inositol, and Choline to support fat metabolism and liver function",
+    "B12 injection boosts energy, supports metabolism, and promotes healthy nerve function",
+    "[Example — verify with merchant:] Appointment takes approximately 30 minutes (verify duration with merchant)",
+    "State-licensed pharmacies and decades of combined wellness experience",
+    "Appointment required — book after purchase using merchant contact info in My Stuff",
+    "Consultation required before service to ensure eligibility; full refund provided if ineligible"
+  ],
+  "pricing_framing": "Remove the unsupported \"up to 60% off\" claim from title, H1, and meta description. No original price is displayed (content gap #2, AI flag), and all competitor pricing data is for luxury spa packages ($380–$780), NOT B12/MIC injection services (research red flag: \"competitor data is not product-comparable\"). Without comparable pricing, the discount claim cannot be verified and erodes trust. Instead, frame as \"$40.50 for [quantity] injections plus InBody analysis\" — lead with what the customer gets, not an unverifiable saving. If merchant can provide a documented original price, display it; otherwise, position on value and experience rather than discount percentage.",
+  "executive_summary": "The page scores 5.1/10 overall, with clarity at only 4/10. The #1 problem is that customers cannot tell what they're actually buying — \"B12 and MIC Fat Burner injections\" is ambiguous (one of each? multiple sessions?). The #2 issue is an unsupported \"up to 60% off\" claim with no original price shown and no comparable competitor pricing (all comps are spa packages, not injections). Fixing quantity clarity, removing the unverifiable discount claim, and explaining what MIC is could lift conversion 20–30%.",
+  "image_recommendations": [
+    {
+      "image_type": "Product shot showing B12 and MIC injection vials or pre-filled syringes, labeled clearly",
+      "conversion_reason": "Medical wellness customers need to see the actual product to build trust and reduce uncertainty about what they're purchasing. The page currently has vague 'injections' language (clarity score 4/10) — showing the physical product addresses this hesitation.",
+      "priority": "High"
+    },
+    {
+      "image_type": "Photo of the InBody composition analysis machine with a customer standing on it (or close-up of the device screen showing body composition metrics)",
+      "conversion_reason": "Content gap #8: no detail on what InBody analysis entails. Customers don't understand what they're getting beyond the injections. A photo demystifies the process and adds perceived value to the package.",
+      "priority": "High"
+    },
+    {
+      "image_type": "Interior photo of the treatment/consultation room where injections are administered",
+      "conversion_reason": "For medical wellness services, facility photos build trust and professionalism. Trust score is only 6/10 with just 12 Groupon reviews and no third-party verification. Clean, professional facility images help overcome this credibility gap.",
+      "priority": "Medium"
+    },
+    {
+      "image_type": "Headshot of the licensed practitioner or pharmacist who administers injections, with name and credential overlay",
+      "conversion_reason": "Medical services require higher trust than typical Groupon deals. No Yelp/Google reviews exist (research red flag) — a staff photo with credentials leverages the 'decades of experience' claim in the About section and personalizes the service.",
+      "priority": "Medium"
+    }
+  ],
+  "recommendations": [],
+  "generated_at": "2026-05-31T16:52:12.216954"
+}

@@ -1,0 +1,214 @@
+{
+  "deal_id": "hector-s-salon-2-5-b7afa1",
+  "proposed_title": "Brazilian Blowout at Hector's Salon in North Hollywood – 1,000+ Reviews",
+  "proposed_meta_title": "Brazilian Blowout North Hollywood | Hector's Salon",
+  "proposed_meta_description": "Professional Brazilian Blowout at Hector's Salon in North Hollywood. 1,000+ reviews, 20+ years experience. Book today.",
+  "proposed_h1": "Brazilian Blowout in North Hollywood – Hector's Salon",
+  "proposed_highlights": [
+    "Professional Brazilian Blowout treatment with wash by experienced stylists with 20+ years in the business",
+    "Premium salon products from trusted brands including Redken and Paul Mitchell",
+    "Trusted by 1,000+ Groupon customers with 4.3-star average rating",
+    "Choose one session or three-session package for ongoing frizz control and smoothness",
+    "Appointment required – call 48 hours in advance to secure your preferred time slot",
+    "Additional fees may apply for very long, thick, or textured hair – call salon before purchase for a personalized quote",
+    "Conveniently located in North Hollywood with [Example — verify with merchant:] free street parking available"
+  ],
+  "pricing_framing": "Do not display or reference the \"Up to 59% Off\" claim — no original price exists to validate it, and the AI flag confirms it \"cannot be verified anywhere on the page.\" Instead, position this as a premium service justified by quality: lead with \"1,000+ customers trust Hector's Salon (4.3★ rating)\" and \"20+ years of professional experience with Redken & Paul Mitchell products.\" Frame the $125.10 price as reflecting expertise and product quality, not as a discount. Critically, add transparency about additional fees: state upfront that surcharges may apply for long/thick hair and encourage customers to call for a personalized quote before purchasing — this prevents surprise fees and builds trust even though the base price is above the $65–$80 market range.",
+  "executive_summary": "This deal scores 6.3/10 overall, but the fundamental problem is pricing: the Groupon price ($125.10) is $45.10 MORE expensive than the high-confidence competitor at $80 (Noho Hair Salon, 100% SKU match) — the claimed \"Up to 59% Off\" cannot be verified and appears misleading. Copy optimization cannot fix overpricing, but honest repositioning can: remove the unverifiable discount claim, emphasize the 1,009 reviews at 4.28 stars and 20+ years experience to justify premium positioning, and clarify the undisclosed additional fees that currently create checkout surprise. These three changes could reduce abandonment by 10–15% despite the pricing disadvantage.",
+  "image_recommendations": [
+    {
+      "image_type": "Before-and-after photo showing Brazilian Blowout results on the same client – left side shows frizzy/textured hair, right side shows sleek, smooth hair after treatment",
+      "conversion_reason": "Brazilian Blowout is a results-driven service — before/after visuals demonstrate the transformation and set realistic expectations, reducing pre-purchase uncertainty about whether the treatment will work for their hair type.",
+      "priority": "High"
+    },
+    {
+      "image_type": "Photo of stylist performing a Brazilian Blowout application – shows the professional technique and in-salon experience",
+      "conversion_reason": "Service credibility relies on seeing the expertise in action — showing a stylist at work reinforces the '20+ years experience' claim and differentiates this from at-home treatments.",
+      "priority": "High"
+    },
+    {
+      "image_type": "Interior photo of Hector's Salon styling floor – show styling chairs, mirrors, and clean professional environment",
+      "conversion_reason": "First-time customers need to assess salon quality and ambiance before committing $125+ — interior shots build confidence in the professional setting and reduce uncertainty about what to expect upon arrival.",
+      "priority": "Medium"
+    },
+    {
+      "image_type": "Product shot showing Redken and Paul Mitchell professional hair care bottles used in the salon",
+      "conversion_reason": "The deal page claims 'premium brand partnerships' but doesn't show proof — product photos validate the quality claim and appeal to customers who specifically seek professional-grade products.",
+      "priority": "Medium"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority_rank": 1,
+      "category": "trust",
+      "short_title": "Remove unverifiable 59% Off discount claim",
+      "recommendation": "Remove the 'Up to 59% Off' claim from the title, meta description, and H1 — it cannot be substantiated (no original price shown anywhere), and competitive research shows the Groupon price is actually $45.10 MORE expensive than the verified competitor at $80, making the discount claim actively misleading and trust-eroding.",
+      "current_state": "Title: 'Get Sleek Hair with One or Three Brazilian Blowouts and Washes at Hector Salon #2 (Up to 59% Off)' | Meta description: same claim repeated | H1: same claim repeated",
+      "proposed_state": "Title: 'Brazilian Blowout at Hector's Salon in North Hollywood – 1,000+ Reviews' | Meta description: 'Professional Brazilian Blowout at Hector's Salon in North Hollywood. 1,000+ reviews, 20+ years experience. Book today.' | H1: 'Brazilian Blowout in North Hollywood – Hector's Salon'",
+      "data_citation": "AI flag: 'The \"Up to 59% Off\" discount claim cannot be verified anywhere on the page — no original price, regular price, or market comparison is shown to substantiate this savings percentage' AND content gap #1: 'No original/regular price shown to validate the \"Up to 59% Off\" claim' AND research red flag: 'Groupon price ($125.10) is $45.10 MORE expensive than high-confidence competitor Noho Hair Salon ($80.00)'",
+      "expected_impact": "high",
+      "impact_rationale": "Unverifiable discount claims erode trust immediately and violate consumer expectations — when the price is actually above market, the false savings claim causes cognitive dissonance and abandonment at the research stage.",
+      "supporting_evidence": [
+        "AI flag: '59% Off discount claim cannot be verified anywhere on the page'",
+        "Content gap #1: 'No original/regular price shown to validate the \"Up to 59% Off\" claim'",
+        "Research synthesis: 'Groupon price ($125.10) is $45.10 MORE expensive than high-confidence competitor Noho Hair Salon ($80.00 for Brazilian Blowout, 100% SKU match)'",
+        "Value assessment: 'overpriced' with deal quality score 3.2/10"
+      ],
+      "impact_score": 900
+    },
+    {
+      "priority_rank": 2,
+      "category": "content",
+      "short_title": "Clarify additional fees with guidance or tiers",
+      "recommendation": "Replace the vague 'Additional fees may apply depending on hair length, texture, and density' fine print with actionable guidance in the highlights section: add a bullet stating 'Additional fees may apply for very long, thick, or textured hair – call salon before purchase at [phone number from FAQ] for a personalized quote to avoid surprise charges.'",
+      "current_state": "Fine print only: 'Additional fees may apply depending on hair length, texture, and density.' — no amounts, no guidance, buried in terms.",
+      "proposed_state": "Highlights bullet #6: 'Additional fees may apply for very long, thick, or textured hair – call salon before purchase for a personalized quote'",
+      "data_citation": "Content gap #2: 'Fine print states \"additional fees may apply depending on hair length, texture, and density\" but provides no pricing tiers or typical upcharge amounts — customers with long or thick hair cannot budget accurately' AND AI flag: 'Fine print disclaimer \"Additional fees may apply\" could significantly increase final cost beyond the Groupon price, but there's zero transparency about these surcharges'",
+      "expected_impact": "high",
+      "impact_rationale": "Undisclosed fees are the #1 cause of post-purchase dissatisfaction and salon disputes — proactively surfacing this in highlights (not just fine print) sets expectations and prevents checkout abandonment when customers with thick/long hair realize they may be surprised with charges.",
+      "supporting_evidence": [
+        "Content gap #2: 'provides no pricing tiers or typical upcharge amounts — customers with long or thick hair cannot budget accurately'",
+        "AI flag: 'zero transparency about these surcharges — risk of surprise fees at the salon that contradict the deal value'",
+        "Value communication score: 5/10, citing unclear final cost as a key detractor"
+      ],
+      "impact_score": 576
+    },
+    {
+      "priority_rank": 3,
+      "category": "positioning",
+      "short_title": "Reposition from discount to premium quality and social proof",
+      "recommendation": "Since the price is $45 above the verified competitor and cannot compete on savings, reposition the entire page to emphasize premium quality: lead highlights with '20+ years of professional experience,' '1,000+ customers trust Hector's Salon (4.3★),' and 'Premium Redken & Paul Mitchell products' to justify the higher price point as a quality investment rather than a bargain.",
+      "current_state": "Page leads with discount claim ('Up to 59% Off') and offers minimal quality/credential messaging — only mentions brands and owner credentials in lower 'What We Offer' section.",
+      "proposed_state": "Highlights bullet #1: 'Professional Brazilian Blowout treatment with wash by experienced stylists with 20+ years in the business' | Bullet #2: 'Premium salon products from trusted brands including Redken and Paul Mitchell' | Bullet #3: 'Trusted by 1,000+ Groupon customers with 4.3-star average rating'",
+      "data_citation": "Research synthesis: 'Groupon price ($125.10) is 56% MORE expensive than high-confidence competitor ($80)' AND value assessment: 'overpriced — Groupon is $45.10 MORE expensive than verified market alternative' AND trust signals from audit: '1,009 reviews at 4.28/5 stars, owner credentials (20+ years experience), premium brand partnerships (Redken, Paul Mitchell)'",
+      "expected_impact": "high",
+      "impact_rationale": "When price cannot compete, quality and social proof become the only viable positioning — emphasizing 1,000+ reviews and two decades of expertise reframes the premium as justified rather than exposing the deal as worse than booking direct.",
+      "supporting_evidence": [
+        "Research synthesis: 'This is a weak deal ($125.10 vs. $80 high-confidence competitor price — 56% MORE expensive)'",
+        "Trust score: 8/10 — strongest dimension, driven by 1,009 reviews at 4.28★ and credentials",
+        "Deal quality score: 3.2/10 — pricing cannot be fixed, positioning must compensate"
+      ],
+      "impact_score": 567
+    },
+    {
+      "priority_rank": 4,
+      "category": "title",
+      "short_title": "Rewrite title to emphasize location and social proof",
+      "recommendation": "Rewrite the title to remove the discount claim, add the specific neighborhood 'North Hollywood' (not just implied), and replace value messaging with social proof: use the proposed title 'Brazilian Blowout at Hector's Salon in North Hollywood – 1,000+ Reviews' to build credibility and local search visibility.",
+      "current_state": "Title: 'Get Sleek Hair with One or Three Brazilian Blowouts and Washes at Hector Salon #2 (Up to 59% Off)' — 100+ characters, discount-focused, vague location reference (#2 implies multiple locations but doesn't say North Hollywood).",
+      "proposed_state": "Brazilian Blowout at Hector's Salon in North Hollywood – 1,000+ Reviews",
+      "data_citation": "SEO score: 6/10 AND location from audit: 'North Hollywood, CA' AND trust signals: '1,009 reviews at 4.28/5 stars' AND completeness gap: title doesn't specify neighborhood, only merchant name",
+      "expected_impact": "high",
+      "impact_rationale": "Title is the highest-visibility element — removing the unverifiable discount and adding 'North Hollywood' improves local SEO and sets honest expectations, while '1,000+ Reviews' provides immediate social proof that justifies clicking despite no discount messaging.",
+      "supporting_evidence": [
+        "Current title is 100+ characters and discount-focused despite price being above market",
+        "SEO score: 6/10 — meta title at 64 chars is acceptable but title/H1 need optimization",
+        "Trust signals: 1,009 reviews available but not prominently featured in title"
+      ],
+      "impact_score": 504
+    },
+    {
+      "priority_rank": 5,
+      "category": "highlights",
+      "short_title": "Expand highlights to include experience credentials and booking info",
+      "recommendation": "Replace the single-bullet highlights section ('One or Three Brazilian Blowouts and Washes') with a complete 7-bullet list that covers: treatment description, experience/credentials (20+ years), premium products (Redken/Paul Mitchell), social proof (1,000+ reviews at 4.3★), package options, appointment requirements (48hr notice), and fee transparency. Use the proposed_highlights field as written.",
+      "current_state": "Highlights: • One or Three Brazilian Blowouts and Washes — single bullet, no quality signals, no booking info, no credential messaging.",
+      "proposed_state": "• Professional Brazilian Blowout treatment with wash by experienced stylists with 20+ years in the business\n• Premium salon products from trusted brands including Redken and Paul Mitchell\n• Trusted by 1,000+ Groupon customers with 4.3-star average rating\n• Choose one session or three-session package for ongoing frizz control and smoothness\n• Appointment required – call 48 hours in advance to secure your preferred time slot\n• Additional fees may apply for very long, thick, or textured hair – call salon before purchase for a personalized quote\n• Conveniently located in North Hollywood with [Example — verify with merchant:] free street parking available",
+      "data_citation": "Completeness score: 6/10 — 'Core information present but missing several salon-critical details' AND trust signals: '1,009 reviews at 4.28/5 stars, owner credentials (20+ years experience), premium brand partnerships (Redken, Paul Mitchell)' AND fine print: 'Appointment required, 48 hour advance notice required'",
+      "expected_impact": "high",
+      "impact_rationale": "Highlights are the second thing buyers read after title — expanding from one generic bullet to seven specific, credential-rich bullets addresses the completeness gaps, surfaces buried appointment requirements, and builds quality positioning that justifies the premium price.",
+      "supporting_evidence": [
+        "Completeness score: 6/10 — missing hours, duration, results longevity, parking",
+        "Current highlights: only 1 bullet with no quality or credibility messaging",
+        "Trust score: 8/10 driven by signals that aren't surfaced in highlights (reviews, credentials, brands)"
+      ],
+      "impact_score": 448
+    },
+    {
+      "priority_rank": 6,
+      "category": "content",
+      "short_title": "Add session duration to manage time expectations",
+      "recommendation": "Add session duration information to the highlights or fine print so customers can plan their appointment. If duration data is available from the merchant, add a bullet: '[Example — verify with merchant:] Each Brazilian Blowout session takes approximately 90–120 minutes — plan accordingly for your appointment.'",
+      "current_state": "No session duration mentioned anywhere on the page.",
+      "proposed_state": "[Example — verify with merchant:] Each Brazilian Blowout session takes approximately 90–120 minutes — plan accordingly for your appointment.",
+      "data_citation": "Content gap #4: 'No session duration specified — critical for planning (is each Brazilian Blowout 90 minutes or 3+ hours?)'",
+      "expected_impact": "medium",
+      "impact_rationale": "Session duration affects scheduling feasibility — customers who can only spare 60 minutes will not book a 2+ hour service, so disclosing this upfront prevents purchase regret and no-shows when customers realize they can't accommodate the time requirement.",
+      "supporting_evidence": [
+        "Content gap #4: 'No session duration specified — critical for planning'",
+        "Clarity score: 7/10 — service defined but logistical details missing",
+        "Completeness score: 6/10 — 'missing several salon-critical details'"
+      ],
+      "impact_score": 240
+    },
+    {
+      "priority_rank": 7,
+      "category": "content",
+      "short_title": "Add results longevity to help value assessment",
+      "recommendation": "Add information about how long Brazilian Blowout results typically last to help customers assess the value-for-money of the $125.10 price point. Proposed bullet (pending merchant verification): '[Example — verify with merchant:] Results typically last 10–12 weeks with proper aftercare — enjoy smooth, frizz-free hair for months.'",
+      "current_state": "No information about treatment longevity or results duration anywhere on the page.",
+      "proposed_state": "[Example — verify with merchant:] Results typically last 10–12 weeks with proper aftercare — enjoy smooth, frizz-free hair for months.",
+      "data_citation": "Content gap #5: 'No information on how long Brazilian Blowout results typically last (6 weeks? 3 months?) — customers need longevity expectations to evaluate value for money'",
+      "expected_impact": "medium",
+      "impact_rationale": "Longevity information is critical to ROI calculation — if results last 3 months, $125 is $42/month; if they last 6 weeks, it's $83/month. Disclosing duration helps customers justify the premium price and compare cost-per-wear against alternatives.",
+      "supporting_evidence": [
+        "Content gap #5: 'customers need longevity expectations to evaluate value for money'",
+        "Value communication score: 5/10 — customers cannot fully assess deal value",
+        "Completeness score: 6/10"
+      ],
+      "impact_score": 210
+    },
+    {
+      "priority_rank": 8,
+      "category": "content",
+      "short_title": "Add salon operating hours for scheduling confidence",
+      "recommendation": "Add salon operating hours to the page (in highlights or a dedicated 'Hours & Location' section) so customers can determine appointment availability before purchasing. Proposed addition pending merchant verification: '[Example — verify with merchant:] Open Tuesday–Saturday 9am–7pm, Sunday 10am–5pm, closed Mondays.'",
+      "current_state": "No operating hours shown anywhere on the page.",
+      "proposed_state": "[Example — verify with merchant:] Open Tuesday–Saturday 9am–7pm, Sunday 10am–5pm, closed Mondays.",
+      "data_citation": "Content gap #3: 'No salon operating hours shown — customers cannot determine if available appointment times will fit their schedule before purchasing'",
+      "expected_impact": "medium",
+      "impact_rationale": "Hours affect purchase confidence for time-constrained buyers — if the salon is only open weekdays 9–5 and the customer works those hours, they cannot use the voucher, so disclosing hours upfront prevents dead-voucher purchases and refund requests.",
+      "supporting_evidence": [
+        "Content gap #3: 'customers cannot determine if available appointment times will fit their schedule before purchasing'",
+        "Completeness score: 6/10 — hours missing",
+        "Fine print: 'Appointment required, 48 hour advance notice required' but no hours to assess feasibility"
+      ],
+      "impact_score": 150
+    },
+    {
+      "priority_rank": 9,
+      "category": "seo",
+      "short_title": "Fix meta title to include North Hollywood specifically",
+      "recommendation": "Rewrite the meta title from the generic 'Hector's Beauty Salon Inc - From $125.10 - Los Angeles | Groupon' to the neighborhood-specific 'Brazilian Blowout North Hollywood | Hector's Salon' to improve local search visibility and keyword relevance.",
+      "current_state": "Meta title (64 chars): 'Hector's Beauty Salon Inc - From $125.10 - Los Angeles | Groupon'",
+      "proposed_state": "Brazilian Blowout North Hollywood | Hector's Salon (51 characters)",
+      "data_citation": "SEO score: 6/10 AND current meta title: 'Hector's Beauty Salon Inc - From $125.10 - Los Angeles | Groupon' AND location: 'North Hollywood, CA'",
+      "expected_impact": "medium",
+      "impact_rationale": "Search users looking for 'Brazilian blowout North Hollywood' will not match well against 'Los Angeles' — neighborhood-specific meta titles improve local search CTR and match user search intent more precisely.",
+      "supporting_evidence": [
+        "SEO score: 6/10",
+        "Current meta title: lists 'Los Angeles' instead of neighborhood 'North Hollywood'",
+        "Meta title is 64 chars — can be optimized to include service keyword 'Brazilian Blowout'"
+      ],
+      "impact_score": 125
+    },
+    {
+      "priority_rank": 10,
+      "category": "content",
+      "short_title": "Define standard cancellation policy referenced in fine print",
+      "recommendation": "Replace the vague 'Merchant's standard cancellation policy applies' fine print with specific terms if available from the merchant. Proposed replacement pending verification: '[Example — verify with merchant:] Cancellations accepted up to 24 hours before appointment; cancellations within 24 hours may forfeit the voucher (fees not to exceed Groupon price).'",
+      "current_state": "Fine print: 'Merchant's standard cancellation policy applies (any fees not to exceed Groupon price).' — references a policy but doesn't define it.",
+      "proposed_state": "[Example — verify with merchant:] Cancellations accepted up to 24 hours before appointment; cancellations within 24 hours may forfeit the voucher (fees not to exceed Groupon price).",
+      "data_citation": "Content gap #6: 'Merchant's \"standard cancellation policy\" referenced but not defined — customers don't know cancellation terms, notice period, or potential fees before purchase'",
+      "expected_impact": "low",
+      "impact_rationale": "Cancellation terms affect purchase risk for customers with uncertain schedules — knowing they can cancel 24 hours out reduces perceived commitment and increases conversion for on-the-fence buyers, but this is lower-visibility fine print.",
+      "supporting_evidence": [
+        "Content gap #6: 'customers don't know cancellation terms, notice period, or potential fees before purchase'",
+        "Fine print: references 'standard cancellation policy' but doesn't define it",
+        "Completeness score: 6/10 — 'cancellation mention' present but details missing"
+      ],
+      "impact_score": 120
+    }
+  ],
+  "generated_at": "2026-05-31T15:37:07.430749"
+}

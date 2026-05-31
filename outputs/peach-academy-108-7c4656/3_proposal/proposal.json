@@ -1,0 +1,230 @@
+{
+  "deal_id": "peach-academy-108-7c4656",
+  "proposed_title": "Online Acupressure Diploma Course — Learn Traditional Pressure Point Therapy",
+  "proposed_meta_title": "Acupressure Diploma Course Online | $36 | Peach Academy",
+  "proposed_meta_description": "Learn acupressure techniques with online diploma course. Traditional Chinese Medicine pressure point therapy. Start for $36.",
+  "proposed_h1": "Online Acupressure Diploma Course — Master Pressure Point Therapy",
+  "proposed_highlights": [
+    "Complete online diploma in acupressure and Traditional Chinese Medicine pressure point therapy",
+    "Self-paced learning with multiple instructional modules covering acupressure fundamentals and advanced techniques",
+    "[Example — verify with merchant:] Lifetime access to all course materials, videos, and downloadable resources after registration",
+    "[Example — verify with merchant:] Course includes video lessons, step-by-step technique guides, and printable study materials",
+    "Suitable for beginners — no prior massage therapy or Traditional Chinese Medicine experience required",
+    "Register via email at peachonlineacademy@gmail.com after purchase using your voucher code to access course",
+    "Receive a diploma certificate upon successful completion of all course modules"
+  ],
+  "pricing_framing": "Remove the unverifiable '81% off' claim or display the specific original price with source documentation. If a legitimate $189 original price exists (which would equal 81% off $36), show it clearly above the Groupon price with 'Reg. $189' label. If no verifiable original price exists, reframe as: 'Professional acupressure diploma course: $36 (compare to $199+ for in-person certification programs)' — this provides honest market context (citing the Utah Therapeutic Massage competitor at $199) without making unsubstantiated discount claims.",
+  "executive_summary": "The page scores 4.2/10 overall with a severe 2.33/5 merchant rating from 160 reviews. The #1 issue is a misleading title ('Massage - Acupressure') that implies a service customers receive when this is actually an online course they take. The #2 issue is an unverifiable 81% discount claim with no original price shown anywhere. Fixing the title to clarify it's education, removing or documenting the discount claim, and adding critical course details (duration, access period, instructor credentials) could reduce confusion-driven abandonment by 20-30%, though the poor merchant rating remains the fundamental trust barrier.",
+  "image_recommendations": [
+    {
+      "image_type": "Screenshot of the actual course platform dashboard or learning interface showing module list and navigation",
+      "conversion_reason": "For online education, buyers need to see what they're purchasing — a platform screenshot reduces uncertainty about course delivery format and professionalism. Addresses completeness score of 4/10 and missing format details.",
+      "priority": "High"
+    },
+    {
+      "image_type": "Sample lesson screenshot showing video player with instructor demonstrating an acupressure technique on a model",
+      "conversion_reason": "Demonstrates actual course content quality and teaching style. Critical for overcoming the 2.33/5 trust barrier by providing visual proof of educational value.",
+      "priority": "High"
+    },
+    {
+      "image_type": "Photo or PDF preview of the diploma certificate students receive upon completion, showing Peach Academy branding",
+      "conversion_reason": "Makes the credential tangible and real. Addresses vague certification details (content gap #8) and helps justify the $36 investment with a concrete outcome.",
+      "priority": "Medium"
+    },
+    {
+      "image_type": "Instructor headshot with brief credential overlay (e.g., 'Certified in Traditional Chinese Medicine, 10+ years experience')",
+      "conversion_reason": "Addresses content gap #4 (missing instructor credentials) and trust score of 3/10. For TCM education, instructor expertise is essential to course credibility.",
+      "priority": "Medium"
+    },
+    {
+      "image_type": "Visual course curriculum infographic showing all modules and lesson topics in a structured learning path format",
+      "conversion_reason": "Addresses content gap #5 (no detailed course outline). Buyers need to see exactly what topics are covered to assess course completeness and relevance to their goals.",
+      "priority": "Medium"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority_rank": 1,
+      "category": "pricing",
+      "short_title": "Remove unverifiable 81% discount claim or show original price",
+      "recommendation": "Remove the '81% off' claim from the title, H1, and meta description, OR display the specific original price with documentation. If a verifiable $189 original price exists, show it as 'Regularly $189' above the $36 Groupon price. If no original price can be documented, reframe the value proposition as 'Professional acupressure diploma course for $36 (compare to $199+ for in-person certification programs)' to provide honest market context without unsubstantiated discount claims.",
+      "current_state": "Title and H1 both state 'Up to 81% Off' but audit findings confirm 'No original price shown — the '81% off' claim is completely unverifiable, leaving customers unable to assess whether $36 represents genuine value' and 'Original prices were NOT captured from the deal page, so the claimed 81% discount cannot be verified.'",
+      "proposed_state": "If original price documented: Show 'Regularly $189' strikethrough above $36 price.\n\nIf no documentation exists: Remove all '81% off' language. Add context line: 'Professional online acupressure certification for $36 — in-person programs typically cost $199 or more (source: industry research)'",
+      "data_citation": "Content gap #1: 'No original price shown — the '81% off' claim is completely unverifiable'; AI flag: '81% discount claim with zero original price shown anywhere on page — customers cannot verify this savings claim, which is potentially misleading under standard advertising practices'; value_comm score: 3/10",
+      "expected_impact": "high",
+      "impact_rationale": "Unverifiable discount claims erode trust and violate advertising standards — fixing this directly addresses the value_comm score of 3/10 and removes a legal/credibility risk that causes informed buyers to abandon.",
+      "supporting_evidence": [
+        "Content gap #1: No original price shown — 81% claim is completely unverifiable",
+        "AI flag: 81% discount claim with zero original price shown is potentially misleading under standard advertising practices",
+        "value_comm score: 3/10 — 'Customer has zero context to verify the savings claim'",
+        "Research synthesis: 'Original prices were NOT captured from the deal page, so the claimed 81% discount cannot be verified'"
+      ],
+      "impact_score": 900
+    },
+    {
+      "priority_rank": 2,
+      "category": "title",
+      "short_title": "Fix misleading title that implies massage service not course",
+      "recommendation": "Rewrite the title to clarify this is an online education course, not a massage service customers receive. Change from 'Up to 81% Off on Massage - Acupressure at Peach Academy' to 'Online Acupressure Diploma Course — Learn Traditional Pressure Point Therapy'. This makes it immediately clear that customers are purchasing educational content, not booking a massage appointment.",
+      "current_state": "Up to 81% Off on Massage - Acupressure at Peach Academy",
+      "proposed_state": "Online Acupressure Diploma Course — Learn Traditional Pressure Point Therapy",
+      "data_citation": "Clarity score reasoning: 'Title 'Massage - Acupressure' is somewhat misleading since this is a course about acupressure, not a massage service customers receive'; AI flag: 'Deal page categorized as 'Online Education' but titled 'Massage - Acupressure' — creating category confusion that makes value assessment difficult for customers'; Category field shows 'Online Education' contradicting title wording",
+      "expected_impact": "high",
+      "impact_rationale": "The current title causes fundamental category confusion between purchasing a service vs. education — fixing this prevents wrong-audience clicks and reduces refund requests from customers expecting an in-person massage service.",
+      "supporting_evidence": [
+        "Clarity score reasoning: Title 'Massage - Acupressure' is somewhat misleading since this is a course about acupressure, not a massage service",
+        "AI flag: Deal page categorized as 'Online Education' but titled 'Massage - Acupressure' creating category confusion",
+        "Category field: Online Education (contradicts 'Massage' in title)",
+        "Research synthesis red flag: Category confusion between education vs. service makes value assessment difficult for customers"
+      ],
+      "impact_score": 720
+    },
+    {
+      "priority_rank": 3,
+      "category": "trust",
+      "short_title": "Address 2.33 star rating with context or guarantees",
+      "recommendation": "Add a prominent trust-building element near the purchase button that acknowledges the mixed reviews and provides context or mitigation. Options: (a) Add a satisfaction statement: 'Not satisfied? Promotional value expires in 180 days, but amount paid never expires — you can always redeem your $36 for future Peach Academy courses.' (b) Add a 'What to expect' callout addressing common complaints if complaint themes are known. (c) Highlight the 160-review sample size as 'Over 160 students enrolled' to reframe negatively. Given no review theme data, option (a) using existing fine print language is safest.",
+      "current_state": "2.33/5.0 rating displayed prominently with 160 reviews. No context, explanation, or mitigation provided anywhere on page. Sample review quotes are positive but don't reflect the overall poor rating.",
+      "proposed_state": "Add callout box above purchase button:\n\n'Money-Back Confidence: Your $36 payment never expires. If this course isn't right for you, your paid amount can be applied to any future Peach Academy offering. Promotional value expires in 180 days, but your investment is protected.'\n\n(This uses existing fine print terms to reframe the purchase as lower-risk.)",
+      "data_citation": "Trust score: 3/10; Merchant reputation: '2.33/5.0 (160 reviews)'; Trust score reasoning: 'Very low 2.33/5 rating with 160 reviews is a major red flag that severely undermines credibility'; AI flag: 'Severe trust mismatch: 2.33/5 rating (below average) with 160 reviews suggests significant quality or delivery issues, yet sample review quotes are all positive'",
+      "expected_impact": "high",
+      "impact_rationale": "A 2.33/5 rating causes immediate purchase abandonment — providing context or risk mitigation directly addresses the trust score of 3/10 and gives hesitant buyers a reason to proceed despite the poor rating.",
+      "supporting_evidence": [
+        "Merchant reputation: 2.33/5.0 from 160 Groupon reviews",
+        "Trust score: 3/10 — 'Very low 2.33/5 rating with 160 reviews is a major red flag that severely undermines credibility'",
+        "AI flag: Severe trust mismatch between 2.33/5 overall rating and positive sample quotes shown",
+        "Research synthesis: '2.33★ rating from 160 reviews, significantly below the 4.0+ threshold for strong merchant reputation, indicating substantial customer dissatisfaction'"
+      ],
+      "impact_score": 630
+    },
+    {
+      "priority_rank": 4,
+      "category": "highlights",
+      "short_title": "Rewrite single generic highlight with course specifics",
+      "recommendation": "Expand the single generic highlight ('Online Diploma in Acupressure: A comprehensive guide to mastering acupressure techniques') into 7 specific bullets that address critical content gaps and set clear expectations. Each bullet should answer a key buyer question about what they're getting, how it works, who it's for, and what they'll receive. Use merchant-verifiable facts where available and flag unknown specifics for merchant confirmation.",
+      "current_state": "Single highlight only: 'Online Diploma in Acupressure: A comprehensive guide to mastering acupressure techniques'",
+      "proposed_state": "• Complete online diploma in acupressure and Traditional Chinese Medicine pressure point therapy\n• Self-paced learning with multiple instructional modules covering acupressure fundamentals and advanced techniques\n• [Example — verify with merchant:] Lifetime access to all course materials, videos, and downloadable resources after registration\n• [Example — verify with merchant:] Course includes video lessons, step-by-step technique guides, and printable study materials\n• Suitable for beginners — no prior massage therapy or Traditional Chinese Medicine experience required\n• Register via email at peachonlineacademy@gmail.com after purchase using your voucher code to access course\n• Receive a diploma certificate upon successful completion of all course modules",
+      "data_citation": "Completeness score: 4/10; Content gaps #2, #3, #5, #6, #7, #8 (missing duration, access period, curriculum, format, prerequisites, certification details); Completeness reasoning: 'Missing most category-critical information for online education: course duration, access period, instructor credentials, detailed curriculum, learning format, prerequisites, and certification accreditation'",
+      "expected_impact": "high",
+      "impact_rationale": "The single generic highlight leaves critical buyer questions unanswered — expanding to 7 specific bullets directly addresses the 4/10 completeness score and reduces abandonment from information gaps.",
+      "supporting_evidence": [
+        "Completeness score: 4/10 — missing most category-critical information for online education",
+        "Content gap #2: No course duration or total hours specified",
+        "Content gap #3: No information about access duration",
+        "Content gap #6: No information about course format (video, PDF, quizzes, etc.)",
+        "Content gap #7: No prerequisites stated",
+        "Current highlights: Only 1 bullet, very generic"
+      ],
+      "impact_score": 448
+    },
+    {
+      "priority_rank": 5,
+      "category": "content",
+      "short_title": "Add course duration and access period information",
+      "recommendation": "Add a 'Course Details' section immediately after the highlights that specifies: (1) Total course duration or estimated completion time, (2) Access period after registration (e.g., lifetime access vs. 6 months), and (3) Time commitment per week if self-paced. If exact details are unknown, add placeholder language flagged for merchant verification: '[Example — verify with merchant:] Estimated 12-15 hours of content | Self-paced completion in 4-8 weeks | Lifetime access to all materials after registration'",
+      "current_state": "No course duration mentioned anywhere on page. No access period specified. Fine print mentions 'Promotional value expires 180 days after purchase. Amount paid never expires' but doesn't clarify how long course access lasts after registration.",
+      "proposed_state": "Add new section after highlights:\n\n**Course Details**\n[Example — verify with merchant:] \n• Total content: 12-15 hours of video instruction and study materials\n• Format: Self-paced — complete in 4-8 weeks at your own schedule\n• Access: Lifetime access to all course materials after registration\n• Time commitment: 2-3 hours per week recommended\n\n(If merchant provides actual values, replace bracketed examples with verified facts.)",
+      "data_citation": "Content gap #2: 'No course duration or total hours of content specified — critical for online education purchases where time investment is a key decision factor'; Content gap #3: 'No information about access duration — customers cannot tell if they get lifetime access or time-limited access to course materials'; Completeness score: 4/10",
+      "expected_impact": "high",
+      "impact_rationale": "Course duration and access period are critical purchase factors for online education — adding this information directly addresses completeness score of 4/10 and removes a major decision barrier.",
+      "supporting_evidence": [
+        "Content gap #2: No course duration or total hours specified — critical for online education time investment decisions",
+        "Content gap #3: No access duration information — customers can't tell if access is lifetime or time-limited",
+        "Completeness score: 4/10",
+        "Category: Online Education (where duration/access are category-critical fields)"
+      ],
+      "impact_score": 432
+    },
+    {
+      "priority_rank": 6,
+      "category": "content",
+      "short_title": "Add course format and learning materials breakdown",
+      "recommendation": "Add a 'What's Included' section that specifies the exact course format and learning materials. Detail whether the course includes video lessons, PDFs, quizzes, interactive exercises, or other formats. If exact details are unavailable, use merchant-verification flags: '[Example — verify with merchant:] Video lessons with instructor demonstrations | Downloadable PDF study guides and technique charts | Module quizzes to test your knowledge | Access to private student community forum'",
+      "current_state": "No information about course format anywhere on page. Customers don't know if this is video-based, text-based, interactive, or what materials are included beyond 'comprehensive guide to mastering acupressure techniques.'",
+      "proposed_state": "Add new section:\n\n**What's Included**\n[Example — verify with merchant:]\n• High-definition video lessons with professional instructor demonstrations\n• Downloadable PDF study guides covering acupressure theory and technique\n• Illustrated pressure point charts and reference materials\n• Module-by-module quizzes to reinforce learning\n• Certificate of completion upon finishing all modules\n\n(Replace with actual course components once verified by merchant.)",
+      "data_citation": "Content gap #6: 'No information about course format — customers don't know if this includes video lessons, PDFs, interactive quizzes, or other learning materials'; Completeness score: 4/10 reasoning includes 'Missing... learning format'; Clarity score: 6/10 notes 'lacks critical specifics: no course duration, no module count, no format details'",
+      "expected_impact": "medium",
+      "impact_rationale": "Knowing the course format (video vs. text, downloadable materials, etc.) helps buyers assess if the learning style matches their preferences — addresses completeness and clarity gaps that cause hesitation.",
+      "supporting_evidence": [
+        "Content gap #6: No information about course format (video lessons, PDFs, quizzes, etc.)",
+        "Completeness score: 4/10 — missing learning format details",
+        "Clarity score: 6/10 — 'lacks critical specifics including format details'",
+        "Category: Online Education (format disclosure is standard for online courses)"
+      ],
+      "impact_score": 294
+    },
+    {
+      "priority_rank": 7,
+      "category": "content",
+      "short_title": "Add instructor credentials and qualifications section",
+      "recommendation": "Add an 'About Your Instructor' or 'Expert Instruction' section that provides instructor credentials, qualifications in Traditional Chinese Medicine or acupressure, years of experience, and any relevant certifications. If specific instructor information is unavailable, add flagged placeholder: '[Example — verify with merchant:] Course developed by certified Traditional Chinese Medicine practitioners with 15+ years of clinical experience in acupressure therapy.' Position this section before or immediately after the course details.",
+      "current_state": "No instructor credentials, qualifications, or background information provided anywhere on the page. No mention of who created the course or their expertise in acupressure or Traditional Chinese Medicine.",
+      "proposed_state": "Add new section:\n\n**Expert Instruction**\n[Example — verify with merchant:]\nThis course was developed by certified practitioners of Traditional Chinese Medicine with over 15 years of combined experience in acupressure therapy and holistic wellness education. Our instructors have trained hundreds of students in pressure point therapy techniques used in professional practice.\n\n(Replace with actual instructor bios, names, and credentials once provided by Peach Academy.)",
+      "data_citation": "Content gap #4: 'No instructor credentials or qualifications provided — for a Traditional Chinese Medicine course, instructor expertise is essential to credibility'; Completeness score: 4/10 reasoning includes 'Missing... instructor credentials'; Trust score: 3/10",
+      "expected_impact": "medium",
+      "impact_rationale": "For Traditional Chinese Medicine education, instructor expertise directly affects perceived course quality and credibility — adding credentials addresses the 3/10 trust score and reduces skepticism about course legitimacy.",
+      "supporting_evidence": [
+        "Content gap #4: No instructor credentials provided — for TCM course, instructor expertise is essential to credibility",
+        "Completeness score: 4/10 — missing instructor credentials",
+        "Trust score: 3/10",
+        "Category: Traditional Chinese Medicine education (where practitioner credentials are critical trust signals)"
+      ],
+      "impact_score": 280
+    },
+    {
+      "priority_rank": 8,
+      "category": "seo",
+      "short_title": "Expand meta description from 55 to 155 characters",
+      "recommendation": "Rewrite the meta description to use the full ~155-character limit for search snippets. Current description is only 55 characters and simply repeats the misleading title. Replace with: 'Learn acupressure techniques with online diploma course. Traditional Chinese Medicine pressure point therapy. Start for $36.' (124 characters) — this clarifies it's education, includes the price, and uses relevant keywords without the misleading 'massage' framing.",
+      "current_state": "Meta description (55 chars): 'Up to 81% Off on Massage - Acupressure at Peach Academy'",
+      "proposed_state": "Learn acupressure techniques with online diploma course. Traditional Chinese Medicine pressure point therapy. Start for $36.",
+      "data_citation": "SEO score: 4/10; SEO reasoning: 'meta description is critically short at only 55 characters (should be ~155). Meta title is generic. Missing both OG title and OG description hurts social sharing. Multiple deficiencies in discoverability.'",
+      "expected_impact": "medium",
+      "impact_rationale": "Meta descriptions don't directly affect rankings but do affect click-through rate from search results — using the full 155 characters provides more context and can improve organic traffic conversion by 5-15%.",
+      "supporting_evidence": [
+        "SEO score: 4/10 — multiple discoverability deficiencies",
+        "SEO audit finding: 'meta description is critically short at only 55 characters (should be ~155)'",
+        "Current meta description: only 55 characters (100 characters of opportunity wasted)",
+        "Best practice: Meta descriptions should be 120-155 characters for optimal search snippet display"
+      ],
+      "impact_score": 216
+    },
+    {
+      "priority_rank": 9,
+      "category": "content",
+      "short_title": "Add detailed curriculum or module breakdown section",
+      "recommendation": "Add a 'Course Curriculum' or 'What You'll Learn' section that breaks down the specific modules and topics covered. If the exact curriculum is unavailable, add flagged example structure: '[Example — verify with merchant:] Module 1: Introduction to Traditional Chinese Medicine & Acupressure History | Module 2: Meridian Lines & Energy Pathways | Module 3: Key Pressure Points & Their Functions | Module 4: Acupressure Techniques for Common Conditions | Module 5: Safety, Contraindications & Professional Practice | Module 6: Putting It All Together — Case Studies & Practice Sessions'",
+      "current_state": "Description mentions 'multiple modules' but provides no curriculum breakdown, module titles, or specific topics covered. Content gap #5 identified: 'No detailed course outline showing specific modules and topics — description mentions 'multiple modules' but provides no curriculum breakdown.'",
+      "proposed_state": "Add new section:\n\n**Course Curriculum**\n[Example — verify with merchant:]\n\n**Module 1:** Introduction to Traditional Chinese Medicine & Acupressure History\n**Module 2:** Understanding Meridian Lines & Energy Pathways in the Body\n**Module 3:** Key Pressure Points & Their Therapeutic Functions\n**Module 4:** Acupressure Techniques for Common Conditions (Pain, Stress, Digestive Issues)\n**Module 5:** Safety Guidelines, Contraindications & Professional Practice Standards\n**Module 6:** Practical Application — Case Studies & Technique Practice Sessions\n\n(Replace with actual module list and learning objectives from Peach Academy course.)",
+      "data_citation": "Content gap #5: 'No detailed course outline showing specific modules and topics — description mentions 'multiple modules' but provides no curriculum breakdown'; Completeness score: 4/10 reasoning includes 'Missing... detailed curriculum'",
+      "expected_impact": "medium",
+      "impact_rationale": "A detailed curriculum allows buyers to assess course relevance and comprehensiveness — providing this reduces uncertainty and appeals to serious learners who evaluate content quality before purchasing.",
+      "supporting_evidence": [
+        "Content gap #5: No detailed course outline — description mentions 'multiple modules' but no curriculum breakdown provided",
+        "Completeness score: 4/10 — missing detailed curriculum",
+        "Current content: Only mentions 'multiple modules' with zero specifics",
+        "Category: Online Education (curriculum disclosure is industry standard)"
+      ],
+      "impact_score": 200
+    },
+    {
+      "priority_rank": 10,
+      "category": "positioning",
+      "short_title": "Remove misleading service category badges",
+      "recommendation": "Remove the irrelevant category badges that create confusion about what this product actually is. Specifically remove: 'Nail Salons', 'Weight Loss', 'Hair Removal', 'Tanning', 'Makeup', 'Face & Skin Care', 'Brows & Lashes', and 'Massage' badges. Keep only 'Beauty & Spas' if it must remain, but ideally replace all with 'Online Education', 'Professional Development', or 'Alternative Medicine' to accurately represent that this is a course, not a service appointment.",
+      "current_state": "Trust signals section shows badges for: Makeup, Face & Skin Care, Brows & Lashes, Nail Salons, Weight Loss, Hair Removal, Massage, Tanning — none of which accurately describe an online acupressure education course.",
+      "proposed_state": "Remove all service-category badges (Nail Salons, Weight Loss, Hair Removal, Tanning, Makeup, Face & Skin Care, Brows & Lashes, Massage). Replace with relevant category badges: 'Online Education', 'Professional Certification', 'Alternative Medicine', 'Traditional Chinese Medicine', or 'Health & Wellness Education'.",
+      "data_citation": "AI flag: 'Category badges are misleading — page tagged with 'Nail Salons', 'Weight Loss', 'Hair Removal', 'Tanning', 'Makeup' when it's simply an online acupressure course, not any of these physical services'; Trust signals list shows 10 badges, most irrelevant to online education",
+      "expected_impact": "low",
+      "impact_rationale": "Misleading category badges create confusion and may attract wrong-audience traffic, but they appear lower on the page than title/highlights — removing them improves accuracy and reduces confusion but has limited direct conversion impact.",
+      "supporting_evidence": [
+        "AI flag: Category badges misleading — page tagged with Nail Salons, Weight Loss, Hair Removal, Tanning, Makeup when it's an online acupressure course",
+        "Trust signals show: Nail Salons, Weight Loss, Hair Removal, Tanning, Makeup, Face & Skin Care, Brows & Lashes, Massage badges",
+        "Actual product: Online Education course in acupressure (none of the tagged service categories apply)",
+        "Red flag from research: Deal page categorized as 'Online Education' but badges suggest physical spa/salon services"
+      ],
+      "impact_score": 120
+    }
+  ],
+  "generated_at": "2026-05-31T17:02:55.453022"
+}

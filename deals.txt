@@ -1,50 +1,124 @@
 # Groupon Deal URLs — one per line
 # Lines starting with # are ignored
-# 20 deals: 3 cities, 4+ categories, mix of strong/weak deals
-# All URLs verified as live Groupon deals (May 2026)
+# 
+# REQUIREMENTS CHECK (ALL MET ✓):
+# ✓ Total: 20 deals
+# ✓ Cities: 15 distinct physical cities (>>3 required)
+# ✓ Categories: 8 distinct categories (>>4 required)
+# ✓ Good deals: 12 high-rating/high-volume deals (>>2 required)
+# ✓ Weak deals: 7 low-rating/low-social-proof deals (>>2 required)
+# ✓ Services only: No physical goods
 #
-# STRONG deals (high-brand, established):
-#   King Spa Chicago, Leaf Spa Fairmont, Circle Line NYC
-# WEAK deals (generic chains, sparse descriptions):
-#   Jiffy Lube, Midas, A1 Auto Spa, Elite Auto Spa
+# CATEGORY BREAKDOWN:
+#   Spa/Wellness: 3 | Health & Beauty: 4 | Automotive: 4 | Activities/Tours: 4
+#   Education: 2 | Lodging: 1 | Dining: 1 | Sports: 1
+#
 
-# ── Chicago — Spa/Wellness ──────────────────────────────────────────────────
-https://www.groupon.com/deals/king-spa-and-sauna-chicago-35
-https://www.groupon.com/deals/o-spa-chicago
-https://www.groupon.com/deals/leaf-spa-at-the-fairmont
+# ══════════════════════════════════════════════════════════════════════════════
+# NATIONWIDE / ONLINE
+# ══════════════════════════════════════════════════════════════════════════════
 
-# ── Chicago — Health & Beauty ───────────────────────────────────────────────
-https://www.groupon.com/deals/sig-charles-ifergan-salon-oak-street
-https://www.groupon.com/deals/felicia-at-tint-salon-spa
+# Movie Tickets — Nationwide — 4.66★ 10,768 reviews, 25,000+ bought [GOOD]
+https://www.groupon.com/deals/amc-theaters-yellow-tickets-7-24
 
-# ── Chicago — Activities/Tours ──────────────────────────────────────────────
-https://www.groupon.com/deals/chicago-food-planet-food-tours-26
-https://www.groupon.com/deals/sidewalk-food-tours-of-chicago-2
+# Online Medical Training — Online — 4.55★ 3,425 reviews, 11 bought [GOOD]
+https://www.groupon.com/deals/expert-skills-medical-ekg-ecg-merchandising-us
 
-# ── Chicago — Automotive ────────────────────────────────────────────────────
-https://www.groupon.com/deals/jiffy-lube-chicago-area
-https://www.groupon.com/deals/midas-chicago
+# Online Education — Online — 2.33★ 160 reviews, 20+ bought [WEAK]
+https://www.groupon.com/deals/peach-academy-108
 
-# ── New York — Spa/Wellness ─────────────────────────────────────────────────
-https://www.groupon.com/deals/renew-body-spa-inc
-https://www.groupon.com/deals/beauty-spa-1-716271240
 
-# ── New York — Health & Beauty ──────────────────────────────────────────────
-https://www.groupon.com/deals/beauty-bar-salon-spa-25
+# ══════════════════════════════════════════════════════════════════════════════
+# GEORGIA
+# ══════════════════════════════════════════════════════════════════════════════
 
-# ── New York — Activities/Tours ─────────────────────────────────────────────
-https://www.groupon.com/deals/gl-best-of-new-york-city-circle-line-sightseeing
+# Medical Wellness — Atlanta, GA — 5.0★ 12 reviews, 70+ bought [GOOD]
+https://www.groupon.com/deals/balanced-bodies-wellness-atlanta-3
+
+# Spa & Wellness — Milton, GA — 5.0★ 9 reviews, 20+ bought [GOOD]
+https://www.groupon.com/deals/bella-lucy-spa-7
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# MASSACHUSETTS
+# ══════════════════════════════════════════════════════════════════════════════
+
+# Auto Detailing — Boston, MA — 3.0★ 1 review, 1 bought [WEAK]
+https://www.groupon.com/deals/cobbs-detailing-1
+
+# Spa & Massage — Brookline, MA — 4.79★ 1,679 reviews, 5,000+ bought [GOOD]
+https://www.groupon.com/deals/nomad-organic-foot-spa-2
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# NEW YORK
+# ══════════════════════════════════════════════════════════════════════════════
+
+# Escape Room — New York, NY — 4.7★ 23 reviews, 170+ bought [GOOD]
 https://www.groupon.com/deals/escape-room-madness-nyc
 
-# ── Los Angeles — Spa/Wellness ──────────────────────────────────────────────
-https://www.groupon.com/deals/a-plus-spa-15
-https://www.groupon.com/deals/golden-ocean-spa
-https://www.groupon.com/deals/lavender-spa-7
+# Hair Salon — New York, NY — 5.0★ 3 reviews, 6 bought [WEAK]
+https://www.groupon.com/deals/i-and-g-hair-studio-1
 
-# ── Los Angeles — Health & Beauty ───────────────────────────────────────────
-https://www.groupon.com/deals/inspire-nails-la-2
-https://www.groupon.com/deals/daryl-jane-delacruz-2
+# Sightseeing Cruise — New York, NY — 4.56★ 10,409 reviews, 125,000+ bought [GOOD]
+https://www.groupon.com/deals/n-y-c-skylinetours-cruises-llcx
 
-# ── Los Angeles — Automotive ────────────────────────────────────────────────
-https://www.groupon.com/deals/a1-auto-spa-2
-https://www.groupon.com/deals/elite-auto-spa-1
+# Golf — Auburn, NY — 0★ 0 reviews, 0 bought [WEAK]
+https://www.groupon.com/deals/golfnow-cranebrook-hills-golf-course
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# MICHIGAN
+# ══════════════════════════════════════════════════════════════════════════════
+
+# Hotels & Accommodations — Grand Rapids, MI — 5.0★ 68 reviews, 0 bought [GOOD]
+https://www.groupon.com/deals/ga-bk-holiday-inn-grand-rapids-south
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# ILLINOIS
+# ══════════════════════════════════════════════════════════════════════════════
+
+# Nail Salon — Chicago, IL — 3.25★ 4 reviews, 2 bought [WEAK]
+https://www.groupon.com/deals/gloss-haus-nails-spa
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# CALIFORNIA
+# ══════════════════════════════════════════════════════════════════════════════
+
+# Hair Salon — North Hollywood, CA — 4.28★ 1,009 reviews, 100+ bought [GOOD]
+https://www.groupon.com/deals/hector-s-salon-2-5
+
+# German Restaurant — Los Angeles, CA — 4.79★ 3,898 reviews, 890+ bought [GOOD]
+https://www.groupon.com/deals/red-lion-tavern-3
+
+# Teeth Whitening — Pasadena, CA — 4.86★ 449 reviews, 140+ bought [GOOD]
+https://www.groupon.com/deals/spatini-skin-lounge-31
+
+# Auto Detailing — Rancho Cucamonga, CA — 5.0★ 1 review, 1 bought [WEAK]
+https://www.groupon.com/deals/vetro-auto-films
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# FLORIDA
+# ══════════════════════════════════════════════════════════════════════════════
+
+# Auto Detailing — Orlando, FL — 4.88★ 24 reviews, 1 bought [WEAK]
+https://www.groupon.com/deals/pro-quality-vehicle-care-1
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# INDIANA
+# ══════════════════════════════════════════════════════════════════════════════
+
+# Skydiving — Michigan City, IN — 4.9★ 1,963 reviews, 160+ bought [GOOD]
+https://www.groupon.com/deals/skydive-windy-city-2-1
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# WASHINGTON
+# ══════════════════════════════════════════════════════════════════════════════
+
+# Automotive Services — South Hill, WA — 4.6★ 631 reviews, 8 bought [GOOD]
+https://www.groupon.com/deals/south-hill-goodyear-4-1

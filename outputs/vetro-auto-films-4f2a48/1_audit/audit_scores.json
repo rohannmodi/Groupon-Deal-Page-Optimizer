@@ -1,0 +1,32 @@
+{
+  "clarity_score": 7,
+  "trust_score": 3,
+  "urgency_score": 7,
+  "seo_score": 6,
+  "value_comm_score": 4,
+  "completeness_score": 4,
+  "overall_score": 4.8,
+  "content_gaps": [
+    "No original/retail price shown for any service option — customer cannot assess actual dollar savings or value without independent market knowledge of ceramic coating, chrome delete, or headlight restoration costs",
+    "No shop address displayed on the page — customer cannot determine if the Rancho Cucamonga location is convenient before purchasing (contact info only provided post-purchase per fine print)",
+    "Ceramic coating brand/product not specified — ceramic coatings range from $50 budget products to $500+ professional-grade (e.g., Gtechniq, Ceramic Pro, System X); brand/quality determines actual value and longevity",
+    "No warranty or guarantee details for the ceramic coating's '5-year rating' claim — what does this rating cover? What maintenance is required? What voids the protection? Critical for a coating marketed for durability",
+    "Chrome delete material quality/brand not specified — vinyl wrap quality varies dramatically; cheap wraps peel or fade within months while premium (3M, Avery) last years",
+    "No vehicle type or size restrictions mentioned — does $179 cover a compact sedan the same as a large SUV or truck? Larger vehicles typically cost significantly more due to greater surface area",
+    "Hours of operation not provided — customer cannot plan when they can drop off vehicle (especially important for the 1-day ceramic coating service)",
+    "Cancellation and rescheduling policy absent — important for services requiring 1–3 hour appointments or full-day drop-off commitment; what happens if customer needs to change appointment?"
+  ],
+  "ai_flags": [
+    "Extremely weak social proof for automotive services: only 1 review and 1 purchase total — insufficient validation for services involving specialized work on customer vehicles where quality/trust is critical",
+    "Pricing structure potentially confusing: three services with vastly different market values (headlight restoration typically $100-200, ceramic coating typically $500-1500+) all offered at identical $179 price point — no explanation of which option represents best value or why such different services cost the same",
+    "Countdown shows 'Extra $35.8 off' but no original retail price is shown anywhere on page — customer cannot understand baseline value or what the regular (non-promotional) deal price would be"
+  ],
+  "score_reasoning": {
+    "clarity": "Services are well-described with duration and what's included for each of the three options. 'Choose one option below' makes it clear $179 buys one service, though this could be more prominent. Minor ambiguity around add-ons and pricing structure.",
+    "trust": "Critically weak social proof: only 1 review (5.0 stars) and 1 purchase. No merchant credentials, years in business, certifications, or guarantee language beyond standard Groupon terms. Insufficient validation for automotive services requiring skill and trust.",
+    "urgency": "Strong urgency signals: countdown timer with specific end date (5/30/2026) and extra $35.80 savings, plus 'limited vouchers available' language in description. Effectively creates motivation to act.",
+    "seo": "Core elements present: meta title (under 60 chars, includes location and price), meta description (107 chars), H1, multiple H2s, and schema markup. However, OG title and OG description are missing, hurting social sharing potential. Meta description functional but not compelling.",
+    "value_comm": "Major weakness: shows deal price ($179) and mentions 28% off, but NO original/retail price displayed anywhere. Countdown shows extra $35.80 off but lacks baseline context. Customer must independently know market rates for ceramic coating, chrome delete, or headlight restoration to judge value.",
+    "completeness": "Missing critical automotive service information: no address shown, no hours, no ceramic coating brand/quality specified, no warranty details for 5-year claim, no vehicle size/type restrictions, no material specs for chrome delete, no cancellation policy. Too many unanswered questions for a cautious buyer."
+  }
+}

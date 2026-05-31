@@ -1,0 +1,126 @@
+{
+  "raw_research": {
+    "deal_id": "south-hill-goodyear-4-1-895742",
+    "yelp": null,
+    "google": null,
+    "competitors": [
+      {
+        "competitor_name": "AC Recharge Cost and AC Repairs",
+        "service_name": "car ac inspection flush vacuum and",
+        "regular_price": 10.0,
+        "sale_price": null,
+        "source_url": "https://www.jiffylube.com/resource-center/ac-recharge-cost-and-ac-repairs",
+        "notes": null,
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Walmart.com",
+        "service_name": "car ac inspection flush vacuum and",
+        "regular_price": 225.76,
+        "sale_price": 187.8,
+        "source_url": "https://www.walmart.com/cp/auto-services/1087266",
+        "notes": null,
+        "sku_match_confidence": 0.14,
+        "is_merchant": true,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Star Nissan of Bayside",
+        "service_name": "car ac inspection flush vacuum and",
+        "regular_price": 800.0,
+        "sale_price": 250.0,
+        "source_url": "https://www.starnissanofbayside.com/blog/how-much-should-a-nissan-ac-repair-cost/",
+        "notes": null,
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      }
+    ],
+    "category_context": {
+      "category": "Automotive Services",
+      "city": "South Hill",
+      "typical_price_low": 122.0,
+      "typical_price_high": 179.0,
+      "typical_discount_pct": null,
+      "notes": "Research quality: 1/18 sources accepted (17 rejected as non-competitor/informational). Validated market range for car ac inspection flush vacuum and in South Hill: $122–$179 Groupon price ($116.99) is BELOW the validated market low ($122) — strong deal.",
+      "search_results": [
+        {
+          "title": "AC Diagnosis Cost Estimate",
+          "url": "https://repairpal.com/estimator/ac-diagnosis-cost",
+          "snippet": "The average cost for an AC Diagnosis is between $122 and $179. Labor costs are estimated between $122 and $179. This range does not include taxes and fees.",
+          "position": 6
+        }
+      ]
+    },
+    "sources": [
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.jiffylube.com/resource-center/ac-recharge-cost-and-ac-repairs",
+        "source_title": "AC Recharge Cost and AC Repairs",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T15:55:26.608100"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.walmart.com/cp/auto-services/1087266",
+        "source_title": "Walmart.com",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T15:55:26.608113"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.starnissanofbayside.com/blog/how-much-should-a-nissan-ac-repair-cost/",
+        "source_title": "Star Nissan of Bayside",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T15:55:26.608115"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://repairpal.com/estimator/ac-diagnosis-cost",
+        "source_title": "AC Diagnosis Cost Estimate",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-31T15:55:26.608118"
+      }
+    ],
+    "quality": {
+      "competitor_pricing_status": "low_confidence",
+      "merchant_reputation_status": "no_data",
+      "category_context_status": "validated",
+      "pricing_verifiable": false,
+      "overall_confidence": 0.4,
+      "sources_found": 3,
+      "sources_accepted": 3,
+      "sources_rejected": 0
+    }
+  },
+  "synthesis": {
+    "value_assessment": "genuine_deal",
+    "value_reasoning": "Groupon price is $116.99 for the R-134A AC service. The validated market range for AC diagnosis/service in South Hill is $122–$179 (RepairPal estimate). Groupon's price is $5 below the market floor ($122) — a genuine 4% savings vs. the low end, and 35% below the high end ($179). However, no high-confidence competitor pricing exists (all sources <40% SKU confidence), and the deal page's original price claim (\"Up To 53% OFF\") cannot be verified because strikethrough pricing was not captured. The assessment is based solely on the validated category context showing Groupon is below market floor.",
+    "groupon_vs_direct_savings": null,
+    "groupon_vs_competitor_savings": null,
+    "merchant_differentiators": [],
+    "red_flags": [
+      "Claimed discount ('Up To 53% OFF') cannot be verified — original prices not captured from the deal page, and no high-confidence competitor data exists to corroborate the claim.",
+      "No third-party reviews found (Yelp/Google unavailable) — cannot assess merchant reputation independently of the 631 Groupon reviews.",
+      "Competitor pricing confidence is extremely low (all sources <40% SKU confidence) — price comparison claims cannot be substantiated beyond the single RepairPal category estimate ($122–$179).",
+      "Two pricing tiers exist ($116.99 for R-134A vs. $215.99 for R-1234yf refrigerant) — customers need to know which refrigerant type their vehicle requires, but no guidance is provided on the deal page about compatibility or how to determine the correct option."
+    ],
+    "deal_quality": "good",
+    "deal_quality_score": 7.0,
+    "key_insight": "This is an average deal (4.6★ Groupon rating, $116.99 vs. $122–$179 validated market range, modest below-market pricing) with severe data quality limitations (no Yelp/Google reviews, unverified original price claim, no high-confidence competitor data) — optimization is constrained by inability to independently verify merchant reputation or substantiate the claimed 53% discount.",
+    "overall_verdict": "This is an average deal with modest below-market pricing: $116.99 vs. a validated $122–$179 market range (RepairPal), 4.6★ Groupon rating with 631 reviews, but no independent third-party reputation data. The page's claimed \"Up To 53% OFF\" discount cannot be verified because original prices were not captured, and no high-confidence competitor data exists to corroborate the savings claim. The single biggest opportunity is addressing the refrigerant type confusion — two pricing tiers exist ($116.99 for R-134A vs. $215.99 for R-1234yf) but the page provides no guidance on which refrigerant type customers need, risking cart abandonment when buyers can't determine compatibility. Price-wise, Groupon sits just below the validated market floor ($122), representing a genuine but modest 4–35% savings depending on market comparison point, though the 53% claim remains unsubstantiated.",
+    "review_themes": []
+  },
+  "data_quality": {
+    "competitor_pricing_status": "low_confidence",
+    "merchant_reputation_status": "no_data",
+    "category_context_status": "validated",
+    "pricing_verifiable": false,
+    "overall_confidence": 0.4,
+    "sources_found": 3,
+    "sources_accepted": 3,
+    "sources_rejected": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "clarity_score": 7,
+  "trust_score": 6,
+  "urgency_score": 7,
+  "seo_score": 6,
+  "value_comm_score": 5,
+  "completeness_score": 5,
+  "overall_score": 5.8,
+  "content_gaps": [
+    "No physical address or location details shown — customers cannot assess whether the detailing shop is conveniently located before purchasing, critical for an in-person automotive service",
+    "No original/regular pricing displayed — the 'Up To 20% Off' claim cannot be verified since customers have no baseline to compare against the deal price",
+    "No service duration or time estimate provided — customers need to know whether this is a 30-minute express service or 2+ hour detail to plan their day and determine if they wait or drop off",
+    "No business hours of operation listed — customers cannot confirm the facility's hours align with their availability before committing to purchase",
+    "'Excludes delivery' in fine print is unexplained — unclear what 'delivery' means in the context of an on-site car wash/detailing service, potentially confusing",
+    "No mention of whether customers wait on-site or drop off vehicle — this planning detail affects whether customers need alternative transportation",
+    "No details about wax type or protection duration — customers expect to know if the wax lasts 30, 60, or 90 days and whether it's synthetic, carnauba, or ceramic-based"
+  ],
+  "ai_flags": [
+    "Description uses unnecessarily complex, corporate-speak language ('systematic vehicle maintenance services aimed at managing exterior surfaces and supporting a defined automotive aesthetic') instead of plain English — this obscures the simple car wash and wax offer and may confuse first-time buyers",
+    "Very low social proof: only 1 sold despite 24 reviews and a 4.88 rating — this mismatch may raise customer concerns about deal legitimacy or freshness, as the sold count is disproportionately low",
+    "'Up To 20% Off' discount claim prominently featured in title with zero original pricing shown anywhere on the page — customers cannot verify or calculate the actual savings, weakening the value proposition"
+  ],
+  "score_reasoning": {
+    "clarity": "The page clearly outlines three package tiers (sedan, small SUV, large SUV) with specific inclusions (hand wash, wax, wheel/tire cleaning, windows) and transparent pricing for each. However, the description is unnecessarily verbose and uses corporate jargon ('systematic vehicle maintenance services aimed at managing exterior surfaces') that obscures rather than clarifies the straightforward car wash and wax service.",
+    "trust": "Strong 4.88/5 rating with 24 reviews and positive quotes ('My car looks like new!') plus 'Established in 1999' credibility signal. However, only 1 sold is a red flag — such low social proof despite good reviews may raise buyer skepticism about deal freshness or legitimacy.",
+    "urgency": "Active countdown timer with 'Extra $15.2 off — ends 6/1' promotion (promoEndTimeStamp present) plus 'Limited time' and 'Ends in' messaging. This creates moderate urgency, though the low sold count (1 bought) undermines the 'selling fast' perception.",
+    "seo": "Meta title is well-optimized (54 chars, includes location Orlando, price, merchant). H1 and 9 H2 headings present, schema markup included. Meta description is functional but short at 81 chars and could include stronger value props. Missing OG title and OG description hurts social sharing performance.",
+    "value_comm": "The page shows 'Up To 20% Off' in the title but completely omits original/regular pricing — customers see deal prices ($76/$92/$108) with no baseline to validate the claimed savings. This is a critical gap in value communication, as buyers cannot verify they're getting a deal without seeing the before price.",
+    "completeness": "Basic service inclusions and pricing are clear, appointment requirement and 180-day expiry are stated. However, critical auto detailing information is missing: no physical address (customers can't assess convenience), no service duration (affects planning), no business hours, no drop-off vs. wait clarification, and vague 'excludes delivery' term that doesn't make sense for on-site car wash."
+  }
+}

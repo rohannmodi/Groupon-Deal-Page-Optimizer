@@ -1,0 +1,264 @@
+{
+  "deal_id": "hector-s-salon-2-5-b7afa1",
+  "url": "https://www.groupon.com/deals/hector-s-salon-2-5",
+  "title": "Get Sleek Hair with One or Three Brazilian Blowouts and Washes at Hector Salon #2 (Up to 59% Off)",
+  "subtitle": null,
+  "merchant_name": "Hector's Beauty Salon Inc",
+  "category": "Hair Salon",
+  "city": "North Hollywood",
+  "state": "CA",
+  "redemption_address": null,
+  "location_label": "North Hollywood, CA",
+  "description": "Looking for smooth, frizz-free? A Brazilian blowout Treatment could be just what you need! Imagine waking up every day with sleek, manageable hair without the fuss. Plus, it's valid with any stylist at the salon!\nWhat We Offer\nOne or Three Brazilian Blowouts and Washes\nPlease see the below image for estimated lengths of short, medium, and long hair. \nWhy You Should Grab The Offer\n\n\n\nAt Hector's Salon #2, owner Rosy Mendoza, with over 20 years of styling expertise, leads an international team of master stylists and color technicians dedicated to enhancing hair and beautifying appearances. This Redken salon invites clients to experience luxury in plush styling chairs, where precision and bespoke styling, and botanical treatments transform their look. Hector's Salon #2 uses premium products from Paul Mitchell, Matrix, Redken, Kadus, and Marrakesh aiming to offer top-notch results and client satisfaction.",
+  "pricing_options": [
+    {
+      "option_name": "One Brazilian Blowout and Wash",
+      "original_price": null,
+      "deal_price": 125.1,
+      "discount_pct": null,
+      "savings_amount": null,
+      "is_primary": true
+    },
+    {
+      "option_name": "Three Brazilian Blowouts and Washes",
+      "original_price": null,
+      "deal_price": 305.1,
+      "discount_pct": null,
+      "savings_amount": null,
+      "is_primary": false
+    }
+  ],
+  "highlights": [
+    "One or Three Brazilian Blowouts and Washes"
+  ],
+  "fine_print": [
+    "Redemption & BookingAppointment required, 48 hour advance notice required.",
+    "Appointment required, 48 hour advance notice required.",
+    "Inclusions & LimitationsAdditional fees may apply depending on hair length, texture, and density.",
+    "Additional fees may apply depending on hair length, texture, and density.",
+    "Terms & ConditionsMerchant's standard cancellation policy applies (any fees not to exceed Groupon price).Limit 3 per person.May be repurchased every 365 days.Limit 1 per visit.Valid only for option purchased.All goods or services must be used by the same person.",
+    "Merchant's standard cancellation policy applies (any fees not to exceed Groupon price).",
+    "Limit 3 per person.",
+    "May be repurchased every 365 days.",
+    "Limit 1 per visit.",
+    "Valid only for option purchased.",
+    "All goods or services must be used by the same person.",
+    "Legal DisclosuresPromotional value expires 90 days after purchase. Amount paid never expires.Merchant is solely responsible to purchasers for the care and quality of the advertised goods and services.Learn aboutStrike-Through Pricing and Savings",
+    "Promotional value expires 90 days after purchase. Amount paid never expires.",
+    "Merchant is solely responsible to purchasers for the care and quality of the advertised goods and services.",
+    "Learn aboutStrike-Through Pricing and Savings"
+  ],
+  "faqs": [
+    {
+      "question": "Where is Hector's Beauty Salon Inc located?",
+      "answer": "Hector's Beauty Salon Inc is located at 6740 Laurel Canyon Boulevard in North Hollywood, Los Angeles, CA 91606."
+    },
+    {
+      "question": "What type of hair service is included in the Tame Your Frizz with One or Three Brazilian Blowouts and Washes deal?",
+      "answer": "The deal includes Brazilian Blowout and Wash services, which fall under the hair straightening and hair styling categories."
+    },
+    {
+      "question": "Is the Tame Your Frizz with One or Three Brazilian Blowouts and Washes deal suited for ongoing hair care?",
+      "answer": "The deal offers a three-session option, which allows customers to receive multiple Brazilian Blowouts and Washes over time at Hector's Beauty Salon Inc."
+    }
+  ],
+  "images": [
+    {
+      "src_url": "https://img.grouponcdn.com/editorial/3NACgfSvjPjyUvUftd1V1RoLtzkY/3N-539x376",
+      "alt_text": "Hair Lengths",
+      "estimated_width": null,
+      "image_type": "unknown",
+      "position": 15
+    },
+    {
+      "src_url": "https://api.maptiler.com/maps/streets-v2/static/-118.3963034,34.1934707,16/768x352@2x.webp?attribution=false&markers=icon%3Adata%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjMiIHZpZXdCb3g9IjAgMCA0NCA0MyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3QgeD0iNC43OTY4OCIgd2lkdGg9IjM0LjQwNzUiIGhlaWdodD0iMzQuNjM4MyIgcng9IjQuOCIgZmlsbD0iIzExMTgyNyIvPgo8ZyBjbGlwLXBhdGg9InVybCgjY2xpcDBfNTE1OV84MTk5MCkiPgo8cmVjdCB3aWR0aD0iMTYuNDA3NSIgaGVpZ2h0PSIyNC42MzgzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMy43OTY5IDUpIiBmaWxsPSJ3aGl0ZSIgZmlsbC1vcGFjaXR5PSIwLjAxIi8%2BCjxwYXRoIGQ9Ik0zMC4xNTg1IDE2LjMxNjdDMzAuMTgxIDE2LjY3NzUgMzAuMjA0NCAxNy4wMzc1IDMwLjIwNDQgMTcuMzc1OEMzMC4yMDQ0IDE5LjE3NzUgMjkuNzU0NCAyMC43MDgzIDI4LjgzMTkgMjIuMDU5MkMyNy4zMDEgMjQuMjg4MyAyNC43MzUyIDI1LjYzODMgMjIuMDExOSAyNS42MzgzQzE5LjY0ODUgMjUuNjM4MyAxNy42NDUyIDI0Ljc2MDggMTYuMDcwMiAyMy4wOTQyQzE0LjU2MSAyMS40OTU4IDEzLjc5NjkgMTkuNTE0MiAxMy43OTY5IDE3LjE1QzEzLjc5NjkgMTQuOTQzMyAxNC42NTE5IDEyLjkxNzUgMTYuMjI2OSAxMS4zNjMzQzE3LjgwMjcgOS44MSAxOS43ODM1IDkgMjIuMDU2IDlDMjUuNDc3NyA5IDI4LjQ3MDIgMTEuMDk0MiAyOS43NTM1IDE0LjUxNjdIMjUuMjk2OUMyNC4zMDY5IDEzLjQ4MTcgMjMuMjcxIDEyLjk2MzMgMjIuMDExIDEyLjk2MzNDMTkuNjcxIDEyLjk2MzMgMTcuODI1MiAxNC44NzY3IDE3LjgyNTIgMTcuMTcyNUMxNy44MjUyIDE5LjcxNjcgMTkuODA1MiAyMS42NzUgMjIuMDExIDIxLjY3NUMyMy40OTY5IDIxLjY3NSAyNC44MjQ0IDIwLjkxIDI1LjYxMTkgMTkuNTEzM0gyMS4wNDM1VjE2LjMxNjdIMzAuMTU4NVoiIGZpbGw9IndoaXRlIi8%2BCjwvZz4KPHJlY3QgeD0iNS4yOTY4OCIgeT0iMC41IiB3aWR0aD0iMzMuNDA3NSIgaGVpZ2h0PSIzMy42MzgzIiByeD0iNC4zIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utb3BhY2l0eT0iMC4yIi8%2BCjxwYXRoIGQ9Ik0xNC4wMDEgMzQuNjQwNEwyMi4wMDEgNDIuNjQwNEwzMC4wMDEgMzQuNjQwNEgxNC4wMDFaIiBmaWxsPSIjMTExODI3Ii8%2BCjxwYXRoIGQ9Ik0xNC4wMDEgMzQuNjQwNEwyMi4wMDEgNDIuNjQwNEwzMC4wMDEgMzQuNjQwNEgxNC4wMDFaIiBmaWxsPSJibGFjayIgZmlsbC1vcGFjaXR5PSIwLjIiLz4KPHBhdGggZD0iTTE0LjUwMSAzMy42NDA0TDIyLjAwMSA0MS4xNDA0TDI5LjUwMSAzMy42NDA0SDE0LjUwMVoiIGZpbGw9IiMxMTE4MjciLz4KPGRlZnM%2BCjxjbGlwUGF0aCBpZD0iY2xpcDBfNTE1OV84MTk5MCI%2BCjxyZWN0IHdpZHRoPSIxNi40MDc1IiBoZWlnaHQ9IjI0LjYzODMiIGZpbGw9IndoaXRlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMy43OTY5IDUpIi8%2BCjwvY2xpcFBhdGg%2BCjwvZGVmcz4KPC9zdmc%2BCg%3D%3D%7Cscale%3A2%7C-118.3963034%2C34.1934707&key=Av66ySeu60pw06Sziiv4",
+      "alt_text": "Redemption locations map",
+      "estimated_width": null,
+      "image_type": "logo",
+      "position": 21
+    },
+    {
+      "src_url": "//img.grouponcdn.com/ugc/983DHd6FdqehDeBnYFTzCA/3t-3088x2316.webp/v1/t2700x1800",
+      "alt_text": null,
+      "estimated_width": 1919,
+      "image_type": "unknown",
+      "position": 22
+    },
+    {
+      "src_url": "//img.grouponcdn.com/ugc/Mery3Vjo3r8KDN5o6B8edg/46-5712x4284.webp/v1/t2700x1800",
+      "alt_text": null,
+      "estimated_width": 1919,
+      "image_type": "unknown",
+      "position": 23
+    },
+    {
+      "src_url": "//img.grouponcdn.com/ugc/GwejBk1sDpGJdhuDLCpTvV/43-3088x2316.webp/v1/t2700x1800",
+      "alt_text": null,
+      "estimated_width": 1919,
+      "image_type": "unknown",
+      "position": 24
+    },
+    {
+      "src_url": "//img.grouponcdn.com/ugc/8E5sPcTXNdA6A71AcYRPDt/2h-3088x2316.webp/v1/t2700x1800",
+      "alt_text": null,
+      "estimated_width": 1919,
+      "image_type": "unknown",
+      "position": 25
+    },
+    {
+      "src_url": "//img.grouponcdn.com/ugc/3hCQfoKFd5BXkJxm4wMauBFgKGJw/3h-4032x3024.webp/v1/t2700x1800",
+      "alt_text": null,
+      "estimated_width": 4,
+      "image_type": "unknown",
+      "position": 26
+    },
+    {
+      "src_url": "//img.grouponcdn.com/ugc/BEoWVu5EUotZKWYjXDw7HgwUhn4/BE-4032x3024.webp/v1/t2700x1800",
+      "alt_text": null,
+      "estimated_width": 1919,
+      "image_type": "unknown",
+      "position": 27
+    },
+    {
+      "src_url": "//img.grouponcdn.com/ugc/3jAuFhqSop4uDC5mUx8UNAn2p9bF/3j-2448x3264.webp/v1/t2800x1696",
+      "alt_text": null,
+      "estimated_width": 1919,
+      "image_type": "unknown",
+      "position": 28
+    },
+    {
+      "src_url": "//img.grouponcdn.com/deal/UnWoodixkj7FkbXjaSVpPb7aj31/Un-1080x1080/v1/t2800x1696.webp",
+      "alt_text": "Explore Wildlife Adventures with Zoo Admission Options for All",
+      "estimated_width": 1919,
+      "image_type": "unknown",
+      "position": 41
+    }
+  ],
+  "reviews_count": 1009,
+  "reviews_avg_rating": 4.28,
+  "review_samples": [
+    {
+      "author": "Groupon",
+      "rating": 5.0,
+      "text": "Love it and love Giavonna :) thank you",
+      "date": "2026-05-29T18:53:20.338Z"
+    },
+    {
+      "author": "Jenna",
+      "rating": 5.0,
+      "text": "Jayce was super accommodating with scheduling and welcomed me ready for the service which was great. She meticulously executed every step of the Brazilian Blowout treatment and my hair is like I got a silk press after washing and mostly air drying with a quick shot of blow dyer to finish it. I love it!",
+      "date": "2026-05-18T16:25:10.729Z"
+    },
+    {
+      "author": "Corina",
+      "rating": 5.0,
+      "text": "Janet did a great Job on my hair,  will always go back to Hectors Beauty Salon only . I have only had good experiences there ❤️",
+      "date": "2026-05-16T20:52:58.327Z"
+    },
+    {
+      "author": "Charlene",
+      "rating": 5.0,
+      "text": "Nice staff, good value.  They wouldn't let me book an appointment for only a haircut, just show up and wait.",
+      "date": "2026-04-15T23:42:19.913Z"
+    },
+    {
+      "author": "Guest",
+      "rating": 5.0,
+      "text": "I am really happy with how my hair turned out! They took their time to ensure a smooth detailed process. However, I didn’t run into some communication issues so it was difficult to book an appointment. But I would still recommend them for their quality of their work.",
+      "date": "2026-03-28T14:35:59.480Z"
+    }
+  ],
+  "seo": {
+    "meta_title": "Hector's Beauty Salon Inc - From $125.10 - Los Angeles | Groupon",
+    "meta_description": "Get Sleek Hair with One or Three Brazilian Blowouts and Washes at Hector Salon #2 (Up to 59% Off)",
+    "h1_text": "Get Sleek Hair with One or Three Brazilian Blowouts and Washes at Hector Salon #2 (Up to 59% Off)",
+    "h2_texts": [
+      "One Brazilian Blowout and Wash",
+      "Three Brazilian Blowouts and Washes",
+      "What We Offer",
+      "Why You Should Grab The Offer",
+      "What We Offer",
+      "Why You Should Grab The Offer",
+      "Need To Know Info",
+      "About Hector's Beauty Salon Inc",
+      "Where To Redeem",
+      "Customer Photos & Videos",
+      "Customer Reviews",
+      "Frequently Asked Questions",
+      "Explore more",
+      "Similar deals"
+    ],
+    "has_schema_markup": true,
+    "schema_type": "WebSite",
+    "canonical_url": "https://www.groupon.com/deals/hector-s-salon-2-5",
+    "og_title": null,
+    "og_description": null,
+    "og_image_url": "https://img.grouponcdn.com/bynder/3fiXFwWWG8fCUxwGE25rnxkAorAo/3f-2048x1229/v1/t2100x1260.webp",
+    "image_count": 58,
+    "script_count": 239
+  },
+  "trust_signals": [
+    {
+      "signal_type": "review_count",
+      "signal_value": "1,009 ratings",
+      "impact_score": null
+    },
+    {
+      "signal_type": "sold_count",
+      "signal_value": "100+ bought",
+      "impact_score": null
+    },
+    {
+      "signal_type": "badge",
+      "signal_value": "Nearby",
+      "impact_score": null
+    },
+    {
+      "signal_type": "badge",
+      "signal_value": "Beauty & Spas",
+      "impact_score": null
+    },
+    {
+      "signal_type": "badge",
+      "signal_value": "Haircuts",
+      "impact_score": null
+    },
+    {
+      "signal_type": "badge",
+      "signal_value": "Hair Straightening",
+      "impact_score": null
+    },
+    {
+      "signal_type": "badge",
+      "signal_value": "Barber Shops",
+      "impact_score": null
+    },
+    {
+      "signal_type": "badge",
+      "signal_value": "Color & Highlights",
+      "impact_score": null
+    }
+  ],
+  "urgency_elements": [
+    {
+      "element_type": "countdown",
+      "element_text": "Extra $12.51 off — ends 6/1 — promoEndTimeStamp: 2026-06-01T23:59:00-07:00",
+      "is_visible_atf": true
+    },
+    {
+      "element_type": "limited_qty",
+      "element_text": "Limited time",
+      "is_visible_atf": false
+    },
+    {
+      "element_type": "ends_text",
+      "element_text": "Ends in",
+      "is_visible_atf": false
+    }
+  ],
+  "stale_content_warnings": [],
+  "scraped_at": "2026-05-31T15:33:02.116288",
+  "scrape_duration_seconds": 27.85,
+  "raw_html_path": "/Users/rohan/Documents/Claude/Projects/Groupon Deal Page Optimizer/data/raw_html/hector-s-salon-2-5-b7afa1.html",
+  "scrape_error": null
+}

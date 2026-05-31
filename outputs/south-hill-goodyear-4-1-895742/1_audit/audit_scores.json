@@ -1,0 +1,32 @@
+{
+  "clarity_score": 7,
+  "trust_score": 6,
+  "urgency_score": 7,
+  "seo_score": 6,
+  "value_comm_score": 4,
+  "completeness_score": 5,
+  "overall_score": 5.5,
+  "content_gaps": [
+    "No original/regular price shown — the 'Up To 53% OFF' headline claim cannot be verified by the customer, providing zero context for whether $116.99 is actually a good deal",
+    "No physical address for the service location — customer cannot assess convenience, verify legitimacy, or confirm this is the correct South Hill Goodyear location before purchasing",
+    "No explanation of what happens if the AC system has a leak — description states recharge occurs 'if the system is sealed' but doesn't clarify whether customer pays full price for diagnostic only if leak is found",
+    "No mention of what happens if vehicle needs more than 1 lb of refrigerant — both service options state 'UP TO 1 LB' but don't explain additional costs or whether service would be incomplete",
+    "No estimated service duration provided — customer cannot plan their day or know whether to expect a quick service or multi-hour appointment",
+    "No business hours listed — customer doesn't know when appointments are available or if hours accommodate their work schedule",
+    "No warranty or guarantee on the service performed — for a mechanical service involving leak checking and refrigerant, customers would want to know if there's any performance guarantee or callback period",
+    "No information about vehicle compatibility — which makes, models, or years are supported; whether hybrid or electric vehicles are excluded"
+  ],
+  "ai_flags": [
+    "Fine print contains unpublished placeholder text: 'Insert custom text' appears twice under 'Additional Info' section — this incomplete content is live on the page and damages professionalism and trust",
+    "'Up To 53% OFF' discount claim in title with zero supporting evidence — no original price, regular price, or market comparison shown anywhere on page to substantiate the savings claim",
+    "Trust signal mismatch: 631 reviews (strong) versus only 8 purchases (very weak) — suggests reviews may be for merchant's general services rather than this specific AC deal, potentially misleading customers about this offer's popularity"
+  ],
+  "score_reasoning": {
+    "clarity": "The service components (inspection, flush, vacuum, recharge) and two refrigerant options are clearly presented. However, ambiguity exists around 'if the system is sealed' conditional language and the 'up to 1 lb' limit without explaining scenarios where those conditions aren't met.",
+    "trust": "Strong review foundation (631 ratings at 4.6/5) but undermined by very weak purchase signal (only 8 bought). No merchant credentials, years in business, certifications, or other professional qualifications shown. Mixed trust profile.",
+    "urgency": "Active countdown timer present (Extra $11.70 off ends 6/1 with timestamp), plus 'Limited time' and 'Ends in' messaging. However, the very low sold count (8) contradicts any 'selling fast' narrative. Scores 7 due to countdown timer presence per rubric.",
+    "seo": "Meta title and H1 present and keyword-rich. Meta description exists but short (105 chars vs. 155 max). Schema markup present. However, OG title and OG description both missing, hurting social sharing potential.",
+    "value_comm": "Major weakness: 'Up To 53% OFF' claim in headline but absolutely no original price, regular price, dollar savings, or market comparison shown. Customer has zero context to evaluate if $116.99 is actually a good deal. Only the naked discount percentage with no supporting evidence.",
+    "completeness": "Several category-critical gaps for automotive service: no physical address shown, no explanation of leak scenarios, no coverage for refrigerant over 1 lb, no service duration, no business hours, no warranty info. Appointment phone number is provided but many practical questions remain unanswered."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "clarity_score": 7,
+  "trust_score": 8,
+  "urgency_score": 7,
+  "seo_score": 6,
+  "value_comm_score": 5,
+  "completeness_score": 6,
+  "overall_score": 6.3,
+  "content_gaps": [
+    "No original/regular price shown to validate the 'Up to 59% Off' claim — customers cannot verify the actual savings or assess if this is genuinely a good deal",
+    "Fine print states 'additional fees may apply depending on hair length, texture, and density' but provides no pricing tiers or typical upcharge amounts — customers with long or thick hair cannot budget accurately",
+    "No salon operating hours shown — customers cannot determine if available appointment times will fit their schedule before purchasing",
+    "No session duration specified — critical for planning (is each Brazilian Blowout 90 minutes or 3+ hours?)",
+    "No information on how long Brazilian Blowout results typically last (6 weeks? 3 months?) — customers need longevity expectations to evaluate value for money",
+    "Merchant's 'standard cancellation policy' referenced but not defined — customers don't know cancellation terms, notice period, or potential fees before purchase",
+    "No aftercare instructions or post-treatment restrictions mentioned — Brazilian Blowouts require specific care (no washing for X days, avoiding saltwater, etc.) that affect the customer experience",
+    "No parking information for the North Hollywood location — important for LA customers where parking availability can be a deciding factor"
+  ],
+  "ai_flags": [
+    "The 'Up to 59% Off' discount claim cannot be verified anywhere on the page — no original price, regular price, or market comparison is shown to substantiate this savings percentage, making the value proposition unverifiable",
+    "Fine print disclaimer 'Additional fees may apply depending on hair length, texture, and density' could significantly increase final cost beyond the Groupon price, but there's zero transparency about these surcharges — risk of surprise fees at the salon that contradict the deal value"
+  ],
+  "score_reasoning": {
+    "clarity": "Service is clearly defined (Brazilian Blowout + Wash) with two straightforward options (1 or 3 sessions) and visible pricing. However, the 'additional fees may apply' caveat in fine print creates uncertainty about final cost, preventing a higher score.",
+    "trust": "Strong trust signals: 1,009 reviews at 4.28/5 stars, 100+ bought social proof, owner credentials (20+ years experience), premium brand partnerships (Redken, Paul Mitchell), and positive review samples all build confidence.",
+    "urgency": "Multiple urgency elements work together effectively: active countdown timer (extra $12.51 off ending 6/1), 'limited time' messaging, and 100+ bought social proof. Good combination but not exceptional.",
+    "seo": "Meta title slightly long but acceptable (62 chars), meta description well-optimized at 97 chars with value prop, H1 and H2 structure present, schema markup included. However, missing OG title and OG description hurt social sharing optimization.",
+    "value_comm": "Discount percentage is prominently displayed (Up to 59% Off) but critically, no original price is shown anywhere to validate this claim. Customer sees the deal price but cannot verify the savings, significantly weakening value communication.",
+    "completeness": "Core information present (address in FAQ, appointment requirements, limits, cancellation mention, stylist credentials) but missing several salon-critical details: operating hours, session duration, results longevity, specific cancellation terms, aftercare requirements, and parking info. Additional fees mentioned but not explained."
+  }
+}

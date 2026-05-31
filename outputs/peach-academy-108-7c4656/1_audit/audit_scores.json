@@ -1,0 +1,32 @@
+{
+  "clarity_score": 6,
+  "trust_score": 3,
+  "urgency_score": 7,
+  "seo_score": 4,
+  "value_comm_score": 3,
+  "completeness_score": 4,
+  "overall_score": 4.2,
+  "content_gaps": [
+    "No original price shown — the '81% off' claim is completely unverifiable, leaving customers unable to assess whether $36 represents genuine value",
+    "No course duration or total hours of content specified — critical for online education purchases where time investment is a key decision factor",
+    "No information about access duration — customers cannot tell if they get lifetime access or time-limited access to course materials after purchase",
+    "No instructor credentials or qualifications provided — for a Traditional Chinese Medicine course, instructor expertise is essential to credibility",
+    "No detailed course outline showing specific modules and topics — description mentions 'multiple modules' but provides no curriculum breakdown",
+    "No information about course format — customers don't know if this includes video lessons, PDFs, interactive quizzes, or other learning materials",
+    "No prerequisites or prior knowledge requirements stated — unclear if this is suitable for complete beginners or requires background knowledge",
+    "Certification details extremely vague — no mention of accreditation, industry recognition, or what body issues the diploma"
+  ],
+  "ai_flags": [
+    "81% discount claim with zero original price shown anywhere on page — customers cannot verify this savings claim, which is potentially misleading under standard advertising practices",
+    "Severe trust mismatch: 2.33/5 rating (below average) with 160 reviews suggests significant quality or delivery issues, yet sample review quotes are all positive — the cherry-picked quotes don't reflect the overall poor rating",
+    "Category badges are misleading — page tagged with 'Nail Salons', 'Weight Loss', 'Hair Removal', 'Tanning', 'Makeup' when it's simply an online acupressure course, not any of these physical services"
+  ],
+  "score_reasoning": {
+    "clarity": "Page explains it's an online acupressure diploma course, but lacks critical specifics: no course duration, no module count, no format details. Title 'Massage - Acupressure' is somewhat misleading since this is a course about acupressure, not a massage service customers receive.",
+    "trust": "Very low 2.33/5 rating with 160 reviews is a major red flag that severely undermines credibility. Low sold count (20+) provides weak social proof. The poor rating suggests significant customer dissatisfaction despite positive sample quotes.",
+    "urgency": "Active countdown timer with specific end date (6/1/2026) for extra $3.60 off, plus 'limited time' and 'ends in' messaging creates solid urgency. Timer is live and specific, though low sold count weakens scarcity signal.",
+    "seo": "Has H1 and basic schema markup, but meta description is critically short at only 55 characters (should be ~155). Meta title is generic. Missing both OG title and OG description hurts social sharing. Multiple deficiencies in discoverability.",
+    "value_comm": "Shows '81% off' prominently in title but fails to show original price anywhere on page. Customer has zero context to verify the savings claim or understand what they're saving from. This is a critical failure in value communication.",
+    "completeness": "Missing most category-critical information for online education: course duration, access period, instructor credentials, detailed curriculum, learning format, prerequisites, and certification accreditation. Cautious buyers would have many unanswered questions before purchasing."
+  }
+}

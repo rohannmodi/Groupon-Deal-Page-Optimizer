@@ -1,0 +1,33 @@
+{
+  "clarity_score": 6,
+  "trust_score": 8,
+  "urgency_score": 7,
+  "seo_score": 6,
+  "value_comm_score": 4,
+  "completeness_score": 4,
+  "overall_score": 5.4,
+  "content_gaps": [
+    "No address or specific location shown — customers cannot assess whether the Pasadena location is convenient before purchasing",
+    "No original prices shown to verify the 'up to 73% off' discount claim — customer cannot validate the value proposition",
+    "Illogical pricing structure unexplained — the 20-minute express treatment costs $102.08 while the 40-minute costs only $92.90, which seems backwards and needs justification",
+    "No explanation of 'not valid for clients active within the past 12 months' restriction — unclear if this means first-time clients only or returning clients must wait 12 months between treatments",
+    "No contraindications or eligibility requirements — critical for a cosmetic dental procedure (e.g., sensitive teeth, recent dental work, pregnancy, braces, veneers)",
+    "No information on expected results — how many shades whiter can customers realistically expect from each treatment duration?",
+    "Conflicting expiry terms in fine print — one section states 120 days, another states 180 days promotional value expiry",
+    "No hours of operation or booking process details — customers cannot plan when appointments are available",
+    "No pre-treatment requirements mentioned — e.g., must teeth be professionally cleaned first? Avoid certain foods/drinks beforehand?"
+  ],
+  "ai_flags": [
+    "Discount claim unverifiable — title claims 'Up to 73% Off' but no original prices shown anywhere on the page to substantiate this savings claim",
+    "Conflicting fine print — promotional value expiry stated as both '120 days after purchase' and '180 days after purchase' in different sections, creating customer confusion and potential trust issues",
+    "Illogical pricing hierarchy — 20-minute express treatment ($102.08) costs more than 40-minute treatment ($92.90) with no explanation, which contradicts customer expectations (longer service = higher price) and may signal a data error"
+  ],
+  "score_reasoning": {
+    "clarity": "The service is clearly identified as Zoom teeth whitening with duration options explained. However, the pricing structure is confusing (express 20-min costs MORE than 40-min) and what differentiates each option beyond time is unclear.",
+    "trust": "Strong trust signals: 4.86/5 rating with 449 reviews, 140+ bought count, positive review quotes, and professional credentials. Multiple service badges add authority.",
+    "urgency": "Solid urgency setup with active countdown timer (Extra $10.21 off ending 6/1), 'Limited time' messaging, and 'Ends in' text. The promotion timestamp confirms this is a live offer.",
+    "seo": "Basic SEO present with meta title, meta description (112 chars, good length), H1, and schema markup. However, missing OG title and description hurts social shareability. Meta title could be more keyword-rich.",
+    "value_comm": "Major weakness — title claims 'Up to 73% Off' but no original prices shown anywhere to verify the savings. Discount percentage is stated but can't be validated, significantly weakening the value proposition.",
+    "completeness": "Critical information missing for a cosmetic dental procedure: no address/location details, no contraindications, conflicting expiry dates in fine print, confusing client eligibility restriction, no hours, and no expected results guidance."
+  }
+}

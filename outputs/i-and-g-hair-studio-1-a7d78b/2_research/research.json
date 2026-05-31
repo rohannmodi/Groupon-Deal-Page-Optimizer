@@ -1,0 +1,211 @@
+{
+  "raw_research": {
+    "deal_id": "i-and-g-hair-studio-1-a7d78b",
+    "yelp": null,
+    "google": null,
+    "competitors": [
+      {
+        "competitor_name": "DNYC Service & Prices",
+        "service_name": "hair salon",
+        "regular_price": 350.0,
+        "sale_price": 250.0,
+        "source_url": "https://dramaticsnyc.com/prices/",
+        "notes": null,
+        "sku_match_confidence": 0.5,
+        "is_merchant": true,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "92.7/96.9 WRRV",
+        "service_name": "hair salon",
+        "regular_price": 300.0,
+        "sale_price": 150.0,
+        "source_url": "https://wrrv.com/average-cost-of-new-york-haircut/",
+        "notes": null,
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Muresalon",
+        "service_name": "hair salon",
+        "regular_price": 395.0,
+        "sale_price": 350.0,
+        "source_url": "https://muresalon.com/pricing/",
+        "notes": null,
+        "sku_match_confidence": 0.5,
+        "is_merchant": true,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Explore Our Tailored Pricing Options",
+        "service_name": "hair salon",
+        "regular_price": 750.0,
+        "sale_price": 700.0,
+        "source_url": "https://www.romanksalon.com/pricing",
+        "notes": null,
+        "sku_match_confidence": 0.5,
+        "is_merchant": true,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "KIDA NYC",
+        "service_name": "hair salon",
+        "regular_price": 600.0,
+        "sale_price": 250.0,
+        "source_url": "https://kidanyc.com/salon/services/",
+        "notes": null,
+        "sku_match_confidence": 0.5,
+        "is_merchant": true,
+        "match_type": "close"
+      }
+    ],
+    "category_context": {
+      "category": "Hair Salon",
+      "city": "New York",
+      "typical_price_low": 45.0,
+      "typical_price_high": 150.0,
+      "typical_discount_pct": 40.0,
+      "notes": "Research quality: 9/18 sources accepted (9 rejected as non-competitor/informational). Validated market range for hair salon services in New York: $45–$150 Groupon price ($62.10) is within validated market range. Saves ~$35 vs market midpoint.",
+      "search_results": [
+        {
+          "title": "DNYC Service & Prices",
+          "url": "https://dramaticsnyc.com/prices/",
+          "snippet": "DNYC Service & Prices · Single Process | $80 – $90 (No PPD, No PTD) · Partial Highlights | $90 – $150 · Full Highlights | $150 – $300 · Double Process | $100 – $250 ...",
+          "position": 1
+        },
+        {
+          "title": "Service Pricing",
+          "url": "https://www.romanksalon.com/pricing",
+          "snippet": "By Roman. Women's Haircut. From $275 · Haircuts & Styling. Women's Haircut. From $125 · Hair Coloring. Single Process. From $130 · Hair Extensions. Braidless Sew- ...",
+          "position": 2
+        },
+        {
+          "title": "Services Prices – Salon West NYC",
+          "url": "https://salonwestnyc.com/services/services-prices/",
+          "snippet": "Services Prices ; HAIRCUTS. SHORT HAIR, $45-$85 ; COLOR SERVICES. GLOSS, $45-$100 ; STYLING. BLOWDRY STYLE, $40-$70 ; TEXTURE SERVICES. KERATIN TREATMENT, $350-$450.",
+          "position": 4
+        },
+        {
+          "title": "Pricing - Lemon Tree Hair Salon in New Hyde Park.",
+          "url": "https://lemontree.com/new-hyde-park/about/pricing",
+          "snippet": "Haircutting & Styling ; Formal Style · Starting at $50 ; Buzz Cut · Starting at $16 ; Curling Iron Only · Starting at $2 ; Bang Trim · Starting at $3.",
+          "position": 5
+        },
+        {
+          "title": "DNYC Service & Prices",
+          "url": "https://dramaticsnyc.com/prices/",
+          "snippet": "DNYC Service & Prices · Blow Dry | $45 – $65 · Shampoo & Cut (Only) | $42 (First Available Stylist/No Booking Needed) · Shampoo Cut & Style | $65 – $85 · Updos | ...",
+          "position": 2
+        },
+        {
+          "title": "Services Prices – Salon West NYC",
+          "url": "https://salonwestnyc.com/services/services-prices/",
+          "snippet": "Services Prices ; HAIRCUTS. SHORT HAIR, $45-$85 ; COLOR SERVICES. GLOSS, $45-$100 ; STYLING. BLOWDRY STYLE, $40-$70 ; TEXTURE SERVICES. KERATIN TREATMENT, $350-$450.",
+          "position": 3
+        },
+        {
+          "title": "Service Pricing",
+          "url": "https://www.romanksalon.com/pricing",
+          "snippet": "By Roman. Women's Haircut. From $275 · Haircuts & Styling. Women's Haircut. From $125 · Hair Coloring. Single Process. From $130 · Hair Extensions. Braidless Sew- ...",
+          "position": 5
+        },
+        {
+          "title": "DNYC Service & Prices",
+          "url": "https://dramaticsnyc.com/prices/",
+          "snippet": "All prices are determined by the length and texture of hair. Hair Cutting & Styling | Service Prices Blow Dry | $45 – $65 Shampoo & Cut (Only) | $42",
+          "position": 1
+        }
+      ]
+    },
+    "sources": [
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://dramaticsnyc.com/prices/",
+        "source_title": "DNYC Service & Prices",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T18:17:03.998291"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://wrrv.com/average-cost-of-new-york-haircut/",
+        "source_title": "92.7/96.9 WRRV",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T18:17:03.998308"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://muresalon.com/pricing/",
+        "source_title": "Muresalon",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T18:17:03.998313"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.romanksalon.com/pricing",
+        "source_title": "Explore Our Tailored Pricing Options",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T18:17:03.998318"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://kidanyc.com/salon/services/",
+        "source_title": "KIDA NYC",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T18:17:03.998321"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://salonwestnyc.com/services/services-prices/",
+        "source_title": "Services Prices – Salon West NYC",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-31T18:17:03.998335"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://lemontree.com/new-hyde-park/about/pricing",
+        "source_title": "Pricing - Lemon Tree Hair Salon in New Hyde Park.",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-31T18:17:03.998341"
+      }
+    ],
+    "quality": {
+      "competitor_pricing_status": "low_confidence",
+      "merchant_reputation_status": "no_data",
+      "category_context_status": "validated",
+      "pricing_verifiable": false,
+      "overall_confidence": 0.4,
+      "sources_found": 5,
+      "sources_accepted": 5,
+      "sources_rejected": 0
+    }
+  },
+  "synthesis": {
+    "value_assessment": "marginal",
+    "value_reasoning": "Groupon price is $62.10 for a women's haircut, blow dry and style. No original strikethrough pricing was captured from the deal page, so the claimed \"Up To 38% Off\" cannot be verified. The validated market range for hair salon services in New York is $45–$150, with the Groupon price falling in the lower-middle portion of this range. Moderate-confidence competitor data shows basic haircut+style pricing ranging from $65–$85 (DNYC Service & Prices shows \"Shampoo Cut & Style | $65 – $80\" at 50% SKU confidence). The savings appear modest — approximately $3–$18 vs. comparable services — but product match verification is incomplete. For the balayage tiers ($197.10 and $202.50), moderate-confidence competitor data shows partial balayage ranging $90–$350 and full balayage $150–$750, making verification of those tiers impossible without higher-confidence matches.",
+    "groupon_vs_direct_savings": null,
+    "groupon_vs_competitor_savings": null,
+    "merchant_differentiators": [],
+    "red_flags": [
+      "No third-party reviews found (Yelp/Google unavailable) — cannot assess merchant reputation independently of 3 Groupon reviews.",
+      "Original prices not captured from deal page — the claimed 'Up To 38% Off' discount cannot be verified against specific strikethrough pricing.",
+      "Only 3 Groupon ratings (5.0★) provide insufficient demand signal to assess service consistency or reputation at scale.",
+      "No high-confidence (≥70%) competitor price matches found — all 5 competitor sources show 25–50% SKU confidence, making precise market positioning unclear."
+    ],
+    "deal_quality": "average",
+    "deal_quality_score": 4.2,
+    "key_insight": "This is a weak deal (5.0★ but only 3 ratings, no verified reputation data, marginal pricing at $62.10 vs. $65–$85 market floor with unverified discount claims) with insufficient data to assess page quality — the core problem is lack of demand signals and reputation verification, not communication strategy.",
+    "overall_verdict": "This is a weak deal because it lacks verifiable value and reputation signals: the $62.10 price falls within the validated $45–$150 market range but shows only marginal savings ($3–$18) vs. moderate-confidence competitors, the claimed \"Up To 38% Off\" cannot be verified due to missing original prices, and the merchant has zero third-party review presence (no Yelp or Google data) with only 3 Groupon ratings. The page cannot overcome these structural problems — without independent reputation data or verified discount claims, potential customers have no trust anchors beyond Groupon's platform rating. The biggest opportunity is not copy optimization but rather building verifiable social proof (encouraging Yelp/Google reviews) and clarifying original pricing to substantiate the discount claim. Competitor pricing data is low-confidence across all sources (25–50% SKU match), making it impossible to position this as a clear market leader on price alone; the deal survives on Groupon's distribution rather than demonstrable competitive advantage.",
+    "review_themes": []
+  },
+  "data_quality": {
+    "competitor_pricing_status": "low_confidence",
+    "merchant_reputation_status": "no_data",
+    "category_context_status": "validated",
+    "pricing_verifiable": false,
+    "overall_confidence": 0.4,
+    "sources_found": 5,
+    "sources_accepted": 5,
+    "sources_rejected": 0
+  }
+}

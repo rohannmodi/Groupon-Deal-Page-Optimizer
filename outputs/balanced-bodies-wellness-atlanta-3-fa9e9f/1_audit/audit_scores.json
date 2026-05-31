@@ -1,0 +1,30 @@
+{
+  "clarity_score": 4,
+  "trust_score": 6,
+  "urgency_score": 7,
+  "seo_score": 5,
+  "value_comm_score": 5,
+  "completeness_score": 5,
+  "overall_score": 5.1,
+  "content_gaps": [
+    "No clarity on exact quantity included — does $40.50 buy one B12 injection and one MIC injection, or multiple sessions, or a choice between the two? The plural 'injections' is ambiguous.",
+    "No original/regular price displayed — customer cannot verify the 'up to 60% off' discount claim or assess the true value of the deal.",
+    "No explanation of what 'MIC Fat Burner' injection is — the acronym is unexplained and benefits are unclear to customers unfamiliar with this treatment.",
+    "No session duration mentioned — customer cannot plan how much time to allocate for the appointment and InBody analysis.",
+    "No specific eligibility criteria or contraindications provided — fine print says consultation may result in refund 'if ineligible' but doesn't explain who cannot receive B12/MIC injections (pregnant women, certain medical conditions, etc.).",
+    "No business address shown on the deal page — customer cannot assess location convenience or proximity before purchasing.",
+    "No hours of operation listed — customer cannot determine if appointment availability will fit their schedule before committing.",
+    "No detail on what the InBody composition analysis entails — is it a quick body scan or a comprehensive consultation? How long does it take?"
+  ],
+  "ai_flags": [
+    "Discount claim unsupported: 'Up to 60% Off' is displayed prominently in the title and pricing, but no original price or regular price is shown anywhere on the page to verify the savings — customer cannot validate the value proposition."
+  ],
+  "score_reasoning": {
+    "clarity": "The page is vague about what the customer receives for $40.50. The highlights list 'B12 and MIC Fat Burner injections' (plural) and 'InBody composition analysis' but don't specify if this is one injection of each, multiple sessions, or a choice between treatments.",
+    "trust": "Solid 5.0/5.0 rating and professional credentials (decades of experience, state-licensed pharmacies) build credibility, but review count is low (12) and sold count modest (70+). Trust signals are present but not exceptional.",
+    "urgency": "Active countdown promotion with specific end date (extra $4.05 off ends 6/1/2026) combined with 'limited time' messaging creates effective urgency to act now.",
+    "seo": "Meta description is only 68 characters — far too short to maximize search snippet real estate (should be ~155 chars). OG title and description are missing. Basic elements (title, H1, schema) are present but optimization is incomplete.",
+    "value_comm": "Shows 'up to 60% off' in the title, which provides some value context, but no original price is displayed anywhere to verify the claim or help customer assess the actual savings. Weak value framing.",
+    "completeness": "Missing critical practical and medical information: exact quantity/sessions included, session duration, specific address, hours, eligibility criteria/contraindications, and explanation of what MIC and InBody analysis are. Appointment and waiver requirements are stated, but gaps remain."
+  }
+}

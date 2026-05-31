@@ -1,0 +1,31 @@
+{
+  "clarity_score": 6,
+  "trust_score": 5,
+  "urgency_score": 7,
+  "seo_score": 5,
+  "value_comm_score": 5,
+  "completeness_score": 4,
+  "overall_score": 5.1,
+  "content_gaps": [
+    "No original price shown anywhere on the page — customer cannot verify the claimed '55% off' discount, undermining the value proposition",
+    "No mention of whether appointment is required or how to book after purchasing the voucher — critical for a spa service where advance scheduling is typically necessary",
+    "No detail on what the 'Signature Facial' includes (steps, products used, specific techniques, duration) — customers purchasing a facial need to understand what treatment they're receiving",
+    "Ambiguous whether the 60/90 minutes represents total session time or just the massage portion — customer cannot accurately plan their time commitment",
+    "No spa operating hours or days of operation listed — customer cannot assess scheduling convenience before purchasing",
+    "No cancellation or rescheduling policy mentioned — important for advance spa bookings where plans may change",
+    "No information about therapist qualifications, licensing, or credentials — important trust signal for bodywork and skincare services",
+    "No parking, facility access, or arrival instructions for the Milton, GA location — first-time visitors need practical logistics"
+  ],
+  "ai_flags": [
+    "Discount claim 'Up to 55% Off' prominently displayed in title but no original/regular price shown anywhere on page — customer has no way to verify the savings claim or understand the absolute value",
+    "Fine print states 'Consultation required before service. If you are ineligible, a refund will be provided' but provides zero criteria for eligibility — creates uncertainty about whether the purchase might be rejected after buying"
+  ],
+  "score_reasoning": {
+    "clarity": "The page clearly states what customers receive (upper body massage + facial) and shows two duration options with transparent pricing. However, 'Signature Facial' is undefined, and it's ambiguous whether 60/90 min is total time or just massage duration. Neck and décolleté area is specified for massage, which helps.",
+    "trust": "Rating is excellent at 5.0/5.0, but based on only 9 reviews — very low sample size that limits credibility. Sold count of 20+ is modest. Positive review quotes are shown and helpful, but overall trust signals are weak for a bodywork service where credentials matter.",
+    "urgency": "Active countdown timer with specific promo end date (6/1/2026) plus 'Limited time' and 'Ends in' messaging creates genuine urgency. The extra $8.10 off promotion is concrete and time-bound.",
+    "seo": "Meta title is well-optimized (under 60 chars, includes location and price). However, meta description is severely underutilized at only 52 characters vs. 155 limit — missing opportunity to communicate value in search results. Schema markup present but OG tags completely missing, hurting social sharing.",
+    "value_comm": "Page displays the discount percentage (up to 55% off) and clear deal prices, but critically fails to show the original/regular price anywhere. Customer cannot verify the claimed savings or assess absolute value. No competitor comparison or market context provided.",
+    "completeness": "Multiple category-critical gaps for a spa service: no booking instructions, no operating hours, unclear session duration breakdown, undefined facial treatment details, no cancellation policy, no therapist credentials, no parking info. FAQ provides address but leaves most practical questions unanswered."
+  }
+}

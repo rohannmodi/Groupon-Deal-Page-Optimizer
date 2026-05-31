@@ -1,0 +1,193 @@
+{
+  "raw_research": {
+    "deal_id": "hector-s-salon-2-5-b7afa1",
+    "yelp": null,
+    "google": null,
+    "competitors": [
+      {
+        "competitor_name": "Booksy",
+        "service_name": "hair salon",
+        "regular_price": 500.0,
+        "sale_price": 300.0,
+        "source_url": "https://booksy.com/en-us/s/permanent-hair-color/134094_north-hollywood",
+        "notes": null,
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Noho Hair Salon",
+        "service_name": "hair salon",
+        "regular_price": 150.0,
+        "sale_price": 80.0,
+        "source_url": "http://places.singleplatform.com/noho-hair-salon/menu",
+        "notes": null,
+        "sku_match_confidence": 1.0,
+        "is_merchant": true,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "The Ministry Salon",
+        "service_name": "hair salon",
+        "regular_price": null,
+        "sale_price": null,
+        "source_url": "https://www.theministrysalon.com/north-hollywood-ca/haircuts",
+        "notes": "Price not found on page",
+        "sku_match_confidence": 0.83,
+        "is_merchant": true,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "We Are a Full-Service Multi-Cultural Hair Salon",
+        "service_name": "hair salon",
+        "regular_price": null,
+        "sale_price": null,
+        "source_url": "https://www.haircoutureme.com/",
+        "notes": "Price not found on page",
+        "sku_match_confidence": 1.0,
+        "is_merchant": true,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Kalo Beauty Simplified in North Hollywood, CA",
+        "service_name": "hair salon",
+        "regular_price": 1000.0,
+        "sale_price": 295.0,
+        "source_url": "https://square.site/book/D9FFADRN2V59A/kalo-beauty-simplified-north-hollywood-ca",
+        "notes": null,
+        "sku_match_confidence": 0.32,
+        "is_merchant": true,
+        "match_type": "close"
+      }
+    ],
+    "category_context": {
+      "category": "Hair Salon",
+      "city": "North Hollywood",
+      "typical_price_low": 65.0,
+      "typical_price_high": 80.0,
+      "typical_discount_pct": 40.0,
+      "notes": "Research quality: 5/18 sources accepted (13 rejected as non-competitor/informational). Validated market range for hair salon services in North Hollywood: $65–$80 Groupon price ($125.10) is ABOVE the validated market range ($65–$80) — verify value proposition.",
+      "search_results": [
+        {
+          "title": "Hair by Kayla - North Hollywood - Book Online",
+          "url": "https://booksy.com/en-us/1333207_hair-by-kayla_hair-salon_134655_los-angeles",
+          "snippet": "Color Consultation. Not sure what color or lightening service to book. · Hair Extensions Consultation. Not sure if extensions are for you? · Blow Dry. $65.00.",
+          "position": 2
+        },
+        {
+          "title": "Menus for Noho Hair Salon - North Hollywood - SinglePlatform",
+          "url": "http://places.singleplatform.com/noho-hair-salon/menu",
+          "snippet": "Services ; Color · Bleach Retouch. Starting at $80.00 ; Cuts · Shampoo and BlowDry. Starting at $35.00 ; Style · Straightening & Extensions. Please Call for a Free ...",
+          "position": 4
+        },
+        {
+          "title": "Hair By Robbie - Los Angeles - Book Online",
+          "url": "https://booksy.com/en-us/1672539_hair-by-robbie_hair-salon_134655_los-angeles",
+          "snippet": "Free Consultation. Free. 30min. Book · Partial highlight. $220.00+. 1h 30min. Book · Blowout hair. $65.00. 30min. Book · All over color. $150.00+. 2h. Book · Luxe ...",
+          "position": 2
+        },
+        {
+          "title": "Menus for Noho Hair Salon - North Hollywood - SinglePlatform",
+          "url": "http://places.singleplatform.com/noho-hair-salon/menu",
+          "snippet": "Services ; Color · Bleach Retouch. Starting at $80.00 ; Cuts · Shampoo and BlowDry. Starting at $35.00 ; Style · Straightening & Extensions. Please Call for a Free ...",
+          "position": 3
+        },
+        {
+          "title": "Hair by Kayla - North Hollywood - Book Online",
+          "url": "https://booksy.com/en-us/1333207_hair-by-kayla_hair-salon_134655_los-angeles",
+          "snippet": "Color Consultation. Not sure what color or lightening service to book. · Hair Extensions Consultation. Not sure if extensions are for you? · Blow Dry. $65.00.",
+          "position": 2
+        }
+      ]
+    },
+    "sources": [
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://booksy.com/en-us/s/permanent-hair-color/134094_north-hollywood",
+        "source_title": "Booksy",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T15:34:07.210761"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "http://places.singleplatform.com/noho-hair-salon/menu",
+        "source_title": "Noho Hair Salon",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T15:34:07.210780"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.theministrysalon.com/north-hollywood-ca/haircuts",
+        "source_title": "The Ministry Salon",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T15:34:07.210784"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.haircoutureme.com/",
+        "source_title": "We Are a Full-Service Multi-Cultural Hair Salon",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T15:34:07.210788"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://square.site/book/D9FFADRN2V59A/kalo-beauty-simplified-north-hollywood-ca",
+        "source_title": "Kalo Beauty Simplified in North Hollywood, CA",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T15:34:07.210792"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://booksy.com/en-us/1333207_hair-by-kayla_hair-salon_134655_los-angeles",
+        "source_title": "Hair by Kayla - North Hollywood - Book Online",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-31T15:34:07.210800"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://booksy.com/en-us/1672539_hair-by-robbie_hair-salon_134655_los-angeles",
+        "source_title": "Hair By Robbie - Los Angeles - Book Online",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-31T15:34:07.210808"
+      }
+    ],
+    "quality": {
+      "competitor_pricing_status": "verified",
+      "merchant_reputation_status": "no_data",
+      "category_context_status": "validated",
+      "pricing_verifiable": false,
+      "overall_confidence": 0.6,
+      "sources_found": 7,
+      "sources_accepted": 3,
+      "sources_rejected": 2
+    }
+  },
+  "synthesis": {
+    "value_assessment": "overpriced",
+    "value_reasoning": "Groupon price is $125.10 for one Brazilian Blowout and Wash. The single high-confidence competitor price found is Noho Hair Salon at $80.00 (100% SKU confidence, close match) for the same service category in North Hollywood. Groupon is $45.10 MORE expensive than this verified market alternative. The category context report states \"Validated market range for hair salon services in North Hollywood: $65–$80\" and explicitly notes \"Groupon price ($125.10) is ABOVE the validated market range ($65–$80).\" This is not a genuine deal — the Groupon price is 56% higher than the high-confidence competitor and 57%-92% above the validated market range floor.",
+    "groupon_vs_direct_savings": null,
+    "groupon_vs_competitor_savings": -45.1,
+    "merchant_differentiators": [],
+    "red_flags": [
+      "Groupon price ($125.10) is $45.10 MORE expensive than high-confidence competitor Noho Hair Salon ($80.00 for Brazilian Blowout, 100% SKU match) — customers would save money buying direct from competitors rather than using this 'deal'",
+      "No third-party reviews found (Yelp/Google unavailable) — cannot assess merchant reputation independently of 1,009 Groupon reviews despite this being an established business",
+      "Deal page pricing not verifiable — original prices not captured from the page, so the claimed 59% discount cannot be independently confirmed",
+      "Category context report explicitly flags: 'Groupon price ($125.10) is ABOVE the validated market range ($65–$80)' — this deal is priced 57%-92% above market floor"
+    ],
+    "deal_quality": "weak",
+    "deal_quality_score": 3.2,
+    "key_insight": "This is a weak deal ($125.10 vs. $80 high-confidence competitor price — 56% MORE expensive, not a savings) with a moderate Groupon rating (4.28★, 1,009 ratings) but no independent reputation data — copy optimization cannot fix a fundamental pricing problem where competitors charge $45 less for the same service.",
+    "overall_verdict": "This is a weak deal because the Groupon price ($125.10) is $45.10 MORE expensive than the high-confidence competitor Noho Hair Salon ($80.00 for Brazilian Blowout, 100% SKU match) and sits 57%-92% above the validated North Hollywood market range of $65–$80 for hair salon services. The page claims \"Up to 59% Off\" but original pricing could not be verified from the deal page, and the actual market comparison shows Groupon is overpriced, not discounted. The single biggest opportunity is addressing the pricing strategy — no amount of page optimization can overcome a $45 price disadvantage where buying direct from competitors is cheaper than the \"deal.\" The merchant has a moderate 4.28★ Groupon rating with 1,009 ratings, but zero independent third-party reviews (Yelp/Google) were found to validate service quality or differentiate the merchant from competitors.",
+    "review_themes": []
+  },
+  "data_quality": {
+    "competitor_pricing_status": "verified",
+    "merchant_reputation_status": "no_data",
+    "category_context_status": "validated",
+    "pricing_verifiable": false,
+    "overall_confidence": 0.6,
+    "sources_found": 7,
+    "sources_accepted": 3,
+    "sources_rejected": 2
+  }
+}

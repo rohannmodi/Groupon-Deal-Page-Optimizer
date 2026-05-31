@@ -1,0 +1,55 @@
+{
+  "raw_research": {
+    "deal_id": "red-lion-tavern-3-920bfe",
+    "yelp": null,
+    "google": null,
+    "competitors": [],
+    "category_context": {
+      "category": "German Restaurant",
+      "city": "Los Angeles",
+      "typical_price_low": null,
+      "typical_price_high": null,
+      "typical_discount_pct": 20.0,
+      "notes": "No validated market pricing found — treat price estimates as uncertain.",
+      "search_results": []
+    },
+    "sources": [],
+    "quality": {
+      "competitor_pricing_status": "no_data",
+      "merchant_reputation_status": "no_data",
+      "category_context_status": "no_data",
+      "pricing_verifiable": false,
+      "overall_confidence": 0.0,
+      "sources_found": 0,
+      "sources_accepted": 0,
+      "sources_rejected": 0
+    }
+  },
+  "synthesis": {
+    "value_assessment": "marginal",
+    "value_reasoning": "No competitor pricing data was collected, and the deal page's original prices were not captured, making it impossible to verify the claimed 43% discount. The Groupon price is $30 for two beers and a sausage platter for two people ($15/person), which represents a typical category discount of ~20% according to category context notes, but without high-confidence competitor data or direct booking prices, the actual market value cannot be confirmed. The deal appears marginal rather than a genuine deal because the discount claim (43%) cannot be verified and no competitive alternatives were identified to establish true market savings.",
+    "groupon_vs_direct_savings": null,
+    "groupon_vs_competitor_savings": null,
+    "merchant_differentiators": [],
+    "red_flags": [
+      "No third-party reviews found (Yelp/Google unavailable) — cannot assess merchant reputation independently of 3,898 Groupon reviews.",
+      "Claimed 43% discount cannot be verified — original prices not captured from the deal page and no competitor pricing data collected.",
+      "No verified Yelp or Google listing found for the merchant — unable to corroborate Groupon rating of 4.79/5 through independent review platforms."
+    ],
+    "deal_quality": "good",
+    "deal_quality_score": 7.0,
+    "key_insight": "This deal has strong Groupon demand signals (4.79★, 3,898 ratings) but lacks any verifiable competitive pricing or independent reputation data — the opportunity lies in third-party validation research, not page optimization, as we cannot confirm whether this is genuinely a good deal without competitor benchmarks.",
+    "overall_verdict": "This is an average-quality deal with strong on-platform demand signals (4.79★ Groupon rating, 3,898 reviews) but completely unverifiable market positioning — no competitor pricing data was collected, no direct booking price was found, and the deal page's original prices were not captured, making the claimed 43% discount impossible to confirm. The primary problem is not the page but the research infrastructure: without Yelp/Google reviews or competitive pricing benchmarks, we cannot assess whether $30 for two beers and a sausage platter for two people represents genuine market savings or merely typical category discounting. The biggest opportunity is conducting proper competitive research to establish baseline market pricing for comparable German restaurant experiences in Los Angeles, which would either validate this as a strong deal worth promoting aggressively or reveal it as marginal value requiring repositioning. At $15/person for beers and food, the deal intuitively seems reasonable for a tavern experience, but data-driven optimization requires actual competitor benchmarks that are currently missing.",
+    "review_themes": []
+  },
+  "data_quality": {
+    "competitor_pricing_status": "no_data",
+    "merchant_reputation_status": "no_data",
+    "category_context_status": "no_data",
+    "pricing_verifiable": false,
+    "overall_confidence": 0.0,
+    "sources_found": 0,
+    "sources_accepted": 0,
+    "sources_rejected": 0
+  }
+}

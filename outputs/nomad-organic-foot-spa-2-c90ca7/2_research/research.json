@@ -1,0 +1,173 @@
+{
+  "raw_research": {
+    "deal_id": "nomad-organic-foot-spa-2-c90ca7",
+    "yelp": null,
+    "google": null,
+    "competitors": [
+      {
+        "competitor_name": "creativewellness",
+        "service_name": "massage therapy",
+        "regular_price": 264.0,
+        "sale_price": 205.0,
+        "source_url": "https://www.creativewellnessstrategies.com/prices",
+        "notes": null,
+        "sku_match_confidence": 0.5,
+        "is_merchant": true,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Booksy",
+        "service_name": "massage therapy",
+        "regular_price": 1500.0,
+        "sale_price": 300.0,
+        "source_url": "https://booksy.com/en-us/1778481_sandra-massage-services_other_22412_boston",
+        "notes": null,
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Down Under School of Yoga",
+        "service_name": "massage therapy",
+        "regular_price": 165.0,
+        "sale_price": 125.0,
+        "source_url": "https://downunderyoga.com/holistic-wellness-massage",
+        "notes": null,
+        "sku_match_confidence": 0.5,
+        "is_merchant": true,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "vagaro.com",
+        "service_name": "massage therapy",
+        "regular_price": 15.99,
+        "sale_price": null,
+        "source_url": "https://www.vagaro.com/professionals/massage/brookline--ma",
+        "notes": null,
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "nomadorganicfootspa",
+        "service_name": "massage therapy",
+        "regular_price": 128.0,
+        "sale_price": 65.0,
+        "source_url": "https://www.nomadorganicspa.com/",
+        "notes": "DIRECT_BOOKING_CANDIDATE — use for groupon_vs_direct_savings",
+        "sku_match_confidence": 0.5,
+        "is_merchant": true,
+        "match_type": "close"
+      }
+    ],
+    "category_context": {
+      "category": "Spa & Massage",
+      "city": "Brookline",
+      "typical_price_low": 120.0,
+      "typical_price_high": 205.0,
+      "typical_discount_pct": 50.0,
+      "notes": "Research quality: 3/6 sources accepted (3 rejected as non-competitor/informational). Validated market range for massage therapy in Brookline: $120–$205 Groupon price ($65.00) is BELOW the validated market low ($120) — strong deal.",
+      "search_results": [
+        {
+          "title": "Prices | Creative Wellness - Brookline MA",
+          "url": "https://www.creativewellnessstrategies.com/prices",
+          "snippet": "Prices ; Massage Services ; Master Therapist Massage • 60min- $186 • 90min- $264 ; Prenatal or Postnatal Massage Session • 60min- $140 • 90min- $205.",
+          "position": 1
+        },
+        {
+          "title": "Massage Near Me in Brookline: TOP 20 Therapists May 2026",
+          "url": "https://booksy.com/en-us/s/massage/22327_brookline",
+          "snippet": "... Two Hour Therapeutic Massage. $150.00. 2h. Book. 90 Minute Deep Tissue Massage. $120.00. 1h 30min. Book. Deep Tissue Massage. Lowest price in 30 days, before ...",
+          "position": 5
+        },
+        {
+          "title": "Nomad Organic Foot Spa: Massage | North Brookline",
+          "url": "https://www.nomadorganicspa.com/",
+          "snippet": "Chair Muscle Recovery Therapy. 30mins $45. 15mins $30. Chair massage is typically short -- 15 or 30 mins and focuses on your back, shoulders and neck and arms.",
+          "position": 6
+        }
+      ]
+    },
+    "sources": [
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.creativewellnessstrategies.com/prices",
+        "source_title": "creativewellness",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T00:30:30.812272"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://booksy.com/en-us/1778481_sandra-massage-services_other_22412_boston",
+        "source_title": "Booksy",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T00:30:30.812286"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://downunderyoga.com/holistic-wellness-massage",
+        "source_title": "Down Under School of Yoga",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T00:30:30.812289"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.vagaro.com/professionals/massage/brookline--ma",
+        "source_title": "vagaro.com",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T00:30:30.812291"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.nomadorganicspa.com/",
+        "source_title": "nomadorganicfootspa",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T00:30:30.812293"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://booksy.com/en-us/s/massage/22327_brookline",
+        "source_title": "Massage Near Me in Brookline: TOP 20 Therapists May 2026",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-31T00:30:30.812299"
+      }
+    ],
+    "quality": {
+      "competitor_pricing_status": "low_confidence",
+      "merchant_reputation_status": "no_data",
+      "category_context_status": "validated",
+      "pricing_verifiable": false,
+      "overall_confidence": 0.4,
+      "sources_found": 5,
+      "sources_accepted": 5,
+      "sources_rejected": 0
+    }
+  },
+  "synthesis": {
+    "value_assessment": "genuine_deal",
+    "value_reasoning": "Groupon price is $65 for the primary option (60-Minute Organic Herbal Foot Reflexology Massage with Asian Body Works Combo). The merchant's own website (nomadorganicspa.com, MODERATE CONFIDENCE 50%) shows this service at $128 (on sale for $65) — Groupon matches the merchant's direct sale price. The validated market range for massage therapy in Brookline is $120–$205 according to category context research. Moderate-confidence competitors include Creative Wellness at $186–$264 for 60–90 minute sessions, and Down Under School of Yoga at $165 (sale $125) for holistic wellness massage. Groupon's $65 price is 46% below the validated market floor of $120. This is a genuine deal based on substantial savings vs. the established market range, though original prices on the Groupon page were not captured for independent verification.",
+    "groupon_vs_direct_savings": 0.0,
+    "groupon_vs_competitor_savings": 55.0,
+    "merchant_differentiators": [],
+    "red_flags": [
+      "Original prices not captured from the Groupon deal page — the claimed 'Up to 22% Off' discount cannot be independently verified from page data, though the $65 price is confirmed well below market.",
+      "No third-party reviews found (Yelp/Google data unavailable) — cannot assess merchant reputation independently of 1,679 Groupon ratings. No verification of service quality, wait times, cleanliness, or other operational factors from neutral review platforms.",
+      "All moderate-confidence competitor prices (50% SKU match confidence) — product comparability not fully verified. Market savings estimate of $55 is based on validated category range ($120–$205) rather than exact service matches."
+    ],
+    "deal_quality": "good",
+    "deal_quality_score": 7.2,
+    "key_insight": "This is a good deal (4.79★ Groupon rating, $65 vs. $120–$205 validated market range, 1,679 ratings) with critical gaps in third-party reputation data (no Yelp/Google reviews available) — the price is strong but the lack of independent verification of merchant quality limits confidence and represents a trust barrier on the page.",
+    "overall_verdict": "This is a good deal with strong pricing fundamentals: $65 is 46% below the validated Brookline massage market floor of $120, and the merchant has accumulated 1,679 Groupon ratings at 4.79★, indicating sustained demand. However, the page suffers from a critical trust gap — no Yelp or Google reviews were found to independently verify service quality, cleanliness, or operational reliability, forcing potential buyers to rely solely on Groupon's platform reviews. The single biggest opportunity is establishing third-party credibility signals: if independent reviews exist but weren't captured, surface them prominently; if they don't exist, focus copy on concrete service details (organic products, therapist qualifications, appointment process) to compensate for the reputation data gap. The $65 Groupon price matches the merchant's own direct sale price ($128 marked down to $65 on nomadorganicspa.com), so there's no savings vs. booking direct, but moderate-confidence competitor research shows Creative Wellness charges $186–$264 and Down Under Yoga charges $125–$165 for comparable services, supporting the genuine_deal assessment despite the 22% discount claim being unverifiable from page data.",
+    "review_themes": []
+  },
+  "data_quality": {
+    "competitor_pricing_status": "low_confidence",
+    "merchant_reputation_status": "no_data",
+    "category_context_status": "validated",
+    "pricing_verifiable": false,
+    "overall_confidence": 0.4,
+    "sources_found": 5,
+    "sources_accepted": 5,
+    "sources_rejected": 0
+  }
+}

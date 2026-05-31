@@ -1,0 +1,175 @@
+{
+  "raw_research": {
+    "deal_id": "peach-academy-108-7c4656",
+    "yelp": null,
+    "google": null,
+    "competitors": [
+      {
+        "competitor_name": "MassageBook",
+        "service_name": "massage therapy",
+        "regular_price": 150.0,
+        "sale_price": 100.0,
+        "source_url": "https://www.massagebook.com/",
+        "notes": null,
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Booksy",
+        "service_name": "massage therapy",
+        "regular_price": 260.0,
+        "sale_price": 150.0,
+        "source_url": "https://booksy.com/en-us/s/massage",
+        "notes": null,
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Serenity Zen | Massage SPA",
+        "service_name": "massage therapy",
+        "regular_price": null,
+        "sale_price": null,
+        "source_url": "https://serenityzen.com/blog/2026/4/29/how-do-i-find-the-best-massage-spa-near-me",
+        "notes": "Price not found on page",
+        "sku_match_confidence": 0.65,
+        "is_merchant": true,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "Therapeutic Massage & Bodywork",
+        "service_name": "massage therapy",
+        "regular_price": 882.0,
+        "sale_price": 199.0,
+        "source_url": "https://utahtherapeuticmassage.com/pricing/",
+        "notes": null,
+        "sku_match_confidence": 0.83,
+        "is_merchant": true,
+        "match_type": "close"
+      },
+      {
+        "competitor_name": "MassageLuXe",
+        "service_name": "massage therapy",
+        "regular_price": 150.0,
+        "sale_price": 115.0,
+        "source_url": "https://massageluxe.com/locations/saratoga-springs-ut/",
+        "notes": null,
+        "sku_match_confidence": 0.25,
+        "is_merchant": false,
+        "match_type": "close"
+      }
+    ],
+    "category_context": {
+      "category": "Online Education",
+      "city": "",
+      "typical_price_low": 50.0,
+      "typical_price_high": 150.0,
+      "typical_discount_pct": 50.0,
+      "notes": "Research quality: 3/18 sources accepted (15 rejected as non-competitor/informational). Validated market range for massage therapy in United States: $50–$150 Groupon price ($36.00) is BELOW the validated market low ($50) — strong deal.",
+      "search_results": [
+        {
+          "title": "Unwinding the Price: Understanding Massage Therapy ...",
+          "url": "https://veevaclinics.com/massage-therapy-session-cost/",
+          "snippet": "Massage therapy session cost typically ranges from $50 to $150 per hour in the United States, with most people paying around $75 for a ...",
+          "position": 4
+        },
+        {
+          "title": "Unwinding the Price: Understanding Massage Therapy ...",
+          "url": "https://veevaclinics.com/massage-therapy-session-cost/",
+          "snippet": "Massage therapy session cost typically ranges from $50 to $150 per hour in the United States, with most people paying around $75 for a ...",
+          "position": 6
+        },
+        {
+          "title": "Unwinding the Price: Understanding Massage Therapy ...",
+          "url": "https://veevaclinics.com/massage-therapy-session-cost/",
+          "snippet": "Massage therapy session cost typically ranges from $50 to $150 per hour in the United States, with most people paying around $75 for a ...",
+          "position": 6
+        }
+      ]
+    },
+    "sources": [
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://www.massagebook.com/",
+        "source_title": "MassageBook",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T16:59:33.592526"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://booksy.com/en-us/s/massage",
+        "source_title": "Booksy",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T16:59:33.592560"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://serenityzen.com/blog/2026/4/29/how-do-i-find-the-best-massage-spa-near-me",
+        "source_title": "Serenity Zen | Massage SPA",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T16:59:33.592565"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://utahtherapeuticmassage.com/pricing/",
+        "source_title": "Therapeutic Massage & Bodywork",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T16:59:33.592570"
+      },
+      {
+        "source_type": "direct_scrape",
+        "source_url": "https://massageluxe.com/locations/saratoga-springs-ut/",
+        "source_title": "MassageLuXe",
+        "relevance": "competitor_price",
+        "fetched_at": "2026-05-31T16:59:33.592574"
+      },
+      {
+        "source_type": "web_search",
+        "source_url": "https://veevaclinics.com/massage-therapy-session-cost/",
+        "source_title": "Unwinding the Price: Understanding Massage Therapy ...",
+        "relevance": "category_context",
+        "fetched_at": "2026-05-31T16:59:33.592598"
+      }
+    ],
+    "quality": {
+      "competitor_pricing_status": "verified",
+      "merchant_reputation_status": "no_data",
+      "category_context_status": "validated",
+      "pricing_verifiable": false,
+      "overall_confidence": 0.6,
+      "sources_found": 6,
+      "sources_accepted": 4,
+      "sources_rejected": 1
+    }
+  },
+  "synthesis": {
+    "value_assessment": "marginal",
+    "value_reasoning": "The Groupon price is $36.00 for an Online Diploma in Acupressure. The only HIGH-CONFIDENCE competitor found is Therapeutic Massage & Bodywork at $199 (on sale, regularly $882) with 83% SKU confidence — but this appears to be for in-person certification training, not an online diploma, making direct comparison questionable. The validated market range from research is $50–$150 per hour for massage therapy sessions (source: veevaclinics.com) — but this is for SERVICES, not educational diplomas. The deal page categorizes this as \"Online Education\" but the title says \"Massage - Acupressure\" creating category confusion. The $36 price is below the $50 service market floor, but we're comparing apples to oranges (education vs. service delivery). Original prices were NOT captured from the deal page, so the claimed 81% discount cannot be verified. Given the category mismatch in available competitor data and unverifiable discount claim, this is marked marginal rather than genuine_deal.",
+    "groupon_vs_direct_savings": null,
+    "groupon_vs_competitor_savings": null,
+    "merchant_differentiators": [],
+    "red_flags": [
+      "Deal page categorized as 'Online Education' but titled 'Massage - Acupressure' — creating category confusion that makes value assessment difficult for customers",
+      "No third-party reviews found (Yelp/Google unavailable) — cannot assess merchant reputation independently of 160 Groupon reviews at 2.33/5.0",
+      "Groupon rating is 2.33/5.0 from 160 reviews — significantly below the 4.0+ threshold for strong merchant reputation, indicating substantial customer dissatisfaction",
+      "Original prices not captured from deal page — the claimed 81% discount cannot be independently verified",
+      "Only one HIGH-CONFIDENCE competitor ($199 from Utah Therapeutic Massage, 83% match) but appears to be for in-person certification vs. online diploma — product type mismatch undermines price comparison validity"
+    ],
+    "deal_quality": "average",
+    "deal_quality_score": 4.0,
+    "key_insight": "This is a weak deal (2.33★ rating from 160 reviews, unverifiable 81% discount claim, category confusion between education vs. service) with insufficient data to assess page quality — the core problem is merchant reputation (2.33/5.0) and lack of transparent pricing verification, not page communication.",
+    "overall_verdict": "This is a weak deal because the merchant has a 2.33/5.0 rating from 160 Groupon reviews — well below the 4.0+ threshold for strong reputation — and the 81% discount claim cannot be verified (original prices not captured from the deal page). The page suffers from fundamental category confusion: it's listed under \"Online Education\" for an acupressure diploma but titled \"Massage - Acupressure,\" making it unclear whether customers are buying training or a service, which undermines trust and makes competitive comparison nearly impossible. The single biggest opportunity is addressing the reputation problem first — a 2.33-star rating suggests systemic course quality or delivery issues that no amount of copy optimization can fix; until the merchant improves the actual product/service to achieve 4.0+ ratings, this deal will struggle regardless of page optimization. The $36 price appears below the $50–$150 validated market range for massage services, but that comparison is invalid since this is an educational course, not a service session — the only high-confidence competitor found (Utah Therapeutic Massage at $199, 83% SKU match) appears to offer in-person certification rather than an online diploma, so genuine savings cannot be confirmed.",
+    "review_themes": []
+  },
+  "data_quality": {
+    "competitor_pricing_status": "verified",
+    "merchant_reputation_status": "no_data",
+    "category_context_status": "validated",
+    "pricing_verifiable": false,
+    "overall_confidence": 0.6,
+    "sources_found": 6,
+    "sources_accepted": 4,
+    "sources_rejected": 1
+  }
+}
