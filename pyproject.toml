@@ -14,3 +14,16 @@ include = ["config*", "pipeline*", "scraper*", "researcher*", "ai*", "storage*",
 
 [project.scripts]
 groupon-optimizer = "run:main"
+
+[tool.pytest.ini_options]
+# Discover tests in the tests/ directory
+testpaths = ["tests"]
+# Short traceback format keeps output readable; -v for verbose per-test names
+addopts = "-v --tb=short"
+# Exclude the venv and any generated output folders from collection
+norecursedirs = [".venv", "outputs", "data", ".git", "__pycache__"]
+# Markers used in tests — declare here to avoid PytestUnknownMarkWarning
+markers = [
+    "slow: marks tests that make real network calls or spawn browsers (skip with -m 'not slow')",
+    "integration: marks tests that touch real DuckDB files on disk",
+]
